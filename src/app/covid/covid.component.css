@@ -1,0 +1,39 @@
+.pr-covid {
+    /* background-color: whitesmoke; */
+}
+
+.pr-covid-heading-container {
+    padding-top: 5vh;
+    padding-left: 20px;
+    padding-bottom: 10vh;
+}
+
+.pr-covid-heading-1 {
+    color: #808080;
+}
+
+.pr-covid-heading-2 {
+    color: #f5c3c2;
+    padding-top: 10px;
+    padding-bottom: 10px;
+}
+
+.pr-covid-heading-3 {
+    color: #a9a9a9;
+}
+
+.pr-covid-notice {
+    padding-left: 10%;
+    padding-right: 10%;
+    font-size: 0.9em;
+    color: #808080;
+    margin-bottom: 50px;
+    text-align: justify;
+}
+
+.pr-covid-tab-about {
+    margin-top: 50px;
+    padding-left: 10%;
+    padding-right: 10%;
+}
+
