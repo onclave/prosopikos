@@ -259,15 +259,15 @@
 		<div fxLayout="column" fxLayoutAlign="center center" class="pr-margin-top-30px">
 			<div fxLayout="row wrap" fxLayoutAlign="center center" class="pr-non-selectable pr-no-focus">
 				<mat-chip-list aria-label="other options">
-					<mat-chip class="pr-other-option-chip">education</mat-chip>
-					<mat-chip class="pr-other-option-chip">projects</mat-chip>
-					<mat-chip class="pr-other-option-chip">certificates</mat-chip>
-					<mat-chip class="pr-other-option-chip">blog</mat-chip>
+					<mat-chip (click)="openUnderProgressSnackbar()" class="pr-other-option-chip">education</mat-chip>
+					<mat-chip (click)="openUnderProgressSnackbar()" class="pr-other-option-chip">projects</mat-chip>
+					<mat-chip (click)="openUnderProgressSnackbar()" class="pr-other-option-chip">certificates</mat-chip>
+					<mat-chip (click)="openUnderProgressSnackbar()" class="pr-other-option-chip">blog</mat-chip>
 				</mat-chip-list>
 			</div>
 			<div fxLayout="row wrap" fxLayoutAlign="center center" class="pr-margin-top-30px pr-non-selectable pr-no-focus">
 				<mat-chip-list aria-label="quick links">
-					<mat-chip class="pr-quick-link-chip">covid-19</mat-chip>
+					<mat-chip routerLink="/covid" class="pr-quick-link-chip">covid-19</mat-chip>
 				</mat-chip-list>
 			</div>
 		</div>

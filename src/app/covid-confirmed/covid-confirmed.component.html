@@ -1,0 +1,145 @@
+<div fxLayout="column" class="pr-covid-tab-analysis">
+	<span *ngIf="isLoading" class="pr-covid-loading-message pr-font-chn pr-margin-sides-10p pr-margin-top-10px pr-margin-bottom-10px">Loading data ...</span>
+	<mat-progress-bar mode="indeterminate" *ngIf="isLoading" class="pr-margin-sides-10p pr-margin-top-10px pr-margin-bottom-10px"></mat-progress-bar>
+	<div fxLayout="column">
+		<span><span class="pr-covid-notice-header pr-font-chn">SOURCE DATA HAS CHANGED SINCE 23 / 3/ 2020</span></span>
+		<span class="pr-margin-top-10px pr-margin-bottom-10px"><a href="https://github.com/CSSEGISandData/COVID-19/blob/master/csse_covid_19_data/csse_covid_19_time_series/time_series_covid19_confirmed_global.csv" target="_blank" class="pr-ext-link">[ source: COVID-19 Timeseries Confirmed Cases ]</a></span>
+	</div>
+	<span class="pr-analysis-heading pr-font-chn pr-margin-top-30px">covid-19 reported confirmed cases as of <span class="pr-color-watermelon">{{latestCovidConfirmedDate}}</span> (mm/dd/yyyy)</span>
+	<mat-accordion>
+		<mat-expansion-panel>
+			<mat-expansion-panel-header class="pr-padding-top-10px pr-padding-bottom-10px">
+				<mat-panel-title class="pr-font-chn">CONFIRMED CASES</mat-panel-title>
+				<mat-panel-description class="pr-font-chn">Expand to view the Confirmed Cases Dataset</mat-panel-description>
+			</mat-expansion-panel-header>
+			<span fxShow.xs="true" fxShow.sm="true" fxShow.md="false" fxShow.lg="false" fxShow.xl="false" class="pr-covid-smallscreen-notice">The dataset is better viewed on a larger screen such as a computer or laptop screen. It may be difficult / uncomfortable to view it on smaller mobile screens.</span>
+			<table mat-table #covidTimeseriesConfirmedDatatable [dataSource]="COVID_CONFIRMED_MAT_TABLE_DATASCOURCE" class="mat-elevation-z8 pr-datatable">
+				<ng-container *ngFor="let entry of covidConfirmedTableDisplayedColumns; index as i" matColumnDef="{{entry}}" sticky="{{i < 2 ? true : false}}">
+					<mat-header-cell *matHeaderCellDef>{{covidConfirmedData.getHeaders()[i]}}</mat-header-cell>
+					<mat-cell *matCellDef="let element">{{element[entry]}}</mat-cell>
+				</ng-container>
+				<mat-header-row *matHeaderRowDef="covidConfirmedTableDisplayedColumns"></mat-header-row>
+				<mat-row *matRowDef="let row; columns: covidConfirmedTableDisplayedColumns"></mat-row>
+			</table>
+			<mat-paginator [pageSizeOptions]="[10, 20, 30, 50, 75, 100]" showFirstLastButtons></mat-paginator>
+		</mat-expansion-panel>
+	</mat-accordion>
+	<div fxLayout="column" class="pr-margin-top-10vh">
+		<div fxLayout.xs="column" fxLayout.sm="column" fxLayout.md="row" fxLayout.lg="row" fxLayout.xl="row">
+			<div fxLayout="column" fxFlex.md="50" fxFlex.lg="50" fxFlex.xl="50" class="pr-analysis-report-container">
+				<span class="pr-analysis-report-header pr-font-chn">Total Infected:</span>
+				<span class="pr-analysis-report-data pr-font-chn">{{workhorse.getCovidTotalInfected(covidConfirmedData)}}</span>
+			</div>
+			<div fxLayout="column" fxFlex.md="50" fxFlex.lg="50" fxFlex.xl="50" class="pr-analysis-report-container">
+				<span class="pr-analysis-report-header pr-font-chn">Total Number of Countries Infected:</span>
+				<span class="pr-analysis-report-data pr-font-chn">{{getConvidConfirmedTotalNumberOfCountriesInfected()}}</span>
+			</div>
+		</div>
+		<div fxLayout.xs="column" fxLayout.sm="column" fxLayout.md="row" fxLayout.lg="row" fxLayout.xl="row">
+			<div fxLayout="column" fxFlex.md="50" fxFlex.lg="50" fxFlex.xl="50" class="pr-analysis-report-container">
+				<span class="pr-analysis-report-header pr-font-chn">Country with Highest Infection:</span>
+				<span class="pr-analysis-report-data pr-font-chn">{{getConvidConfirmedHighestCountryInfected()}}</span>
+			</div>
+			<div fxLayout="column" fxFlex.md="50" fxFlex.lg="50" fxFlex.xl="50" class="pr-analysis-report-container">
+				<span class="pr-analysis-report-header pr-font-chn">{{getConvidConfirmedHighestCountryInfected()}}'s total Infection:</span>
+				<span class="pr-analysis-report-data pr-font-chn">{{getConvidConfirmedHighestCountryInfectionCount()}}</span>
+			</div>
+		</div>
+		<div fxLayout.xs="column" fxLayout.sm="column" fxLayout.md="row" fxLayout.lg="row" fxLayout.xl="row">
+			<div fxLayout="column" fxFlex.md="50" fxFlex.lg="50" fxFlex.xl="50" class="pr-analysis-report-container">
+				<span class="pr-analysis-report-header pr-font-chn">Total Number of Infections in India:</span>
+				<span class="pr-analysis-report-data pr-font-chn">{{getConvidConfirmedIndiaInfectionCount()}}</span>
+			</div>
+		</div>
+	</div>
+	<div class="pr-covid-analysis-writeup pr-font-chn">With the virus spread over {{getConvidConfirmedTotalNumberOfCountriesInfected()}} countries and a total infection of {{workhorse.getCovidTotalInfected(covidConfirmedData)}} and counting, {{getConvidConfirmedHighestCountryInfected()}} has the highest number of infections reported. While much less, it is still a matter of concern that India has reported {{getConvidConfirmedIndiaInfectionCount()}} infections to date. The upside is that India is still fighting this pandemic ferociously and still has the upper hand and with most cases under control. But this should, in no way, be allowed to go out of hand and should not be taken lightly.</div>
+	<div fxLayout="row" fxLayoutAlign="center center" fxShow.xs="true" fxShow.sm="true" fxShow.md="false" fxShow.lg="false" fxShow.xl="false" class="pr-margin-top-30px">
+		<span class="pr-analysis-report-subtitle">Kindly use a larger screen device for better view and interaction with charts!</span>
+	</div>
+	<div fxLayout="column" fxLayoutAlign="start center" class="dark pr-chart-container pr-margin-top-10vh pr-non-selectable pr-no-focus">
+		<div fxLayout="column" class="pr-analysis-report-container">
+			<span class="pr-analysis-report-header pr-font-chn">{{covidConfirmedChartInfectedCountry.selectedCountryCount}} Most Infected Countries:</span>
+			<mat-slider min="1" max="{{getConvidConfirmedTotalNumberOfCountriesInfected()}}" step="1" [(ngModel)]="covidConfirmedChartInfectedCountry.selectedCountryCount" (input)="onSliderChangeCovidConfirmedCountriesInfected($event)" thumbLabel></mat-slider>
+			<span class="pr-analysis-report-subtitle">Use the slider to change the number of affected countries to show!</span>
+		</div>
+		<ngx-charts-bar-vertical [view]="covidConfirmedChartInfectedCountry.view" [scheme]="covidConfirmedChartInfectedCountry.colorScheme" [results]="covidConfirmedChartInfectedCountry.single" [gradient]="covidConfirmedChartInfectedCountry.gradient" [xAxis]="covidConfirmedChartInfectedCountry.showXAxis" [yAxis]="covidConfirmedChartInfectedCountry.showYAxis" [legend]="covidConfirmedChartInfectedCountry.showLegend" [showXAxisLabel]="covidConfirmedChartInfectedCountry.showXAxisLabel" [showYAxisLabel]="covidConfirmedChartInfectedCountry.showYAxisLabel" [xAxisLabel]="covidConfirmedChartInfectedCountry.xAxisLabel" [yAxisLabel]="covidConfirmedChartInfectedCountry.yAxisLabel" (select)="onSelectCovidConfirmedInfectedCountryChart($event)"></ngx-charts-bar-vertical>
+	</div>
+	<span class="pr-covid-analysis-writeup pr-font-chn">It seems that China, Italy, US, Spain, Germany and Iran are among the most affected countries with very high confirmed cases.</span>
+	<div fxLayout="column" class="pr-margin-top-10vh pr-non-selectable pr-no-focus">
+		<div fxLayout.xs="column" fxLayout.sm="column" fxLayout.md="row" fxLayout.lg="row" fxLayout.xl="row">
+			<div fxLayout="column" fxFlex.md="50" fxFlex.lg="50" fxFlex.xl="50" class="pr-analysis-report-container">
+				<span class="pr-analysis-report-header pr-font-chn">{{getConvidConfirmedHighestCountryInfected()}}'s Highest Infection Spike in 1 Day:</span>
+				<span class="pr-analysis-report-data pr-font-chn">{{getConvidConfirmedHighestCountrySpike()}}</span>
+			</div>
+			<div fxLayout="column" fxFlex.md="50" fxFlex.lg="50" fxFlex.xl="50" class="pr-analysis-report-container">
+				<span class="pr-analysis-report-header pr-font-chn">{{getConvidConfirmedHighestCountryInfected()}}'s Highest Infection Spike Day (mm/dd/yyyy):</span>
+				<span class="pr-analysis-report-data pr-font-chn">{{getConvidConfirmedHighestCountrySpikeDay()}}</span>
+			</div>
+		</div>
+		<div fxLayout.xs="column" fxLayout.sm="column" fxLayout.md="row" fxLayout.lg="row" fxLayout.xl="row">
+			<div fxLayout="column" fxFlex.md="50" fxFlex.lg="50" fxFlex.xl="50" class="pr-analysis-report-container">
+				<span class="pr-analysis-report-header pr-font-chn">{{getConvidConfirmedHighestCountryInfected()}}'s Highest Infection Spike Province:</span>
+				<span class="pr-analysis-report-data pr-font-chn">{{getConvidConfirmedHighestCountrySpikeProvince()}}</span>
+			</div>
+		</div>
+		<div fxLayout.xs="column" fxLayout.sm="column" fxLayout.md="row" fxLayout.lg="row" fxLayout.xl="row">
+			<div fxLayout="column" fxFlex.md="50" fxFlex.lg="50" fxFlex.xl="50" class="pr-analysis-report-container">
+				<span class="pr-analysis-report-header pr-font-chn">India's Highest Infection Spike in 1 Day:</span>
+				<span class="pr-analysis-report-data pr-font-chn">{{getConvidConfirmedIndiaSpike()}}</span>
+			</div>
+			<div fxLayout="column" fxFlex.md="50" fxFlex.lg="50" fxFlex.xl="50" class="pr-analysis-report-container">
+				<span class="pr-analysis-report-header pr-font-chn">India's Highest Infection Spike Day (mm/dd/yyyy):</span>
+				<span class="pr-analysis-report-data pr-font-chn">{{getConvidConfirmedIndiaSpikeDay()}}</span>
+			</div>
+		</div>
+	</div>
+	<div class="pr-covid-analysis-writeup pr-font-chn">{{getConvidConfirmedHighestCountrySpike()}} confirmed cases were reported within a single day in {{getConvidConfirmedHighestCountryInfected()}} alone which shows the highest spike in infection within a day. On the other hand, India reported {{getConvidConfirmedIndiaSpike()}} cases within a day which was its highest number of confirmed cases recorded within a day. This should be a matter of alarm and taken seriously and is in the hands of we citizens to keep this in control.</div>
+	<div fxLayout="row" fxLayoutAlign="center center" fxShow.xs="true" fxShow.sm="true" fxShow.md="false" fxShow.lg="false" fxShow.xl="false" class="pr-margin-top-30px">
+		<span class="pr-analysis-report-subtitle">Kindly use a larger screen device for better view and interaction with charts!</span>
+	</div>
+	<div fxLayout="column" fxLayoutAlign="center center" class="dark pr-chart-container pr-margin-top-10vh pr-non-selectable pr-no-focus">
+		<div fxLayout="column" class="pr-analysis-report-container">
+			<span class="pr-analysis-report-header pr-font-chn">{{covidConfirmedChartInfectedCountryProportion.selectedCountryCount}} Most Infected Countries' Infection Proportion:</span>
+			<mat-slider min="1" max="{{getConvidConfirmedTotalNumberOfCountriesInfected()}}" step="1" [(ngModel)]="covidConfirmedChartInfectedCountryProportion.selectedCountryCount" (input)="onSliderChangeCovidConfirmedCountriesInfectedProportion($event)" thumbLabel></mat-slider>
+			<span class="pr-analysis-report-subtitle">Use the slider to change the number of affected countries to show!</span>
+		</div>
+		<ngx-charts-pie-grid [view]="covidConfirmedChartInfectedCountryProportion.view" [scheme]="covidConfirmedChartInfectedCountryProportion.colorScheme" [results]="covidConfirmedChartInfectedCountryProportion.single" (select)="onSelectCovidConfirmedInfectedCountryProportionChart($event)"></ngx-charts-pie-grid>
+	</div>
+	<div fxLayout="row" fxLayoutAlign="center center" fxShow.xs="true" fxShow.sm="true" fxShow.md="false" fxShow.lg="false" fxShow.xl="false" class="pr-margin-top-30px">
+		<span class="pr-analysis-report-subtitle">Kindly use a larger screen device for better view and interaction with charts!</span>
+	</div>
+	<div fxLayout="column" fxLayoutAlign="center center" class="dark pr-chart-container pr-margin-top-10vh pr-non-selectable pr-no-focus">
+		<div fxLayout="column" class="pr-analysis-report-container" style="margin-left: 20px; margin-right: 20px;">
+			<span class="pr-analysis-report-header pr-font-chn">{{covidConfirmedChartInfectedCountryInfectionProgress.selectedCountry}}'s Infection Progress:</span>
+			<div fxLayout="row">
+				<mat-form-field fxFlex="50" class="pr-margin-left-15px pr-margin-right-15px">
+					<mat-label>Select a country</mat-label>
+					<mat-select [(ngModel)]="covidConfirmedChartInfectedCountryInfectionProgress.selectedCountry" (selectionChange)="onSelectorChangeCovidConfirmedCountryInfectionProgress($event)">
+						<mat-option *ngFor="let country of workhorse.getSortedCountryNames(covidConfirmedData)" [value]="country">{{country}}</mat-option>
+					</mat-select>
+				</mat-form-field>
+				<mat-form-field fxFlex="50" class="pr-margin-left-15px pr-margin-right-15px">
+					<mat-label>Select the latest number of days to show</mat-label>
+					<mat-select [(ngModel)]="covidConfirmedChartInfectedCountryInfectionProgress.latestDays" (selectionChange)="onSelectorChangeCovidConfirmedDaysInfectionProgress($event)">
+						<mat-option *ngFor="let days of workhorse.getNumberOfDaysArray(covidConfirmedData); let i = index" [value]="i + 1">{{i + 1}}</mat-option>
+					</mat-select>
+				</mat-form-field>
+			</div>
+			<span class="pr-analysis-report-subtitle">{{covidConfirmedChartInfectedCountryInfectionProgress.selectedCountry}}'s Total Infection: <span class="pr-color-watermelon pr-font-chn">{{workhorse.getCovidInfectedByCountry(covidConfirmedData, covidConfirmedChartInfectedCountryInfectionProgress.selectedCountry)}}</span></span>
+		</div>
+		<ngx-charts-line-chart [view]="covidConfirmedChartInfectedCountryInfectionProgress.view" [scheme]="covidConfirmedChartInfectedCountryInfectionProgress.colorScheme" [results]="covidConfirmedChartInfectedCountryInfectionProgress.multi" [xAxis]="covidConfirmedChartInfectedCountryInfectionProgress.showXAxis" [yAxis]="covidConfirmedChartInfectedCountryInfectionProgress.showYAxis" [legend]="covidConfirmedChartInfectedCountryInfectionProgress.showLegend" [showXAxisLabel]="covidConfirmedChartInfectedCountryInfectionProgress.showXAxisLabel" [showYAxisLabel]="covidConfirmedChartInfectedCountryInfectionProgress.showYAxisLabel" [xAxisLabel]="covidConfirmedChartInfectedCountryInfectionProgress.xAxisLabel" [yAxisLabel]="covidConfirmedChartInfectedCountryInfectionProgress.yAxisLabel" [legendPosition]="covidConfirmedChartInfectedCountryInfectionProgress.legendPosition" (select)="onSelectCovidConfirmedInfectedCountryProgressChart($event)"></ngx-charts-line-chart>
+	</div>
+	<div class="pr-covid-analysis-writeup pr-font-chn">
+		<p>(As of 22 / 3 / 2020)</p>
+		<p>India's infection progress has been going up rapidly since 3 / 3 / 2020.</p>
+		<p>On the other hand, we can see from this interactive graph that China's rate of infection has slowed down drastically in the last 30 days.</p>
+		<p>Turkey's rate of infection skyrocketed in the last 7 days alone.</p>
+		<p>In the US, things seem much worse, with the virus infecting a large chunk of the population within the last week in New York alone.</p>
+		<p>In Canada, the number of people infected with COVID-19 is also growing but it is not very steep. Places like British Columbia and Ontario has the highest number of infections.</p>
+	</div>
+	<div fxLayout="column" class="pr-margin-top-10vh pr-non-selectable pr-no-focus">
+		<div fxLayout="column">
+			<span class="pr-analysis-report-header pr-font-chn">Check back later as we keep adding more information to this analysis!</span>
+		</div>
+	</div>
+</div>

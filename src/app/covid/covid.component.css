@@ -31,9 +31,116 @@
     text-align: justify;
 }
 
+.pr-covid-smallscreen-notice {
+    font-size: 0.9em;
+    color: #808080;
+    margin-bottom: 50px;
+}
+
 .pr-covid-tab-about {
     margin-top: 50px;
     padding-left: 10%;
     padding-right: 10%;
 }
 
+.pr-datatable {
+    display: block;
+    width: 100%;
+    overflow-x: auto;
+}
+
+.pr-covid-tab-analysis {
+    margin-top: 50px;
+    padding-left: 10%;
+    padding-right: 10%;
+}
+
+.pr-covid-analysis-notice {
+    color: #f5c3c2;
+    font-size: 1.3em;
+    line-height: 1.5em;
+    margin-bottom: 30px;
+    text-align: justify;
+}
+
+.pr-analysis-heading {
+    margin-bottom: 20px;
+    font-size: 1.3em;
+    line-height: 2em;
+    text-transform: uppercase;
+    border-left: 5px solid #fe7f9c;
+    padding-left: 10px;
+}
+
+.pr-analysis-report-container {
+    border-left: 5px solid #f5c3c2;
+    padding-left: 10px;
+    margin: 20px;
+}
+
+.pr-analysis-report-header {
+    font-size: 1.5em;
+    line-height: 1.2em;
+    color: #a9a9a9;
+    padding-bottom: 15px;
+}
+
+.pr-analysis-report-data {
+    font-size: 2.5em;
+    line-height: 1.2em;
+}
+
+.pr-analysis-report-subtitle {
+    font-size: 0.9em;
+    color: #808080;
+}
+
+.pr-covid-loading-message {
+    color: #fe7f9c;
+    font-size: 1.7em;
+}
+
+.pr-chart-container {
+    min-height: 700px;
+}
+
+.pr-covid-analysis-writeup {
+    font-size: 1.2em;
+    line-height: 1.4em;
+    letter-spacing: 1px;
+    margin-top: 30px;
+    color: #a8a8a8;
+    padding-right: 12px;
+    border-right: 6px solid #007600;
+    text-align: justify;
+}
+
+.pr-covid-hitcount {
+    margin-top: 30px;
+}
+
+.pr-covid-notice-container {
+    padding-left: 10%;
+    padding-right: 10%;
+    font-size: 0.9em;
+    color: #808080;
+    margin-bottom: 50px;
+    text-align: justify;
+}
+
+.pr-covid-notice-header {
+    background-color: #990000;
+    color: white;
+    padding-top: 2px;
+    padding-bottom: 2px;
+    padding-right: 5px;
+    padding-left: 5px;
+    margin-right: 10px;
+}
+
+.pr-covid-notice-body {
+    color: #f5c3c2;
+    font-size: 1.2em;
+    line-height: 1.5em;
+    letter-spacing: 1px;
+}

@@ -1,0 +1,43 @@
+.pr-covid-tab-prevention {
+    margin-top: 5px;
+    padding-left: 10%;
+    padding-right: 10%;
+}
+
+.pr-covid-help-container {
+	margin-top: 10%;
+	margin-bottom: 10%;
+}
+
+.pr-covid-help-image-container {
+	padding: 20px;
+}
+
+.pr-covid-help-image {
+	height: auto;
+	max-width: 100%;
+}
+
+.pr-covid-prevention-container {
+	width: 100%;
+	margin-left: 15px;
+	margin-right: 15px;
+}
+
+.pr-covid-prevention-header {
+	font-size: 2.1em;
+	line-height: 1.7em;
+	text-transform: uppercase;
+	border-left: 3px solid #fe7f9c;
+	padding-left: 5px;
+	margin-top: 15px;
+	margin-bottom: 12px;
+}
+
+.pr-covid-prevention-description {
+	font-size: 1.2em;
+	line-height: 1.5em;
+	letter-spacing: 1px;
+	margin-top: 12px;
+	margin-bottom: 25px;
+}
