@@ -268,3 +268,32 @@ a:visited {
 	 font-size: 0.8em;
 	 color: #a0aabe;
 }
+
+.pr-map-popup-container {
+	padding: 1px;
+}
+
+.pr-map-popup-title {
+	font-size: 1.3em;
+	padding-bottom: 10px;
+}
+
+.pr-map-popup-coordinates {
+	margin-top: 10px;
+	margin-bottom: 10px;
+	padding-bottom: 10px;
+}
+
+.pr-map-popup-info-container {
+	font-size: 1.1em;
+	border-left: 3px solid #fe7f9c;
+	padding-left: 5px;
+}
+
+.pr-map-popup-info-header {
+	color: #455066;
+}
+
+.pr-map-popup-info-value {
+	color: #fe7f9c;
+}

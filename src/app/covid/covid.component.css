@@ -5,7 +5,7 @@
 .pr-covid-heading-container {
     padding-top: 5vh;
     padding-left: 20px;
-    padding-bottom: 10vh;
+    padding-bottom: 6vh;
 }
 
 .pr-covid-heading-1 {
@@ -23,6 +23,7 @@
 }
 
 .pr-covid-notice {
+    padding-top: 10vh;
     padding-left: 10%;
     padding-right: 10%;
     font-size: 0.9em;
@@ -143,4 +144,10 @@
     font-size: 1.2em;
     line-height: 1.5em;
     letter-spacing: 1px;
+}
+
+.pr-map-accordion-container {
+    padding-right: 5%;
+    padding-left: 5%;
+    margin-bottom: 50px;
 }

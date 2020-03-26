@@ -277,7 +277,7 @@ export class CovidRecoveredComponent implements OnInit {
 			"series": this.workhorse.getCountryTotalDeathProgress(this.coviddataService.getDeathCovidData(), countryName, latestDays)
 		}, {
 			"name": "Recovery",
-			"series": this.workhorse.getCountryTotalRecoveryProgress(this.covidRecoveryData, countryName, latestDays)
+			"series": this.workhorse.getCountryTotalRecoveryProgress(this.covidRecoveryData, countryName, latestDays, this.coviddataService, true)
 		}];
 	}
 

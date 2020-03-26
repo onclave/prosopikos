@@ -10,6 +10,7 @@ import { MatTable, MatTableDataSource } from '@angular/material/table';
 import { MatSelectChange } from '@angular/material/select';
 import { MatPaginator } from '@angular/material/paginator';
 import { BreakpointObserver, BreakpointState } from '@angular/cdk/layout';
+import { CovidMapService } from '../covid-map.service';
 
 @Component({
 	selector: 'app-covid-death',
@@ -27,6 +28,7 @@ export class CovidDeathComponent implements OnInit {
 
 	private breakpointObserver: BreakpointObserver;
 	private coviddataService: CoviddataService;
+	private covidMapService: CovidMapService;
 
 	public workhorse: WorkhorseService;
 	public covidDeathData: CovidData = new CovidData();
@@ -86,10 +88,11 @@ export class CovidDeathComponent implements OnInit {
 	@ViewChild('covidTimeseriesDeathDatatable') covidDeathTable: MatTable<any>;
 	@ViewChild(MatPaginator, {static: true}) paginator: MatPaginator;
 
-	constructor(coviddataService: CoviddataService, workhorse: WorkhorseService, breakpointObserver: BreakpointObserver) {
+	constructor(coviddataService: CoviddataService, workhorse: WorkhorseService, covidMapService: CovidMapService, breakpointObserver: BreakpointObserver) {
 
 		this.coviddataService = coviddataService;
 		this.workhorse = workhorse;
+		this.covidMapService = covidMapService;
 		this.breakpointObserver = breakpointObserver;
 	}
 
@@ -203,6 +206,7 @@ export class CovidDeathComponent implements OnInit {
 		this.latestCovidDeathDate = this.workhorse.getLatestCovidDatasetDate(this.covidDeathData);
 
 		this.prepareCovidDeathTableData()
+		this.covidMapService.initMap(this.covidMapService.getMapObject(), this.coviddataService.getConfirmedCovidData(), this.covidDeathData, false);
 		this.prepareCovidDeathChartDeathRatio();
 		this.prepareCovidDeathChartDeathCountryProgress(this.covidDeathChartDeathRate.selectedCountry, this.covidDeathChartDeathRate.latestDays);
 		this.prepareCovidDeathChartInfectedDeathCountryProgress(this.covidDeathChartDeathRate.selectedCountry, this.covidDeathChartDeathRate.latestDays);

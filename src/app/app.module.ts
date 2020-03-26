@@ -36,6 +36,7 @@ import { CovidConfirmedComponent } from './covid-confirmed/covid-confirmed.compo
 import { CovidRecoveredComponent } from './covid-recovered/covid-recovered.component';
 import { CovidHelpComponent } from './covid-help/covid-help.component';
 import { CovidAboutComponent } from './covid-about/covid-about.component';
+import { CovidMapComponent } from './covid-map/covid-map.component';
 
 
 @NgModule({
@@ -47,7 +48,8 @@ import { CovidAboutComponent } from './covid-about/covid-about.component';
 		CovidConfirmedComponent,
 		CovidRecoveredComponent,
 		CovidHelpComponent,
-		CovidAboutComponent
+		CovidAboutComponent,
+		CovidMapComponent
 	],
 	imports: [
 		BrowserModule,

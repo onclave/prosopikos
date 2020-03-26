@@ -1,0 +1,21 @@
+.map-container {
+	margin-left: -1.5%;
+	margin-right: -1.5%;
+	margin-bottom: -1.5%;
+}
+
+.map-frame {
+	height: 100%;
+}
+
+#map {
+	height: 550px;
+	width: auto;
+}
+
+.pr-map-action-info {
+	font-size: 1.1em;
+	color: gainsboro;
+	line-height: 1.2em;
+	padding-bottom: 3%;
+}

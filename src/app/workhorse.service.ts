@@ -4,6 +4,7 @@ import { CovidData } from '../app/model/covidData';
 import { Country } from '../app/model/country';
 import { Timeseries } from '../app/model/timeseries';
 import { Province } from './model/province';
+import { CoviddataService } from './coviddata.service';
 
 @Injectable({
 	providedIn: 'root'
@@ -44,11 +45,23 @@ export class WorkhorseService {
 		return provinceExists;
 	}
 
-	public prepareTimeseries(row: string[], headers: string[], startIndex: number): Timeseries[] {
+	public prepareTimeseries(row: string[], headers: string[], startIndex: number, isRecovery: boolean = false): Timeseries[] {
 
 		let timeseries: Timeseries[] = new Array();
 
-		for(let j: number = startIndex; j < row.length; j++) timeseries.push(new Timeseries(headers[j], +row[j]));
+		for(let j: number = startIndex; j < row.length; j++) {
+
+			let date: string = headers[j];
+
+			if(isRecovery) {
+
+				let headerSplit: string[] = date.split('/');
+
+				if(headerSplit[2] == '2020') date = headerSplit[0] + '/' + headerSplit[1] + '/20'; 
+			}
+
+			timeseries.push(new Timeseries(date, +row[j]));
+		}
 
 		return timeseries;
 	}
@@ -258,9 +271,18 @@ export class WorkhorseService {
 		return series;
 	}
 
-	public getCountryTotalRecoveryProgress(covidRecoveryData: CovidData, countryName: string, latestDays: number): any[] {
+	public getCountryTotalRecoveryProgress(covidRecoveryData: CovidData, countryName: string, latestDays: number, covidDataService: CoviddataService, inComparison: boolean = false): any[] {
 
 		let series: any[] = new Array();
+
+		if(inComparison) {
+
+			// https://github.com/bumbeishvili/covid19-daily-data
+
+			let covidConfirmedData: CovidData = covidDataService.getConfirmedCovidData();
+
+			if(covidRecoveryData.getHeaders().length < covidConfirmedData.getHeaders().length) --latestDays;
+		}
 
 		if(covidRecoveryData.getCountries())
 			if(covidRecoveryData.hasCountryByName(countryName)) {

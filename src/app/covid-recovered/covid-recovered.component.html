@@ -2,7 +2,8 @@
 	<span *ngIf="isLoading" class="pr-covid-loading-message pr-font-chn pr-margin-sides-10p pr-margin-top-10px pr-margin-bottom-10px">Loading data ...</span>
 	<mat-progress-bar mode="indeterminate" *ngIf="isLoading" class="pr-margin-sides-10p pr-margin-top-10px pr-margin-bottom-10px"></mat-progress-bar>
 	<div fxLayout="column">
-		<span><span class="pr-covid-notice-header pr-font-chn">SOURCE DATA MAY HAVE BEEN DEPRECATED AND OUTDATED SINCE 23 / 3/ 2020</span></span>
+		<span><span class="pr-covid-notice-header pr-font-chn">SOURCE DATA HAS CHANGED SINCE 23 / 3/ 2020</span></span>
+		<span><span class="pr-covid-notice-header pr-font-chn">SOURCE DATA IN NOW BEING UPDATED AGAIN BUT MAY BE ONE DAY BEHIND OTHER DATA</span></span>
 		<span class="pr-margin-top-10px pr-margin-bottom-10px"><a href="https://github.com/CSSEGISandData/COVID-19/blob/master/csse_covid_19_data/csse_covid_19_time_series/time_series_19-covid-Recovered.csv" target="_blank" class="pr-ext-link">[ source: COVID-19 Timeseries Recoveries ]</a></span>
 	</div>
 	<span class="pr-analysis-heading pr-font-chn pr-margin-top-30px">covid-19 reported recovered cases as of <span class="pr-color-watermelon">{{latestCovidRecoveryDate}}</span> (mm/dd/yyyy)</span>

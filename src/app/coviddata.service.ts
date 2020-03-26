@@ -22,7 +22,7 @@ export class CoviddataService {
 
 	private COVID_19_TIMESERIES_CONFIRMED_URL: string = 'https://raw.githubusercontent.com/CSSEGISandData/COVID-19/master/csse_covid_19_data/csse_covid_19_time_series/time_series_covid19_confirmed_global.csv';
 	private COVID_19_TIMESERIES_DEATH_URL: string = 'https://raw.githubusercontent.com/CSSEGISandData/COVID-19/master/csse_covid_19_data/csse_covid_19_time_series/time_series_covid19_deaths_global.csv';
-	private COVID_19_TIMESERIES_RECOVERY_URL: string = 'https://raw.githubusercontent.com/CSSEGISandData/COVID-19/master/csse_covid_19_data/csse_covid_19_time_series/time_series_19-covid-Recovered.csv';
+	private COVID_19_TIMESERIES_RECOVERY_URL: string = 'https://raw.githubusercontent.com/CSSEGISandData/COVID-19/master/csse_covid_19_data/csse_covid_19_time_series/time_series_covid19_recovered_global.csv';
 
 	private covidTimeseriesConfirmedRawData: string;
 	private covidTimeseriesDeathRawData: string;
@@ -171,7 +171,7 @@ export class CoviddataService {
 					let provinceName: string = rows[i][0];
 					let latitude: string = rows[i][2];
 					let longitude: string = rows[i][3];
-					let timeseries: Timeseries[] = this.workhorse.prepareTimeseries(rows[i], headers, 4);
+					let timeseries: Timeseries[] = this.workhorse.prepareTimeseries(rows[i], headers, 4, true);
 
 					if(provinceName.length == 0) provinceName = "n/a";
 
