@@ -128,6 +128,10 @@ a:visited {
 	font-family: 'Abel', sans-serif;
 }
 
+.pr-font-rmono {
+	font-family: 'Roboto Mono', monospace;
+}
+
 .pr-margin-top-10px {
 	margin-top: 10px;
 }
@@ -144,8 +148,16 @@ a:visited {
 	margin-top: 20vh;
 }
 
+.pr-margin-bottom-30px {
+	margin-bottom: 30px !important;
+}
+
 .pr-margin-bottom-10px {
 	margin-bottom: 10px;
+}
+
+.pr-margin-left-10px {
+	margin-left: 10px;
 }
 
 .pr-margin-left-15px {
@@ -161,8 +173,16 @@ a:visited {
 	margin-left: 10%;
 }
 
+.pr-padding-top-30px {
+	padding-top: 30px !important;
+}
+
 .pr-padding-top-10px {
 	padding-top: 10px !important;
+}
+
+.pr-padding-bottom-30px {
+	padding-bottom: 30px !important;
 }
 
 .pr-padding-bottom-10px {
@@ -176,6 +196,15 @@ a:visited {
 	padding-right: 3px;
 	padding-top: 1px;
 	padding-bottom: 1px;
+}
+
+.pr-ext-link-2 {
+	background-color: #007600;
+	color: whitesmoke;
+	padding-left: 3px;
+	padding-right: 3px;
+	padding-top: 0.5px;
+	padding-bottom: 0.5px;
 }
 
 .pr-uppercase {
@@ -296,4 +325,51 @@ a:visited {
 
 .pr-map-popup-info-value {
 	color: #fe7f9c;
+}
+
+.pr-author-image {
+	height: 60px;
+	width: 60px;
+	border-radius: 50%;
+	padding: 2px;
+}
+
+.pr-author-tag {
+	margin: 10px;
+	padding: 10px;
+	cursor: pointer;
+}
+
+.pr-author-tag-image-container {
+	margin: 5px;
+}
+
+.pr-author-tag-content {
+	margin-left: 5px;
+}
+
+.pr-author-tag-name {
+	font-size: 1.3em;
+	padding-bottom: 5px;
+}
+
+.pr-author-tag-info-1 {
+	font-size: 1.1em;
+	color: #a0aabe;
+}
+
+.pr-author-tag-info-2 {
+	font-size: 1.1em;
+	color: #f5c3c2;
+}
+
+.pr-colab-container {
+	padding: 10px;
+	cursor: pointer;
+	border-radius: 3px;
+}
+
+.pr-colab-image {
+	height: 30px;
+	width: 30px;
 }

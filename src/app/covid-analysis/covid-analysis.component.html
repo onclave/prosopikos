@@ -1,0 +1,104 @@
+<div fxLayout="column" class="pr-covid-tab-analysis">
+	<div fxLayout="column">
+		<span class="pr-analysis-heading pr-font-chn pr-margin-top-30px">covid-19 analysis submitted by researchers</span>
+		<div class="pr-covid-analysis-writeup pr-font-chn">We are accepting analysis and research reports from various researchers, students, experts and analysts to be published here. You may send your work along with supporting data and / or code to <a href="mailto:debabratacse2020@klyuniv.ac.in" target="_top" class="pr-ext-link-2">debabratacse2020@klyuniv.ac.in</a> . If you are working with the Python Programming Language, you may share a Google Colab Notebook with us. Alternatively, you may share your GitHub repository with us as well. Upon verification of your work, we shall publish it here with proper attribution!</div>
+	</div>
+	<div fxLayout="row" class="pr-covid-analysis-controls">
+		<mat-button-toggle-group #group="matButtonToggleGroup" value="true">
+			<mat-button-toggle value="true" aria-label="expand all analysis">
+				Expand All
+			</mat-button-toggle>
+			<mat-button-toggle value="false" aria-label="collapse all analysis">
+				Collapse All
+			</mat-button-toggle>
+		</mat-button-toggle-group>
+	</div>
+	<mat-accordion>
+		<mat-expansion-panel [expanded]="group.value">
+			<mat-expansion-panel-header class="pr-padding-top-30px pr-padding-bottom-30px">
+				<mat-panel-title class="pr-font-chn">01</mat-panel-title>
+				<mat-panel-description class="pr-font-chn">Relation between average infection rate and surface air temperature of affected areas.</mat-panel-description>
+			</mat-expansion-panel-header>
+			<div fxLayout="column">
+				<div fxLayout="column" fxLayoutAlign="center center" class="dark pr-chart-container pr-margin-top-10vh pr-non-selectable pr-no-focus">
+					<div fxLayout="column" class="pr-analysis-report-container">
+						<span class="pr-analysis-report-header pr-font-chn">{{covidAnalysisTemperatureToInfectionLineGraph.totalSelection}} Randomly Selected regions Total Infection to Latitude Graph Plot:</span>
+						<span class="pr-analysis-report-subtitle">This graph is plotted based on the latest data available.</span>
+						<span class="pr-analysis-report-subtitle">Use the button to reshuffle and select {{covidAnalysisTemperatureToInfectionLineGraph.totalSelection}} regions in random and view their plot.</span>
+						<span class="pr-analysis-report-subtitle">Use the slider to select maximum number of countries to select at random.</span>
+						<mat-slider min="1" max="{{getTotalNumberOfPlaces()}}" step="1" [(ngModel)]="covidAnalysisTemperatureToInfectionLineGraph.totalSelection" (input)="onSliderChangeCovidAnalysisTemperatureToInfectionLineGraph($event)" thumbLabel></mat-slider>
+						<button mat-raised-button (click)="reshufflePlaces()" color="accent">RE-SHUFFLE</button>
+					</div>
+					<ngx-charts-line-chart [view]="covidAnalysisTemperatureToInfectionLineGraph.view" [scheme]="covidAnalysisTemperatureToInfectionLineGraph.colorScheme" [results]="covidAnalysisTemperatureToInfectionLineGraph.single" [xAxis]="covidAnalysisTemperatureToInfectionLineGraph.showXAxis" [yAxis]="covidAnalysisTemperatureToInfectionLineGraph.showYAxis" [legend]="covidAnalysisTemperatureToInfectionLineGraph.showLegend" [showXAxisLabel]="covidAnalysisTemperatureToInfectionLineGraph.showXAxisLabel" [showYAxisLabel]="covidAnalysisTemperatureToInfectionLineGraph.showYAxisLabel" [xAxisLabel]="covidAnalysisTemperatureToInfectionLineGraph.xAxisLabel" [yAxisLabel]="covidAnalysisTemperatureToInfectionLineGraph.yAxisLabel" [legendPosition]="covidAnalysisTemperatureToInfectionLineGraph.legendPosition" (select)="onSelectCovidAnalysisTemperatureToInfectionLineGraph($event)"></ngx-charts-line-chart>
+				</div>
+				<span class="pr-covid-analysis-report pr-font-rmono">In this COVID-19 analysis, we find out that the novel Corona virus is spreading and infecting far more people in countries which are away from the Equator than countries which are closer to the Equator, i.e., places with warmer climate shows less infection than places with colder climate.</span>
+				<span class="pr-margin-top-10px pr-margin-bottom-10px"><a href="https://github.com/CSSEGISandData/COVID-19/blob/master/csse_covid_19_data/csse_covid_19_time_series/time_series_covid19_confirmed_global.csv" target="_blank" class="pr-ext-link">[ dataset: COVID-19 Timeseries Confirmed Cases ]</a></span>
+				<div fxLayout="row" fxLayoutAlign="start center">
+					<div fxLayout="row" fxLayoutAlign="center center" (click)="navigateToAuthor('https://colab.research.google.com/drive/17XnISsCtz6S7dB81u6JeqAu63uLGPz7m')" class="pr-colab-container mat-elevation-z2">
+						<img src="assets/image/colab_favicon.ico" class="pr-colab-image pr-non-selectable pr-no-focus">
+						<span class="pr-font-chn pr-margin-left-10px">Associated Google Colab Notebook</span>
+					</div>
+				</div>
+				<span class="pr-covid-analysis-report pr-font-rmono">Few things to note about the dataset:</span>
+				<ul class="pr-covid-analysis-report pr-font-rmono">
+					<li>The dataset contains data from different provinces of multiple countries as well as data from different countries as a whole.</li>
+					<li>Positive and negative latitude values represent the north and south respectively. For example, 40 means 40N and -40 means 40S.</li>
+				</ul>
+				<div fxLayout="column" fxLayoutAlign="center center" class="dark pr-chart-container pr-margin-top-10vh pr-non-selectable pr-no-focus">
+					<div fxLayout="column" class="pr-analysis-report-container">
+						<span class="pr-analysis-report-header pr-font-chn">Total Infection to Latitude of Selected Range Graph Plot:</span>
+						<span class="pr-analysis-report-subtitle">This graph is plotted based on the latest data available.</span>
+						<span class="pr-analysis-report-subtitle">The visualization has latitude range of (90N - 60N), (45N - 30N), (16N - 20S), (30S - 45N) and (60S - 90S) for the last 14 days.</span>
+					</div>
+					<ngx-charts-line-chart [view]="covidAnalysisTemperatureToInfectionSelectedLineGraph.view" [scheme]="covidAnalysisTemperatureToInfectionSelectedLineGraph.colorScheme" [results]="covidAnalysisTemperatureToInfectionSelectedLineGraph.multi" [xAxis]="covidAnalysisTemperatureToInfectionSelectedLineGraph.showXAxis" [yAxis]="covidAnalysisTemperatureToInfectionSelectedLineGraph.showYAxis" [legend]="covidAnalysisTemperatureToInfectionSelectedLineGraph.showLegend" [showXAxisLabel]="covidAnalysisTemperatureToInfectionSelectedLineGraph.showXAxisLabel" [showYAxisLabel]="covidAnalysisTemperatureToInfectionSelectedLineGraph.showYAxisLabel" [xAxisLabel]="covidAnalysisTemperatureToInfectionSelectedLineGraph.xAxisLabel" [yAxisLabel]="covidAnalysisTemperatureToInfectionSelectedLineGraph.yAxisLabel" [legendPosition]="covidAnalysisTemperatureToInfectionSelectedLineGraph.legendPosition" (select)="onSelectCovidAnalysisTemperatureToInfectionSelectedLineGraph($event)"></ngx-charts-line-chart>
+				</div>
+				<span class="pr-covid-analysis-report pr-font-rmono">Here we have divided all the affected areas (provinces/countries) into multiple temperature regions based on their latitude. Areas having latitude within a certain range are put together as a temperature region. One thing is to mention that provinces of the same country might belong to different temperature regions depending on their latitude. These regions or range of latitudes are chosen in such a way that some regions show a steep change in temperature throughout, whereas, the range between 16N to 20S, though has the highest temperature, has almost uniform temperature throughout. However, to learn more about how surface air temperature varies with respect to latitude, refer Figure 1.</span>
+				<div fxLayout="column" fxLayoutAlign="center center" class="pr-covid-analysis-image-container">
+					<img src="assets/image/analysis-01-temperature-curve.jpeg" class="pr-covid-analysis-image mat-elevation-z8 pr-non-selectable pr-no-focus">
+					<span class="pr-covid-analysis-image-title pr-font-chn">Figure 1</span>
+				</div>
+				<span class="pr-covid-analysis-report pr-font-rmono">First of all, we have calculated the total number of affected people and the total number of  affected regions in each temperature region. In the end, based on the above result, the average infection rate can be calculated as follows.</span>
+				<table mat-table #covidAnalysisTemperatureLatitudeDatatable [dataSource]="COVID_TEMPERATURE_LATITUDE_MAT_TABLE_DATASCOURCE" class="mat-elevation-z4 pr-datatable pr-margin-top-30px pr-margin-bottom-30px">
+					<ng-container matColumnDef="latitudeRange">
+						<mat-header-cell *matHeaderCellDef class="pr-font-rmono">[ Temperature Range or Latitude Range ]</mat-header-cell>
+						<mat-cell *matCellDef="let element" class="pr-font-chn">{{element.latitudeRange}}</mat-cell>
+					</ng-container>
+					<ng-container matColumnDef="areaCount">
+						<mat-header-cell *matHeaderCellDef class="pr-font-rmono">[ Total Number of Areas ]</mat-header-cell>
+						<mat-cell *matCellDef="let element" class="pr-font-chn">{{element.areaCount}}</mat-cell>
+					</ng-container>
+					<ng-container matColumnDef="infectionRate">
+						<mat-header-cell *matHeaderCellDef class="pr-font-rmono">[ Average Infection Rate ]</mat-header-cell>
+						<mat-cell *matCellDef="let element" class="pr-font-chn">{{element.infectionRate}}</mat-cell>
+					</ng-container>
+					<mat-header-row *matHeaderRowDef="covidTemperatureLatitudeTableDisplayedColumns"></mat-header-row>
+					<mat-row *matRowDef="let row; columns: covidTemperatureLatitudeTableDisplayedColumns"></mat-row>
+				</table>
+				<span class="pr-covid-analysis-report pr-font-rmono">Data from the remaining temperature regions are not available as there might be no case of COVID-19 outbreak.</span>
+				<span class="pr-covid-analysis-report pr-font-rmono">From the above analysis, it can be concluded that regions having a higher surface air temperature are more affected in COVID-19 than regions having a lower surface air temperature.</span>
+				<div fxLayout="row wrap" class="pr-margin-top-30px">
+					<div fxLayout.xs="column" fxLayout.sm="column" fxLayout.md="row" fxLayout.lg="row" fxLayout.xl="row" fxLayoutAlign="center center" (click)="navigateToAuthor('https://www.linkedin.com/in/ayankumarsaha/')" class="pr-author-tag mat-elevation-z2">
+						<div fxLayout="row" fxLayoutAlign="center center" class="pr-author-tag-image-container">
+							<img src="assets/image/ayan.jpg" class="pr-author-image mat-elevation-z8 pr-non-selectable pr-no-focus">
+						</div>
+						<div fxLayout="column" fxLayoutAlign="center start" class="pr-author-tag-content pr-font-chn">
+							<span class="pr-author-tag-name">Ayan Kumar Saha</span>
+							<span class="pr-author-tag-info-1">Dept. of Computer Science &amp; Engineering</span>
+							<span class="pr-author-tag-info-2">University Of Kalyani</span>
+						</div>
+					</div>
+					<div fxLayout.xs="column" fxLayout.sm="column" fxLayout.md="row" fxLayout.lg="row" fxLayout.xl="row" fxLayoutAlign="center center" (click)="navigateToAuthor('https://www.linkedin.com/in/debacharyaa/')" class="pr-author-tag mat-elevation-z2">
+						<div fxLayout="row" fxLayoutAlign="center center" class="pr-author-tag-image-container">
+							<img src="assets/image/debabrata.jpg" class="pr-author-image mat-elevation-z8 pr-non-selectable pr-no-focus">
+						</div>
+						<div fxLayout="column" fxLayoutAlign="center start" class="pr-author-tag-content pr-font-chn">
+							<span class="pr-author-tag-name">Debabrata Acharya</span>
+							<span class="pr-author-tag-info-1">Dept. of Computer Science &amp; Engineering</span>
+							<span class="pr-author-tag-info-2">University Of Kalyani</span>
+						</div>
+					</div>
+				</div>
+			</div>
+		</mat-expansion-panel>
+	</mat-accordion>
+</div>

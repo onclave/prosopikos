@@ -25,10 +25,11 @@ import { MatTableModule } from '@angular/material/table';
 import { MatFormFieldModule } from '@angular/material/form-field';
 import { MatExpansionModule } from '@angular/material/expansion';
 import { MatSliderModule } from '@angular/material/slider';
-import {MatProgressBarModule} from '@angular/material/progress-bar';
-import {MatSelectModule} from '@angular/material/select';
-import {MatSnackBarModule} from '@angular/material/snack-bar';
+import { MatProgressBarModule } from '@angular/material/progress-bar';
+import { MatSelectModule } from '@angular/material/select';
+import { MatSnackBarModule } from '@angular/material/snack-bar';
 import { MatPaginatorModule } from '@angular/material/paginator';
+import { MatButtonToggleModule } from '@angular/material/button-toggle';
 
 import { NgxChartsModule } from '@swimlane/ngx-charts';
 import { CovidDeathComponent } from './covid-death/covid-death.component';
@@ -37,6 +38,8 @@ import { CovidRecoveredComponent } from './covid-recovered/covid-recovered.compo
 import { CovidHelpComponent } from './covid-help/covid-help.component';
 import { CovidAboutComponent } from './covid-about/covid-about.component';
 import { CovidMapComponent } from './covid-map/covid-map.component';
+import { CovidNewsComponent } from './covid-news/covid-news.component';
+import { CovidAnalysisComponent } from './covid-analysis/covid-analysis.component';
 
 
 @NgModule({
@@ -49,7 +52,9 @@ import { CovidMapComponent } from './covid-map/covid-map.component';
 		CovidRecoveredComponent,
 		CovidHelpComponent,
 		CovidAboutComponent,
-		CovidMapComponent
+		CovidMapComponent,
+		CovidNewsComponent,
+		CovidAnalysisComponent
 	],
 	imports: [
 		BrowserModule,
@@ -73,6 +78,7 @@ import { CovidMapComponent } from './covid-map/covid-map.component';
 		MatSelectModule,
 		MatSnackBarModule,
 		MatPaginatorModule,
+		MatButtonToggleModule,
 		HttpClientModule,
 		FormsModule,
 		LayoutModule

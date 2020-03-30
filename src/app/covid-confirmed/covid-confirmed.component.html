@@ -1,6 +1,8 @@
 <div fxLayout="column" class="pr-covid-tab-analysis">
-	<span *ngIf="isLoading" class="pr-covid-loading-message pr-font-chn pr-margin-sides-10p pr-margin-top-10px pr-margin-bottom-10px">Loading data ...</span>
-	<mat-progress-bar mode="indeterminate" *ngIf="isLoading" class="pr-margin-sides-10p pr-margin-top-10px pr-margin-bottom-10px"></mat-progress-bar>
+	<div fxLayout="column" class="pr-margin-sides-10p pr-margin-top-10px pr-margin-bottom-30px">
+		<span *ngIf="isLoading" class="pr-covid-loading-message pr-font-chn pr-margin-bottom-10px">Loading data ...</span>
+		<mat-progress-bar mode="indeterminate" *ngIf="isLoading"></mat-progress-bar>
+	</div>
 	<div fxLayout="column">
 		<span><span class="pr-covid-notice-header pr-font-chn">SOURCE DATA HAS CHANGED SINCE 23 / 3/ 2020</span></span>
 		<span class="pr-margin-top-10px pr-margin-bottom-10px"><a href="https://github.com/CSSEGISandData/COVID-19/blob/master/csse_covid_19_data/csse_covid_19_time_series/time_series_covid19_confirmed_global.csv" target="_blank" class="pr-ext-link">[ source: COVID-19 Timeseries Confirmed Cases ]</a></span>
@@ -109,7 +111,7 @@
 		<span class="pr-analysis-report-subtitle">Kindly use a larger screen device for better view and interaction with charts!</span>
 	</div>
 	<div fxLayout="column" fxLayoutAlign="center center" class="dark pr-chart-container pr-margin-top-10vh pr-non-selectable pr-no-focus">
-		<div fxLayout="column" class="pr-analysis-report-container" style="margin-left: 20px; margin-right: 20px;">
+		<div fxLayout="column" class="pr-analysis-report-container">
 			<span class="pr-analysis-report-header pr-font-chn">{{covidConfirmedChartInfectedCountryInfectionProgress.selectedCountry}}'s Infection Progress:</span>
 			<div fxLayout="row">
 				<mat-form-field fxFlex="50" class="pr-margin-left-15px pr-margin-right-15px">
@@ -136,10 +138,5 @@
 		<p>Turkey's rate of infection skyrocketed in the last 7 days alone.</p>
 		<p>In the US, things seem much worse, with the virus infecting a large chunk of the population within the last week in New York alone.</p>
 		<p>In Canada, the number of people infected with COVID-19 is also growing but it is not very steep. Places like British Columbia and Ontario has the highest number of infections.</p>
-	</div>
-	<div fxLayout="column" class="pr-margin-top-10vh pr-non-selectable pr-no-focus">
-		<div fxLayout="column">
-			<span class="pr-analysis-report-header pr-font-chn">Check back later as we keep adding more information to this analysis!</span>
-		</div>
 	</div>
 </div>

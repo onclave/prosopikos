@@ -17,6 +17,23 @@ export class WorkhorseService {
 		return +((numerator * 100) / total).toFixed(decimalPlace);
 	}
 
+	private makeRandomRange(x) {
+
+		var range = new Array(x), pointer = x;
+
+		return function getRandom() {
+
+			pointer = (pointer - 1 + x) % x;
+
+			var random = Math.floor(Math.random() * pointer);
+			var num = (random in range) ? range[random] : random;
+
+			range[random] = (pointer in range) ? range[pointer] : pointer;
+
+			return range[pointer] = num;
+		};
+	}
+
 	public doesCountryExist(countries: Country[], name: string): boolean {
 
 		let countryExists: boolean = false;
@@ -85,6 +102,31 @@ export class WorkhorseService {
 		}
 
 		return countryNames;
+	}
+
+	public selectAllProvinces(covidData: CovidData): Province[] {
+
+		let allProvinces: Province[] = new Array();
+
+		if(covidData && covidData.getCountries() && (covidData.getCountries().length > 0))
+			for(let country of covidData.getCountries()) allProvinces.push(...country.getProvinces());
+
+		return allProvinces;
+	}
+
+	public selectNRandomProvinces(covidData: CovidData, n: number, poolSize: number): Province[] {
+
+		let selectedProvinces: Province[] = new Array();
+
+		if(covidData && covidData.getCountries() && (covidData.getCountries().length > 0)) {
+
+			let generator: any = this.makeRandomRange(poolSize);
+			let provinces: Province[] = this.selectAllProvinces(covidData);
+			
+			for(let i: number = 0; i < n; i++) selectedProvinces.push(provinces[generator()]);
+		}
+
+		return selectedProvinces;
 	}
 
 	public getDatatableFriendlyCovidTimeseriesHeaders(headers: string[]): string[] {

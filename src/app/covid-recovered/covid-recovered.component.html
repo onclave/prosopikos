@@ -1,6 +1,8 @@
 <div fxLayout="column" class="pr-covid-tab-analysis">
-	<span *ngIf="isLoading" class="pr-covid-loading-message pr-font-chn pr-margin-sides-10p pr-margin-top-10px pr-margin-bottom-10px">Loading data ...</span>
-	<mat-progress-bar mode="indeterminate" *ngIf="isLoading" class="pr-margin-sides-10p pr-margin-top-10px pr-margin-bottom-10px"></mat-progress-bar>
+	<div fxLayout="column" class="pr-margin-sides-10p pr-margin-top-10px pr-margin-bottom-30px">
+		<span *ngIf="isLoading" class="pr-covid-loading-message pr-font-chn pr-margin-bottom-10px">Loading data ...</span>
+		<mat-progress-bar mode="indeterminate" *ngIf="isLoading"></mat-progress-bar>
+	</div>
 	<div fxLayout="column">
 		<span><span class="pr-covid-notice-header pr-font-chn">SOURCE DATA HAS CHANGED SINCE 23 / 3/ 2020</span></span>
 		<span><span class="pr-covid-notice-header pr-font-chn">SOURCE DATA IN NOW BEING UPDATED AGAIN BUT MAY BE ONE DAY BEHIND OTHER DATA</span></span>

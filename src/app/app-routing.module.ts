@@ -12,6 +12,10 @@ const routes: Routes = [
   {
     path: 'covid',
     component: CovidComponent
+  },
+  {
+    path: '**',
+    redirectTo: '/'
   }
 ];
 

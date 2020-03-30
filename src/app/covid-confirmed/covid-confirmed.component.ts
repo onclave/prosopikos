@@ -13,6 +13,7 @@ import { MatSelectChange } from '@angular/material/select';
 import { MatPaginator } from '@angular/material/paginator';
 import { BreakpointObserver, BreakpointState } from '@angular/cdk/layout';
 import { CovidMapService } from '../covid-map.service';
+import { CovidAnalysisService } from '../covid-analysis.service';
 
 @Component({
 	selector: 'app-covid-confirmed',
@@ -31,6 +32,7 @@ export class CovidConfirmedComponent implements OnInit {
 	private breakpointObserver: BreakpointObserver;
 	private coviddataService: CoviddataService;
 	private covidMapService: CovidMapService;
+	private covidAnalysisService: CovidAnalysisService;
 
 	public workhorse: WorkhorseService;
 	public covidConfirmedData: CovidData = new CovidData();
@@ -88,11 +90,12 @@ export class CovidConfirmedComponent implements OnInit {
 	@ViewChild('covidTimeseriesConfirmedDatatable') covidConfirmedTable: MatTable<any>;
 	@ViewChild(MatPaginator, {static: true}) paginator: MatPaginator;
 
-	constructor(coviddataService: CoviddataService, workhorse: WorkhorseService, covidMapService: CovidMapService, breakpointObserver: BreakpointObserver) {
+	constructor(coviddataService: CoviddataService, workhorse: WorkhorseService, covidMapService: CovidMapService, covidAnalysisService: CovidAnalysisService, breakpointObserver: BreakpointObserver) {
 
 		this.coviddataService = coviddataService;
 		this.workhorse = workhorse;
 		this.covidMapService = covidMapService;
+		this.covidAnalysisService = covidAnalysisService;
 		this.breakpointObserver = breakpointObserver;
 	}
 
@@ -435,6 +438,19 @@ export class CovidConfirmedComponent implements OnInit {
 
 		this.prepareCovidConfirmedTableData()
 		this.covidMapService.initMap(this.covidMapService.getMapObject(), this.covidConfirmedData, this.coviddataService.getDeathCovidData(), false);
+		this.covidAnalysisService.prepareCovidAnalysisTemperatureToInfectionLineGraph(this.workhorse.selectNRandomProvinces(this.covidConfirmedData, this.covidAnalysisService.getCovidAnalysisTemperatureToInfectionLineGraph().totalSelection, this.getConvidConfirmedTotalNumberOfCountriesInfected()));
+
+
+
+
+
+		this.covidAnalysisService.prepareCovidAnalysisTemperatureToInfectionSelectedLineGraph(this.workhorse.selectAllProvinces(this.covidConfirmedData), this.covidAnalysisService.getCovidAnalysisTemperatureToInfectionSelectedLineGraph().chunks, this.covidAnalysisService.getCovidAnalysisTemperatureToInfectionSelectedLineGraph().latestDays);
+
+
+
+
+
+
 		this.prepareCovidConfirmedChartInfectedCountry(this.covidConfirmedChartInfectedCountry.selectedCountryCount);
 		this.prepareCovidConfirmedChartInfectedCountryProportion(this.covidConfirmedChartInfectedCountryProportion.selectedCountryCount);
 		this.prepareCovidConfirmedChartInfectedCountryProgress(this.covidConfirmedChartInfectedCountryInfectionProgress.selectedCountry, this.covidConfirmedChartInfectedCountryInfectionProgress.latestDays);

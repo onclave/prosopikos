@@ -1,0 +1,32 @@
+.pr-covid-analysis-controls {
+	margin-top: 20px;
+	margin-bottom: 20px;
+}
+
+.pr-covid-analysis-report {
+	font-size: 1.1em;
+	line-height: 1.4em;
+	color: #e9e9e9;
+	margin-top: 10px;
+	margin-bottom: 10px;
+}
+
+.pr-covid-analysis-image-container {
+	margin-top: 30px;
+	margin-bottom: 20px;
+}
+
+.pr-covid-analysis-image {
+	width: 100%;
+	max-width: 500px;
+	height: auto;
+	border-radius: 5px;
+}
+
+.pr-covid-analysis-image-title {
+	font-size: 0.9em;
+	line-height: 1em;
+	color: #d3d3d3;
+	margin-top: 10px;
+	margin-bottom: 10px;
+}

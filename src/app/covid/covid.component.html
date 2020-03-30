@@ -20,21 +20,23 @@
             <img src="https://hitcounter.pythonanywhere.com/count/tag.svg?url=https%3A%2F%2Fdebacharya.com%2Fcovid" alt="Hits">
         </div>
     </div>
-    <div class="pr-map-accordion-container">
-        <app-covid-map></app-covid-map>
-    </div>
     <mat-tab-group dynamicHeight>
+        <mat-tab label="COVID-19 REPORT">
+            <div class="pr-map-accordion-container">
+                <app-covid-map></app-covid-map>
+            </div>
+            <app-covid-confirmed></app-covid-confirmed>
+            <app-covid-death></app-covid-death>
+            <app-covid-recovered></app-covid-recovered>
+        </mat-tab>
+        <mat-tab label="ANALYSIS">
+            <app-covid-analysis></app-covid-analysis>
+        </mat-tab>
+        <mat-tab label="NEWS">
+            <app-covid-news></app-covid-news>
+        </mat-tab>
         <mat-tab label="ABOUT">
             <app-covid-about></app-covid-about>
-        </mat-tab>
-        <mat-tab label="COVID-19 CONFIRMED CASES">
-            <app-covid-confirmed></app-covid-confirmed>
-        </mat-tab>
-        <mat-tab label="COVID-19 DEATHS">
-            <app-covid-death></app-covid-death>
-        </mat-tab>
-        <mat-tab label="COVID-19 RECOVERED">
-            <app-covid-recovered></app-covid-recovered>
         </mat-tab>
         <mat-tab label="HOW YOU CAN HELP">
             <app-covid-help></app-covid-help>
