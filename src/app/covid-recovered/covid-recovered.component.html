@@ -47,7 +47,9 @@
 			<span class="pr-analysis-report-header pr-font-chn">Infection to Death to Recovery Ratio:</span>
 			<span class="pr-analysis-report-subtitle">Infection: {{getCovidTotalInfectionCount()}} | Recoveries: {{workhorse.getCovidTotalRecovered(covidRecoveryData)}} | Deaths: {{getCovidTotalDeathCount()}}</span>
 		</div>
-		<ngx-charts-pie-chart [view]="covidRecoveryChartRecoveryRatio.view" [scheme]="covidRecoveryChartRecoveryRatio.colorScheme" [results]="covidRecoveryChartRecoveryRatio.single" [gradient]="covidRecoveryChartRecoveryRatio.gradient" [legend]="covidRecoveryChartRecoveryRatio.showLegend" [legendPosition]="covidRecoveryChartRecoveryRatio.legendPosition" [labels]="covidRecoveryChartRecoveryRatio.labels" [doughnut]="covidRecoveryChartRecoveryRatio.doughnut" (select)="onSelectCovidRecoveryRatioChart($event)"></ngx-charts-pie-chart>
+		<div fxLayout="row" fxLayoutAlign="center center">
+			<ngx-charts-pie-chart [view]="covidRecoveryChartRecoveryRatio.view" [scheme]="covidRecoveryChartRecoveryRatio.colorScheme" [results]="covidRecoveryChartRecoveryRatio.single" [gradient]="covidRecoveryChartRecoveryRatio.gradient" [legend]="covidRecoveryChartRecoveryRatio.showLegend" [legendPosition]="covidRecoveryChartRecoveryRatio.legendPosition" [labels]="covidRecoveryChartRecoveryRatio.labels" [doughnut]="covidRecoveryChartRecoveryRatio.doughnut" (select)="onSelectCovidRecoveryRatioChart($event)"></ngx-charts-pie-chart>
+		</div>
 	</div>
 	<div fxLayout="column" class="pr-margin-top-10vh">
 		<div fxLayout="column" class="pr-analysis-report-container">
@@ -88,14 +90,18 @@
 			<span class="pr-analysis-report-subtitle">{{covidRecoveryChartRecoveryRate.selectedCountry}}'s Total Deaths: <span class="pr-color-watermelon pr-font-chn">{{workhorse.getCovidDeathsByCountry(covidRecoveryData, covidRecoveryChartRecoveryRate.selectedCountry)}}</span></span>
 			<span class="pr-analysis-report-subtitle">Use the drop downs above to change the visualizations a required.</span>
 		</div>
-		<ngx-charts-line-chart [view]="covidRecoveryChartRecoveryRate.view" [scheme]="covidRecoveryChartRecoveryRate.colorScheme" [results]="covidRecoveryChartRecoveryRate.multi" [xAxis]="covidRecoveryChartRecoveryRate.showXAxis" [yAxis]="covidRecoveryChartRecoveryRate.showYAxis" [legend]="covidRecoveryChartRecoveryRate.showLegend" [legendPosition]="covidRecoveryChartRecoveryRate.legendPosition" [showXAxisLabel]="covidRecoveryChartRecoveryRate.showXAxisLabel" [showYAxisLabel]="covidRecoveryChartRecoveryRate.showYAxisLabel" [xAxisLabel]="covidRecoveryChartRecoveryRate.xAxisLabel" [yAxisLabel]="covidRecoveryChartRecoveryRate.yAxisLabel" (select)="onSelectCovidRecoveryCountryProgressChart($event)"></ngx-charts-line-chart>
+		<div fxLayout="row" fxLayoutAlign="center center">
+			<ngx-charts-line-chart [view]="covidRecoveryChartRecoveryRate.view" [scheme]="covidRecoveryChartRecoveryRate.colorScheme" [results]="covidRecoveryChartRecoveryRate.multi" [xAxis]="covidRecoveryChartRecoveryRate.showXAxis" [yAxis]="covidRecoveryChartRecoveryRate.showYAxis" [legend]="covidRecoveryChartRecoveryRate.showLegend" [legendPosition]="covidRecoveryChartRecoveryRate.legendPosition" [showXAxisLabel]="covidRecoveryChartRecoveryRate.showXAxisLabel" [showYAxisLabel]="covidRecoveryChartRecoveryRate.showYAxisLabel" [xAxisLabel]="covidRecoveryChartRecoveryRate.xAxisLabel" [yAxisLabel]="covidRecoveryChartRecoveryRate.yAxisLabel" (select)="onSelectCovidRecoveryCountryProgressChart($event)"></ngx-charts-line-chart>
+		</div>
 	</div>
 	<div fxLayout="column" fxLayoutAlign="start center" class="dark pr-chart-container pr-margin-top-10vh pr-non-selectable pr-no-focus">
 		<div fxLayout="column" class="pr-analysis-report-container">
 			<span class="pr-analysis-report-header pr-font-chn">{{covidRecoveryChartRecoveryRate.selectedCountry}}'s Infection to Death to Recovery Progress:</span>
 			<span class="pr-analysis-report-subtitle">Use the drop downs above to change the visualizations a required.</span>
 		</div>
-		<ngx-charts-line-chart [view]="covidDeathChartInfectionToDeathToRecoveryRate.view" [scheme]="covidDeathChartInfectionToDeathToRecoveryRate.colorScheme" [results]="covidDeathChartInfectionToDeathToRecoveryRate.multiComparison" [xAxis]="covidDeathChartInfectionToDeathToRecoveryRate.showXAxis" [yAxis]="covidDeathChartInfectionToDeathToRecoveryRate.showYAxis" [legend]="covidDeathChartInfectionToDeathToRecoveryRate.showLegend" [legendPosition]="covidDeathChartInfectionToDeathToRecoveryRate.legendPosition" [showXAxisLabel]="covidDeathChartInfectionToDeathToRecoveryRate.showXAxisLabel" [showYAxisLabel]="covidDeathChartInfectionToDeathToRecoveryRate.showYAxisLabel" [xAxisLabel]="covidDeathChartInfectionToDeathToRecoveryRate.xAxisLabel" [yAxisLabel]="covidDeathChartInfectionToDeathToRecoveryRate.yAxisLabel" (select)="onSelectCovidRecoveryCountryProgressChart($event)"></ngx-charts-line-chart>
+		<div fxLayout="row" fxLayoutAlign="center center">
+			<ngx-charts-line-chart [view]="covidDeathChartInfectionToDeathToRecoveryRate.view" [scheme]="covidDeathChartInfectionToDeathToRecoveryRate.colorScheme" [results]="covidDeathChartInfectionToDeathToRecoveryRate.multiComparison" [xAxis]="covidDeathChartInfectionToDeathToRecoveryRate.showXAxis" [yAxis]="covidDeathChartInfectionToDeathToRecoveryRate.showYAxis" [legend]="covidDeathChartInfectionToDeathToRecoveryRate.showLegend" [legendPosition]="covidDeathChartInfectionToDeathToRecoveryRate.legendPosition" [showXAxisLabel]="covidDeathChartInfectionToDeathToRecoveryRate.showXAxisLabel" [showYAxisLabel]="covidDeathChartInfectionToDeathToRecoveryRate.showYAxisLabel" [xAxisLabel]="covidDeathChartInfectionToDeathToRecoveryRate.xAxisLabel" [yAxisLabel]="covidDeathChartInfectionToDeathToRecoveryRate.yAxisLabel" (select)="onSelectCovidRecoveryCountryProgressChart($event)"></ngx-charts-line-chart>
+		</div>
 	</div>
 	<div class="pr-covid-analysis-writeup pr-font-chn">
 		<p>(As of 22 / 3 / 2020)</p>

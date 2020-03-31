@@ -30,6 +30,7 @@ export class CovidAnalysisComponent implements OnInit {
 	public covidConfirmedData: CovidData;
 	public covidAnalysisTemperatureToInfectionLineGraph = null;
 	public covidAnalysisTemperatureToInfectionSelectedLineGraph = null;
+	public covidAnalysisTemperatureToInfectionScatterPlot = null;
 
 	public COVID_TEMPERATURE_LATITUDE_MAT_TABLE_DATASCOURCE: MatTableDataSource<any[]>;
 	public covidTemperatureLatitudeTableDisplayedColumns: string[] = new Array();
@@ -47,6 +48,7 @@ export class CovidAnalysisComponent implements OnInit {
 		this.covidConfirmedData = this.coviddataService.getConfirmedCovidData();
 		this.covidAnalysisTemperatureToInfectionLineGraph = this.covidAnalysisService.getCovidAnalysisTemperatureToInfectionLineGraph();
 		this.covidAnalysisTemperatureToInfectionSelectedLineGraph = this.covidAnalysisService.getCovidAnalysisTemperatureToInfectionSelectedLineGraph();
+		this.covidAnalysisTemperatureToInfectionScatterPlot = this.covidAnalysisService.getCovidAnalysisTemperatureToInfectionScatterPlot();
 		this.COVID_TEMPERATURE_LATITUDE_MAT_TABLE_DATASCOURCE = this.covidAnalysisService.getCovidTemperatureLatitudeMatTableDatasource();
 		this.covidTemperatureLatitudeTableDisplayedColumns = this.covidAnalysisService.getCovidTemperatureLatitudeTableDisplayedColumns();
 
@@ -60,7 +62,9 @@ export class CovidAnalysisComponent implements OnInit {
 
 				this.covidAnalysisTemperatureToInfectionLineGraph.view = [width, 300];
 				this.covidAnalysisTemperatureToInfectionSelectedLineGraph.view = [width, 300];
+				this.covidAnalysisTemperatureToInfectionScatterPlot.view = [width, 350];
 				this.covidAnalysisTemperatureToInfectionSelectedLineGraph.legendPosition = 'below';
+				this.covidAnalysisTemperatureToInfectionScatterPlot.legendPosition = 'below';
 			}
 		});
 
@@ -72,7 +76,9 @@ export class CovidAnalysisComponent implements OnInit {
 
 				this.covidAnalysisTemperatureToInfectionLineGraph.view = [width, 400];
 				this.covidAnalysisTemperatureToInfectionSelectedLineGraph.view = [width, 400];
+				this.covidAnalysisTemperatureToInfectionScatterPlot.view = [width, 450];
 				this.covidAnalysisTemperatureToInfectionSelectedLineGraph.legendPosition = 'below';
+				this.covidAnalysisTemperatureToInfectionScatterPlot.legendPosition = 'below';
 			}
 		});
 
@@ -84,7 +90,9 @@ export class CovidAnalysisComponent implements OnInit {
 
 				this.covidAnalysisTemperatureToInfectionLineGraph.view = [width, 450];
 				this.covidAnalysisTemperatureToInfectionSelectedLineGraph.view = [width, 450];
+				this.covidAnalysisTemperatureToInfectionScatterPlot.view = [width, 500];
 				this.covidAnalysisTemperatureToInfectionSelectedLineGraph.legendPosition = 'right';
+				this.covidAnalysisTemperatureToInfectionScatterPlot.legendPosition = 'right';
 			}
 		});
 
@@ -93,7 +101,9 @@ export class CovidAnalysisComponent implements OnInit {
 
 				this.covidAnalysisTemperatureToInfectionLineGraph.view = [1000, 550];
 				this.covidAnalysisTemperatureToInfectionSelectedLineGraph.view = [1000, 550];
+				this.covidAnalysisTemperatureToInfectionScatterPlot.view = [1000, 600];
 				this.covidAnalysisTemperatureToInfectionSelectedLineGraph.legendPosition = 'right';
+				this.covidAnalysisTemperatureToInfectionScatterPlot.legendPosition = 'right';
 			}
 		});
 	}

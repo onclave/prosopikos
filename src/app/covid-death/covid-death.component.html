@@ -41,7 +41,7 @@
 	<div fxLayout="row" fxLayoutAlign="center center" fxShow.xs="true" fxShow.sm="true" fxShow.md="false" fxShow.lg="false" fxShow.xl="false" class="pr-margin-top-30px">
 		<span class="pr-analysis-report-subtitle">Kindly use a larger screen device for better view and interaction with charts!</span>
 	</div>
-	<div fxLayout="column" fxLayoutAlign="center center" class="dark pr-chart-container pr-margin-top-10vh pr-non-selectable pr-no-focus">
+	<div fxLayout="column" fxLayoutAlign="center stretch" class="dark pr-chart-container pr-margin-top-10vh pr-non-selectable pr-no-focus">
 		<div fxLayout="column" class="pr-analysis-report-container">
 			<span class="pr-analysis-report-header pr-font-chn">Infection to Death Ratio:</span>
 			<span class="pr-analysis-report-subtitle">Infection: {{getCovidTotalInfectionCount()}} | Deaths: {{workhorse.getCovidTotalDeaths(covidDeathData)}}</span>
@@ -86,13 +86,17 @@
 			<span class="pr-analysis-report-subtitle">{{covidDeathChartDeathRate.selectedCountry}}'s Total Infection: <span class="pr-color-watermelon pr-font-chn">{{getCovidTotalInfectionCountByCountry(covidDeathChartDeathRate.selectedCountry)}}</span></span>
 			<span class="pr-analysis-report-subtitle">Use the drop downs above to change the visualizations a required.</span>
 		</div>
-		<ngx-charts-line-chart [view]="covidDeathChartDeathRate.view" [scheme]="covidDeathChartDeathRate.colorScheme" [results]="covidDeathChartDeathRate.multi" [xAxis]="covidDeathChartDeathRate.showXAxis" [yAxis]="covidDeathChartDeathRate.showYAxis" [legend]="covidDeathChartDeathRate.showLegend" [legendPosition]="covidDeathChartDeathRate.legendPosition" [showXAxisLabel]="covidDeathChartDeathRate.showXAxisLabel" [showYAxisLabel]="covidDeathChartDeathRate.showYAxisLabel" [xAxisLabel]="covidDeathChartDeathRate.xAxisLabel" [yAxisLabel]="covidDeathChartDeathRate.yAxisLabel" (select)="onSelectCovidDeathCountryProgressChart($event)"></ngx-charts-line-chart>
+		<div fxLayout="row" fxLayoutAlign="center center">
+			<ngx-charts-line-chart [view]="covidDeathChartDeathRate.view" [scheme]="covidDeathChartDeathRate.colorScheme" [results]="covidDeathChartDeathRate.multi" [xAxis]="covidDeathChartDeathRate.showXAxis" [yAxis]="covidDeathChartDeathRate.showYAxis" [legend]="covidDeathChartDeathRate.showLegend" [legendPosition]="covidDeathChartDeathRate.legendPosition" [showXAxisLabel]="covidDeathChartDeathRate.showXAxisLabel" [showYAxisLabel]="covidDeathChartDeathRate.showYAxisLabel" [xAxisLabel]="covidDeathChartDeathRate.xAxisLabel" [yAxisLabel]="covidDeathChartDeathRate.yAxisLabel" (select)="onSelectCovidDeathCountryProgressChart($event)"></ngx-charts-line-chart>
+		</div>
 	</div>
 	<div fxLayout="column" fxLayoutAlign="center center" class="dark pr-chart-container pr-margin-top-10vh pr-non-selectable pr-no-focus">
 		<div fxLayout="column" class="pr-analysis-report-container">
 			<span class="pr-analysis-report-header pr-font-chn">{{covidDeathChartDeathRate.selectedCountry}}'s Infection to Death Progress:</span>
 			<span class="pr-analysis-report-subtitle">Use the drop downs above to change the visualizations a required.</span>
 		</div>
-		<ngx-charts-line-chart [view]="covidDeathChartInfectionToDeathRate.view" [scheme]="covidDeathChartInfectionToDeathRate.colorScheme" [results]="covidDeathChartInfectionToDeathRate.multiComparison" [xAxis]="covidDeathChartInfectionToDeathRate.showXAxis" [yAxis]="covidDeathChartInfectionToDeathRate.showYAxis" [legend]="covidDeathChartInfectionToDeathRate.showLegend" [legendPosition]="covidDeathChartInfectionToDeathRate.legendPosition" [showXAxisLabel]="covidDeathChartInfectionToDeathRate.showXAxisLabel" [showYAxisLabel]="covidDeathChartInfectionToDeathRate.showYAxisLabel" [xAxisLabel]="covidDeathChartInfectionToDeathRate.xAxisLabel" [yAxisLabel]="covidDeathChartInfectionToDeathRate.yAxisLabel" (select)="onSelectCovidDeathCountryProgressChart($event)"></ngx-charts-line-chart>
+		<div fxLayout="row" fxLayoutAlign="center center">
+			<ngx-charts-line-chart [view]="covidDeathChartInfectionToDeathRate.view" [scheme]="covidDeathChartInfectionToDeathRate.colorScheme" [results]="covidDeathChartInfectionToDeathRate.multiComparison" [xAxis]="covidDeathChartInfectionToDeathRate.showXAxis" [yAxis]="covidDeathChartInfectionToDeathRate.showYAxis" [legend]="covidDeathChartInfectionToDeathRate.showLegend" [legendPosition]="covidDeathChartInfectionToDeathRate.legendPosition" [showXAxisLabel]="covidDeathChartInfectionToDeathRate.showXAxisLabel" [showYAxisLabel]="covidDeathChartInfectionToDeathRate.showYAxisLabel" [xAxisLabel]="covidDeathChartInfectionToDeathRate.xAxisLabel" [yAxisLabel]="covidDeathChartInfectionToDeathRate.yAxisLabel" (select)="onSelectCovidDeathCountryProgressChart($event)"></ngx-charts-line-chart>
+		</div>
 	</div>
 </div>

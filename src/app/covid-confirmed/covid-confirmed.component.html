@@ -58,13 +58,15 @@
 	<div fxLayout="row" fxLayoutAlign="center center" fxShow.xs="true" fxShow.sm="true" fxShow.md="false" fxShow.lg="false" fxShow.xl="false" class="pr-margin-top-30px">
 		<span class="pr-analysis-report-subtitle">Kindly use a larger screen device for better view and interaction with charts!</span>
 	</div>
-	<div fxLayout="column" fxLayoutAlign="start center" class="dark pr-chart-container pr-margin-top-10vh pr-non-selectable pr-no-focus">
+	<div fxLayout="column" fxLayoutAlign="start stretch" class="dark pr-chart-container pr-margin-top-10vh pr-non-selectable pr-no-focus">
 		<div fxLayout="column" class="pr-analysis-report-container">
 			<span class="pr-analysis-report-header pr-font-chn">{{covidConfirmedChartInfectedCountry.selectedCountryCount}} Most Infected Countries:</span>
 			<mat-slider min="1" max="{{getConvidConfirmedTotalNumberOfCountriesInfected()}}" step="1" [(ngModel)]="covidConfirmedChartInfectedCountry.selectedCountryCount" (input)="onSliderChangeCovidConfirmedCountriesInfected($event)" thumbLabel></mat-slider>
 			<span class="pr-analysis-report-subtitle">Use the slider to change the number of affected countries to show!</span>
 		</div>
-		<ngx-charts-bar-vertical [view]="covidConfirmedChartInfectedCountry.view" [scheme]="covidConfirmedChartInfectedCountry.colorScheme" [results]="covidConfirmedChartInfectedCountry.single" [gradient]="covidConfirmedChartInfectedCountry.gradient" [xAxis]="covidConfirmedChartInfectedCountry.showXAxis" [yAxis]="covidConfirmedChartInfectedCountry.showYAxis" [legend]="covidConfirmedChartInfectedCountry.showLegend" [showXAxisLabel]="covidConfirmedChartInfectedCountry.showXAxisLabel" [showYAxisLabel]="covidConfirmedChartInfectedCountry.showYAxisLabel" [xAxisLabel]="covidConfirmedChartInfectedCountry.xAxisLabel" [yAxisLabel]="covidConfirmedChartInfectedCountry.yAxisLabel" (select)="onSelectCovidConfirmedInfectedCountryChart($event)"></ngx-charts-bar-vertical>
+		<div fxLayout="row" fxLayoutAlign="center center">
+			<ngx-charts-bar-vertical [view]="covidConfirmedChartInfectedCountry.view" [scheme]="covidConfirmedChartInfectedCountry.colorScheme" [results]="covidConfirmedChartInfectedCountry.single" [gradient]="covidConfirmedChartInfectedCountry.gradient" [xAxis]="covidConfirmedChartInfectedCountry.showXAxis" [yAxis]="covidConfirmedChartInfectedCountry.showYAxis" [legend]="covidConfirmedChartInfectedCountry.showLegend" [showXAxisLabel]="covidConfirmedChartInfectedCountry.showXAxisLabel" [showYAxisLabel]="covidConfirmedChartInfectedCountry.showYAxisLabel" [xAxisLabel]="covidConfirmedChartInfectedCountry.xAxisLabel" [yAxisLabel]="covidConfirmedChartInfectedCountry.yAxisLabel" (select)="onSelectCovidConfirmedInfectedCountryChart($event)"></ngx-charts-bar-vertical>
+		</div>
 	</div>
 	<span class="pr-covid-analysis-writeup pr-font-chn">It seems that China, Italy, US, Spain, Germany and Iran are among the most affected countries with very high confirmed cases.</span>
 	<div fxLayout="column" class="pr-margin-top-10vh pr-non-selectable pr-no-focus">
@@ -99,18 +101,20 @@
 	<div fxLayout="row" fxLayoutAlign="center center" fxShow.xs="true" fxShow.sm="true" fxShow.md="false" fxShow.lg="false" fxShow.xl="false" class="pr-margin-top-30px">
 		<span class="pr-analysis-report-subtitle">Kindly use a larger screen device for better view and interaction with charts!</span>
 	</div>
-	<div fxLayout="column" fxLayoutAlign="center center" class="dark pr-chart-container pr-margin-top-10vh pr-non-selectable pr-no-focus">
+	<div fxLayout="column" fxLayoutAlign="center stretch" class="dark pr-chart-container pr-margin-top-10vh pr-non-selectable pr-no-focus">
 		<div fxLayout="column" class="pr-analysis-report-container">
 			<span class="pr-analysis-report-header pr-font-chn">{{covidConfirmedChartInfectedCountryProportion.selectedCountryCount}} Most Infected Countries' Infection Proportion:</span>
 			<mat-slider min="1" max="{{getConvidConfirmedTotalNumberOfCountriesInfected()}}" step="1" [(ngModel)]="covidConfirmedChartInfectedCountryProportion.selectedCountryCount" (input)="onSliderChangeCovidConfirmedCountriesInfectedProportion($event)" thumbLabel></mat-slider>
 			<span class="pr-analysis-report-subtitle">Use the slider to change the number of affected countries to show!</span>
 		</div>
-		<ngx-charts-pie-grid [view]="covidConfirmedChartInfectedCountryProportion.view" [scheme]="covidConfirmedChartInfectedCountryProportion.colorScheme" [results]="covidConfirmedChartInfectedCountryProportion.single" (select)="onSelectCovidConfirmedInfectedCountryProportionChart($event)"></ngx-charts-pie-grid>
+		<div fxLayout="row" fxLayoutAlign="center center">
+			<ngx-charts-pie-grid [view]="covidConfirmedChartInfectedCountryProportion.view" [scheme]="covidConfirmedChartInfectedCountryProportion.colorScheme" [results]="covidConfirmedChartInfectedCountryProportion.single" (select)="onSelectCovidConfirmedInfectedCountryProportionChart($event)"></ngx-charts-pie-grid>
+		</div>
 	</div>
 	<div fxLayout="row" fxLayoutAlign="center center" fxShow.xs="true" fxShow.sm="true" fxShow.md="false" fxShow.lg="false" fxShow.xl="false" class="pr-margin-top-30px">
 		<span class="pr-analysis-report-subtitle">Kindly use a larger screen device for better view and interaction with charts!</span>
 	</div>
-	<div fxLayout="column" fxLayoutAlign="center center" class="dark pr-chart-container pr-margin-top-10vh pr-non-selectable pr-no-focus">
+	<div fxLayout="column" fxLayoutAlign="center stretch" class="dark pr-chart-container pr-margin-top-10vh pr-non-selectable pr-no-focus">
 		<div fxLayout="column" class="pr-analysis-report-container">
 			<span class="pr-analysis-report-header pr-font-chn">{{covidConfirmedChartInfectedCountryInfectionProgress.selectedCountry}}'s Infection Progress:</span>
 			<div fxLayout="row">
@@ -129,7 +133,9 @@
 			</div>
 			<span class="pr-analysis-report-subtitle">{{covidConfirmedChartInfectedCountryInfectionProgress.selectedCountry}}'s Total Infection: <span class="pr-color-watermelon pr-font-chn">{{workhorse.getCovidInfectedByCountry(covidConfirmedData, covidConfirmedChartInfectedCountryInfectionProgress.selectedCountry)}}</span></span>
 		</div>
-		<ngx-charts-line-chart [view]="covidConfirmedChartInfectedCountryInfectionProgress.view" [scheme]="covidConfirmedChartInfectedCountryInfectionProgress.colorScheme" [results]="covidConfirmedChartInfectedCountryInfectionProgress.multi" [xAxis]="covidConfirmedChartInfectedCountryInfectionProgress.showXAxis" [yAxis]="covidConfirmedChartInfectedCountryInfectionProgress.showYAxis" [legend]="covidConfirmedChartInfectedCountryInfectionProgress.showLegend" [showXAxisLabel]="covidConfirmedChartInfectedCountryInfectionProgress.showXAxisLabel" [showYAxisLabel]="covidConfirmedChartInfectedCountryInfectionProgress.showYAxisLabel" [xAxisLabel]="covidConfirmedChartInfectedCountryInfectionProgress.xAxisLabel" [yAxisLabel]="covidConfirmedChartInfectedCountryInfectionProgress.yAxisLabel" [legendPosition]="covidConfirmedChartInfectedCountryInfectionProgress.legendPosition" (select)="onSelectCovidConfirmedInfectedCountryProgressChart($event)"></ngx-charts-line-chart>
+		<div fxLayout="row" fxLayoutAlign="center center">
+			<ngx-charts-line-chart [view]="covidConfirmedChartInfectedCountryInfectionProgress.view" [scheme]="covidConfirmedChartInfectedCountryInfectionProgress.colorScheme" [results]="covidConfirmedChartInfectedCountryInfectionProgress.multi" [xAxis]="covidConfirmedChartInfectedCountryInfectionProgress.showXAxis" [yAxis]="covidConfirmedChartInfectedCountryInfectionProgress.showYAxis" [legend]="covidConfirmedChartInfectedCountryInfectionProgress.showLegend" [showXAxisLabel]="covidConfirmedChartInfectedCountryInfectionProgress.showXAxisLabel" [showYAxisLabel]="covidConfirmedChartInfectedCountryInfectionProgress.showYAxisLabel" [xAxisLabel]="covidConfirmedChartInfectedCountryInfectionProgress.xAxisLabel" [yAxisLabel]="covidConfirmedChartInfectedCountryInfectionProgress.yAxisLabel" [legendPosition]="covidConfirmedChartInfectedCountryInfectionProgress.legendPosition" (select)="onSelectCovidConfirmedInfectedCountryProgressChart($event)"></ngx-charts-line-chart>
+		</div>
 	</div>
 	<div class="pr-covid-analysis-writeup pr-font-chn">
 		<p>(As of 22 / 3 / 2020)</p>

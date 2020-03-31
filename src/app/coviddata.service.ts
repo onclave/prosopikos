@@ -89,7 +89,7 @@ export class CoviddataService {
 
 					let coordinates: Coordinate = new Coordinate(latitude, longitude);
 					let country: Country = new Country(countryName);
-					let province: Province = new Province(provinceName, coordinates, timeseries);
+					let province: Province = new Province(provinceName, countryName, coordinates, timeseries);
 
 					if(!this.workhorse.doesCountryExist(this.confirmedCovidData.getCountries(), countryName)) this.confirmedCovidData.addCountry(country);
 					else country = this.confirmedCovidData.getCountryByName(countryName);
@@ -133,7 +133,7 @@ export class CoviddataService {
 
 					let coordinates: Coordinate = new Coordinate(latitude, longitude);
 					let country: Country = new Country(countryName);
-					let province: Province = new Province(provinceName, coordinates, timeseries);
+					let province: Province = new Province(provinceName, countryName, coordinates, timeseries);
 
 					if(!this.workhorse.doesCountryExist(this.deathCovidData.getCountries(), countryName)) this.deathCovidData.addCountry(country);
 					else country = this.deathCovidData.getCountryByName(countryName);
@@ -177,7 +177,7 @@ export class CoviddataService {
 
 					let coordinates: Coordinate = new Coordinate(latitude, longitude);
 					let country: Country = new Country(countryName);
-					let province: Province = new Province(provinceName, coordinates, timeseries);
+					let province: Province = new Province(provinceName, countryName, coordinates, timeseries);
 
 					if(!this.workhorse.doesCountryExist(this.recoveryCovidData.getCountries(), countryName)) this.recoveryCovidData.addCountry(country);
 					else country = this.recoveryCovidData.getCountryByName(countryName);

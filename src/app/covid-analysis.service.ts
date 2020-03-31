@@ -69,6 +69,25 @@ export class CovidAnalysisService {
 		tableUpdateCount: 0
 	};
 
+	private covidAnalysisTemperatureToInfectionScatterPlot = {
+		bubbleData: [],
+		view: [1000, 500],
+		showXAxis: true,
+		showYAxis: true,
+		showLegend: true,
+		legendPosition: 'right',
+		showXAxisLabel: true,
+		showYAxisLabel: true,
+		xAxisLabel: "Latitude",
+		yAxisLabel: "Infection",
+		minRadius: 0,
+		xScaleMin: 0,
+		yScaleMin: 0,
+		colorScheme: {
+			domain: [ '#D70518', '#F55F96', '#F2ABC7', '#F2069F', '#F86660', '#BF110C', '#FF1610', '#DE8903', '#E84703' ]
+		}
+	};
+
 	constructor() { }
 
 	public getCovidAnalysisTemperatureToInfectionLineGraph(): {} {
@@ -77,6 +96,10 @@ export class CovidAnalysisService {
 
 	public getCovidAnalysisTemperatureToInfectionSelectedLineGraph(): {} {
 		return this.covidAnalysisTemperatureToInfectionSelectedLineGraph;
+	}
+
+	public getCovidAnalysisTemperatureToInfectionScatterPlot() {
+		return this.covidAnalysisTemperatureToInfectionScatterPlot;
 	}
 
 	public getCovidTemperatureLatitudeMatTableDatasource(): any {
@@ -98,7 +121,7 @@ export class CovidAnalysisService {
 			});
 
 			for(let province of provinces) newValues.push({
-				"name": province.getCoordinates().getLatitude(),
+				"name": province.getCoordinates().getRoundedLatitude(),
 				"value": province.getLastTimeseries().getValue()
 			});
 
@@ -148,6 +171,27 @@ export class CovidAnalysisService {
 			this.covidAnalysisTemperatureToInfectionSelectedLineGraph.multi = newValues;
 
 			this.prepareCovidTemperatureLatitudeTableData();
+			this.prepareCovidAnalysisTemperatureToInfectionScatterPlot(provinces);
+		}
+	}
+
+	public prepareCovidAnalysisTemperatureToInfectionScatterPlot(provinces: Province[]): void {
+
+		let newValues: any[] = new Array();
+
+		if(provinces && (provinces.length > 0)) {
+
+			for(let province of provinces) newValues.push({
+				"name": province.getNameLabel(),
+				"series": [{
+					"name": "Confirmed Infections",
+					"x": province.getCoordinates().getRoundedLatitude(),
+					"y": province.getLastTimeseries().getValue(),
+					"r": province.getLastTimeseries().getValue()
+				}]
+			});
+			
+			this.covidAnalysisTemperatureToInfectionScatterPlot.bubbleData = newValues;
 		}
 	}
 
@@ -203,6 +247,10 @@ export class CovidAnalysisService {
 
 	private prepareLatitudeRangeString(start: number, end: number): string {
 		return '( ' + end + ' ' + ((end > 0) ? 'North' : 'South') + ' to ' + start + ' ' + ((start > 0) ? 'North' : 'South') + ' )';
+	}
+
+	private prepareLatitudeRangeShortString(start: number, end: number): string {
+		return end + ((end > 0) ? 'N' : 'S') + ' to ' + start + ((start > 0) ? 'N' : 'S');
 	}
 }
 
