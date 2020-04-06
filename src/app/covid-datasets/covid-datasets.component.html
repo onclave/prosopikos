@@ -1,0 +1,117 @@
+<div fxLayout="column" class="pr-covid-tab-analysis">
+	<span class="pr-analysis-heading pr-font-chn pr-margin-top-30px">datasets used for these analyses:</span>
+	<span class="pr-margin-top-10px pr-margin-bottom-10px"><a href="https://github.com/kalyaniuniversity/COVID-19-Datasets/tree/master/India%20Statewise%20Confirmed%20Cases" target="_blank" class="pr-ext-link">[ source: India COVID-19 Timeseries Confirmed Cases ]</a></span>
+	<mat-accordion class="pr-margin-top-30px pr-margin-bottom-30px">
+		<mat-expansion-panel [expanded]="true">
+			<mat-expansion-panel-header class="pr-padding-top-10px pr-padding-bottom-10px">
+				<mat-panel-title class="pr-font-chn">CONFIRMED CASES</mat-panel-title>
+				<mat-panel-description class="pr-font-chn">Expand to view India's Confirmed Cases Dataset</mat-panel-description>
+			</mat-expansion-panel-header>
+			<span fxShow.xs="true" fxShow.sm="true" fxShow.md="false" fxShow.lg="false" fxShow.xl="false" class="pr-covid-smallscreen-notice">The dataset is better viewed on a larger screen such as a computer or laptop screen. It may be difficult / uncomfortable to view it on smaller mobile screens.</span>
+			<table mat-table #covidIndiaTimeseriesConfirmedDatatable [dataSource]="COVID_INDIA_CONFIRMED_MAT_TABLE_DATASCOURCE" class="mat-elevation-z8 pr-datatable">
+				<ng-container *ngFor="let entry of covidIndiaConfirmedTableDisplayedColumns; index as i" matColumnDef="{{entry}}" sticky="{{i == 0}}">
+					<mat-header-cell *matHeaderCellDef>{{covidIndiaConfirmedData.getHeaders()[i]}}</mat-header-cell>
+					<mat-cell *matCellDef="let element">{{element[entry]}}</mat-cell>
+				</ng-container>
+				<mat-header-row *matHeaderRowDef="covidIndiaConfirmedTableDisplayedColumns"></mat-header-row>
+				<mat-row *matRowDef="let row; columns: covidIndiaConfirmedTableDisplayedColumns"></mat-row>
+			</table>
+			<mat-paginator #ciPaginator [pageSizeOptions]="[10, 20, 35]" showFirstLastButtons></mat-paginator>
+		</mat-expansion-panel>
+	</mat-accordion>
+	<span class="pr-margin-top-10px pr-margin-bottom-10px"><a href="https://github.com/kalyaniuniversity/COVID-19-Datasets/tree/master/India%20Statewise%20Recovery%20Cases" target="_blank" class="pr-ext-link">[ source: India COVID-19 Timeseries Recovery Cases ]</a></span>
+	<mat-accordion class="pr-margin-top-30px pr-margin-bottom-30px">
+		<mat-expansion-panel [expanded]="true">
+			<mat-expansion-panel-header class="pr-padding-top-10px pr-padding-bottom-10px">
+				<mat-panel-title class="pr-font-chn">RECOVERY CASES</mat-panel-title>
+				<mat-panel-description class="pr-font-chn">Expand to view India's Recovery Cases Dataset</mat-panel-description>
+			</mat-expansion-panel-header>
+			<span fxShow.xs="true" fxShow.sm="true" fxShow.md="false" fxShow.lg="false" fxShow.xl="false" class="pr-covid-smallscreen-notice">The dataset is better viewed on a larger screen such as a computer or laptop screen. It may be difficult / uncomfortable to view it on smaller mobile screens.</span>
+			<table mat-table #covidIndiaTimeseriesRecoveredDatatable [dataSource]="COVID_INDIA_RECOVERED_MAT_TABLE_DATASCOURCE" class="mat-elevation-z8 pr-datatable">
+				<ng-container *ngFor="let entry of covidIndiaRecoveredTableDisplayedColumns; index as i" matColumnDef="{{entry}}" sticky="{{i == 0}}">
+					<mat-header-cell *matHeaderCellDef>{{covidIndiaRecoveryData.getHeaders()[i]}}</mat-header-cell>
+					<mat-cell *matCellDef="let element">{{element[entry]}}</mat-cell>
+				</ng-container>
+				<mat-header-row *matHeaderRowDef="covidIndiaRecoveredTableDisplayedColumns"></mat-header-row>
+				<mat-row *matRowDef="let row; columns: covidIndiaRecoveredTableDisplayedColumns"></mat-row>
+			</table>
+			<mat-paginator #riPaginator [pageSizeOptions]="[10, 20, 35]" showFirstLastButtons></mat-paginator>
+		</mat-expansion-panel>
+	</mat-accordion>
+	<span class="pr-margin-top-10px pr-margin-bottom-10px"><a href="https://github.com/kalyaniuniversity/COVID-19-Datasets/tree/master/India%20Statewise%20Death%20Cases" target="_blank" class="pr-ext-link">[ source: India COVID-19 Timeseries Deceased Cases ]</a></span>
+	<mat-accordion class="pr-margin-top-30px pr-margin-bottom-30px">
+		<mat-expansion-panel [expanded]="true">
+			<mat-expansion-panel-header class="pr-padding-top-10px pr-padding-bottom-10px">
+				<mat-panel-title class="pr-font-chn">DECEASED CASES</mat-panel-title>
+				<mat-panel-description class="pr-font-chn">Expand to view India's Deceased Cases Dataset</mat-panel-description>
+			</mat-expansion-panel-header>
+			<span fxShow.xs="true" fxShow.sm="true" fxShow.md="false" fxShow.lg="false" fxShow.xl="false" class="pr-covid-smallscreen-notice">The dataset is better viewed on a larger screen such as a computer or laptop screen. It may be difficult / uncomfortable to view it on smaller mobile screens.</span>
+			<table mat-table #covidIndiaTimeseriesDeceasedDatatable [dataSource]="COVID_INDIA_DEATH_MAT_TABLE_DATASCOURCE" class="mat-elevation-z8 pr-datatable">
+				<ng-container *ngFor="let entry of covidIndiaDeathTableDisplayedColumns; index as i" matColumnDef="{{entry}}" sticky="{{i == 0}}">
+					<mat-header-cell *matHeaderCellDef>{{covidIndiaDeathData.getHeaders()[i]}}</mat-header-cell>
+					<mat-cell *matCellDef="let element">{{element[entry]}}</mat-cell>
+				</ng-container>
+				<mat-header-row *matHeaderRowDef="covidIndiaDeathTableDisplayedColumns"></mat-header-row>
+				<mat-row *matRowDef="let row; columns: covidIndiaDeathTableDisplayedColumns"></mat-row>
+			</table>
+			<mat-paginator #diPaginator [pageSizeOptions]="[10, 20, 35]" showFirstLastButtons></mat-paginator>
+		</mat-expansion-panel>
+	</mat-accordion>
+	<span class="pr-margin-top-30px pr-margin-bottom-10px"><a href="https://github.com/CSSEGISandData/COVID-19/blob/master/csse_covid_19_data/csse_covid_19_time_series/time_series_covid19_confirmed_global.csv" target="_blank" class="pr-ext-link">[ source: World COVID-19 Timeseries Confirmed Cases ]</a></span>
+	<mat-accordion class="pr-margin-top-30px pr-margin-bottom-30px">
+		<mat-expansion-panel [expanded]="true">
+			<mat-expansion-panel-header class="pr-padding-top-10px pr-padding-bottom-10px">
+				<mat-panel-title class="pr-font-chn">CONFIRMED CASES</mat-panel-title>
+				<mat-panel-description class="pr-font-chn">Expand to view the world's Confirmed Cases Dataset</mat-panel-description>
+			</mat-expansion-panel-header>
+			<span fxShow.xs="true" fxShow.sm="true" fxShow.md="false" fxShow.lg="false" fxShow.xl="false" class="pr-covid-smallscreen-notice">The dataset is better viewed on a larger screen such as a computer or laptop screen. It may be difficult / uncomfortable to view it on smaller mobile screens.</span>
+			<table mat-table #covidWorldTimeseriesConfirmedDatatable [dataSource]="COVID_WORLD_CONFIRMED_MAT_TABLE_DATASCOURCE" class="mat-elevation-z8 pr-datatable">
+				<ng-container *ngFor="let entry of covidWorldConfirmedTableDisplayedColumns; index as i" matColumnDef="{{entry}}" sticky="{{i < 2 ? true : false}}">
+					<mat-header-cell *matHeaderCellDef>{{covidWorldConfirmedData.getHeaders()[i]}}</mat-header-cell>
+					<mat-cell *matCellDef="let element">{{element[entry]}}</mat-cell>
+				</ng-container>
+				<mat-header-row *matHeaderRowDef="covidWorldConfirmedTableDisplayedColumns"></mat-header-row>
+				<mat-row *matRowDef="let row; columns: covidWorldConfirmedTableDisplayedColumns"></mat-row>
+			</table>
+			<mat-paginator #cwPaginator [pageSizeOptions]="[10, 20, 30, 50, 75, 100]" showFirstLastButtons></mat-paginator>
+		</mat-expansion-panel>
+	</mat-accordion>
+	<span class="pr-margin-top-10px pr-margin-bottom-10px"><a href="https://github.com/CSSEGISandData/COVID-19/blob/master/csse_covid_19_data/csse_covid_19_time_series/time_series_19-covid-Recovered.csv" target="_blank" class="pr-ext-link">[ source: World COVID-19 Timeseries Recoveries ]</a></span>
+	<mat-accordion class="pr-margin-top-30px pr-margin-bottom-30px">
+		<mat-expansion-panel [expanded]="true">
+			<mat-expansion-panel-header class="pr-padding-top-10px pr-padding-bottom-10px">
+				<mat-panel-title class="pr-font-chn">RECOVERY CASES</mat-panel-title>
+				<mat-panel-description class="pr-font-chn">Expand to view the world's Recovery Cases Dataset</mat-panel-description>
+			</mat-expansion-panel-header>
+			<span fxShow.xs="true" fxShow.sm="true" fxShow.md="false" fxShow.lg="false" fxShow.xl="false" class="pr-covid-smallscreen-notice">The dataset is better viewed on a larger screen such as a computer or laptop screen. It may be difficult / uncomfortable to view it on smaller mobile screens.</span>
+			<table mat-table #covidTimeseriesRecoveryDatatable [dataSource]="COVID_WORLD_RECOVERED_MAT_TABLE_DATASCOURCE" class="mat-elevation-z8 pr-datatable">
+				<ng-container *ngFor="let entry of covidWorldRecoveredTableDisplayedColumns; index as i" matColumnDef="{{entry}}" sticky="{{i < 2 ? true : false}}">
+					<mat-header-cell *matHeaderCellDef>{{covidWorldRecoveryData.getHeaders()[i]}}</mat-header-cell>
+					<mat-cell *matCellDef="let element">{{element[entry]}}</mat-cell>
+				</ng-container>
+				<mat-header-row *matHeaderRowDef="covidWorldRecoveredTableDisplayedColumns"></mat-header-row>
+				<mat-row *matRowDef="let row; columns: covidWorldRecoveredTableDisplayedColumns"></mat-row>
+			</table>
+			<mat-paginator #rwPaginator [pageSizeOptions]="[10, 20, 30, 50, 75, 100]" showFirstLastButtons></mat-paginator>
+		</mat-expansion-panel>
+	</mat-accordion>
+	<span class="pr-margin-top-10px pr-margin-bottom-10px"><a href="https://github.com/CSSEGISandData/COVID-19/blob/master/csse_covid_19_data/csse_covid_19_time_series/time_series_covid19_deaths_global.csv" target="_blank" class="pr-ext-link">[ source: World COVID-19 Timeseries Deceased ]</a></span>
+	<mat-accordion class="pr-margin-top-30px pr-margin-bottom-30px">
+		<mat-expansion-panel [expanded]="true">
+			<mat-expansion-panel-header class="pr-padding-top-10px pr-padding-bottom-10px">
+				<mat-panel-title class="pr-font-chn">DECEASED CASES</mat-panel-title>
+				<mat-panel-description class="pr-font-chn">Expand to view the world's Death Cases Dataset</mat-panel-description>
+			</mat-expansion-panel-header>
+			<span fxShow.xs="true" fxShow.sm="true" fxShow.md="false" fxShow.lg="false" fxShow.xl="false" class="pr-covid-smallscreen-notice">The dataset is better viewed on a larger screen such as a computer or laptop screen. It may be difficult / uncomfortable to view it on smaller mobile screens.</span>
+			<table mat-table #covidTimeseriesDeathDatatable [dataSource]="COVID_WORLD_DEATH_MAT_TABLE_DATASCOURCE" class="mat-elevation-z8 pr-datatable">
+				<ng-container *ngFor="let entry of covidWorldDeathTableDisplayedColumns; index as i" matColumnDef="{{entry}}" sticky="{{i < 2 ? true : false}}">
+					<mat-header-cell *matHeaderCellDef>{{covidWorldDeathData.getHeaders()[i]}}</mat-header-cell>
+					<mat-cell *matCellDef="let element">{{element[entry]}}</mat-cell>
+				</ng-container>
+				<mat-header-row *matHeaderRowDef="covidWorldDeathTableDisplayedColumns"></mat-header-row>
+				<mat-row *matRowDef="let row; columns: covidWorldDeathTableDisplayedColumns"></mat-row>
+			</table>
+			<mat-paginator #dwPaginator [pageSizeOptions]="[10, 20, 30, 50, 75, 100]" showFirstLastButtons></mat-paginator>
+		</mat-expansion-panel>
+	</mat-accordion>
+</div>

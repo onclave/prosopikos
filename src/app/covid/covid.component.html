@@ -1,7 +1,7 @@
 <section class="pr-covid pr-no-focus" fxLayout="column">
     <div fxLayout="column" class="pr-covid-heading-container pr-non-selectable pr-no-focus">
         <span class="pr-covid-heading-1 pr-font-chn pr-uppercase pr-font-size-1-em">an overview of</span>
-        <div class="pr-covid-heading-2 pr-font-nang pr-font-size-3-em pr-line-height-1-5-em">
+        <div class="pr-covid-heading-2 pr-font-nang pr-font-size-1-8-em pr-line-height-1-5-em">
             <span class="pr-color-gray-1">(</span>
             <span class="pr-color-watermelon">CO</span>
             <span class="pr-color-gray-1">)</span>rona 
@@ -16,24 +16,36 @@
             <span class="pr-color-gray-1">)</span>
         </div>
         <span class="pr-covid-heading-3 pr-font-chn pr-uppercase pr-font-size-1-3-em">Dept. of Computer Science &amp; Engineering, University of Kalyani</span>
-        <div class="pr-covid-hitcount">
-            <img src="https://hitcounter.pythonanywhere.com/count/tag.svg?url=https%3A%2F%2Fdebacharya.com%2Fcovid" alt="Hits">
+    </div>
+    <div fxLayout="row" fxLayoutAlign="space-around center" class="pr-banner-container">
+        <div fxLayout="column" fxLayoutAlign="center stretch" fxFlex="40" fxShow.xs="false" fxShow.sm="false" fxShow.md="true" fxShow.lg="true" fxShow.xl="true" class="pr-margin-right-15px">
+            <span class="pr-covid-initiative pr-font-nang pr-non-selectable pr-no-focus">Department of Computer Science along with Department of Statistics, University of Kalyani, has taken this initiative to develop an interactive site to view and interact with the daily available nCoV-2019 pandemic from various sources. The timeseries data available from various sources are used, especially for students, researchers, data analysts, data engineers and other experts to create <span class="pr-analysis-important-marker">interactive graphs, charts and plots to visualize the progress of different regions of India, and / or different countries around the globe</span> and also to understand how various countries and / or regions within India are comparing against one another while fighting against this deadly disease.</span>
+            <div class="pr-covid-hitcount">
+                <img src="https://hitcounter.pythonanywhere.com/count/tag.svg?url=https%3A%2F%2Fdebacharya.com%2Fcovid" alt="Hits">
+            </div>
+        </div>
+        <div fxLayout="column" fxLayoutAlign="start center" fxFlex.xs="100" fxFlex.sm="100" fxFlex.md="60" fxFlex.lg="60" fxFlex.xl="60">
+            <app-covid-map></app-covid-map>
         </div>
     </div>
-    <mat-tab-group dynamicHeight>
-        <mat-tab label="COVID-19 REPORT">
-            <div class="pr-map-accordion-container">
-                <app-covid-map></app-covid-map>
-            </div>
-            <app-covid-confirmed></app-covid-confirmed>
-            <app-covid-death></app-covid-death>
-            <app-covid-recovered></app-covid-recovered>
+    <div fxLayout="row" fxLayoutAlign="center center" fxShow.xs="true" fxShow.sm="true" fxShow.md="false" fxShow.lg="false" fxShow.xl="false" class="pr-margin-top-30px pr-margin-bottom-10px">
+		<span class="pr-analysis-report-subtitle">Kindly use a larger screen device for better view and interaction with charts!</span>
+	</div>
+    <mat-tab-group (selectedTabChange)="tabChanged($event)" dynamicHeight>
+        <mat-tab label="INDIA">
+            <app-covid-india></app-covid-india>
+        </mat-tab>
+        <mat-tab label="WORLD">
+            <app-covid-world></app-covid-world>
         </mat-tab>
         <mat-tab label="ANALYSIS">
             <app-covid-analysis></app-covid-analysis>
         </mat-tab>
         <mat-tab label="NEWS">
             <app-covid-news></app-covid-news>
+        </mat-tab>
+        <mat-tab label="DATASETS">
+            <app-covid-datasets></app-covid-datasets>
         </mat-tab>
         <mat-tab label="ABOUT">
             <app-covid-about></app-covid-about>
@@ -50,5 +62,20 @@
     <div class="pr-covid-notice-container">
         <span class="pr-covid-notice-header pr-font-chn">IMPORTANT NOTICE [ 23 / 3 / 2020 ]:</span>
         <span class="pr-covid-notice-body pr-font-chn">Please note that there has been major changes to the way the original dataset is populated from which this analysis is based on. Since 23 / 3 / 2020, there has been major changes to the way the data is being collected at the source which leads to changes in this analysis. Two sources have changed, namely the source for CONFIRMED CASES and the source for REPORTED DEATHS. In addition to that, the source has also mentioned that the REPORTED RECOVERY data may be outdated since it is harder to collect this data. There is no guarantee whether this data will be updated in the future. You may read more about this <a href="https://github.com/CSSEGISandData/COVID-19/issues/1250" target="_blank" class="pr-ext-link">here</a>. If you have any other sources of data, kindly share it with us. Thank you!</span>
+    </div>
+    <app-covid-contribution></app-covid-contribution>
+    <div fxLayout="column" fxLayoutAlign="center stretch" fxShow.xs="true" fxShow.sm="true" fxShow.md="false" fxShow.lg="false" fxShow.xl="false" class="pr-margin-top-30px pr-margin-sides-10p">
+        <span class="pr-covid-initiative pr-font-nang pr-non-selectable pr-no-focus">Department of Computer Science along with Department of Statistics, University of Kalyani, has taken this initiative to develop an interactive site to view and interact with the daily available nCoV-2019 pandemic from various sources. The timeseries data available from various sources are used, especially for students, researchers, data analysts, data engineers and other experts to create <span class="pr-analysis-important-marker">interactive graphs, charts and plots to visualize the progress of different regions of India, and / or different countries around the globe</span> and also to understand how various countries and / or regions within India are comparing against one another while fighting against this deadly disease.</span>
+    </div>
+    <div fxLayout="column" fxLayoutAlign="center stretch" class="pr-margin-top-10px pr-margin-sides-10p">
+        <span class="pr-covid-initiative pr-font-nang pr-non-selectable pr-no-focus">It is important to inform that <span class="pr-analysis-important-marker">we maintain our own datasets</span> for the Indian subcontinent. Our team works tirelessly to update the dataset daily by collecting data from various reputable sources, tallying them, and maintaining timeseries datasets as truthful as possible. We have written a few scripts and developed a few tools in order to achieve this. All datasets, tools, scripts and further information about this is available <a href="https://github.com/kalyaniuniversity/COVID-19-Datasets" target="_blank" class="pr-ext-link">here</a>. You can also view the datasets under the <span class="pr-analysis-important-marker">DATASETS</span> tab on this site.</span>
+        <span class="pr-covid-initiative pr-font-nang pr-non-selectable pr-no-focus">Kindy bear in mind that this is <span class="pr-analysis-warning-marker">in no way, an effort to show the latest updated progress daily data.</span> Even though our dataset and our process of updating the data may provide you with the most recent changes, we urge you to follow <a href="https://www.covid19india.org/" target="_blank" class="pr-ext-link">covid19india.org</a> site for that, since they are doing an excellent work as a crowdsourced initiative. A major portion of our data update task depend on their dataset as well.</span>
+        <div fxLayout="column" fxLayoutAlign="start center">
+            <span class="pr-hashtag-1 pr-margin-top-10px">#StayHome #StaySafe</span>
+            <span class="pr-covid-appricate pr-font-cav pr-margin-top-10px">We stand with everyone fighting in the frontlines</span>
+        </div>
+        <div class="pr-covid-hitcount">
+            <img src="https://hitcounter.pythonanywhere.com/count/tag.svg?url=https%3A%2F%2Fdebacharya.com%2Fcovid" alt="Hits">
+        </div>
     </div>
 </section>

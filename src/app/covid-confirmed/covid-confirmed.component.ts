@@ -434,23 +434,13 @@ export class CovidConfirmedComponent implements OnInit {
 	private covidConfirmedCallback = function() {
 
 		this.isLoading = false;
+
 		this.latestCovidConfirmedDate = this.workhorse.getLatestCovidDatasetDate(this.covidConfirmedData);
 
 		this.prepareCovidConfirmedTableData()
 		this.covidMapService.initMap(this.covidMapService.getMapObject(), this.covidConfirmedData, this.coviddataService.getDeathCovidData(), false);
 		this.covidAnalysisService.prepareCovidAnalysisTemperatureToInfectionLineGraph(this.workhorse.selectNRandomProvinces(this.covidConfirmedData, this.covidAnalysisService.getCovidAnalysisTemperatureToInfectionLineGraph().totalSelection, this.getConvidConfirmedTotalNumberOfCountriesInfected()));
-
-
-
-
-
 		this.covidAnalysisService.prepareCovidAnalysisTemperatureToInfectionSelectedLineGraph(this.workhorse.selectAllProvinces(this.covidConfirmedData), this.covidAnalysisService.getCovidAnalysisTemperatureToInfectionSelectedLineGraph().chunks, this.covidAnalysisService.getCovidAnalysisTemperatureToInfectionSelectedLineGraph().latestDays);
-
-
-
-
-
-
 		this.prepareCovidConfirmedChartInfectedCountry(this.covidConfirmedChartInfectedCountry.selectedCountryCount);
 		this.prepareCovidConfirmedChartInfectedCountryProportion(this.covidConfirmedChartInfectedCountryProportion.selectedCountryCount);
 		this.prepareCovidConfirmedChartInfectedCountryProgress(this.covidConfirmedChartInfectedCountryInfectionProgress.selectedCountry, this.covidConfirmedChartInfectedCountryInfectionProgress.latestDays);

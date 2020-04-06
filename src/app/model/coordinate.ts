@@ -17,6 +17,10 @@ export class Coordinate {
 		return String(Math.round((+this.latitude + Number.EPSILON) * 1000) / 1000);
 	}
 
+	public getAbsoluteLatitude(): number {
+		return Math.abs(+this.latitude);
+	}
+
 	public getLongitude(): string {
 		return this.longitude;
 	}

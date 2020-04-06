@@ -30,16 +30,20 @@ import { MatSelectModule } from '@angular/material/select';
 import { MatSnackBarModule } from '@angular/material/snack-bar';
 import { MatPaginatorModule } from '@angular/material/paginator';
 import { MatButtonToggleModule } from '@angular/material/button-toggle';
+import { MatSlideToggleModule } from '@angular/material/slide-toggle';
+import { MatRadioModule } from '@angular/material/radio';
+import { MatCheckboxModule } from '@angular/material/checkbox';
 
 import { NgxChartsModule } from '@swimlane/ngx-charts';
-import { CovidDeathComponent } from './covid-death/covid-death.component';
-import { CovidConfirmedComponent } from './covid-confirmed/covid-confirmed.component';
-import { CovidRecoveredComponent } from './covid-recovered/covid-recovered.component';
 import { CovidHelpComponent } from './covid-help/covid-help.component';
 import { CovidAboutComponent } from './covid-about/covid-about.component';
 import { CovidMapComponent } from './covid-map/covid-map.component';
 import { CovidNewsComponent } from './covid-news/covid-news.component';
 import { CovidAnalysisComponent } from './covid-analysis/covid-analysis.component';
+import { CovidIndiaComponent } from './covid-india/covid-india.component';
+import { CovidWorldComponent } from './covid-world/covid-world.component';
+import { CovidContributionComponent } from './covid-contribution/covid-contribution.component';
+import { CovidDatasetsComponent } from './covid-datasets/covid-datasets.component';
 
 
 @NgModule({
@@ -47,14 +51,15 @@ import { CovidAnalysisComponent } from './covid-analysis/covid-analysis.componen
 		AppComponent,
 		HomeComponent,
 		CovidComponent,
-		CovidDeathComponent,
-		CovidConfirmedComponent,
-		CovidRecoveredComponent,
 		CovidHelpComponent,
 		CovidAboutComponent,
 		CovidMapComponent,
 		CovidNewsComponent,
-		CovidAnalysisComponent
+		CovidAnalysisComponent,
+		CovidIndiaComponent,
+		CovidWorldComponent,
+		CovidContributionComponent,
+		CovidDatasetsComponent
 	],
 	imports: [
 		BrowserModule,
@@ -79,6 +84,9 @@ import { CovidAnalysisComponent } from './covid-analysis/covid-analysis.componen
 		MatSnackBarModule,
 		MatPaginatorModule,
 		MatButtonToggleModule,
+		MatSlideToggleModule,
+		MatRadioModule,
+		MatCheckboxModule,
 		HttpClientModule,
 		FormsModule,
 		LayoutModule

@@ -1,0 +1,159 @@
+<div fxLayout="column" class="pr-covid-tab-analysis">
+	<div fxLayout="column" class="pr-margin-sides-10p pr-margin-top-10px pr-margin-bottom-30px">
+		<span *ngIf="isConfirmedLoading || isRecoveredLoading || isDeathLoading" class="pr-covid-loading-message pr-font-chn pr-margin-bottom-10px">Loading data ...</span>
+		<mat-progress-bar mode="indeterminate" *ngIf="isConfirmedLoading || isRecoveredLoading || isDeathLoading"></mat-progress-bar>
+	</div>
+	<div fxLayout="column">
+		<span><span class="pr-covid-notice-header pr-font-chn">SOURCE DATA HAS CHANGED SINCE 23 / 3 / 2020</span></span>
+		<span><span class="pr-covid-notice-header pr-font-chn">SOURCE DATA FOR RECOVERY IN NOW BEING UPDATED AGAIN BUT MAY BE ONE DAY BEHIND OTHER DATA</span></span>
+	</div>
+	<span class="pr-analysis-heading pr-font-chn pr-margin-top-30px">covid-19 reported confirmed cases as of <span class="pr-color-watermelon">{{latestCovidConfirmedDate}}</span>, recovered cases as of <span class="pr-color-watermelon">{{latestCovidRecoveryDate}}</span> and deceased cases as of <span class="pr-color-watermelon">{{latestCovidDeathDate}}</span> (mm/dd/yyyy)</span>
+	<div fxLayout="column" class="pr-margin-top-10px">
+		<div fxLayout.xs="column" fxLayout.sm="column" fxLayout.md="row" fxLayout.lg="row" fxLayout.xl="row">
+			<div fxLayout="column" fxFlex.md="50" fxFlex.lg="50" fxFlex.xl="50" class="pr-analysis-report-container">
+				<span class="pr-analysis-report-header pr-font-chn">Total Infected:</span>
+				<span class="pr-analysis-report-data pr-font-chn">{{workhorse.getCovidTotalAffected(covidConfirmedData) | number}}</span>
+			</div>
+			<div fxLayout="column" fxFlex.md="50" fxFlex.lg="50" fxFlex.xl="50" class="pr-analysis-report-container">
+				<span class="pr-analysis-report-header pr-font-chn">Total Recoveries:</span>
+				<span class="pr-analysis-report-data pr-font-chn">{{workhorse.getCovidTotalAffected(covidRecoveryData) | number}}</span>
+			</div>
+			<div fxLayout="column" fxFlex.md="50" fxFlex.lg="50" fxFlex.xl="50" class="pr-analysis-report-container">
+				<span class="pr-analysis-report-header pr-font-chn">Total Deceased:</span>
+				<span class="pr-analysis-report-data pr-font-chn">{{workhorse.getCovidTotalAffected(covidDeathData) | number}}</span>
+			</div>
+		</div>
+		<div fxLayout.xs="column" fxLayout.sm="column" fxLayout.md="row" fxLayout.lg="row" fxLayout.xl="row">
+			<div fxLayout="column" fxFlex.md="50" fxFlex.lg="50" fxFlex.xl="50" class="pr-analysis-report-container">
+				<span class="pr-analysis-report-header pr-font-chn">Country with Highest Infection:</span>
+				<span class="pr-analysis-report-data pr-font-chn">{{getCovidHighestCountryAffected(covidConfirmedData)}}</span>
+			</div>
+			<div fxLayout="column" fxFlex.md="50" fxFlex.lg="50" fxFlex.xl="50" class="pr-analysis-report-container">
+				<span class="pr-analysis-report-header pr-font-chn">Country with Highest Recovery:</span>
+				<span class="pr-analysis-report-data pr-font-chn">{{getCovidHighestCountryAffected(covidRecoveryData)}}</span>
+			</div>
+			<div fxLayout="column" fxFlex.md="50" fxFlex.lg="50" fxFlex.xl="50" class="pr-analysis-report-container">
+				<span class="pr-analysis-report-header pr-font-chn">Country with Highest Deceased:</span>
+				<span class="pr-analysis-report-data pr-font-chn">{{getCovidHighestCountryAffected(covidDeathData)}}</span>
+			</div>
+		</div>
+		<div fxLayout.xs="column" fxLayout.sm="column" fxLayout.md="row" fxLayout.lg="row" fxLayout.xl="row">
+			<div fxLayout="column" fxFlex.md="50" fxFlex.lg="50" fxFlex.xl="50" class="pr-analysis-report-container">
+				<span class="pr-analysis-report-header pr-font-chn">{{getCovidHighestCountryAffected(covidConfirmedData, true)}}'s total Infection:</span>
+				<span class="pr-analysis-report-data pr-font-chn">{{getCovidHighestCountryAffectedCount(covidConfirmedData) | number}}</span>
+			</div>
+			<div fxLayout="column" fxFlex.md="50" fxFlex.lg="50" fxFlex.xl="50" class="pr-analysis-report-container">
+				<span class="pr-analysis-report-header pr-font-chn">{{getCovidHighestCountryAffected(covidRecoveryData, true)}}'s total Recovery:</span>
+				<span class="pr-analysis-report-data pr-font-chn">{{getCovidHighestCountryAffectedCount(covidRecoveryData) | number}}</span>
+			</div>
+			<div fxLayout="column" fxFlex.md="50" fxFlex.lg="50" fxFlex.xl="50" class="pr-analysis-report-container">
+				<span class="pr-analysis-report-header pr-font-chn">{{getCovidHighestCountryAffected(covidDeathData, true)}}'s total Deceased:</span>
+				<span class="pr-analysis-report-data pr-font-chn">{{getCovidHighestCountryAffectedCount(covidDeathData) | number}}</span>
+			</div>
+		</div>
+		<div fxLayout.xs="column" fxLayout.sm="column" fxLayout.md="row" fxLayout.lg="row" fxLayout.xl="row">
+			<div fxLayout="column" fxFlex.md="50" fxFlex.lg="50" fxFlex.xl="50" class="pr-analysis-report-container">
+				<span class="pr-analysis-report-header pr-font-chn">Total Number of Countries Infected:</span>
+				<span class="pr-analysis-report-data pr-font-chn">{{getTotalNumberOfCountriesInfected()}}</span>
+			</div>
+		</div>
+	</div>
+	<div class="pr-covid-analysis-writeup pr-font-chn">
+		With COVID-19 becoming a pandemic, it has globally infected around {{getCovidHighestCountryAffectedCount(covidConfirmedData) | number}} people. It started in Wuhan, China, but today it has spread across {{getTotalNumberOfCountriesInfected()}} countries. {{getCovidHighestCountryAffected(covidConfirmedData)}} has the highest number of positive cases ranging to around {{getCovidHighestCountryAffectedCount(covidConfirmedData) | number}}, as of {{latestCovidConfirmedDate}}.
+	</div>
+	<div class="pr-covid-analysis-writeup pr-font-chn">
+		Total number of recoveries globally accounts to {{getCovidHighestCountryAffectedCount(covidRecoveryData) | number}}. {{getCovidHighestCountryAffected(covidRecoveryData)}} records the highest number of recoveries at around {{getCovidHighestCountryAffectedCount(covidRecoveryData) | number}}. 
+	</div>
+	<div class="pr-covid-analysis-writeup pr-font-chn">
+		Unfortuantely, this virus is fatal when infected. The fatality rate across the globe is low but still a threat as time passes by. This novel Coronavirus has taken {{getCovidHighestCountryAffected(covidDeathData)}} lives globally. Total number of deaths in {{getCovidHighestCountryAffected(covidDeathData, true)}}, which is {{getCovidHighestCountryAffectedCount(covidDeathData) | number}} has surpassed China's toll, making it the country with the highest fatality rate.
+	</div>
+	<div fxLayout="column" fxLayoutAlign="center stretch" class="dark pr-chart-container pr-margin-top-10vh pr-non-selectable pr-no-focus">
+		<div fxLayout="column" class="pr-analysis-report-container">
+			<span class="pr-analysis-report-header pr-font-chn">World against 2019-nCoV:</span>
+			<mat-slide-toggle [checked]="covidWorldProgressLineChart.showAllCountries" (change)="onChangeShowCountrywiseInfectionToggle($event)" color="warn" class="pr-font-chn pr-font-size-1-2-em">Toggle this switch to view a comparative progress of <span class="pr-color-watermelon">{{covidWorldProgressLineChart.allCountriesToggleMessage}}</span></mat-slide-toggle>
+			<div fxLayout="column" fxShow="{{covidWorldProgressLineChart.showAllCountries}}" class="pr-margin-top-10px pr-margin-bottom-10px">
+				<span class="pr-analysis-report-subtitle">Select below, the type of plot to show!</span>
+				<mat-radio-group [(ngModel)]="covidWorldProgressLineChart.countrywisePlotSelection" fxLayout.xs="column" fxLayout.sm="column" fxLayout.md="row" fxLayout.lg="row" fxLayout.xl="row" fxLayoutAlign.xs="start start" fxLayoutAlign.sm="start start" fxLayoutAlign.md="space-around start" fxLayoutAlign.lg="space-around start" fxLayoutAlign.xl="space-around start" aria-label="Select an option to view the graph" class="pr-margin-top-10px pr-color-pink-1 pr-font-chn pr-font-size-1-2-em">
+					<mat-radio-button (change)="onChangeSelectCountrywiseLineChartToShow($event)" value="1" color="primary" class="pr-padding-top-10px pr-padding-bottom-10px">Infection Plot</mat-radio-button>
+					<mat-radio-button (change)="onChangeSelectCountrywiseLineChartToShow($event)" value="2" color="primary" class="pr-padding-top-10px pr-padding-bottom-10px">Recovery Plot</mat-radio-button>
+					<mat-radio-button (change)="onChangeSelectCountrywiseLineChartToShow($event)" value="3" color="primary" class="pr-padding-top-10px pr-padding-bottom-10px">Deceased Plot</mat-radio-button>
+				</mat-radio-group>
+			</div>
+			<div fxLayout.xs="column" fxLayout.sm="column" fxLayout.md="row" fxLayout.lg="row" fxLayout.xl="row" fxLayoutAlign.xs="start start" fxLayoutAlign.sm="start start" fxLayoutAlign.md="space-around start" fxLayoutAlign.lg="space-around start" fxLayoutAlign.xl="space-around start">
+				<span class="pr-analysis-report-subtitle pr-margin-top-10px">Total Infection: <span class="pr-color-watermelon pr-font-chn">{{workhorse.getCovidTotalInfected(covidConfirmedData) | number}}</span></span>
+				<span class="pr-analysis-report-subtitle pr-margin-top-10px">Total Recovered: <span class="pr-color-watermelon pr-font-chn">{{workhorse.getCovidTotalRecovered(covidRecoveryData) | number}}</span></span>
+				<span class="pr-analysis-report-subtitle pr-margin-top-10px">Total Deceased: <span class="pr-color-watermelon pr-font-chn">{{workhorse.getCovidTotalDeaths(covidDeathData) | number}}</span></span>
+			</div>
+			<div fxLayout="row" fxLayoutAlign="center start" class="pr-margin-top-10px">
+				<mat-form-field fxFlex.xs="80" fxFlex.sm="80" fxFlex.md="50" fxFlex.lg="50" fxFlex.xl="50" class="pr-margin-left-15px pr-margin-right-15px">
+					<mat-label>Select the latest number of days to show</mat-label>
+					<mat-select [(ngModel)]="covidWorldProgressLineChart.latestDays" (selectionChange)="onSelectorChangeCovidWorldProgressLineChartLatestDays($event)">
+						<mat-option *ngFor="let days of workhorse.getNumberOfDaysArray(covidConfirmedData, true) | slice: 1; let i = index" [value]="i + 2">{{i + 2}}</mat-option>
+					</mat-select>
+				</mat-form-field>
+			</div>
+		</div>
+		<div fxLayout="row" fxLayoutAlign="center center">
+			<ngx-charts-line-chart [view]="covidWorldProgressLineChart.view" [scheme]="covidWorldProgressLineChart.colorScheme" [results]="covidWorldProgressLineChart.multi" [xAxis]="covidWorldProgressLineChart.showXAxis" [yAxis]="covidWorldProgressLineChart.showYAxis" [legend]="covidWorldProgressLineChart.showLegend" [showXAxisLabel]="covidWorldProgressLineChart.showXAxisLabel" [showYAxisLabel]="covidWorldProgressLineChart.showYAxisLabel" [xAxisLabel]="covidWorldProgressLineChart.xAxisLabel" [yAxisLabel]="covidWorldProgressLineChart.yAxisLabel" [legendPosition]="covidWorldProgressLineChart.legendPosition" (select)="onSelectCovidWorldProgressLineChart($event)"></ngx-charts-line-chart>
+		</div>
+	</div>
+	<div class="pr-covid-analysis-writeup pr-font-chn">
+		In this interactive graph, you can view a progress of how the world is fighting against this pandemic for the past {{covidWorldProgressLineChart.latestDays}} days. You can also toggle the slider to view how all the affected countries are doing in comparison to each other.
+	</div>
+	<div fxLayout="row" fxLayoutAlign="center center" fxShow.xs="true" fxShow.sm="true" fxShow.md="false" fxShow.lg="false" fxShow.xl="false" class="pr-margin-top-30px">
+		<span class="pr-analysis-report-subtitle">Kindly use a larger screen device for better view and interaction with charts!</span>
+	</div>
+	<div fxLayout="column" fxLayoutAlign="start stretch" class="dark pr-chart-container pr-margin-top-10vh pr-non-selectable pr-no-focus">
+		<div fxLayout="column" class="pr-analysis-report-container">
+			<span class="pr-analysis-report-header pr-font-chn">{{covidWorldCountriesBarGraph.selectedCountriesCount}} Most Infected Regions:</span>
+			<mat-slider min="1" max="{{getMaxCountryCountAvailableInAllDatasets()}}" step="1" [(ngModel)]="covidWorldCountriesBarGraph.selectedCountriesCount" (input)="onSliderChangeCovidWorldCountriesBarGraph($event)" thumbLabel></mat-slider>
+			<span class="pr-analysis-report-subtitle">Use the slider to change the number of affected countries to show!</span>
+			<span class="pr-analysis-report-subtitle pr-margin-top-10px">You can check / uncheck options below to configure the stacked bar graph data visual.</span>
+			<div fxLayout.xs="column" fxLayout.sm="column" fxLayout.md="row" fxLayout.lg="row" fxLayout.xl="row" fxLayoutAlign.xs="start start" fxLayoutAlign.sm="start start" fxLayoutAlign.md="space-around start" fxLayoutAlign.lg="space-around start" fxLayoutAlign.xl="space-around start" class="pr-margin-top-10px pr-color-pink-1 pr-font-chn pr-font-size-1-2-em">
+				<mat-checkbox [(ngModel)]="covidWorldCountriesBarGraph.viewInfected" (change)="onCheckboxSelectionChangeCovidWorldCountriesBarGraphDataStack($event)" color="primary" class="pr-padding-top-10px pr-padding-bottom-10px">Stack Infected Data</mat-checkbox>
+				<mat-checkbox [(ngModel)]="covidWorldCountriesBarGraph.viewRecovered" (change)="onCheckboxSelectionChangeCovidWorldCountriesBarGraphDataStack($event)" color="accent" class="pr-padding-top-10px pr-padding-bottom-10px">Stack Recovered Data</mat-checkbox>
+				<mat-checkbox [(ngModel)]="covidWorldCountriesBarGraph.viewDeceased" (change)="onCheckboxSelectionChangeCovidWorldCountriesBarGraphDataStack($event)" color="warn" class="pr-padding-top-10px pr-padding-bottom-10px">Stack Deceased Data</mat-checkbox>
+			</div>
+		</div>
+		<div fxLayout="row" fxLayoutAlign="center center">
+			<ngx-charts-bar-vertical-stacked [view]="covidWorldCountriesBarGraph.view" [scheme]="covidWorldCountriesBarGraph.colorScheme" [results]="covidWorldCountriesBarGraph.multi" [gradient]="covidWorldCountriesBarGraph.gradient" [xAxis]="covidWorldCountriesBarGraph.showXAxis" [yAxis]="covidWorldCountriesBarGraph.showYAxis" [legend]="covidWorldCountriesBarGraph.showLegend" [showXAxisLabel]="covidWorldCountriesBarGraph.showXAxisLabel" [showYAxisLabel]="covidWorldCountriesBarGraph.showYAxisLabel" [xAxisLabel]="covidWorldCountriesBarGraph.xAxisLabel" [yAxisLabel]="covidWorldCountriesBarGraph.yAxisLabel" (select)="onSelectCovidWorldCountriesBarGraph($event)"></ngx-charts-bar-vertical-stacked>
+		</div>
+	</div>
+	<div class="pr-covid-analysis-writeup pr-font-chn">
+		This interactive graph gives you the control to stack multiple types of data with one another for the type of comparison required. It shows the top {{covidWorldCountriesBarGraph.selectedCountriesCount}} most infected countries where the virus has spread with {{getCovidHighestCountryAffected(covidConfirmedData)}} leading in most number of reported infections. It can also show the number of recoveries in each country and / or the number of recovered patients. The different data for each region can be stacked together for a better visual comparison. We have prepared this graph with data since 24th January 2020. It displays the updated infection count of different countries around the world. You can view how each country has been affected by the deadly virus by using the slider.
+	</div>
+	<div fxLayout="row" fxLayoutAlign="center center" fxShow.xs="true" fxShow.sm="true" fxShow.md="false" fxShow.lg="false" fxShow.xl="false" class="pr-margin-top-30px">
+		<span class="pr-analysis-report-subtitle">Kindly use a larger screen device for better view and interaction with charts!</span>
+	</div>
+	<div fxLayout="column" fxLayoutAlign="center stretch" class="dark pr-chart-container pr-margin-top-10vh pr-non-selectable pr-no-focus">
+		<div fxLayout="column" class="pr-analysis-report-container">
+			<span class="pr-analysis-report-header pr-font-chn">{{covidWorldCountryProgressLineChart.selectedCountry}} against 2019-nCoV:</span>
+			<div fxLayout.xs="column" fxLayout.sm="column" fxLayout.md="row" fxLayout.lg="row" fxLayout.xl="row" fxLayoutAlign.xs="start start" fxLayoutAlign.sm="start start" fxLayoutAlign.md="space-around start" fxLayoutAlign.lg="space-around start" fxLayoutAlign.xl="space-around start">
+				<span class="pr-analysis-report-subtitle pr-margin-top-10px">Total Infection: <span class="pr-color-watermelon pr-font-chn">{{workhorse.getCovidAffectedByCountry(covidConfirmedData, covidWorldCountryProgressLineChart.selectedCountry) | number}}</span></span>
+				<span class="pr-analysis-report-subtitle pr-margin-top-10px">Total Recovered: <span class="pr-color-watermelon pr-font-chn">{{workhorse.getCovidAffectedByCountry(covidRecoveryData, covidWorldCountryProgressLineChart.selectedCountry) | number}}</span></span>
+				<span class="pr-analysis-report-subtitle pr-margin-top-10px">Total Deceased: <span class="pr-color-watermelon pr-font-chn">{{workhorse.getCovidAffectedByCountry(covidDeathData, covidWorldCountryProgressLineChart.selectedCountry) | number}}</span></span>
+			</div>
+			<span class="pr-analysis-report-subtitle pr-margin-top-10px pr-margin-bottom-10px">Use the dropdowns below to select the region and number of days to show!</span>
+			<div fxLayout="row" fxLayoutAlign="center start" class="pr-margin-top-10px">
+				<mat-form-field fxFlex="50" class="pr-margin-left-15px pr-margin-right-15px">
+					<mat-label>Select a Country</mat-label>
+					<mat-select [(ngModel)]="covidWorldCountryProgressLineChart.selectedCountry" (selectionChange)="onSelectorChangeCovidWorldCountryProgressLineChartSelectedState($event)">
+						<mat-option *ngFor="let country of workhorse.getSortedCountryNames(covidConfirmedData)" [value]="country">{{country}}</mat-option>
+					</mat-select>
+				</mat-form-field>
+				<mat-form-field fxFlex="50" class="pr-margin-left-15px pr-margin-right-15px">
+					<mat-label>Select the latest number of days to show</mat-label>
+					<mat-select [(ngModel)]="covidWorldCountryProgressLineChart.latestDays" (selectionChange)="onSelectorChangeCovidWorldCountryProgressLineChartLatestDays($event)">
+						<mat-option *ngFor="let days of workhorse.getNumberOfDaysArray(covidConfirmedData) | slice: 1; let i = index" [value]="i + 2">{{i + 2}}</mat-option>
+					</mat-select>
+				</mat-form-field>
+			</div>
+		</div>
+		<div fxLayout="row" fxLayoutAlign="center start">
+			<ngx-charts-line-chart [view]="covidWorldCountryProgressLineChart.view" [scheme]="covidWorldCountryProgressLineChart.colorScheme" [results]="covidWorldCountryProgressLineChart.multi" [xAxis]="covidWorldCountryProgressLineChart.showXAxis" [yAxis]="covidWorldCountryProgressLineChart.showYAxis" [legend]="covidWorldCountryProgressLineChart.showLegend" [showXAxisLabel]="covidWorldCountryProgressLineChart.showXAxisLabel" [showYAxisLabel]="covidWorldCountryProgressLineChart.showYAxisLabel" [xAxisLabel]="covidWorldCountryProgressLineChart.xAxisLabel" [yAxisLabel]="covidWorldCountryProgressLineChart.yAxisLabel" [legendPosition]="covidWorldCountryProgressLineChart.legendPosition" (select)="onSelectCovidWorldCountryProgressLineChart($event)"></ngx-charts-line-chart>
+		</div>
+	</div>
+	<div class="pr-covid-analysis-writeup pr-font-chn">
+		This interactive graph shows {{covidWorldCountryProgressLineChart.selectedCountry}}'s progress against nCoV-2019 since the last {{covidWorldCountryProgressLineChart.latestDays}} days. A total number of {{workhorse.getCovidAffectedByCountry(covidConfirmedData, covidWorldCountryProgressLineChart.selectedCountry) | number}} patients are reportedly infected there, with {{workhorse.getCovidAffectedByCountry(covidRecoveryData, covidWorldCountryProgressLineChart.selectedCountry) | number}} recoveries and {{workhorse.getCovidAffectedByCountry(covidDeathData, covidWorldCountryProgressLineChart.selectedCountry) | number}} deceased.
+	</div>
+</div>

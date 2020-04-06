@@ -1,19 +1,20 @@
-.map-container {
+.pr-map-container {
 	margin: 0px;
 }
 
-.map-frame {
+.pr-map-frame {
 	height: 100%;
 }
 
-#map {
-	height: 550px;
+.pr-covid-map {
+	border-radius: 7px;
+	height: 450px;
 	width: auto;
 }
 
 .pr-map-action-info {
-	font-size: 1.1em;
+	font-size: 0.8em;
 	color: gainsboro;
 	line-height: 1.2em;
-	padding-bottom: 3%;
+	padding-top: 3%;
 }

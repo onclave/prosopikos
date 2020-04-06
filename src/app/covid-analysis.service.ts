@@ -18,8 +18,8 @@ export class CovidAnalysisService {
 		showLegend: false,
 		legendPosition: 'right',
 		showXAxisLabel: true,
-		showYAxisLabel: true,
-		xAxisLabel: "Latitude",
+		showYAxisLabel: false,
+		xAxisLabel: "abs(latitude)",
 		yAxisLabel: "Infection",
 		colorScheme: {
 			domain: [ '#D70518' ]
@@ -36,8 +36,8 @@ export class CovidAnalysisService {
 		showLegend: true,
 		legendPosition: 'right',
 		showXAxisLabel: true,
-		showYAxisLabel: true,
-		xAxisLabel: "Latitude",
+		showYAxisLabel: false,
+		xAxisLabel: "abs(latitude)",
 		yAxisLabel: "Infection",
 		colorScheme: {
 			domain: [ '#D70518', '#F55F96', '#F2ABC7', '#F2069F', '#F86660', '#BF110C', '#FF1610', '#DE8903', '#E84703' ]
@@ -78,7 +78,7 @@ export class CovidAnalysisService {
 		legendPosition: 'right',
 		showXAxisLabel: true,
 		showYAxisLabel: true,
-		xAxisLabel: "Latitude",
+		xAxisLabel: "abs(latitude)",
 		yAxisLabel: "Infection",
 		minRadius: 0,
 		xScaleMin: 0,
@@ -117,11 +117,11 @@ export class CovidAnalysisService {
 		if(provinces && (provinces.length > 0)) {
 
 			provinces.sort((a: Province, b: Province) => {
-				return +a.getCoordinates().getLatitude() - +b.getCoordinates().getLatitude();
+				return a.getCoordinates().getAbsoluteLatitude() - b.getCoordinates().getAbsoluteLatitude();
 			});
 
 			for(let province of provinces) newValues.push({
-				"name": province.getCoordinates().getRoundedLatitude(),
+				"name": province.getCoordinates().getAbsoluteLatitude(),
 				"value": province.getLastTimeseries().getValue()
 			});
 
@@ -143,7 +143,7 @@ export class CovidAnalysisService {
 			for(let i: number = 0; i < latestDays; i++) seriesList.push(new Array());
 
 			provinces.sort((a: Province, b: Province) => {
-				return +a.getCoordinates().getLatitude() - +b.getCoordinates().getLatitude();
+				return a.getCoordinates().getAbsoluteLatitude() - b.getCoordinates().getAbsoluteLatitude();
 			});
 
 			for(let chunk of chunks) {
@@ -153,7 +153,7 @@ export class CovidAnalysisService {
 
 				for(let i: number = 0; i < latestDays; i++)
 					for(let province of selectedProvinces) seriesList[i].push({
-						"name": province.getCoordinates().getRoundedLatitude(),
+						"name": province.getCoordinates().getAbsoluteLatitude(),
 						"value": province.getLatestNTimeseries(latestDays)[i].getValue()
 					});
 			}
@@ -185,7 +185,7 @@ export class CovidAnalysisService {
 				"name": province.getNameLabel(),
 				"series": [{
 					"name": "Confirmed Infections",
-					"x": province.getCoordinates().getRoundedLatitude(),
+					"x": province.getCoordinates().getAbsoluteLatitude(),
 					"y": province.getLastTimeseries().getValue(),
 					"r": province.getLastTimeseries().getValue()
 				}]

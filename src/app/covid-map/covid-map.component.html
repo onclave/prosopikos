@@ -1,20 +1,12 @@
-<mat-accordion>
-	<mat-expansion-panel [expanded]="true">
-		<mat-expansion-panel-header class="pr-padding-top-10px pr-padding-bottom-10px">
-			<mat-panel-title class="pr-font-chn">VIEW MAP</mat-panel-title>
-			<mat-panel-description class="pr-font-chn">Expand to view the Dataset plotted on a world map.</mat-panel-description>
-		</mat-expansion-panel-header>
-		<div class="map-container">
-			<div fxLayout="column" fxLayoutAlign="start center">
-				<span class="pr-map-action-info pr-font-nang">Interact with the map by using "Pinch-to-Zoom" / mouse scroll / swipe / drag actions. Click on the blue markers to view more information about the place.</span>
-			</div>
-			<div class="map-frame">
-				<div id="map"></div>
-			</div>
-		</div>
-	</mat-expansion-panel>
-</mat-accordion>
-
-
-
-
+<div class="pr-map-container pr-non-selectable pr-no-focus">
+	<div class="pr-map-frame">
+		<div id="map" class="pr-covid-map mat-elevation-z4 pr-non-selectable pr-no-focus"></div>
+	</div>
+	<mat-radio-group [(ngModel)]="selectedMapType" fxLayout.xs="column" fxLayout.sm="column" fxLayout.md="row" fxLayout.lg="row" fxLayout.xl="row" fxLayoutAlign.xs="start start" fxLayoutAlign.sm="start start" fxLayoutAlign.md="space-around start" fxLayoutAlign.lg="space-around start" fxLayoutAlign.xl="space-around start" aria-label="Select an option to view the map" class="pr-margin-top-30px pr-color-pink-1 pr-font-chn pr-font-size-1-2-em pr-non-selectable pr-no-focus">
+		<mat-radio-button (change)="onChangeSelectMapToShow($event)" value="1" color="warn" class="pr-padding-top-10px pr-padding-bottom-10px">Indian Map</mat-radio-button>
+		<mat-radio-button (change)="onChangeSelectMapToShow($event)" value="2" color="warn" class="pr-padding-top-10px pr-padding-bottom-10px">World Map</mat-radio-button>
+	</mat-radio-group>
+	<div fxLayout="column" fxLayoutAlign="start center">
+		<span class="pr-map-action-info pr-font-nang pr-non-selectable pr-no-focus">Interact with the map by using "Pinch-to-Zoom" / mouse scroll / swipe / drag actions. Click on the blue markers to view more information about the place.</span>
+	</div>
+</div>

@@ -27,7 +27,7 @@ export class CovidAnalysisComponent implements OnInit {
 	private coviddataService: CoviddataService;
 	private workhorse: WorkhorseService;
 
-	public covidConfirmedData: CovidData;
+	public covidWorldConfirmedData: CovidData;
 	public covidAnalysisTemperatureToInfectionLineGraph = null;
 	public covidAnalysisTemperatureToInfectionSelectedLineGraph = null;
 	public covidAnalysisTemperatureToInfectionScatterPlot = null;
@@ -45,7 +45,7 @@ export class CovidAnalysisComponent implements OnInit {
 
 	ngOnInit(): void {
 
-		this.covidConfirmedData = this.coviddataService.getConfirmedCovidData();
+		this.covidWorldConfirmedData = this.coviddataService.getWorldConfirmedCovidData();
 		this.covidAnalysisTemperatureToInfectionLineGraph = this.covidAnalysisService.getCovidAnalysisTemperatureToInfectionLineGraph();
 		this.covidAnalysisTemperatureToInfectionSelectedLineGraph = this.covidAnalysisService.getCovidAnalysisTemperatureToInfectionSelectedLineGraph();
 		this.covidAnalysisTemperatureToInfectionScatterPlot = this.covidAnalysisService.getCovidAnalysisTemperatureToInfectionScatterPlot();
@@ -53,7 +53,7 @@ export class CovidAnalysisComponent implements OnInit {
 		this.covidTemperatureLatitudeTableDisplayedColumns = this.covidAnalysisService.getCovidTemperatureLatitudeTableDisplayedColumns();
 
 		this.reshufflePlaces();
-		this.covidAnalysisService.prepareCovidAnalysisTemperatureToInfectionSelectedLineGraph(this.workhorse.selectAllProvinces(this.covidConfirmedData), this.covidAnalysisTemperatureToInfectionSelectedLineGraph.chunks, this.covidAnalysisTemperatureToInfectionSelectedLineGraph.latestDays);
+		this.covidAnalysisService.prepareCovidAnalysisTemperatureToInfectionSelectedLineGraph(this.workhorse.selectAllProvinces(this.covidWorldConfirmedData), this.covidAnalysisTemperatureToInfectionSelectedLineGraph.chunks, this.covidAnalysisTemperatureToInfectionSelectedLineGraph.latestDays);
 
 		this.breakpointObserver.observe([this.xs]).subscribe((state: BreakpointState) => {
 			if(state.matches) {
@@ -120,8 +120,8 @@ export class CovidAnalysisComponent implements OnInit {
 
 		let total: number = 0;
 
-		if(this.covidConfirmedData && this.covidConfirmedData.getCountries() && (this.covidConfirmedData.getCountries().length > 0))
-			for(let country of this.covidConfirmedData.getCountries()) total += country.getProvinces().length;
+		if(this.covidWorldConfirmedData && this.covidWorldConfirmedData.getCountries() && (this.covidWorldConfirmedData.getCountries().length > 0))
+			for(let country of this.covidWorldConfirmedData.getCountries()) total += country.getProvinces().length;
 
 		return total;
 	}
@@ -133,6 +133,6 @@ export class CovidAnalysisComponent implements OnInit {
 	}
 
 	public reshufflePlaces() {
-		this.covidAnalysisService.prepareCovidAnalysisTemperatureToInfectionLineGraph(this.workhorse.selectNRandomProvinces(this.covidConfirmedData, this.covidAnalysisTemperatureToInfectionLineGraph.totalSelection, this.getTotalNumberOfPlaces()));
+		this.covidAnalysisService.prepareCovidAnalysisTemperatureToInfectionLineGraph(this.workhorse.selectNRandomProvinces(this.covidWorldConfirmedData, this.covidAnalysisTemperatureToInfectionLineGraph.totalSelection, this.getTotalNumberOfPlaces()));
 	}
 }

@@ -80,20 +80,20 @@
 }
 
 .pr-analysis-report-header {
-    font-size: 1.5em;
+    font-size: 1.2em;
     line-height: 1.2em;
     color: #a9a9a9;
     padding-bottom: 15px;
 }
 
 .pr-analysis-report-data {
-    font-size: 2.5em;
+    font-size: 1.6em;
     line-height: 1.2em;
 }
 
 .pr-analysis-report-subtitle {
-    font-size: 0.9em;
-    color: #808080;
+    font-size: 1.1em;
+    color: #dcdcdc;
 }
 
 .pr-covid-loading-message {
@@ -146,4 +146,33 @@
 
 .pr-map-accordion-container {
     margin-top: 50px;
+}
+
+.pr-banner-container {
+    margin-left: 3%;
+    margin-right: 3%;
+}
+
+.pr-covid-initiative {
+    text-align: justify;
+    color: #dcdcdc;
+}
+
+.pr-analysis-important-marker {
+	background-color: #df5286;
+	color: white !important;
+	padding-left: 3px;
+	padding-right: 3px;
+}
+
+.pr-analysis-warning-marker {
+	background-color: #cc0000;
+	color: white !important;
+	padding-left: 3px;
+	padding-right: 3px;
+}
+
+.pr-covid-appricate {
+    font-size: 1.4em;
+    font-weight: bold;
 }

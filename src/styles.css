@@ -72,6 +72,10 @@ a:visited {
 	font-size: 1.1em;
 }
 
+.pr-font-size-1-2-em {
+	font-size: 1.2em;
+}
+
 .pr-font-size-1-3-em {
 	font-size: 1.3em;
 }
@@ -223,6 +227,10 @@ a:visited {
 	color: #fe7f9c;
 }
 
+.pr-color-pink-1 {
+	color: #ffc0cb;
+}
+
  .dark .ngx-charts text {
 	 fill: #a0aabe;
 }
@@ -372,4 +380,9 @@ a:visited {
 .pr-colab-image {
 	height: 30px;
 	width: 30px;
+}
+
+.pr-hashtag-1 {
+	font-weight: bold;
+	color: #fe7f9c;
 }

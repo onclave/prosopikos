@@ -48,6 +48,146 @@ export class CovidNewsService {
 		// }
 
 		this.newsObject = [{
+			date: '04 / 04 / 2020',
+			india: [{
+				heading: 'PM Modi, Donald Trump discuss India-US partnership to fight COVID-19 crisis',
+				description: 'Prime Minister Narendra Modi on Saturday said he had an extensive discussion on the COVID-19 crisis with US President Donald Trump over the phone. Mentioning that it was "a good discussion", PM Modi said India and the US have agreed to deploy the full strength of their partnership to fight the coronavirus pandemic.',
+				source: 'https://www.indiatoday.in/india/story/pm-modi-donald-trump-discuss-india-us-partnership-to-fight-covid-19-crisis-1663342-2020-04-04'
+			}, {
+				heading: 'More than 1500 participated in feast thrown by a family whose 11 members were tested positive in MP\'s Morena district',
+				description: 'Cheif medical and health officer Morena, Dr RC Badil said: "On Friday evening we came to know that the patient who had come from Dubai after her mother\'s death had thrown a funeral feast where between 1500- and 2000 people from villages across five blocks had participated".',
+				source: 'https://timesofindia.indiatimes.com/city/bhopal/coronavirus-more-than-1500-participated-in-feast-thrown-by-family-whose-11-members-were-tested-positive-in-mps-morena-district/articleshow/74981994.cms'
+			}, {
+				heading: 'IAF official, who was present in Nizamuddin during Jamaat meet, under quarantine, say sources',
+				description: 'Sources in the government said on Saturday that an Indian Air Force (IAF) official, who was present in Delhi\'s Nizamuddin area during the Tablighi Markaz congregation last month, has put himself under quarantine as a precautionary measure.',
+				source: 'https://www.indiatoday.in/india/story/coronavirus-iaf-official-present-nizamuddin-tabhliqi-jamaat-meet-quarantine-govt-sources-1663400-2020-04-04'
+			}],
+			world: [{
+				heading: 'COVID-19: US Records Highest Single-Day Death Toll With 1,480 Deaths',
+				description: 'With 1,480 deaths counted between Thursday and Friday, according to the university\'s, the total number of people who succumbed to the pandemic in the United States has now touched 7,406.',
+				source: 'https://news.abplive.com/health/covid19-us-single-day-death-toll-touches-1480-in-a-day-1189279'
+			}, {
+				heading: 'Britain unlikely to lift lockdown until end of May: Government expert',
+				description: 'The government has put Britain into a widespread shutdown, closing pubs, restaurants and nearly all shops, while ordering people to stay home unless absolutely essential to venture out.',
+				source: 'https://www.indiatoday.in/world/story/coronavirus-uk-lockdown-1663294-2020-04-04'
+			}, {
+				heading: 'Italy Daily Virus Fatalities Fall to 681, Lowest Since March 26',
+				description: 'The daily toll was the lowest since March 26 and fell from 766 Friday, according to civil protection data. There were 4,805 new confirmed cases, an increase from 4585 a day earlier.',
+				source: 'https://www.bloomberg.com/news/articles/2020-04-04/italy-daily-virus-fatalities-fall-to-681-lowest-since-march-26'
+			}]
+		}, {
+			date: '03 / 04 / 2020',
+			india: [{
+				heading: 'World Bank commits US$1 billion to help India fight COVID-19',
+				description: 'The World Bank has committed US$1 billion to help India expand its laboratory capacity in the fight against COVID-19, a highly contagious viral infection caused by SARS-CoV-2. The fund will also be used to ensure that medical staff across the country are well-equipped and well-trained to give emergency care.',
+				source: 'https://www.firstpost.com/health/world-bank-commits-us1-billion-to-help-india-fight-covid-19-8223951.html'
+			}, {
+				heading: '11 CISF jawans test positive for COVID-19 in Mumbai',
+				description: 'The Central Industrial Security Force (CISF) Friday said as many as 11 of its jawans posted at Mumbai airport have tested positive for coronavirus, news agency ANI reported.',
+				source: 'https://www.livemint.com/news/india/coronavirus-update-11-cisf-jawans-test-positive-for-covid-19-in-mumbai-11585924292310.html'
+			}, {
+				heading: 'Light candles, diyas at 9 pm this Sunday to mark coronavirus fight: PM Narendra Modi',
+				description: 'Prime Minister Narendra Modi has asked Indians under lockdown to switch off all lights at home at 9 pm Sunday (April 5) and light candles or diyas -- or use the flashlights on their mobile phones -- to mark the national fight against the coronavirus outbreak.',
+				source: 'https://www.indiatoday.in/india/story/pm-narendra-modi-on-coronavirus-lockdown-1662747-2020-04-03'
+			}],
+			world: [{
+				heading: 'Stores, shopping malls reopen in Wuhan as city gradually revives from coronavirus outbreak',
+				description: 'Shopkeepers in Wuhan, the city at the center of the coronavirus outbreak, were reopening Monday, but customers were scarce after authorities lifted more of the anti-virus controls that kept tens of millions of people at home for two months.',
+				source: 'https://www.usatoday.com/story/money/2020/03/30/wuhan-stores-shopping-malls-reopen-after-weeks-battling-coronavirus/5087115002/'
+			}, {
+				heading: 'Is A Potential Coronavirus Vaccine Around The Corner? Pittsburgh Scientists Claim So',
+				description: 'The wait for a vaccine for coronavirus may end soon as researchers from the University of Pittsburgh School of Medicine announce successful testing of a vaccine on lab mice.',
+				source: 'https://news.abplive.com/news/world/covid-19-vaccine-coronavirus-cure-treatment-corona-test-potential-vaccine-on-the-horizon-1188166'
+			}, {
+				heading: 'Italy starts antibody testing to find people who have developed coronavirus immunity',
+				description: 'The Veneto region, which includes Venice, plans to test 100,000 doctors and nurses and then roll out the tests to the general population. Experts there are using a test that costs around €10 (£8.80) and delivers a result in an hour, making mass testing feasible.',
+				source: 'https://www.telegraph.co.uk/news/2020/04/03/italy-starts-antibody-testing-immune-covid-19/'
+			}]
+		}, {
+			date: '02 / 04 / 2020',
+			india: [{
+				heading: 'India may go for \'staggered\' exit post 21-day COVID lockdown, PM asks states to come up with a plan',
+				description: 'Pitching for efforts on a war footing to identify and isolate COVID-19 hotspots, Prime Minister Narendra Modi on Thursday hinted at a "staggered" exit from the ongoing lockdown after the 21-day period ends on April 14.',
+				source: 'https://economictimes.indiatimes.com/news/politics-and-nation/india-may-go-for-staggered-exit-post-21-day-covid-lockdown-pm-asks-states-to-come-up-with-a-plan/articleshow/74954054.cms'
+			}, {
+				heading: 'Islamic cleric issues \'fatwa\' asking Muslims to get tested for coronavirus',
+				description: 'A leading Islamic cleric on Thursday issued a fatwa (religious edict) asking Muslims to get tested for coronavirus if they show symptoms of the disease and undergo treatment.',
+				source: 'https://www.indiatoday.in/india/story/islamic-cleric-lucknow-issues-fatwa-asking-muslims-to-get-tested-coronavirus-1662674-2020-04-02'
+			}, {
+				heading: 'India\'s toaster-sized ventilator to help in a fight against the virus',
+				description: 'Originally created by a robot scientist and a neurosurgeon to help India\'s poor, a toaster-sized ventilator is offering hope in the country\'s fight against the coronavirus pandemic, and demand for it is booming.',
+				source: 'https://www.aljazeera.com/news/2020/04/india-toaster-sized-ventilator-fight-virus-200402090302355.html'
+			}],
+			world: [{
+				heading: '100-Year Old Tuberculosis Vaccine A Potential New Tool To Fight Against COVID-19',
+				description: 'A century-old tuberculosis vaccine could be a protective measure against COVID-19, according to some reports. The researchers at the Murdoch Children\'s Research Institute are going to conduct a trial of the Bacillus Calmette–Guerin (BCG) vaccine with 4,000 health care professionals in hospitals around Australia to determine if it can reduce COVID-19 symptoms.',
+				source: 'https://news.abplive.com/health/tuberculosis-vaccine-for-coronavirus-study-covid-19-india-bcg-injection-1186651'
+			}, {
+				heading: 'China reports 35 new imported coronavirus cases, six deaths',
+				description: 'China reported 35 new imported cases of the novel coronavirus while the death toll from the COVID1-9 infections increased to 3,318 after six more fatalities were confirmed on Wednesday from the virus hit Hubei province, health officials said on Thursday.',
+				source: 'https://timesofindia.indiatimes.com/world/china/china-reports-35-new-imported-coronavirus-cases-six-deaths/articleshow/74949234.cms'
+			}, {
+				heading: 'Saudi Arabia imposes 24-hour curfew in Mecca and Medina',
+				description: 'Saudi Arabia imposed a 24-hour curfew in the Muslim holy cities of Mecca and Medina on Thursday, extending measures to combat the spread of the coronavirus, which has infected more than 1,700 people in the kingdom and killed 16.',
+				source: 'https://timesofindia.indiatimes.com/world/middle-east/saudi-arabia-imposes-24-hour-curfew-in-mecca-and-medina/articleshow/74950560.cms'
+			}]
+		}, {
+			date: '01 / 04 / 2020',
+			india: [{
+				heading: 'India\'s confirmed coronavirus cases breach 1,800-mark, death toll at 41',
+				description: 'The country has reported 1,834 confirmed Covid-19 cases so far, since the first case was reported on 30 January in Kerala\'s Thrissur. ',
+				source: 'https://www.livemint.com/news/india/india-s-confirmed-coronavirus-cases-breach-1-800-mark-death-toll-at-41-here-s-state-wise-tally-11585742867547.html'
+			}, {
+				heading: 'IAF aircraft to deliver medical equipment to Maldives',
+				description: 'As per official sources, "An Indian Air Force C-130J Super Hercules transport aircraft will take off with medical equipment and other supplies to the Maldives. The material is being sent as the Government of India wants to assist its neighbours in fight against [novel] coronavirus."',
+				source: 'https://www.indiatoday.in/india/story/iaf-aircraft-to-deliver-medical-equipment-to-maldives-1662309-2020-04-01'
+			}, {
+				heading: '71 people from West Bengal who attended Nizamuddin congregation identified says CM',
+				description: 'West Bengal chief minister Mamata Banerjee on Wednesday said her government has identified 71 people who had attended the Tablighi Jamaat congregation in Delhi\'s Nizamuddin. Banerjee said 54 people from that group have been sent into quarantine.',
+				source: 'https://timesofindia.indiatimes.com/city/kolkata/71-people-from-west-bengal-who-attended-nizamuddin-congregation-identified-cm/articleshow/74934727.cms'
+			}],
+			world: [{
+				heading: 'China starts to report asymptomatic coronavirus cases',
+				description: 'Asymptomatic infections would not cause a major outbreak if the transmission chain was cut, the Chinese government’s senior medical adviser, Zhong Nanshan, told state-run Shenzhen TV. He said that once asymptomatic infected people were found they would be isolated and their contacts isolated and kept under observation.',
+				source: 'https://economictimes.indiatimes.com/news/international/world-news/china-starts-to-report-asymptomatic-coronavirus-cases/articleshow/74925379.cms'
+			}, {
+				heading: 'Pakistan’s coronavirus cases jump to 2,119',
+				description: 'The number of coronavirus cases in Pakistan climbed to 2,119 on Wednesday. So far, 27 people have died from the disease since the first Covid-19 death in the country was reported on March 18.',
+				source: 'https://timesofindia.indiatimes.com/world/pakistan/pakistans-coronavirus-cases-jump-to-2119/articleshow/74938353.cms'
+			}, {
+				heading: 'Italy records lowest coronavirus death toll for a week',
+				description: 'Italy has extended its lockdown until 13 April but recorded its lowest death toll in more than a week, reinforcing indications that the coronavirus epidemic both there and in Spain may be reaching a plateau.',
+				source: 'https://www.theguardian.com/world/2020/apr/01/italy-extends-lockdown-amid-signs-coronavirus-infection-rate-is-easing'
+			}]
+		}, {
+			date: '31 / 03 / 2020',
+			india: [{
+				heading: 'Tamil Nadu reports 57 new Covid-19 cases in one day, 79% attended Tablighi Jamaat. State tally at 124',
+				description: '57 tested positive for coronavirus in Tamil Nadu on Tuesday with the total number rising to 124. 45 of the cases have links to the Tablighi Jamaat religious congregation held in Delhi\'s Nizamuddin West earlier this month.',
+				source: 'https://www.indiatoday.in/india/story/tamil-nadu-reports-57-new-covid-19-cases-in-one-day-79-attended-tablighi-jamaat-state-tally-at-124-1661904-2020-03-31'
+			}, {
+				heading: 'Strictly enforce lockdown along West Bengal border, says Mamata Banerjee',
+				description: 'Chief minister Mamata Banerjee on Monday called for the strictest enforcement of the lockdown along Bengal’s borders to keep migrant workers out of the state. ',
+				source: 'https://timesofindia.indiatimes.com/city/kolkata/strictly-enforce-lockdown-along-border-mamata/articleshow/74903031.cms'
+			}, {
+				heading: 'Covid-19 outbreak; Etah jail releases 109 prisoners to reduce crowding',
+				description: 'After the directive of the Apex Court to decongest prisons in the wake of the Covid-19 virus outbreak, Etah jail in Uttar Pradesh has released 109 prisoners.',
+				source: 'https://timesofindia.indiatimes.com/videos/city/lucknow/covid-19-outbreak-etah-jail-releases-109-prisoners-to-reduce-crowding/videoshow/74919627.cms'
+			}],
+			world: [{
+				heading: 'Indonesia declares state of emergency as virus toll jumps',
+				description: 'Widodo\'s administration has been heavily criticised for not imposing lockdowns in major cities, including the capital Jakarta, a vast megalopolis home to about 30 million people where most of the country\'s virus deaths have been reported.',
+				source: 'https://timesofindia.indiatimes.com/world/rest-of-world/indonesia-declares-state-of-emergency-as-virus-toll-jumps/articleshow/74914100.cms'
+			}, {
+				heading: '101-year-old Italian man, born amid Spanish flu pandemic, survives coronavirus illness, official says',
+				description: 'A 101-year-old Italian man has reportedly survived his battle with COVID-19, the disease caused by the new coronavirus spreading around the globe. An official from the city of Rimini on the northeast coast of Italy says the man, identified publicly as only Mr. P., was released from the hospital earlier this week.',
+				source: 'https://www.usatoday.com/story/news/world/2020/03/27/italy-101-year-old-born-during-spanish-flu-survives-coronavirus/2926073001/'
+			}, {
+				heading: 'The world economy, except India, China, will go into recession due to Covid-19; UN',
+				description: '"Even so, the world economy will go into recession this year with a predicted loss of global income in trillions of dollars. This will spell serious trouble for developing countries, with the likely exception of China and the possible exception of India," the UNCTAD said.',
+				source: 'https://www.livemint.com/news/india/world-economy-will-go-into-recession-due-to-coronavirus-except-india-china-un-11585628604446.html'
+			}]
+		}, {
 			date: '30 / 03 / 2020',
 			india: [{
 				heading: 'India to procure ventilators, PPE kits from China, not testing kits',
