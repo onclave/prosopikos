@@ -50,12 +50,6 @@
     overflow-x: auto;
 }
 
-.pr-covid-tab-analysis {
-    margin-top: 50px;
-    padding-left: 10%;
-    padding-right: 10%;
-}
-
 .pr-covid-analysis-notice {
     color: #f5c3c2;
     font-size: 1.3em;
@@ -76,7 +70,9 @@
 .pr-analysis-report-container {
     border-left: 5px solid #f5c3c2;
     padding-left: 10px;
-    margin: 20px;
+    margin-right: 20px;
+    margin-top: 20px;
+    margin-bottom: 20px;
 }
 
 .pr-analysis-report-header {
@@ -175,4 +171,10 @@
 .pr-covid-appricate {
     font-size: 1.4em;
     font-weight: bold;
+}
+
+.pr-covid-analytics-image {
+    max-width: 250px;
+    height: auto;
+    opacity: 0.6;
 }

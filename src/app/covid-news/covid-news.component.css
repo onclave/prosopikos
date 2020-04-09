@@ -11,6 +11,7 @@
 .pr-news-location-section {
 	padding: 5px;
 	margin: 5px;
+	background-color: rgba(66, 66, 66, 1);
 }
 
 .pr-news-location-container {
@@ -59,4 +60,8 @@
 	font-size: 1.1em;
 	color: gainsboro;
 	padding-right: 5px;
+}
+
+.pr-news-expansion-panel {
+	background-color: #696969;
 }

@@ -1,6 +1,6 @@
 <div fxLayout="column" class="pr-covid-tab-news">
 	<mat-accordion *ngFor="let entry of newsObject; index as i" class="pr-news-accordion">
-		<mat-expansion-panel [expanded]="i == 0">
+		<mat-expansion-panel [expanded]="i == 0" class="pr-news-expansion-panel">
 			<mat-expansion-panel-header class="pr-padding-top-10px pr-padding-bottom-10px">
 				<mat-panel-title class="pr-font-chn">{{entry.date}}</mat-panel-title>
 				<mat-panel-description class="pr-font-chn">Expand to view COVID-19 related news for {{entry.date}}</mat-panel-description>

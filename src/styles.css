@@ -168,6 +168,10 @@ a:visited {
 	margin-left: 15px;
 }
 
+.pr-margin-right-10px {
+	margin-right: 10px;
+}
+
 .pr-margin-right-15px {
 	margin-right: 15px;
 }
@@ -191,6 +195,15 @@ a:visited {
 
 .pr-padding-bottom-10px {
 	padding-bottom: 10px !important;
+}
+
+.pr-padding-10px {
+	padding: 10px;
+}
+
+.pr-padding-sides-10p {
+	padding-left: 10%;
+	padding-right: 10%;
 }
 
 .pr-ext-link {

@@ -1,68 +1,68 @@
-<div fxLayout="column" class="pr-covid-tab-analysis">
+<div fxLayout="column" class="pr-covid-tab-india">
 	<div fxLayout="column" class="pr-margin-sides-10p pr-margin-top-10px pr-margin-bottom-30px">
 		<span *ngIf="isConfirmedLoading || isRecoveredLoading || isDeathLoading" class="pr-covid-loading-message pr-font-chn pr-margin-bottom-10px">Loading data ...</span>
 		<mat-progress-bar mode="indeterminate" *ngIf="isConfirmedLoading || isRecoveredLoading || isDeathLoading"></mat-progress-bar>
 	</div>
 	<span class="pr-analysis-heading pr-font-chn pr-margin-top-10px">India's covid-19 reported cases as of <span class="pr-color-watermelon">{{latestCovidConfirmedDate}}</span> (mm/dd/yyyy)</span>
 	<div fxLayout="column" class="pr-margin-top-10px">
-		<div fxLayout.xs="column" fxLayout.sm="column" fxLayout.md="row" fxLayout.lg="row" fxLayout.xl="row">
-			<div fxLayout="column" fxFlex.md="50" fxFlex.lg="50" fxFlex.xl="50" class="pr-analysis-report-container">
+		<div fxLayout.xs="column" fxLayout.sm="column" fxLayout.md="row" fxLayout.lg="row" fxLayout.xl="row" fxLayoutAlign.xs="start start" fxLayoutAlign.sm="start start" fxLayoutAlign.md="space-around start" fxLayoutAlign.lg="space-around start" fxLayoutAlign.xl="space-around start">
+			<div fxLayout="column" fxFlex.md="20" fxFlex.lg="20" fxFlex.xl="20" class="pr-analysis-report-container">
 				<span class="pr-analysis-report-header pr-font-chn">Total Infected:</span>
 				<span class="pr-analysis-report-data pr-font-chn">{{workhorse.getCovidTotalInfected(covidConfirmedData) | number}}</span>
 			</div>
-			<div fxLayout="column" fxFlex.md="50" fxFlex.lg="50" fxFlex.xl="50" class="pr-analysis-report-container">
+			<div fxLayout="column" fxFlex.md="20" fxFlex.lg="20" fxFlex.xl="20" class="pr-analysis-report-container">
 				<span class="pr-analysis-report-header pr-font-chn">Total Recovered:</span>
 				<span class="pr-analysis-report-data pr-font-chn">{{workhorse.getCovidTotalRecovered(covidRecoveryData) | number}}</span>
 			</div>
-			<div fxLayout="column" fxFlex.md="50" fxFlex.lg="50" fxFlex.xl="50" class="pr-analysis-report-container">
+			<div fxLayout="column" fxFlex.md="20" fxFlex.lg="20" fxFlex.xl="20" class="pr-analysis-report-container">
 				<span class="pr-analysis-report-header pr-font-chn">Total Deceased:</span>
 				<span class="pr-analysis-report-data pr-font-chn">{{workhorse.getCovidTotalDeaths(covidDeathData) | number}}</span>
 			</div>
 		</div>
-		<div fxLayout.xs="column" fxLayout.sm="column" fxLayout.md="row" fxLayout.lg="row" fxLayout.xl="row">
-			<div fxLayout="column" fxFlex.md="50" fxFlex.lg="50" fxFlex.xl="50" class="pr-analysis-report-container">
+		<div fxLayout.xs="column" fxLayout.sm="column" fxLayout.md="row" fxLayout.lg="row" fxLayout.xl="row" fxLayoutAlign.xs="start start" fxLayoutAlign.sm="start start" fxLayoutAlign.md="space-around start" fxLayoutAlign.lg="space-around start" fxLayoutAlign.xl="space-around start">
+			<div fxLayout="column" fxFlex.md="20" fxFlex.lg="20" fxFlex.xl="20" class="pr-analysis-report-container">
 				<span class="pr-analysis-report-header pr-font-chn">Region with Highest Infection:</span>
 				<span class="pr-analysis-report-data pr-font-chn">{{getCovidIndiaConfirmedHighestRegionInfected()}}</span>
 			</div>
-			<div fxLayout="column" fxFlex.md="50" fxFlex.lg="50" fxFlex.xl="50" class="pr-analysis-report-container">
+			<div fxLayout="column" fxFlex.md="20" fxFlex.lg="20" fxFlex.xl="20" class="pr-analysis-report-container">
 				<span class="pr-analysis-report-header pr-font-chn">Region with Highest Recovery:</span>
 				<span class="pr-analysis-report-data pr-font-chn">{{getCovidIndiaConfirmedHighestRegionRecovery()}}</span>
 			</div>
-			<div fxLayout="column" fxFlex.md="50" fxFlex.lg="50" fxFlex.xl="50" class="pr-analysis-report-container">
+			<div fxLayout="column" fxFlex.md="20" fxFlex.lg="20" fxFlex.xl="20" class="pr-analysis-report-container">
 				<span class="pr-analysis-report-header pr-font-chn">Region with Highest Deceased:</span>
 				<span class="pr-analysis-report-data pr-font-chn">{{getCovidIndiaConfirmedHighestRegionDeaths()}}</span>
 			</div>
 		</div>
-		<div fxLayout.xs="column" fxLayout.sm="column" fxLayout.md="row" fxLayout.lg="row" fxLayout.xl="row">
-			<div fxLayout="column" fxFlex.md="50" fxFlex.lg="50" fxFlex.xl="50" class="pr-analysis-report-container">
+		<div fxLayout.xs="column" fxLayout.sm="column" fxLayout.md="row" fxLayout.lg="row" fxLayout.xl="row" fxLayoutAlign.xs="start start" fxLayoutAlign.sm="start start" fxLayoutAlign.md="space-around start" fxLayoutAlign.lg="space-around start" fxLayoutAlign.xl="space-around start">
+			<div fxLayout="column" fxFlex.md="20" fxFlex.lg="20" fxFlex.xl="20" class="pr-analysis-report-container">
 				<span class="pr-analysis-report-header pr-font-chn">{{getCovidIndiaConfirmedHighestRegionInfected(true)}}'s total Infection:</span>
 				<span class="pr-analysis-report-data pr-font-chn">{{getCovidIndiaConfirmedHighestRegionInfectionCount() | number}}</span>
 			</div>
-			<div fxLayout="column" fxFlex.md="50" fxFlex.lg="50" fxFlex.xl="50" class="pr-analysis-report-container">
+			<div fxLayout="column" fxFlex.md="20" fxFlex.lg="20" fxFlex.xl="20" class="pr-analysis-report-container">
 				<span class="pr-analysis-report-header pr-font-chn">{{getCovidIndiaConfirmedHighestRegionRecovery(true)}}'s total Recovery:</span>
 				<span class="pr-analysis-report-data pr-font-chn">{{getCovidIndiaConfirmedHighestRegionRecoveryCount() | number}}</span>
 			</div>
-			<div fxLayout="column" fxFlex.md="50" fxFlex.lg="50" fxFlex.xl="50" class="pr-analysis-report-container">
+			<div fxLayout="column" fxFlex.md="20" fxFlex.lg="20" fxFlex.xl="20" class="pr-analysis-report-container">
 				<span class="pr-analysis-report-header pr-font-chn">{{getCovidIndiaConfirmedHighestRegionDeaths(true)}}'s total Deceased:</span>
 				<span class="pr-analysis-report-data pr-font-chn">{{getCovidIndiaConfirmedHighestRegionDeathCount() | number}}</span>
 			</div>
 		</div>
-		<div fxLayout.xs="column" fxLayout.sm="column" fxLayout.md="row" fxLayout.lg="row" fxLayout.xl="row">
-			<div fxLayout="column" fxFlex.md="50" fxFlex.lg="50" fxFlex.xl="50" class="pr-analysis-report-container">
+		<div fxLayout.xs="column" fxLayout.sm="column" fxLayout.md="row" fxLayout.lg="row" fxLayout.xl="row" fxLayoutAlign.xs="start start" fxLayoutAlign.sm="start start" fxLayoutAlign.md="space-around start" fxLayoutAlign.lg="space-around start" fxLayoutAlign.xl="space-around start">
+			<div fxLayout="column" fxFlex.md="20" fxFlex.lg="20" fxFlex.xl="20" class="pr-analysis-report-container">
 				<span class="pr-analysis-report-header pr-font-chn">{{getCovidIndiaConfirmedHighestRegionInfected(true)}}'s total Population:</span>
 				<span class="pr-analysis-report-data pr-font-chn">{{getCovidIndiaConfirmedHighestRegionInfectedPopulation() | number}}</span>
 			</div>
-			<div fxLayout="column" fxFlex.md="50" fxFlex.lg="50" fxFlex.xl="50" class="pr-analysis-report-container">
+			<div fxLayout="column" fxFlex.md="20" fxFlex.lg="20" fxFlex.xl="20" class="pr-analysis-report-container">
 				<span class="pr-analysis-report-header pr-font-chn">India's Highest Infection Spike in 1 Day:</span>
 				<span class="pr-analysis-report-data pr-font-chn">{{getConvidConfirmedIndiaMaxSpike() | number}}</span>
 			</div>
-			<div fxLayout="column" fxFlex.md="50" fxFlex.lg="50" fxFlex.xl="50" class="pr-analysis-report-container">
+			<div fxLayout="column" fxFlex.md="20" fxFlex.lg="20" fxFlex.xl="20" class="pr-analysis-report-container">
 				<span class="pr-analysis-report-header pr-font-chn">India's Highest Infection Spike Day (mm/dd/yyyy):</span>
 				<span class="pr-analysis-report-data pr-font-chn">{{getConvidConfirmedIndiaMaxSpikeDay()}}</span>
 			</div>
 		</div>
 	</div>
-	<div class="pr-covid-analysis-writeup pr-font-chn">
+	<div class="pr-covid-analysis-writeup pr-font-chn pr-padding-sides-10p">
 		This dashboard provides us an insight into the total number of people who have been affected by COVID-19, the name of the region which is the worst affected and it's total population, till date. This also provides the data about the India's highest infection spike in a single day and the magnitude of the spike, till date.
 	</div>
 	<div fxLayout="column" fxLayoutAlign="center stretch" class="dark pr-chart-container pr-margin-top-10vh pr-non-selectable pr-no-focus">
@@ -95,10 +95,10 @@
 			<ngx-charts-line-chart [view]="covidIndiaProgressLineChart.view" [scheme]="covidIndiaProgressLineChart.colorScheme" [results]="covidIndiaProgressLineChart.multi" [xAxis]="covidIndiaProgressLineChart.showXAxis" [yAxis]="covidIndiaProgressLineChart.showYAxis" [legend]="covidIndiaProgressLineChart.showLegend" [showXAxisLabel]="covidIndiaProgressLineChart.showXAxisLabel" [showYAxisLabel]="covidIndiaProgressLineChart.showYAxisLabel" [xAxisLabel]="covidIndiaProgressLineChart.xAxisLabel" [yAxisLabel]="covidIndiaProgressLineChart.yAxisLabel" [legendPosition]="covidIndiaProgressLineChart.legendPosition" (select)="onSelectCovidIndiaProgressLineChart($event)"></ngx-charts-line-chart>
 		</div>
 	</div>
-	<div class="pr-covid-analysis-writeup pr-font-chn">
+	<div class="pr-covid-analysis-writeup pr-font-chn pr-padding-sides-10p">
 		The first case of COVID-19 in India was identified on 30th January, 2020. The virus has spread rapidly in this densely populated country. By {{latestCovidConfirmedDate}} around {{workhorse.getCovidTotalInfected(covidConfirmedData) | number}} people have been found to be affected by this novel Coronavirus. The recovery rate is gradually speeding up along with the fatality rate. In this interactive graph, you can select the latest number of days to view India's fight against nCoV-2019. You can also toggle the slider to view a comparison of how all the regions of India are doing in comparison to each other.
 	</div>
-	<div fxLayout="row" fxLayoutAlign="center center" fxShow.xs="true" fxShow.sm="true" fxShow.md="false" fxShow.lg="false" fxShow.xl="false" class="pr-margin-top-30px">
+	<div fxLayout="row" fxLayoutAlign="center center" fxShow.xs="true" fxShow.sm="true" fxShow.md="false" fxShow.lg="false" fxShow.xl="false" class="pr-margin-top-30px pr-padding-sides-10p">
 		<span class="pr-analysis-report-subtitle">Kindly use a larger screen device for better view and interaction with charts!</span>
 	</div>
 	<div fxLayout="column" fxLayoutAlign="start stretch" class="dark pr-chart-container pr-margin-top-10vh pr-non-selectable pr-no-focus">
@@ -114,13 +114,13 @@
 			</div>
 		</div>
 		<div fxLayout="row" fxLayoutAlign="center start">
-			<ngx-charts-bar-vertical-stacked [view]="covidIndiaRegionsBarGraph.view" [scheme]="covidIndiaRegionsBarGraph.colorScheme" [results]="covidIndiaRegionsBarGraph.multi" [gradient]="covidIndiaRegionsBarGraph.gradient" [xAxis]="covidIndiaRegionsBarGraph.showXAxis" [yAxis]="covidIndiaRegionsBarGraph.showYAxis" [legend]="covidIndiaRegionsBarGraph.showLegend" [showXAxisLabel]="covidIndiaRegionsBarGraph.showXAxisLabel" [showYAxisLabel]="covidIndiaRegionsBarGraph.showYAxisLabel" [xAxisLabel]="covidIndiaRegionsBarGraph.xAxisLabel" [yAxisLabel]="covidIndiaRegionsBarGraph.yAxisLabel" (select)="onSelectCovidIndiaRegionsBarGraph($event)"></ngx-charts-bar-vertical-stacked>
+			<ngx-charts-bar-vertical-stacked [view]="covidIndiaRegionsBarGraph.view" [scheme]="covidIndiaRegionsBarGraph.colorScheme" [results]="covidIndiaRegionsBarGraph.multi" [gradient]="covidIndiaRegionsBarGraph.gradient" [xAxis]="covidIndiaRegionsBarGraph.showXAxis" [yAxis]="covidIndiaRegionsBarGraph.showYAxis" [legend]="covidIndiaRegionsBarGraph.showLegend" [showXAxisLabel]="covidIndiaRegionsBarGraph.showXAxisLabel" [showYAxisLabel]="covidIndiaRegionsBarGraph.showYAxisLabel" [xAxisLabel]="covidIndiaRegionsBarGraph.xAxisLabel" [yAxisLabel]="covidIndiaRegionsBarGraph.yAxisLabel" [legendPosition]="covidIndiaRegionsBarGraph.legendPosition" (select)="onSelectCovidIndiaRegionsBarGraph($event)"></ngx-charts-bar-vertical-stacked>
 		</div>
 	</div>
-	<div class="pr-covid-analysis-writeup pr-font-chn">
+	<div class="pr-covid-analysis-writeup pr-font-chn pr-padding-sides-10p">
 		This interactive graph gives you the control to stack multiple types of data with one another for the type of comparison required. It shows the top {{covidIndiaRegionsBarGraph.selectedRegionCount}} most infected regions that have fallen prey to the grasps of the deadly COVID-19 with {{getCovidIndiaConfirmedHighestRegionInfected()}} leading in most number of reported infections. It can also show the number of recoveries in each region and / or the number of recovered patients. The different data for each region can be stacked together for a better visual comparison. We have prepared this graph with data since 30th January 2020. It displays the updated infection count of different states in India. The data for this graph has been hand-curated by experts from trusted sources and is updated daily. You can view how each state has been affected by the deadly virus by using the slider.
 	</div>
-	<div fxLayout="row" fxLayoutAlign="center center" fxShow.xs="true" fxShow.sm="true" fxShow.md="false" fxShow.lg="false" fxShow.xl="false" class="pr-margin-top-30px">
+	<div fxLayout="row" fxLayoutAlign="center center" fxShow.xs="true" fxShow.sm="true" fxShow.md="false" fxShow.lg="false" fxShow.xl="false" class="pr-margin-top-30px pr-padding-sides-10p">
 		<span class="pr-analysis-report-subtitle">Kindly use a larger screen device for better view and interaction with charts!</span>
 	</div>
 	<div fxLayout="column" fxLayoutAlign="center stretch" class="dark pr-chart-container pr-margin-top-10vh pr-non-selectable pr-no-focus">
@@ -133,13 +133,13 @@
 			</div>
 			<span class="pr-analysis-report-subtitle pr-margin-top-10px pr-margin-bottom-10px">Use the dropdowns below to select the region and number of days to show!</span>
 			<div fxLayout="row" fxLayoutAlign="center start" class="pr-margin-top-10px">
-				<mat-form-field fxFlex="50" class="pr-margin-left-15px pr-margin-right-15px">
+				<mat-form-field fxFlex="50" class="pr-margin-left-15px">
 					<mat-label>Select a State</mat-label>
 					<mat-select [(ngModel)]="covidIndiaStateProgressLineChart.selectedState" (selectionChange)="onSelectorChangeCovidIndiaStateProgressLineChartSelectedState($event)">
 						<mat-option *ngFor="let country of workhorse.getSortedRegionNames(covidConfirmedData, 0)" [value]="country">{{country}}</mat-option>
 					</mat-select>
 				</mat-form-field>
-				<mat-form-field fxFlex="50" class="pr-margin-left-15px pr-margin-right-15px">
+				<mat-form-field fxFlex="50" class="pr-margin-left-15px">
 					<mat-label>Select the latest number of days to show</mat-label>
 					<mat-select [(ngModel)]="covidIndiaStateProgressLineChart.latestDays" (selectionChange)="onSelectorChangeCovidIndiaStateProgressLineChartLatestDays($event)">
 						<mat-option *ngFor="let days of workhorse.getNumberOfDaysArray(covidConfirmedData, true) | slice: 1; let i = index" [value]="i + 2">{{i + 2}}</mat-option>
@@ -151,7 +151,7 @@
 			<ngx-charts-line-chart [view]="covidIndiaStateProgressLineChart.view" [scheme]="covidIndiaStateProgressLineChart.colorScheme" [results]="covidIndiaStateProgressLineChart.multi" [xAxis]="covidIndiaStateProgressLineChart.showXAxis" [yAxis]="covidIndiaStateProgressLineChart.showYAxis" [legend]="covidIndiaStateProgressLineChart.showLegend" [showXAxisLabel]="covidIndiaStateProgressLineChart.showXAxisLabel" [showYAxisLabel]="covidIndiaStateProgressLineChart.showYAxisLabel" [xAxisLabel]="covidIndiaStateProgressLineChart.xAxisLabel" [yAxisLabel]="covidIndiaStateProgressLineChart.yAxisLabel" [legendPosition]="covidIndiaStateProgressLineChart.legendPosition" (select)="onSelectCovidIndiaStateProgressLineChart($event)"></ngx-charts-line-chart>
 		</div>
 	</div>
-	<div class="pr-covid-analysis-writeup pr-font-chn">
+	<div class="pr-covid-analysis-writeup pr-font-chn pr-padding-sides-10p">
 		This interactive graph shows {{covidIndiaStateProgressLineChart.selectedState}}'s progress against nCoV-2019 since the last {{covidIndiaStateProgressLineChart.latestDays}} days. A total number of {{workhorse.getCovidAffectedByRegion(covidConfirmedData, "India", covidIndiaStateProgressLineChart.selectedState) | number}} patients are reportedly infected there, with {{workhorse.getCovidAffectedByRegion(covidRecoveryData, "India", covidIndiaStateProgressLineChart.selectedState) | number}} recoveries and {{workhorse.getCovidAffectedByRegion(covidDeathData, "India", covidIndiaStateProgressLineChart.selectedState) | number}} deceased.
 	</div>
 </div>
