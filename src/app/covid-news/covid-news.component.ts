@@ -18,6 +18,11 @@ export class CovidNewsComponent implements OnInit {
 	}
 
 	ngOnInit(): void {
+		console.log("NEWS ON INIT");
+		this.newsService.getNews().subscribe((data: any[]) => {
+			console.log("-----------NEWS----------");
+			console.log(data);
+		});
 	}
 
 	public navigateToNews(source): void {

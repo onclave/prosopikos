@@ -178,3 +178,14 @@
     height: auto;
     opacity: 0.6;
 }
+
+.pr-analysis-report-subheader {
+    border-left: 5px solid #f5c3c2;
+    padding-left: 10px;
+    margin-right: 20px;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    font-size: 1.2em;
+    line-height: 1.2em;
+    color: #a9a9a9;
+}

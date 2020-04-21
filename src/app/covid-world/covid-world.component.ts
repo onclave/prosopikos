@@ -164,9 +164,9 @@ export class CovidWorldComponent implements OnInit {
 				
 				let width: number = window.innerWidth - 50;
 
-				this.covidWorldCountriesBarGraph.view = [width, 400];
-				this.covidWorldProgressLineChart.view = [width, 400];
-				this.covidWorldCountryProgressLineChart.view = [width, 400];
+				this.covidWorldCountriesBarGraph.view = [width, 350];
+				this.covidWorldProgressLineChart.view = [width, 350];
+				this.covidWorldCountryProgressLineChart.view = [width, 350];
 				this.covidWorldCountriesBarGraph.legendPosition = 'right';
 				this.covidWorldProgressLineChart.legendPosition = 'right';
 				this.covidWorldCountryProgressLineChart.legendPosition = 'right';
@@ -176,9 +176,9 @@ export class CovidWorldComponent implements OnInit {
 		this.breakpointObserver.observe([this.lgMin]).subscribe((state: BreakpointState) => {
 			if(state.matches) {
 				
-				this.covidWorldCountriesBarGraph.view = [1100, 500];
-				this.covidWorldProgressLineChart.view = [1100, 500];
-				this.covidWorldCountryProgressLineChart.view = [1100, 500];
+				this.covidWorldCountriesBarGraph.view = [1100, 450];
+				this.covidWorldProgressLineChart.view = [1100, 450];
+				this.covidWorldCountryProgressLineChart.view = [1100, 450];
 				this.covidWorldCountriesBarGraph.legendPosition = 'right';
 				this.covidWorldProgressLineChart.legendPosition = 'right';
 				this.covidWorldCountryProgressLineChart.legendPosition = 'right';

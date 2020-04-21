@@ -13,7 +13,72 @@
 			</mat-button-toggle>
 		</mat-button-toggle-group>
 	</div>
-	<mat-accordion>
+	<mat-accordion class="pr-margin-top-30px pr-margin-bottom-30px">
+		<mat-expansion-panel [expanded]="group.value">
+			<mat-expansion-panel-header class="pr-padding-top-30px pr-padding-bottom-30px">
+				<mat-panel-title class="pr-font-chn">02</mat-panel-title>
+				<mat-panel-description class="pr-font-chn">Analysis of COVID-19 spread vs GDP Per Capita of affected countries</mat-panel-description>
+			</mat-expansion-panel-header>
+			<div fxLayout="column">
+				<span class="pr-analysis-report-subheader pr-font-chn">Datasets</span>
+				<span class="pr-covid-analysis-report pr-font-rmono">The analysis starts with 4 (four) different datasets (mentioned below), containing time series information of day by day confirmed cases, deaths, recoveries, and GDP figures for different nCoV-2019 affected countries throughout the globe.</span>
+				<span class="pr-covid-analysis-report pr-font-rmono">The dataset contains data from different provinces of multiple countries, and in some cases, few countries as a whole, along with their latitude and longitude.</span>
+				<span class="pr-covid-analysis-report pr-font-rmono">GDP dataset contains <span class="pr-analysis-important-marker">GDP (billion dollars), per capita income ($) and inflation rate (2019)</span> of all COVID-19 affected countries as of <span class="pr-analysis-important-marker">11/04/2020</span>.</span>
+				<span class="pr-margin-top-30px"><a href="https://github.com/CSSEGISandData/COVID-19/blob/master/csse_covid_19_data/csse_covid_19_time_series/time_series_covid19_confirmed_global.csv" target="_blank" class="pr-ext-link">[ source: World COVID-19 Timeseries Confirmed Cases ]</a></span>
+				<span class="pr-margin-top-10px"><a href="https://raw.githubusercontent.com/CSSEGISandData/COVID-19/master/csse_covid_19_data/csse_covid_19_time_series/time_series_covid19_recovered_global.csv" target="_blank" class="pr-ext-link">[ source: World COVID-19 Timeseries Recoveries ]</a></span>
+				<span class="pr-margin-top-10px"><a href="https://github.com/CSSEGISandData/COVID-19/blob/master/csse_covid_19_data/csse_covid_19_time_series/time_series_covid19_deaths_global.csv" target="_blank" class="pr-ext-link">[ source: World COVID-19 Timeseries Deceased ]</a></span>
+				<span class="pr-margin-top-10px pr-margin-bottom-10px"><a href="https://github.com/kalyaniuniversity/COVID-19-Datasets/blob/master/World%20Financial%20Information/COUNTRY_FINANCIAL_INFORMATION.csv" target="_blank" class="pr-ext-link">[ source: World Financial Information ]</a></span>
+				<div fxLayout="row" fxLayoutAlign="start center" class="pr-margin-top-10px">
+					<div fxLayout="row" fxLayoutAlign="center center" (click)="navigateToAuthor('https://colab.research.google.com/drive/1KPXrF-n-8cyKzLqgJHfSpo7MfkQ_4Xm4')" class="pr-colab-container mat-elevation-z2">
+						<img src="assets/image/colab_favicon.ico" class="pr-colab-image pr-non-selectable pr-no-focus">
+						<span class="pr-font-chn pr-margin-left-10px">Associated Google Colab Notebook</span>
+					</div>
+				</div>
+				<span class="pr-analysis-report-subheader pr-font-chn">Motivation</span>
+				<span class="pr-covid-analysis-report pr-font-rmono">In this analysis of COVID 19, we try to find out whether there is any relation between the virus infection, number of deaths, recovery in terms of per capita income of a country.</span>
+				<span class="pr-covid-analysis-report pr-font-rmono">As we have seen in some western countries like USA, Italy, Spain, France, UK, that the government and people are facing a tough time dealing with this pandemic. On the other hand, countries like China, South Korea, and Germany, are successful in recovering a large number of infected citizens.</span>
+				<span class="pr-covid-analysis-report pr-font-rmono">We are trying to figure out whether per capita income of a country affects the entire population in some way or the other, that determines their way of living, and as a result, how the people of a country are getting affected by novel corona virus.</span>
+				<span class="pr-analysis-report-subheader pr-font-chn">Methodology</span>
+				<span class="pr-covid-analysis-report pr-font-rmono">Initially, for all the countries, their respective per capita income is considered, and along with that the confirmed cases, deaths and recoveries are considered.</span>
+				<span class="pr-covid-analysis-report pr-font-rmono">Since the dataset is time series data, the cumulative numbers standing as per the latest available date (11/04/2020) is taken.</span>
+				<span class="pr-covid-analysis-report pr-font-rmono">In case of the countries, where data is given for different provinces, those data are added up and considered for a country.</span>
+				<span class="pr-analysis-report-subheader pr-font-chn">GDP per Capita vs Infected Cases</span>
+				<div fxLayout="column" fxLayoutAlign="center center" class="pr-covid-analysis-image-container">
+					<img src="assets/image/analysis-02-infected.png" class="pr-covid-analysis-image mat-elevation-z8 pr-non-selectable pr-no-focus">
+					<span class="pr-covid-analysis-image-title pr-font-chn">Figure 1</span>
+				</div>
+				<span class="pr-covid-analysis-report pr-font-rmono">In the above analysis (Figure 1) we can see, as the per capita income of a country increases, more is the numbers of confirmed cases. Though there are some exceptions for a few countries. The trend shows that initially for <span class="pr-analysis-important-marker">countries with low per capita income, confirmed cases are in range of 100k</span>. But as per capita increases, the <span class="pr-analysis-important-marker">numbers rise to 200k</span>. After that there are few countries where the confirmed cases lie in range of few thousands. The maximum confirmed cases are coming from USA.</span>
+				<span class="pr-analysis-report-subheader pr-font-chn">GDP per Capita vs Deceased Cases</span>
+				<div fxLayout="column" fxLayoutAlign="center center" class="pr-covid-analysis-image-container">
+					<img src="assets/image/analysis-02-death.png" class="pr-covid-analysis-image mat-elevation-z8 pr-non-selectable pr-no-focus">
+					<span class="pr-covid-analysis-image-title pr-font-chn">Figure 2</span>
+				</div>
+				<span class="pr-covid-analysis-report pr-font-rmono">In the above analysis (Figure 2) we see, when the per capita income of a country is low, the number of deceased is low. For few European countries, <span class="pr-analysis-important-marker">with per capita income in range of 50k, people die in quite a large number</span>. But as per capita increases, the number of deceased cases per country is less, lying in range of few thousands. The maximum cases of deaths are from USA, followed by Italy, Spain, France, and UK.</span>
+				<span class="pr-analysis-report-subheader pr-font-chn">GDP per Capita vs Recovery Cases</span>
+				<div fxLayout="column" fxLayoutAlign="center center" class="pr-covid-analysis-image-container">
+					<img src="assets/image/analysis-02-recovery.png" class="pr-covid-analysis-image mat-elevation-z8 pr-non-selectable pr-no-focus">
+					<span class="pr-covid-analysis-image-title pr-font-chn">Figure 3</span>
+				</div>
+				<span class="pr-covid-analysis-report pr-font-rmono">In the above analysis (Figure 3) for COVID 19 recovery case we can see, <span class="pr-analysis-important-marker">when the per capita income of a country increases from low to high, the number of recovery cases changes from high to low</span>. China, one of the countries, that have reported maximum recovery from Corona Virus, with per capita income of about 10k. We can see the countries, that lie in the per capita range of up to 50k, for them the recovery is high. But as it crosses 50k mark, recovery drastically drops to less than 20k.</span>
+				<span class="pr-analysis-report-subheader pr-font-chn">Conclusion</span>
+				<span class="pr-covid-analysis-report pr-font-rmono">The crucial range of per capita income is the range of 0 to 50k. Most of the confirmed cases, deaths are reported from these countries. These countries have also succeeded in recovering most of their citizens, but in comparison to confirmed cases, they are still far behind. These countries face a quite high death toll. But the risk vanishes for the countries once it crosses 50k mark. There the confirmed case, deaths are reported less, and recovery has been done up to satisfactory level. So overall we can say as the situation goes worse for countries like USA, Italy, Spain, France, UK. Also at the same time countries like South Korea, China they have come a long way, and succeeded in tackling with the situation and recovering their citizens.</span>
+				<span class="pr-covid-analysis-report pr-font-rmono">One of the reasons behind such a pattern maybe due to the fact that citizens in countries with higher per capita income tend to travel more and hence participate in spreading the virus further.</span>
+				<div fxLayout="row wrap" class="pr-margin-top-30px">
+					<div fxLayout.xs="column" fxLayout.sm="column" fxLayout.md="row" fxLayout.lg="row" fxLayout.xl="row" fxLayoutAlign="center center" (click)="navigateToAuthor('https://www.linkedin.com/in/abhijit-mitra-aa8a65187/')" class="pr-author-tag mat-elevation-z2">
+						<div fxLayout="row" fxLayoutAlign="center center" class="pr-author-tag-image-container">
+							<img src="assets/image/abhijit.jpg" class="pr-author-image mat-elevation-z8 pr-non-selectable pr-no-focus">
+						</div>
+						<div fxLayout="column" fxLayoutAlign="center start" class="pr-author-tag-content pr-font-chn">
+							<span class="pr-author-tag-name">Abhijit Mitra</span>
+							<span class="pr-author-tag-info-1">Dept. of Computer Science &amp; Engineering</span>
+							<span class="pr-author-tag-info-2">University Of Kalyani</span>
+						</div>
+					</div>
+				</div>
+			</div>
+		</mat-expansion-panel>
+	</mat-accordion>
+	<mat-accordion class="pr-margin-top-30px pr-margin-bottom-30px">
 		<mat-expansion-panel [expanded]="group.value">
 			<mat-expansion-panel-header class="pr-padding-top-30px pr-padding-bottom-30px">
 				<mat-panel-title class="pr-font-chn">01</mat-panel-title>
@@ -26,11 +91,11 @@
 						<span class="pr-analysis-report-subtitle">This graph is plotted based on the latest data available.</span>
 					</div>
 					<div fxLayout="row" fxLayoutAlign="center center">
-						<ngx-charts-bubble-chart [view]="covidAnalysisTemperatureToInfectionScatterPlot.view" [scheme]="covidAnalysisTemperatureToInfectionScatterPlot.colorScheme" [results]="covidAnalysisTemperatureToInfectionScatterPlot.bubbleData" [xAxis]="covidAnalysisTemperatureToInfectionScatterPlot.showXAxis" [yAxis]="covidAnalysisTemperatureToInfectionScatterPlot.showYAxis" [legend]="covidAnalysisTemperatureToInfectionScatterPlot.showLegend" [showXAxisLabel]="covidAnalysisTemperatureToInfectionScatterPlot.showXAxisLabel" [showYAxisLabel]="covidAnalysisTemperatureToInfectionScatterPlot.showYAxisLabel" [xAxisLabel]="covidAnalysisTemperatureToInfectionScatterPlot.xAxisLabel" [yAxisLabel]="covidAnalysisTemperatureToInfectionScatterPlot.yAxisLabel" [legendPosition]="covidAnalysisTemperatureToInfectionScatterPlot.legendPosition" [minRadius]="covidAnalysisTemperatureToInfectionScatterPlot.minRadius" [xScaleMin]="covidAnalysisTemperatureToInfectionScatterPlot.xScaleMin" [yScaleMin]="covidAnalysisTemperatureToInfectionScatterPlot.yScaleMin" (select)="onSelectCovidAnalysisTemperatureToInfectionLineGraph($event)"></ngx-charts-bubble-chart>
+						<ngx-charts-bubble-chart [view]="covidAnalysisTemperatureToInfectionScatterPlot.view" [scheme]="covidAnalysisTemperatureToInfectionScatterPlot.colorScheme" [results]="covidAnalysisTemperatureToInfectionScatterPlot.bubbleData" [xAxis]="covidAnalysisTemperatureToInfectionScatterPlot.showXAxis" [yAxis]="covidAnalysisTemperatureToInfectionScatterPlot.showYAxis" [legend]="covidAnalysisTemperatureToInfectionScatterPlot.showLegend" [showXAxisLabel]="covidAnalysisTemperatureToInfectionScatterPlot.showXAxisLabel" [showYAxisLabel]="covidAnalysisTemperatureToInfectionScatterPlot.showYAxisLabel" [xAxisLabel]="covidAnalysisTemperatureToInfectionScatterPlot.xAxisLabel" [yAxisLabel]="covidAnalysisTemperatureToInfectionScatterPlot.yAxisLabel" [legendPosition]="covidAnalysisTemperatureToInfectionScatterPlot.legendPosition" [minRadius]="covidAnalysisTemperatureToInfectionScatterPlot.minRadius" [xScaleMin]="covidAnalysisTemperatureToInfectionScatterPlot.xScaleMin" [yScaleMin]="covidAnalysisTemperatureToInfectionScatterPlot.yScaleMin" [yAxisTickFormatting]="workhorse.graphAxisTickNumberFormatter" (select)="onSelectCovidAnalysisTemperatureToInfectionLineGraph($event)"></ngx-charts-bubble-chart>
 					</div>
 				</div>
 				<span class="pr-covid-analysis-report pr-font-rmono pr-margin-top-30px">In this COVID-19 analysis, we find out that <span class="pr-analysis-important-marker">the novel Corona virus is spreading and infecting far more people in countries which are away from the Equator than countries which are closer to the Equator</span>, i.e., places with warmer climate shows less infection than places with colder climate.</span>
-				<span class="pr-margin-top-10px pr-margin-bottom-10px"><a href="https://github.com/CSSEGISandData/COVID-19/blob/master/csse_covid_19_data/csse_covid_19_time_series/time_series_covid19_confirmed_global.csv" target="_blank" class="pr-ext-link">[ dataset: COVID-19 Timeseries Confirmed Cases ]</a></span>
+				<span class="pr-margin-top-10px pr-margin-bottom-10px"><a href="https://github.com/CSSEGISandData/COVID-19/blob/master/csse_covid_19_data/csse_covid_19_time_series/time_series_covid19_confirmed_global.csv" target="_blank" class="pr-ext-link">[ dataset: World COVID-19 Timeseries Confirmed Cases ]</a></span>
 				<div fxLayout="row" fxLayoutAlign="start center">
 					<div fxLayout="row" fxLayoutAlign="center center" (click)="navigateToAuthor('https://colab.research.google.com/drive/17XnISsCtz6S7dB81u6JeqAu63uLGPz7m')" class="pr-colab-container mat-elevation-z2">
 						<img src="assets/image/colab_favicon.ico" class="pr-colab-image pr-non-selectable pr-no-focus">
@@ -49,7 +114,7 @@
 						<span class="pr-analysis-report-subtitle">The visualization has latitude range of (90N - 60N), (45N - 30N), (16N - 20S), (30S - 45N) and (60S - 90S) for the last 14 days.</span>
 					</div>
 					<div fxLayout="row" fxLayoutAlign="center center">
-						<ngx-charts-line-chart [view]="covidAnalysisTemperatureToInfectionSelectedLineGraph.view" [scheme]="covidAnalysisTemperatureToInfectionSelectedLineGraph.colorScheme" [results]="covidAnalysisTemperatureToInfectionSelectedLineGraph.multi" [xAxis]="covidAnalysisTemperatureToInfectionSelectedLineGraph.showXAxis" [yAxis]="covidAnalysisTemperatureToInfectionSelectedLineGraph.showYAxis" [legend]="covidAnalysisTemperatureToInfectionSelectedLineGraph.showLegend" [showXAxisLabel]="covidAnalysisTemperatureToInfectionSelectedLineGraph.showXAxisLabel" [showYAxisLabel]="covidAnalysisTemperatureToInfectionSelectedLineGraph.showYAxisLabel" [xAxisLabel]="covidAnalysisTemperatureToInfectionSelectedLineGraph.xAxisLabel" [yAxisLabel]="covidAnalysisTemperatureToInfectionSelectedLineGraph.yAxisLabel" [legendPosition]="covidAnalysisTemperatureToInfectionSelectedLineGraph.legendPosition" (select)="onSelectCovidAnalysisTemperatureToInfectionSelectedLineGraph($event)"></ngx-charts-line-chart>
+						<ngx-charts-line-chart [view]="covidAnalysisTemperatureToInfectionSelectedLineGraph.view" [scheme]="covidAnalysisTemperatureToInfectionSelectedLineGraph.colorScheme" [results]="covidAnalysisTemperatureToInfectionSelectedLineGraph.multi" [xAxis]="covidAnalysisTemperatureToInfectionSelectedLineGraph.showXAxis" [yAxis]="covidAnalysisTemperatureToInfectionSelectedLineGraph.showYAxis" [legend]="covidAnalysisTemperatureToInfectionSelectedLineGraph.showLegend" [showXAxisLabel]="covidAnalysisTemperatureToInfectionSelectedLineGraph.showXAxisLabel" [showYAxisLabel]="covidAnalysisTemperatureToInfectionSelectedLineGraph.showYAxisLabel" [xAxisLabel]="covidAnalysisTemperatureToInfectionSelectedLineGraph.xAxisLabel" [yAxisLabel]="covidAnalysisTemperatureToInfectionSelectedLineGraph.yAxisLabel" [legendPosition]="covidAnalysisTemperatureToInfectionSelectedLineGraph.legendPosition" [yAxisTickFormatting]="workhorse.graphAxisTickNumberFormatter" (select)="onSelectCovidAnalysisTemperatureToInfectionSelectedLineGraph($event)"></ngx-charts-line-chart>
 					</div>
 				</div>
 				<span class="pr-covid-analysis-report pr-font-rmono">Here we have divided all the affected areas (provinces/countries) into multiple temperature regions based on their latitude. Areas having latitude within a certain range are put together as a temperature region. One thing is to mention that <span class="pr-analysis-important-marker">regions of the same country might belong to different temperature regions depending on their latitude.</span> These regions or range of latitudes are chosen in such a way that some regions show a steep change in temperature throughout, whereas, the range between 16N to 20S, though has the highest temperature, has almost uniform temperature throughout. However, to learn more about how surface air temperature varies with respect to latitude, refer Figure 1.</span>
@@ -86,9 +151,10 @@
 						<button mat-raised-button (click)="reshufflePlaces()" color="accent">RE-SHUFFLE</button>
 					</div>
 					<div fxLayout="row" fxLayoutAlign="center center">
-						<ngx-charts-line-chart [view]="covidAnalysisTemperatureToInfectionLineGraph.view" [scheme]="covidAnalysisTemperatureToInfectionLineGraph.colorScheme" [results]="covidAnalysisTemperatureToInfectionLineGraph.single" [xAxis]="covidAnalysisTemperatureToInfectionLineGraph.showXAxis" [yAxis]="covidAnalysisTemperatureToInfectionLineGraph.showYAxis" [legend]="covidAnalysisTemperatureToInfectionLineGraph.showLegend" [showXAxisLabel]="covidAnalysisTemperatureToInfectionLineGraph.showXAxisLabel" [showYAxisLabel]="covidAnalysisTemperatureToInfectionLineGraph.showYAxisLabel" [xAxisLabel]="covidAnalysisTemperatureToInfectionLineGraph.xAxisLabel" [yAxisLabel]="covidAnalysisTemperatureToInfectionLineGraph.yAxisLabel" [legendPosition]="covidAnalysisTemperatureToInfectionLineGraph.legendPosition" (select)="onSelectCovidAnalysisTemperatureToInfectionLineGraph($event)"></ngx-charts-line-chart>
+						<ngx-charts-line-chart [view]="covidAnalysisTemperatureToInfectionLineGraph.view" [scheme]="covidAnalysisTemperatureToInfectionLineGraph.colorScheme" [results]="covidAnalysisTemperatureToInfectionLineGraph.single" [xAxis]="covidAnalysisTemperatureToInfectionLineGraph.showXAxis" [yAxis]="covidAnalysisTemperatureToInfectionLineGraph.showYAxis" [legend]="covidAnalysisTemperatureToInfectionLineGraph.showLegend" [showXAxisLabel]="covidAnalysisTemperatureToInfectionLineGraph.showXAxisLabel" [showYAxisLabel]="covidAnalysisTemperatureToInfectionLineGraph.showYAxisLabel" [xAxisLabel]="covidAnalysisTemperatureToInfectionLineGraph.xAxisLabel" [yAxisLabel]="covidAnalysisTemperatureToInfectionLineGraph.yAxisLabel" [legendPosition]="covidAnalysisTemperatureToInfectionLineGraph.legendPosition" [yAxisTickFormatting]="workhorse.graphAxisTickNumberFormatter" (select)="onSelectCovidAnalysisTemperatureToInfectionLineGraph($event)"></ngx-charts-line-chart>
 					</div>
 				</div>
+				<span class="pr-covid-analysis-report pr-font-rmono">While using the reshuffle button, {{covidAnalysisTemperatureToInfectionLineGraph.totalSelection}} countries shall be selected at random. But even with randomly selected countries, it is seen that the <span class="pr-analysis-important-marker">infection usually spikes away from the equator (0 in this case)</span>.</span>
 				<div fxLayout="row wrap" class="pr-margin-top-30px">
 					<div fxLayout.xs="column" fxLayout.sm="column" fxLayout.md="row" fxLayout.lg="row" fxLayout.xl="row" fxLayoutAlign="center center" (click)="navigateToAuthor('https://www.linkedin.com/in/ayankumarsaha/')" class="pr-author-tag mat-elevation-z2">
 						<div fxLayout="row" fxLayoutAlign="center center" class="pr-author-tag-image-container">

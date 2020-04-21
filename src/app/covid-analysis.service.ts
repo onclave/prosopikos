@@ -19,7 +19,7 @@ export class CovidAnalysisService {
 		legendPosition: 'right',
 		showXAxisLabel: true,
 		showYAxisLabel: false,
-		xAxisLabel: "abs(latitude)",
+		xAxisLabel: "abs( latitude )",
 		yAxisLabel: "Infection",
 		colorScheme: {
 			domain: [ '#D70518' ]
@@ -37,7 +37,7 @@ export class CovidAnalysisService {
 		legendPosition: 'right',
 		showXAxisLabel: true,
 		showYAxisLabel: false,
-		xAxisLabel: "abs(latitude)",
+		xAxisLabel: "abs( latitude )",
 		yAxisLabel: "Infection",
 		colorScheme: {
 			domain: [ '#D70518', '#F55F96', '#F2ABC7', '#F2069F', '#F86660', '#BF110C', '#FF1610', '#DE8903', '#E84703' ]
@@ -77,8 +77,8 @@ export class CovidAnalysisService {
 		showLegend: true,
 		legendPosition: 'right',
 		showXAxisLabel: true,
-		showYAxisLabel: true,
-		xAxisLabel: "abs(latitude)",
+		showYAxisLabel: false,
+		xAxisLabel: "abs( latitude )",
 		yAxisLabel: "Infection",
 		minRadius: 0,
 		xScaleMin: 0,

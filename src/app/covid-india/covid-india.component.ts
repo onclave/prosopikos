@@ -159,9 +159,9 @@ export class CovidIndiaComponent implements OnInit {
 				
 				let width: number = window.innerWidth - 50;
 
-				this.covidIndiaRegionsBarGraph.view = [width, 400];
-				this.covidIndiaProgressLineChart.view = [width, 400];
-				this.covidIndiaStateProgressLineChart.view = [width, 400];
+				this.covidIndiaRegionsBarGraph.view = [width, 350];
+				this.covidIndiaProgressLineChart.view = [width, 350];
+				this.covidIndiaStateProgressLineChart.view = [width, 350];
 				this.covidIndiaRegionsBarGraph.legendPosition = 'right';
 				this.covidIndiaProgressLineChart.legendPosition = 'right';
 				this.covidIndiaStateProgressLineChart.legendPosition = 'right';
@@ -171,9 +171,9 @@ export class CovidIndiaComponent implements OnInit {
 		this.breakpointObserver.observe([this.lgMin]).subscribe((state: BreakpointState) => {
 			if(state.matches) {
 				
-				this.covidIndiaRegionsBarGraph.view = [1100, 500];
-				this.covidIndiaProgressLineChart.view = [1100, 500];
-				this.covidIndiaStateProgressLineChart.view = [1100, 500];
+				this.covidIndiaRegionsBarGraph.view = [1100, 450];
+				this.covidIndiaProgressLineChart.view = [1100, 450];
+				this.covidIndiaStateProgressLineChart.view = [1100, 450];
 				this.covidIndiaRegionsBarGraph.legendPosition = 'right';
 				this.covidIndiaProgressLineChart.legendPosition = 'right';
 				this.covidIndiaStateProgressLineChart.legendPosition = 'right';

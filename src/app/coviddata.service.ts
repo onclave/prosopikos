@@ -98,11 +98,6 @@ export class CoviddataService {
 		return this.worldRecoveryCovidData;
 	}
 
-
-
-
-
-
 	public getConfirmedCovidData(): CovidData {
 		return this.confirmedCovidData;
 	}
@@ -114,12 +109,6 @@ export class CoviddataService {
 	public getRecoveryCovidData(): CovidData {
 		return this.recoveryCovidData;
 	}
-
-
-
-
-
-
 
 	private prepareCovidIndiaConfirmedDataObject(data: any, covidTimeseriesIndiaConfirmedCallback: any): void {
 
@@ -262,6 +251,7 @@ export class CoviddataService {
 		});
 	}
 
+	// make this shit DRY
 	private prepareCovidWorldConfirmedDataObject(data: any, covidTimeseriesConfirmedCallback: any): void {
 
 		this.covidTimeseriesWorldConfirmedRawData = data;
@@ -295,7 +285,7 @@ export class CoviddataService {
 					let country: Country = new Country(countryName);
 					let province: Province = new Province(provinceName, countryName, coordinates, timeseries);
 
-					if(!this.workhorse.doesCountryExist(this.worldConfirmedCovidData.getCountries(), countryName)) this.worldConfirmedCovidData.addCountry(country);
+					if(!this.worldConfirmedCovidData.hasCountryByName(countryName)) this.worldConfirmedCovidData.addCountry(country);
 					else country = this.worldConfirmedCovidData.getCountryByName(countryName);
 					
 					if(!this.workhorse.doesProvinceExist(country, provinceName)) country.addProvince(province);
@@ -306,6 +296,7 @@ export class CoviddataService {
 		});
 	}
 
+	// make thi shit DRY
 	private prepareCovidWorldRecoveryDataObject(data: any, covidTimeseriesRecoveryCallback: any): void {
 
 		this.covidTimeseriesWorldRecoveryRawData = data;
@@ -339,7 +330,7 @@ export class CoviddataService {
 					let country: Country = new Country(countryName);
 					let province: Province = new Province(provinceName, countryName, coordinates, timeseries);
 
-					if(!this.workhorse.doesCountryExist(this.worldRecoveryCovidData.getCountries(), countryName)) this.worldRecoveryCovidData.addCountry(country);
+					if(!this.worldRecoveryCovidData.hasCountryByName(countryName)) this.worldRecoveryCovidData.addCountry(country);
 					else country = this.worldRecoveryCovidData.getCountryByName(countryName);
 					
 					if(!this.workhorse.doesProvinceExist(country, provinceName)) country.addProvince(province);
@@ -350,6 +341,7 @@ export class CoviddataService {
 		});
 	}
 
+	// make this shit DRY
 	private prepareCovidWorldDeathDataObject(data: any, covidTimeseriesDeathCallback: any): void {
 
 		this.covidTimeseriesWorldDataRawData = data;
@@ -383,7 +375,7 @@ export class CoviddataService {
 					let country: Country = new Country(countryName);
 					let province: Province = new Province(provinceName, countryName, coordinates, timeseries);
 
-					if(!this.workhorse.doesCountryExist(this.worldDeathCovidData.getCountries(), countryName)) this.worldDeathCovidData.addCountry(country);
+					if(!this.worldDeathCovidData.hasCountryByName(countryName)) this.worldDeathCovidData.addCountry(country);
 					else country = this.worldDeathCovidData.getCountryByName(countryName);
 					
 					if(!this.workhorse.doesProvinceExist(country, provinceName)) country.addProvince(province);

@@ -3,10 +3,6 @@
 		<span *ngIf="isConfirmedLoading || isRecoveredLoading || isDeathLoading" class="pr-covid-loading-message pr-font-chn pr-margin-bottom-10px">Loading data ...</span>
 		<mat-progress-bar mode="indeterminate" *ngIf="isConfirmedLoading || isRecoveredLoading || isDeathLoading"></mat-progress-bar>
 	</div>
-	<div fxLayout="column">
-		<span><span class="pr-covid-notice-header pr-font-chn">SOURCE DATA HAS CHANGED SINCE 23 / 3 / 2020</span></span>
-		<span><span class="pr-covid-notice-header pr-font-chn">SOURCE DATA FOR RECOVERY IN NOW BEING UPDATED AGAIN BUT MAY BE ONE DAY BEHIND OTHER DATA</span></span>
-	</div>
 	<span class="pr-analysis-heading pr-font-chn pr-margin-top-30px">covid-19 reported confirmed cases as of <span class="pr-color-watermelon">{{latestCovidConfirmedDate}}</span>, recovered cases as of <span class="pr-color-watermelon">{{latestCovidRecoveryDate}}</span> and deceased cases as of <span class="pr-color-watermelon">{{latestCovidDeathDate}}</span> (mm/dd/yyyy)</span>
 	<div fxLayout="column" class="pr-margin-top-10px">
 		<div fxLayout.xs="column" fxLayout.sm="column" fxLayout.md="row" fxLayout.lg="row" fxLayout.xl="row" fxLayoutAlign.xs="start start" fxLayoutAlign.sm="start start" fxLayoutAlign.md="space-around start" fxLayoutAlign.lg="space-around start" fxLayoutAlign.xl="space-around start">
@@ -94,7 +90,7 @@
 			</div>
 		</div>
 		<div fxLayout="row" fxLayoutAlign="center center">
-			<ngx-charts-line-chart [view]="covidWorldProgressLineChart.view" [scheme]="covidWorldProgressLineChart.colorScheme" [results]="covidWorldProgressLineChart.multi" [xAxis]="covidWorldProgressLineChart.showXAxis" [yAxis]="covidWorldProgressLineChart.showYAxis" [legend]="covidWorldProgressLineChart.showLegend" [showXAxisLabel]="covidWorldProgressLineChart.showXAxisLabel" [showYAxisLabel]="covidWorldProgressLineChart.showYAxisLabel" [xAxisLabel]="covidWorldProgressLineChart.xAxisLabel" [yAxisLabel]="covidWorldProgressLineChart.yAxisLabel" [legendPosition]="covidWorldProgressLineChart.legendPosition" (select)="onSelectCovidWorldProgressLineChart($event)"></ngx-charts-line-chart>
+			<ngx-charts-line-chart [view]="covidWorldProgressLineChart.view" [scheme]="covidWorldProgressLineChart.colorScheme" [results]="covidWorldProgressLineChart.multi" [xAxis]="covidWorldProgressLineChart.showXAxis" [yAxis]="covidWorldProgressLineChart.showYAxis" [legend]="covidWorldProgressLineChart.showLegend" [showXAxisLabel]="covidWorldProgressLineChart.showXAxisLabel" [showYAxisLabel]="covidWorldProgressLineChart.showYAxisLabel" [xAxisLabel]="covidWorldProgressLineChart.xAxisLabel" [yAxisLabel]="covidWorldProgressLineChart.yAxisLabel" [yAxisTickFormatting]="workhorse.graphAxisTickNumberFormatter" [xAxisTickFormatting]="workhorse.graphAxisTickDateFormatter" [legendPosition]="covidWorldProgressLineChart.legendPosition" (select)="onSelectCovidWorldProgressLineChart($event)"></ngx-charts-line-chart>
 		</div>
 	</div>
 	<div class="pr-covid-analysis-writeup pr-font-chn pr-padding-sides-10p">
@@ -105,7 +101,7 @@
 	</div>
 	<div fxLayout="column" fxLayoutAlign="start stretch" class="dark pr-chart-container pr-margin-top-10vh pr-non-selectable pr-no-focus">
 		<div fxLayout="column" class="pr-analysis-report-container">
-			<span class="pr-analysis-report-header pr-font-chn">{{covidWorldCountriesBarGraph.selectedCountriesCount}} Most Infected Regions:</span>
+			<span class="pr-analysis-report-header pr-font-chn">{{covidWorldCountriesBarGraph.selectedCountriesCount}} Most Infected Countries:</span>
 			<mat-slider min="1" max="{{getMaxCountryCountAvailableInAllDatasets()}}" step="1" [(ngModel)]="covidWorldCountriesBarGraph.selectedCountriesCount" (input)="onSliderChangeCovidWorldCountriesBarGraph($event)" thumbLabel></mat-slider>
 			<span class="pr-analysis-report-subtitle">Use the slider to change the number of affected countries to show!</span>
 			<span class="pr-analysis-report-subtitle pr-margin-top-10px">You can check / uncheck options below to configure the stacked bar graph data visual.</span>
@@ -116,7 +112,7 @@
 			</div>
 		</div>
 		<div fxLayout="row" fxLayoutAlign="center center">
-			<ngx-charts-bar-vertical-stacked [view]="covidWorldCountriesBarGraph.view" [scheme]="covidWorldCountriesBarGraph.colorScheme" [results]="covidWorldCountriesBarGraph.multi" [gradient]="covidWorldCountriesBarGraph.gradient" [xAxis]="covidWorldCountriesBarGraph.showXAxis" [yAxis]="covidWorldCountriesBarGraph.showYAxis" [legend]="covidWorldCountriesBarGraph.showLegend" [showXAxisLabel]="covidWorldCountriesBarGraph.showXAxisLabel" [showYAxisLabel]="covidWorldCountriesBarGraph.showYAxisLabel" [xAxisLabel]="covidWorldCountriesBarGraph.xAxisLabel" [yAxisLabel]="covidWorldCountriesBarGraph.yAxisLabel" [legendPosition]="covidWorldCountriesBarGraph.legendPosition" (select)="onSelectCovidWorldCountriesBarGraph($event)"></ngx-charts-bar-vertical-stacked>
+			<ngx-charts-bar-vertical-stacked [view]="covidWorldCountriesBarGraph.view" [scheme]="covidWorldCountriesBarGraph.colorScheme" [results]="covidWorldCountriesBarGraph.multi" [gradient]="covidWorldCountriesBarGraph.gradient" [xAxis]="covidWorldCountriesBarGraph.showXAxis" [yAxis]="covidWorldCountriesBarGraph.showYAxis" [legend]="covidWorldCountriesBarGraph.showLegend" [showXAxisLabel]="covidWorldCountriesBarGraph.showXAxisLabel" [showYAxisLabel]="covidWorldCountriesBarGraph.showYAxisLabel" [xAxisLabel]="covidWorldCountriesBarGraph.xAxisLabel" [yAxisTickFormatting]="workhorse.graphAxisTickNumberFormatter" [yAxisLabel]="covidWorldCountriesBarGraph.yAxisLabel" [legendPosition]="covidWorldCountriesBarGraph.legendPosition" (select)="onSelectCovidWorldCountriesBarGraph($event)"></ngx-charts-bar-vertical-stacked>
 		</div>
 	</div>
 	<div class="pr-covid-analysis-writeup pr-font-chn pr-padding-sides-10p">
@@ -150,7 +146,7 @@
 			</div>
 		</div>
 		<div fxLayout="row" fxLayoutAlign="center start">
-			<ngx-charts-line-chart [view]="covidWorldCountryProgressLineChart.view" [scheme]="covidWorldCountryProgressLineChart.colorScheme" [results]="covidWorldCountryProgressLineChart.multi" [xAxis]="covidWorldCountryProgressLineChart.showXAxis" [yAxis]="covidWorldCountryProgressLineChart.showYAxis" [legend]="covidWorldCountryProgressLineChart.showLegend" [showXAxisLabel]="covidWorldCountryProgressLineChart.showXAxisLabel" [showYAxisLabel]="covidWorldCountryProgressLineChart.showYAxisLabel" [xAxisLabel]="covidWorldCountryProgressLineChart.xAxisLabel" [yAxisLabel]="covidWorldCountryProgressLineChart.yAxisLabel" [legendPosition]="covidWorldCountryProgressLineChart.legendPosition" (select)="onSelectCovidWorldCountryProgressLineChart($event)"></ngx-charts-line-chart>
+			<ngx-charts-line-chart [view]="covidWorldCountryProgressLineChart.view" [scheme]="covidWorldCountryProgressLineChart.colorScheme" [results]="covidWorldCountryProgressLineChart.multi" [xAxis]="covidWorldCountryProgressLineChart.showXAxis" [yAxis]="covidWorldCountryProgressLineChart.showYAxis" [legend]="covidWorldCountryProgressLineChart.showLegend" [showXAxisLabel]="covidWorldCountryProgressLineChart.showXAxisLabel" [showYAxisLabel]="covidWorldCountryProgressLineChart.showYAxisLabel" [xAxisLabel]="covidWorldCountryProgressLineChart.xAxisLabel" [yAxisTickFormatting]="workhorse.graphAxisTickNumberFormatter" [xAxisTickFormatting]="workhorse.graphAxisTickDateFormatter" [yAxisLabel]="covidWorldCountryProgressLineChart.yAxisLabel" [legendPosition]="covidWorldCountryProgressLineChart.legendPosition" (select)="onSelectCovidWorldCountryProgressLineChart($event)"></ngx-charts-line-chart>
 		</div>
 	</div>
 	<div class="pr-covid-analysis-writeup pr-font-chn pr-padding-sides-10p">

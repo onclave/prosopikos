@@ -92,7 +92,7 @@
 			</div>
 		</div>
 		<div fxLayout="row" fxLayoutAlign="center center">
-			<ngx-charts-line-chart [view]="covidIndiaProgressLineChart.view" [scheme]="covidIndiaProgressLineChart.colorScheme" [results]="covidIndiaProgressLineChart.multi" [xAxis]="covidIndiaProgressLineChart.showXAxis" [yAxis]="covidIndiaProgressLineChart.showYAxis" [legend]="covidIndiaProgressLineChart.showLegend" [showXAxisLabel]="covidIndiaProgressLineChart.showXAxisLabel" [showYAxisLabel]="covidIndiaProgressLineChart.showYAxisLabel" [xAxisLabel]="covidIndiaProgressLineChart.xAxisLabel" [yAxisLabel]="covidIndiaProgressLineChart.yAxisLabel" [legendPosition]="covidIndiaProgressLineChart.legendPosition" (select)="onSelectCovidIndiaProgressLineChart($event)"></ngx-charts-line-chart>
+			<ngx-charts-line-chart [view]="covidIndiaProgressLineChart.view" [scheme]="covidIndiaProgressLineChart.colorScheme" [results]="covidIndiaProgressLineChart.multi" [xAxis]="covidIndiaProgressLineChart.showXAxis" [yAxis]="covidIndiaProgressLineChart.showYAxis" [legend]="covidIndiaProgressLineChart.showLegend" [showXAxisLabel]="covidIndiaProgressLineChart.showXAxisLabel" [showYAxisLabel]="covidIndiaProgressLineChart.showYAxisLabel" [xAxisLabel]="covidIndiaProgressLineChart.xAxisLabel" [yAxisLabel]="covidIndiaProgressLineChart.yAxisLabel" [yAxisTickFormatting]="workhorse.graphAxisTickNumberFormatter" [xAxisTickFormatting]="workhorse.graphAxisTickDateFormatter" [legendPosition]="covidIndiaProgressLineChart.legendPosition" (select)="onSelectCovidIndiaProgressLineChart($event)"></ngx-charts-line-chart>
 		</div>
 	</div>
 	<div class="pr-covid-analysis-writeup pr-font-chn pr-padding-sides-10p">
@@ -114,7 +114,7 @@
 			</div>
 		</div>
 		<div fxLayout="row" fxLayoutAlign="center start">
-			<ngx-charts-bar-vertical-stacked [view]="covidIndiaRegionsBarGraph.view" [scheme]="covidIndiaRegionsBarGraph.colorScheme" [results]="covidIndiaRegionsBarGraph.multi" [gradient]="covidIndiaRegionsBarGraph.gradient" [xAxis]="covidIndiaRegionsBarGraph.showXAxis" [yAxis]="covidIndiaRegionsBarGraph.showYAxis" [legend]="covidIndiaRegionsBarGraph.showLegend" [showXAxisLabel]="covidIndiaRegionsBarGraph.showXAxisLabel" [showYAxisLabel]="covidIndiaRegionsBarGraph.showYAxisLabel" [xAxisLabel]="covidIndiaRegionsBarGraph.xAxisLabel" [yAxisLabel]="covidIndiaRegionsBarGraph.yAxisLabel" [legendPosition]="covidIndiaRegionsBarGraph.legendPosition" (select)="onSelectCovidIndiaRegionsBarGraph($event)"></ngx-charts-bar-vertical-stacked>
+			<ngx-charts-bar-vertical-stacked [view]="covidIndiaRegionsBarGraph.view" [scheme]="covidIndiaRegionsBarGraph.colorScheme" [results]="covidIndiaRegionsBarGraph.multi" [gradient]="covidIndiaRegionsBarGraph.gradient" [xAxis]="covidIndiaRegionsBarGraph.showXAxis" [yAxis]="covidIndiaRegionsBarGraph.showYAxis" [legend]="covidIndiaRegionsBarGraph.showLegend" [showXAxisLabel]="covidIndiaRegionsBarGraph.showXAxisLabel" [showYAxisLabel]="covidIndiaRegionsBarGraph.showYAxisLabel" [xAxisLabel]="covidIndiaRegionsBarGraph.xAxisLabel" [yAxisLabel]="covidIndiaRegionsBarGraph.yAxisLabel" [yAxisTickFormatting]="workhorse.graphAxisTickNumberFormatter" [legendPosition]="covidIndiaRegionsBarGraph.legendPosition" (select)="onSelectCovidIndiaRegionsBarGraph($event)"></ngx-charts-bar-vertical-stacked>
 		</div>
 	</div>
 	<div class="pr-covid-analysis-writeup pr-font-chn pr-padding-sides-10p">
@@ -148,7 +148,7 @@
 			</div>
 		</div>
 		<div fxLayout="row" fxLayoutAlign="center start">
-			<ngx-charts-line-chart [view]="covidIndiaStateProgressLineChart.view" [scheme]="covidIndiaStateProgressLineChart.colorScheme" [results]="covidIndiaStateProgressLineChart.multi" [xAxis]="covidIndiaStateProgressLineChart.showXAxis" [yAxis]="covidIndiaStateProgressLineChart.showYAxis" [legend]="covidIndiaStateProgressLineChart.showLegend" [showXAxisLabel]="covidIndiaStateProgressLineChart.showXAxisLabel" [showYAxisLabel]="covidIndiaStateProgressLineChart.showYAxisLabel" [xAxisLabel]="covidIndiaStateProgressLineChart.xAxisLabel" [yAxisLabel]="covidIndiaStateProgressLineChart.yAxisLabel" [legendPosition]="covidIndiaStateProgressLineChart.legendPosition" (select)="onSelectCovidIndiaStateProgressLineChart($event)"></ngx-charts-line-chart>
+			<ngx-charts-line-chart [view]="covidIndiaStateProgressLineChart.view" [scheme]="covidIndiaStateProgressLineChart.colorScheme" [results]="covidIndiaStateProgressLineChart.multi" [xAxis]="covidIndiaStateProgressLineChart.showXAxis" [yAxis]="covidIndiaStateProgressLineChart.showYAxis" [legend]="covidIndiaStateProgressLineChart.showLegend" [showXAxisLabel]="covidIndiaStateProgressLineChart.showXAxisLabel" [showYAxisLabel]="covidIndiaStateProgressLineChart.showYAxisLabel" [xAxisLabel]="covidIndiaStateProgressLineChart.xAxisLabel" [yAxisLabel]="covidIndiaStateProgressLineChart.yAxisLabel" [yAxisTickFormatting]="workhorse.graphAxisTickNumberFormatter" [xAxisTickFormatting]="workhorse.graphAxisTickDateFormatter" [legendPosition]="covidIndiaStateProgressLineChart.legendPosition" (select)="onSelectCovidIndiaStateProgressLineChart($event)"></ngx-charts-line-chart>
 		</div>
 	</div>
 	<div class="pr-covid-analysis-writeup pr-font-chn pr-padding-sides-10p">

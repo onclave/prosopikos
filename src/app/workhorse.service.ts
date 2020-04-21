@@ -38,6 +38,36 @@ export class WorkhorseService {
 		};
 	}
 
+	public graphAxisTickNumberFormatter(value: number, fixed: number = 2): string {
+
+		/* https://stackoverflow.com/a/32638472/3640307 */
+
+		if(value === null) return null;
+		if(value === 0) return '0';
+
+		fixed = (!fixed || fixed < 0) ? 0 : fixed;
+
+		let b: string[] = (value).toPrecision(2).split("e");
+		let k: number = b.length === 1 ? 0 : Math.floor(Math.min(parseFloat(b[1].slice(1)), 14) / 3);
+		let c: string = k < 1 ? value.toFixed(0 + fixed) : (value / Math.pow(10, k * 3)).toFixed(1 + fixed);
+		let d: number = parseFloat(c) < 0 ? parseFloat(c) : Math.abs(parseFloat(c));
+		let e: string = d + ['', 'K', 'M', 'B', 'T'][k];
+
+		return e;
+	}
+
+	public graphAxisTickDateFormatter(value: string): string {
+
+		if((value == null) || (value == undefined) || (value == '')) return '';
+
+		let values: string[] = value.split('/');
+
+		if(values.length != 3) return value;
+
+		return values[1] + '/' + values[0];
+	}
+
+	// delete this shit
 	public doesCountryExist(countries: Country[], name: string): boolean {
 
 		let countryExists: boolean = false;
@@ -52,6 +82,7 @@ export class WorkhorseService {
 		return countryExists;
 	}
 
+	// delete this shit
 	public doesProvinceExist(country: Country, name: string): boolean {
 
 		let provinceExists: boolean = false;

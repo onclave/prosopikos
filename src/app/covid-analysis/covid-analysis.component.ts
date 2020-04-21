@@ -3,7 +3,6 @@ import { CovidAnalysisService } from '../covid-analysis.service';
 import { CoviddataService } from '../coviddata.service';
 import { WorkhorseService } from '../workhorse.service';
 import { CovidData } from '../model/covidData';
-import { Province } from '../model/province';
 import { MatSliderChange } from '@angular/material/slider';
 import { BreakpointObserver, BreakpointState } from '@angular/cdk/layout';
 import { MatTableDataSource } from '@angular/material/table';
@@ -25,8 +24,8 @@ export class CovidAnalysisComponent implements OnInit {
 	private breakpointObserver: BreakpointObserver;
 	private covidAnalysisService: CovidAnalysisService;
 	private coviddataService: CoviddataService;
-	private workhorse: WorkhorseService;
 
+	public workhorse: WorkhorseService;
 	public covidWorldConfirmedData: CovidData;
 	public covidAnalysisTemperatureToInfectionLineGraph = null;
 	public covidAnalysisTemperatureToInfectionSelectedLineGraph = null;
@@ -88,9 +87,9 @@ export class CovidAnalysisComponent implements OnInit {
 				
 				let width: number = window.innerWidth - 50;
 
-				this.covidAnalysisTemperatureToInfectionLineGraph.view = [width, 450];
-				this.covidAnalysisTemperatureToInfectionSelectedLineGraph.view = [width, 450];
-				this.covidAnalysisTemperatureToInfectionScatterPlot.view = [width, 500];
+				this.covidAnalysisTemperatureToInfectionLineGraph.view = [width, 350];
+				this.covidAnalysisTemperatureToInfectionSelectedLineGraph.view = [width, 350];
+				this.covidAnalysisTemperatureToInfectionScatterPlot.view = [width, 400];
 				this.covidAnalysisTemperatureToInfectionSelectedLineGraph.legendPosition = 'right';
 				this.covidAnalysisTemperatureToInfectionScatterPlot.legendPosition = 'right';
 			}
@@ -99,9 +98,9 @@ export class CovidAnalysisComponent implements OnInit {
 		this.breakpointObserver.observe([this.lgMin]).subscribe((state: BreakpointState) => {
 			if(state.matches) {
 
-				this.covidAnalysisTemperatureToInfectionLineGraph.view = [1000, 550];
-				this.covidAnalysisTemperatureToInfectionSelectedLineGraph.view = [1000, 550];
-				this.covidAnalysisTemperatureToInfectionScatterPlot.view = [1000, 600];
+				this.covidAnalysisTemperatureToInfectionLineGraph.view = [1000, 450];
+				this.covidAnalysisTemperatureToInfectionSelectedLineGraph.view = [1000, 450];
+				this.covidAnalysisTemperatureToInfectionScatterPlot.view = [1000, 500];
 				this.covidAnalysisTemperatureToInfectionSelectedLineGraph.legendPosition = 'right';
 				this.covidAnalysisTemperatureToInfectionScatterPlot.legendPosition = 'right';
 			}
