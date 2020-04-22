@@ -67,36 +67,6 @@ export class WorkhorseService {
 		return values[1] + '/' + values[0];
 	}
 
-	// delete this shit
-	public doesCountryExist(countries: Country[], name: string): boolean {
-
-		let countryExists: boolean = false;
-
-		for(let country of countries) {
-			if(name == country.getName()) {
-				countryExists = true;
-				break;
-			}
-		}
-
-		return countryExists;
-	}
-
-	// delete this shit
-	public doesProvinceExist(country: Country, name: string): boolean {
-
-		let provinceExists: boolean = false;
-
-		for(let province of country.getProvinces()) {
-			if(name == province.getName()) {
-				provinceExists = true;
-				break;
-			}
-		}
-
-		return provinceExists;
-	}
-
 	public getNumberFromCommaSeparatedString(value: string): number {
 
 		let values: string[] = value.split(',');

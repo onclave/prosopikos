@@ -1,5 +1,5 @@
 <section class="pr-covid pr-no-focus" fxLayout="column">
-    <div fxLayout="column" class="pr-covid-heading-container pr-non-selectable pr-no-focus">
+    <div fxLayout="column" class="pr-covid-heading-container pr-non-selectable pr-no-focus animated fadeIn">
         <span class="pr-covid-heading-1 pr-font-chn pr-uppercase pr-font-size-1-em">an overview of</span>
         <div class="pr-covid-heading-2 pr-font-nang pr-font-size-1-8-em pr-line-height-1-5-em">
             <span class="pr-color-gray-1">(</span>
@@ -18,13 +18,14 @@
         <span class="pr-covid-heading-3 pr-font-chn pr-uppercase pr-font-size-1-3-em">Dept. of Computer Science &amp; Engineering, University of Kalyani</span>
     </div>
     <div fxLayout="row" fxLayoutAlign="space-around start" class="pr-banner-container">
-        <div fxLayout="column" fxLayoutAlign="center stretch" fxFlex="40" fxShow.xs="false" fxShow.sm="false" fxShow.md="true" fxShow.lg="true" fxShow.xl="true" class="pr-margin-right-15px">
+        <div fxLayout="column" fxLayoutAlign="center stretch" fxFlex="40" fxShow.xs="false" fxShow.sm="false" fxShow.md="true" fxShow.lg="true" fxShow.xl="true" class="pr-margin-right-15px animated fadeIn">
             <span class="pr-covid-initiative pr-font-nang pr-non-selectable pr-no-focus">Department of Computer Science along with Department of Statistics, University of Kalyani, has taken this initiative to develop an interactive site to view and interact with the daily available nCoV-2019 pandemic from various sources. The timeseries data available from various sources are used, especially for students, researchers, data analysts, data engineers and other experts to create <span class="pr-analysis-important-marker">interactive graphs, charts and plots to visualize the progress of different regions of India, and / or different countries around the globe</span> and also to understand how various countries and / or regions within India are comparing against one another while fighting against this deadly disease.</span>
-            <div fxLayout="row" fxLayoutAlign="center end" class="pr-padding-10px pr-margin-top-10px pr-non-selectable pr-no-focus">
-                <img src="assets/image/analytics.svg" class="pr-covid-analytics-image pr-non-selectable pr-no-focus">
+            <div fxLayout="column" fxLayoutAlign="start start" class="pr-padding-10px pr-margin-top-10px pr-non-selectable pr-no-focus">
+                <span class="pr-justify pr-color-pink-1 pr-bold pr-font-nang pr-non-selectable pr-no-focus">We've written a python package for you to run analyses on our COVID-19 dataset.</span>
+                <span class="pr-classic-button-1 pr-font-chn" (click)="navigateToLink('/covid/covdata')">Check it out!</span>
             </div>
         </div>
-        <div fxLayout="column" fxLayoutAlign="start center" fxFlex.xs="100" fxFlex.sm="100" fxFlex.md="60" fxFlex.lg="60" fxFlex.xl="60">
+        <div fxLayout="column" fxLayoutAlign="start center" fxFlex.xs="100" fxFlex.sm="100" fxFlex.md="60" fxFlex.lg="60" fxFlex.xl="60" class="animated zoomIn">
             <app-covid-map></app-covid-map>
         </div>
     </div>

@@ -27,9 +27,9 @@ export class CoviddataService {
 	private COVID_19_TIMESERIES_WORLD_DEATH_URL: string = 'https://raw.githubusercontent.com/CSSEGISandData/COVID-19/master/csse_covid_19_data/csse_covid_19_time_series/time_series_covid19_deaths_global.csv';
 	private COVID_19_TIMESERIES_WORLD_RECOVERY_URL: string = 'https://raw.githubusercontent.com/CSSEGISandData/COVID-19/master/csse_covid_19_data/csse_covid_19_time_series/time_series_covid19_recovered_global.csv';
 
-	private COVID_19_TIMESERIES_CONFIRMED_URL: string = 'https://raw.githubusercontent.com/CSSEGISandData/COVID-19/master/csse_covid_19_data/csse_covid_19_time_series/time_series_covid19_confirmed_global.csv';
-	private COVID_19_TIMESERIES_DEATH_URL: string = 'https://raw.githubusercontent.com/CSSEGISandData/COVID-19/master/csse_covid_19_data/csse_covid_19_time_series/time_series_covid19_deaths_global.csv';
-	private COVID_19_TIMESERIES_RECOVERY_URL: string = 'https://raw.githubusercontent.com/CSSEGISandData/COVID-19/master/csse_covid_19_data/csse_covid_19_time_series/time_series_covid19_recovered_global.csv';
+	// private COVID_19_TIMESERIES_CONFIRMED_URL: string = 'https://raw.githubusercontent.com/CSSEGISandData/COVID-19/master/csse_covid_19_data/csse_covid_19_time_series/time_series_covid19_confirmed_global.csv';
+	// private COVID_19_TIMESERIES_DEATH_URL: string = 'https://raw.githubusercontent.com/CSSEGISandData/COVID-19/master/csse_covid_19_data/csse_covid_19_time_series/time_series_covid19_deaths_global.csv';
+	// private COVID_19_TIMESERIES_RECOVERY_URL: string = 'https://raw.githubusercontent.com/CSSEGISandData/COVID-19/master/csse_covid_19_data/csse_covid_19_time_series/time_series_covid19_recovered_global.csv';
 
 	private covidTimeseriesIndiaConfirmedRawData: string;
 	private covidTimeseriesIndiaRecoveryRawData: string;
@@ -61,17 +61,12 @@ export class CoviddataService {
 	}
 
 	public init(callback: any, initCase: number): void {
-		
-		if(initCase == 1) this.setupCovidTimeseriesData(this.COVID_19_TIMESERIES_CONFIRMED_URL, initCase, callback);
-		else if(initCase == 2) this.setupCovidTimeseriesData(this.COVID_19_TIMESERIES_DEATH_URL, initCase, callback);
-		else if(initCase == 3) this.setupCovidTimeseriesData(this.COVID_19_TIMESERIES_RECOVERY_URL, initCase, callback);
-
-		else if(initCase == 4) this.setupCovidTimeseriesData(this.COVID_19_TIMESERIES_INDIA_CONFIRMED_URL, initCase, callback);
-		else if(initCase == 5) this.setupCovidTimeseriesData(this.COVID_19_TIMESERIES_INDIA_RECOVERY_URL, initCase, callback);
-		else if(initCase == 6) this.setupCovidTimeseriesData(this.COVID_19_TIMESERIES_INDIA_DEATH_URL, initCase, callback);
-		else if(initCase == 7) this.setupCovidTimeseriesData(this.COVID_19_TIMESERIES_WORLD_CONFIRMED_URL, initCase, callback);
-		else if(initCase == 8) this.setupCovidTimeseriesData(this.COVID_19_TIMESERIES_WORLD_RECOVERY_URL, initCase, callback);
-		else if(initCase == 9) this.setupCovidTimeseriesData(this.COVID_19_TIMESERIES_WORLD_DEATH_URL, initCase, callback);
+		if(initCase == 1) this.setupCovidTimeseriesData(this.COVID_19_TIMESERIES_INDIA_CONFIRMED_URL, initCase, callback);
+		else if(initCase == 2) this.setupCovidTimeseriesData(this.COVID_19_TIMESERIES_INDIA_RECOVERY_URL, initCase, callback);
+		else if(initCase == 3) this.setupCovidTimeseriesData(this.COVID_19_TIMESERIES_INDIA_DEATH_URL, initCase, callback);
+		else if(initCase == 4) this.setupCovidTimeseriesData(this.COVID_19_TIMESERIES_WORLD_CONFIRMED_URL, initCase, callback);
+		else if(initCase == 5) this.setupCovidTimeseriesData(this.COVID_19_TIMESERIES_WORLD_RECOVERY_URL, initCase, callback);
+		else if(initCase == 6) this.setupCovidTimeseriesData(this.COVID_19_TIMESERIES_WORLD_DEATH_URL, initCase, callback);
 	}
 
 	public getIndiaConfirmedCovidData(): CovidData {
@@ -288,7 +283,7 @@ export class CoviddataService {
 					if(!this.worldConfirmedCovidData.hasCountryByName(countryName)) this.worldConfirmedCovidData.addCountry(country);
 					else country = this.worldConfirmedCovidData.getCountryByName(countryName);
 					
-					if(!this.workhorse.doesProvinceExist(country, provinceName)) country.addProvince(province);
+					if(!country.hasProvinceByName(provinceName)) country.addProvince(province);
 				}
 
 				covidTimeseriesConfirmedCallback();
@@ -333,7 +328,7 @@ export class CoviddataService {
 					if(!this.worldRecoveryCovidData.hasCountryByName(countryName)) this.worldRecoveryCovidData.addCountry(country);
 					else country = this.worldRecoveryCovidData.getCountryByName(countryName);
 					
-					if(!this.workhorse.doesProvinceExist(country, provinceName)) country.addProvince(province);
+					if (!country.hasProvinceByName(provinceName)) country.addProvince(province);
 				}
 
 				covidTimeseriesRecoveryCallback();
@@ -378,7 +373,7 @@ export class CoviddataService {
 					if(!this.worldDeathCovidData.hasCountryByName(countryName)) this.worldDeathCovidData.addCountry(country);
 					else country = this.worldDeathCovidData.getCountryByName(countryName);
 					
-					if(!this.workhorse.doesProvinceExist(country, provinceName)) country.addProvince(province);
+					if (!country.hasProvinceByName(provinceName)) country.addProvince(province);
 				}
 
 				covidTimeseriesDeathCallback();
@@ -396,151 +391,16 @@ export class CoviddataService {
 
 
 
-	private prepareCovidConfirmedDataObject(data: any, covidTimeseriesConfirmedCallback: any): void {
 
-		this.covidTimeseriesConfirmedRawData = data;
-		let headers: string[];
-
-		this.PAPA.parse(this.covidTimeseriesConfirmedRawData, {
-
-			complete: (result) => {
-
-				var rows = result.data;
-				headers = rows[0];
-				let rowLength: number = headers.length;
-
-				for(let i: number = 1; i < rows.length; i++)
-					if(rows[i].length != rowLength)
-						rows.splice(i, 1);
-
-				this.confirmedCovidData.setHeaders(headers);
-
-				for(let i: number = 1; i < rows.length; i++) {
-
-					let countryName: string = rows[i][1];
-					let provinceName: string = rows[i][0];
-					let latitude: string = rows[i][2];
-					let longitude: string = rows[i][3];
-					let timeseries: Timeseries[] = this.workhorse.prepareTimeseries(rows[i], headers, 4);
-
-					if(provinceName.length == 0) provinceName = "n/a";
-
-					let coordinates: Coordinate = new Coordinate(latitude, longitude);
-					let country: Country = new Country(countryName);
-					let province: Province = new Province(provinceName, countryName, coordinates, timeseries);
-
-					if(!this.workhorse.doesCountryExist(this.confirmedCovidData.getCountries(), countryName)) this.confirmedCovidData.addCountry(country);
-					else country = this.confirmedCovidData.getCountryByName(countryName);
-					
-					if(!this.workhorse.doesProvinceExist(country, provinceName)) country.addProvince(province);
-				}
-
-				covidTimeseriesConfirmedCallback();
-			}
-		});
-	}
-
-	private prepareCovidDeathDataObject(data: any, covidTimeseriesDeathCallback: any): void {
-
-		this.covidTimeseriesDeathRawData = data;
-		let headers: string[];
-
-		this.PAPA.parse(this.covidTimeseriesDeathRawData, {
-
-			complete: (result) => {
-
-				var rows = result.data;
-				headers = rows[0];
-				let rowLength: number = headers.length;
-
-				for(let i: number = 1; i < rows.length; i++)
-					if(rows[i].length != rowLength)
-						rows.splice(i, 1);
-
-				this.deathCovidData.setHeaders(headers);
-
-				for(let i: number = 1; i < rows.length; i++) {
-
-					let countryName: string = rows[i][1];
-					let provinceName: string = rows[i][0];
-					let latitude: string = rows[i][2];
-					let longitude: string = rows[i][3];
-					let timeseries: Timeseries[] = this.workhorse.prepareTimeseries(rows[i], headers, 4);
-
-					if(provinceName.length == 0) provinceName = "n/a";
-
-					let coordinates: Coordinate = new Coordinate(latitude, longitude);
-					let country: Country = new Country(countryName);
-					let province: Province = new Province(provinceName, countryName, coordinates, timeseries);
-
-					if(!this.workhorse.doesCountryExist(this.deathCovidData.getCountries(), countryName)) this.deathCovidData.addCountry(country);
-					else country = this.deathCovidData.getCountryByName(countryName);
-					
-					if(!this.workhorse.doesProvinceExist(country, provinceName)) country.addProvince(province);
-				}
-
-				covidTimeseriesDeathCallback();
-			}
-		});
-	}
-
-	private prepareCovidRecoveryDataObject(data: any, covidTimeseriesRecoveryCallback: any): void {
-
-		this.covidTimeseriesRecoveryRawData = data;
-		let headers: string[];
-
-		this.PAPA.parse(this.covidTimeseriesRecoveryRawData, {
-
-			complete: (result) => {
-
-				var rows = result.data;
-				headers = rows[0];
-				let rowLength: number = headers.length;
-
-				for(let i: number = 1; i < rows.length; i++)
-					if(rows[i].length != rowLength)
-						rows.splice(i, 1);
-
-				this.recoveryCovidData.setHeaders(headers);
-
-				for(let i: number = 1; i < rows.length; i++) {
-
-					let countryName: string = rows[i][1];
-					let provinceName: string = rows[i][0];
-					let latitude: string = rows[i][2];
-					let longitude: string = rows[i][3];
-					let timeseries: Timeseries[] = this.workhorse.prepareTimeseries(rows[i], headers, 4, true);
-
-					if(provinceName.length == 0) provinceName = "n/a";
-
-					let coordinates: Coordinate = new Coordinate(latitude, longitude);
-					let country: Country = new Country(countryName);
-					let province: Province = new Province(provinceName, countryName, coordinates, timeseries);
-
-					if(!this.workhorse.doesCountryExist(this.recoveryCovidData.getCountries(), countryName)) this.recoveryCovidData.addCountry(country);
-					else country = this.recoveryCovidData.getCountryByName(countryName);
-					
-					if(!this.workhorse.doesProvinceExist(country, provinceName)) country.addProvince(province);
-				}
-
-				covidTimeseriesRecoveryCallback();
-			}
-		});
-	}
 
 	private setupCovidTimeseriesData(url, initCase, callback: any): void {
 		this.loadCovidTimeseriesData(url).subscribe((data: any) => {
-
-			if(initCase == 1) this.prepareCovidConfirmedDataObject(data, callback);
-			else if(initCase == 2) this.prepareCovidDeathDataObject(data, callback);
-			else if(initCase == 3) this.prepareCovidRecoveryDataObject(data, callback);
-
-			else if(initCase == 4) this.prepareCovidIndiaConfirmedDataObject(data, callback);
-			else if(initCase == 5) this.prepareCovidIndiaRecoveryDataObject(data, callback);
-			else if(initCase == 6) this.prepareCovidIndiaDeathDataObject(data, callback);
-			else if(initCase == 7) this.prepareCovidWorldConfirmedDataObject(data, callback);
-			else if(initCase == 8) this.prepareCovidWorldRecoveryDataObject(data, callback);
-			else if(initCase == 9) this.prepareCovidWorldDeathDataObject(data, callback);
+			if(initCase == 1) this.prepareCovidIndiaConfirmedDataObject(data, callback);
+			else if(initCase == 2) this.prepareCovidIndiaRecoveryDataObject(data, callback);
+			else if(initCase == 3) this.prepareCovidIndiaDeathDataObject(data, callback);
+			else if(initCase == 4) this.prepareCovidWorldConfirmedDataObject(data, callback);
+			else if(initCase == 5) this.prepareCovidWorldRecoveryDataObject(data, callback);
+			else if(initCase == 6) this.prepareCovidWorldDeathDataObject(data, callback);
 		});
 	}
 

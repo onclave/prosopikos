@@ -13,6 +13,7 @@ import { MatRadioChange } from '@angular/material/radio';
 import { CovidMapService } from '../covid-map.service';
 import { MatCheckboxChange } from '@angular/material/checkbox';
 import { CovidDatasetViewerService } from '../covid-dataset-viewer.service';
+import { Timeseries } from '../model/timeseries';
 
 @Component({
 	selector: 'app-covid-india',
@@ -116,9 +117,9 @@ export class CovidIndiaComponent implements OnInit {
 
 	ngOnInit(): void {
 
-		this.coviddataService.init(this.covidConfirmedCallback, 4);
-		this.coviddataService.init(this.covidRecoveryCallback, 5);
-		this.coviddataService.init(this.covidDeathCallback, 6);
+		this.coviddataService.init(this.covidConfirmedCallback, 1);
+		this.coviddataService.init(this.covidRecoveryCallback, 2);
+		this.coviddataService.init(this.covidDeathCallback, 3);
 
 		this.covidConfirmedData = this.coviddataService.getIndiaConfirmedCovidData();
 		this.covidRecoveryData = this.coviddataService.getIndiaRecoveryCovidData();
@@ -335,6 +336,38 @@ export class CovidIndiaComponent implements OnInit {
 
 		return maxDeaths;
 	}
+
+
+
+
+	public getCovidIndiaAffectedIncrease(covidData: CovidData): number {
+
+		let previous: number = 0;
+		let current: number = 0;
+
+		if (covidData && covidData.getCountries() && (covidData.getCountries().length == 1))
+			for (let province of covidData.getCountries()[0].getProvinces()) {
+
+				let timeseries: Timeseries[] = province.getLatestNTimeseries(2);
+				previous += timeseries[0].getValue();
+				current += timeseries[1].getValue();
+			}
+
+		return current - previous;
+	}
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 	public getCovidIndiaConfirmedHighestRegionInfectedPopulation(): number {
 

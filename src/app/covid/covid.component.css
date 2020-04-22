@@ -87,6 +87,12 @@
     line-height: 1.2em;
 }
 
+.pr-analysis-report-data-secondary {
+    font-size: 1.2em;
+    line-height: 1.2em;
+    margin-top: 10px;
+}
+
 .pr-analysis-report-subtitle {
     font-size: 1.1em;
     color: #dcdcdc;
@@ -188,4 +194,16 @@
     font-size: 1.2em;
     line-height: 1.2em;
     color: #a9a9a9;
+}
+
+.pr-analysis-warning {
+    color: #ffc0cb;
+}
+
+.pr-analysis-positive {
+    color: #07c407;
+}
+
+.pr-analysis-danger {
+    color: #FF1610;
 }

@@ -6,7 +6,7 @@ import { HttpClient } from '@angular/common/http';
 })
 export class CovidNewsService {
 
-	private NEWS_API: string = 'https://jsonplaceholder.typicode.com/todos/1';
+	private NEWS_API: string = 'https://raw.githubusercontent.com/onclave/prosopikos/master/raw/covid_news.json';
 
 	private newsObject: any[] = new Array();
 
@@ -57,62 +57,6 @@ export class CovidNewsService {
 
 		this.newsObject = [
 		 {
-			"date": '17 / 04 / 2020',
-			"india": [{
-				"heading": '26 Navy personnel in Western Naval Command test positive for coronavirus',
-				"description": 'At least 26 Indian Navy personnel have tested positive for coronavirus at the Western Naval Command in Mumbai, in the first case of a major outbreak of the deadly disease in the Indian armed forces.',
-				"source": 'https://economictimes.indiatimes.com/news/defence/21-navy-personnel-in-western-naval-command-test-positive-for-coronavirus/articleshow/75215353.cms'
-			}, {
-				"heading": 'Gujarat govt plans plasma transfusion to treat COVID-19 patients',
-				"description": 'The Gujarat government has decided to carry out plasma transfusion treatment on COVID-19 patients in the state, particularly those in critical condition, to boost their immunity, health officials said. In this treatment, the plasma extracted from the blood of a fully recovered COVID-19 patient is injected into the critical patient to help his body generate antibodies to fight the virus.',
-				"source": 'https://www.indiatoday.in/india/story/coronavirus-india-gujarat-govt-plans-plasma-tranfusion-treat-covid-19-patients-1668288-2020-04-18'
-			}, {
-				"heading": 'Buses With Students From Rajasthan Return To UP, Evacuees To Be Screened',
-				"description": 'The Yogi Adityanath government had sent 200 buses from Agra and another 100 from Jhansi on Friday to Kota where thousands of students from across the country preparing for competitive exams have been stranded by the COVID-19 lockdown.',
-				"source": 'https://www.ndtv.com/india-news/buses-with-students-from-rajasthan-return-to-up-evacuees-to-be-screened-2214018'
-			}],
-			"world": [{
-				"heading": 'Nigerian president\'s chief of staff dies of Covid- 19, says presidency spokesman',
-				"description": 'Nigerian president\'s Chief of Staff Abba Kyari\'s was the highest profile death due to the disease in the West African country, which has 493 confirmed cases and 17 deaths, according to the Nigeria Centre for Disease Control.',
-				"source": 'https://www.indiatoday.in/world/story/coronavirus-nigerian-president-chief-staff-dies-covid-19-presidency-spokesman-1668285-2020-04-18'
-			}, {
-				"heading": 'Brazil President Wants To Reopen Borders Amid Coronavirus Pandemic',
-				"description": 'Brazilian President Jair Bolsonaro on Friday called for the reopening of the country\'s borders, as he pushes to restart South America\'s largest economy, but conceded he may be blamed if the new coronavirus outbreak worsens as a result.',
-				"source": 'https://www.ndtv.com/world-news/coronavirus-pandemic-brazil-president-jair-bolsonaro-wants-to-reopen-borders-amid-covid19-outbreak-2213945'
-			}, {
-				"heading": 'US Sale of Missiles to India Disturbing, Would Destabilise Region, Says Pakistan',
-				"description": 'The US State Department this week notified Congress of its determination to sell Harpoon air-launched anti-ship missiles and Mark 54 lightweight torpedoes worth $155 million to India to enhance its deterrent capabilities against "regional threats" and to bolster its homeland defence.',
-				"source": 'https://www.news18.com/news/world/us-sale-of-missiles-to-india-disturbing-would-destablise-region-says-pakistan-2582245.html'
-			}]
-		}, {
-			"date": '16 / 04 / 2020',
-			"india": [{
-				"heading": 'Plasma Trials For COVID-19 To Begin Shortly In Delhi',
-				"description": 'Delhi Chief Minister Arvind Kejriwal today said the city has got the Centre\'s approval to carry out clinical trials of plasma therapy to help critically ill coronavirus patients.The plasma therapy is meant only for COVID - 19 patients who are on ventilator support and critical.',
-				"source": 'https://www.ndtv.com/india-news/plasma-trials-for-covid-19-to-begin-shortly-in-delhi-arvind-kejriwal-2213032?pfrom=home-topstories'
-			}, {
-				"heading": 'India to Send Hydroxychloroquine to 55 Coronavirus-affected Countries',
-				"description": 'India is in the process of supplying anti-malarial drug hydroxychloroquine to 55 coronavirus-hit countries as grants as well as on commercial basis, official sources said on Thursday. A number of countries including the US, Mauritius and Seychelles have already received the drug in the past few days while several others will get it by the weekend.',
-				"source": 'https://www.news18.com/news/india/india-to-send-hydroxychloroquine-to-55-coronavirus-affected-countries-2580775.html'
-			}, {
-				"heading": '68 doctors, nurses of Bhagwan Mahavir hospital quarantined as a precautionary measure',
-				"description": 'As many as 68 members of the staff at Delhi\'s Bhagwan Mahavir Hospital (BMH), including doctors and nurses, have been quarantined as a precautionary measure.',
-				"source": 'https://www.indiatoday.in/india/story/delhi-68-staffers-of-state-run-bhagwan-mahavir-hospital-quarantined-as-precautionary-measure-1667746-2020-04-16'
-			}],
-			"world": [{
-				"heading": 'UK To Extend Coronavirus Lockdown For At Least 3 Weeks',
-				"description": 'Britain on Thursday extended its lockdown to tackle the coronavirus for "at least the next three weeks", as it remains among the countries worst-hit by the pandemic with hundreds dying daily from the disease.',
-				"source": 'https://www.ndtv.com/world-news/uk-to-extend-coronavirus-lockdown-for-3-weeks-2213135?pfrom=home-topstories'
-			}, {
-				"heading": 'Scientists Develop New Quick & Accurate Covid-19 Test That May Replace PCR Method',
-				"description": 'Scientists have developed a new test that may detect the novel coronavirus more accurately and quickly, and relieve the pressure on polymerase chain reaction (PCR) based tests currently used in the fight against COVID-19 pandemic.',
-				"source": 'https://www.news18.com/news/world/scientists-develop-new-coronavirus-test-that-may-replace-sensitive-pcr-method-study-2580085.html'
-			}, {
-				"heading": 'Probing If Coronavirus Came From Chinese Lab',
-				"description": 'President Donald Trump\'s administration is urging an investigation into the origins of the coronavirus pandemic, saying it doesn\'t rule out that it came from a laboratory researching bats in Wuhan, China.',
-				"source": 'https://www.ndtv.com/world-news/probing-if-coronavirus-came-from-chinese-lab-us-2213151'
-			}]
-		}, {
 			"date": '15 / 04 / 2020',
 			"india": [{
 				"heading": 'Doctors, cops injured after stone-pelting on an ambulance in Moradabad',

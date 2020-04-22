@@ -8,43 +8,35 @@
 		<div fxLayout.xs="column" fxLayout.sm="column" fxLayout.md="row" fxLayout.lg="row" fxLayout.xl="row" fxLayoutAlign.xs="start start" fxLayoutAlign.sm="start start" fxLayoutAlign.md="space-around start" fxLayoutAlign.lg="space-around start" fxLayoutAlign.xl="space-around start">
 			<div fxLayout="column" fxFlex.md="20" fxFlex.lg="20" fxFlex.xl="20" class="pr-analysis-report-container">
 				<span class="pr-analysis-report-header pr-font-chn">Total Infected:</span>
-				<span class="pr-analysis-report-data pr-font-chn">{{workhorse.getCovidTotalInfected(covidConfirmedData) | number}}</span>
+				<span class="pr-analysis-report-data pr-analysis-warning pr-font-chn">{{workhorse.getCovidTotalInfected(covidConfirmedData) | number}}</span>
+				<span class="pr-analysis-report-data-secondary pr-analysis-warning pr-font-chn">+ {{getCovidIndiaAffectedIncrease(covidConfirmedData) | number}}</span>
 			</div>
 			<div fxLayout="column" fxFlex.md="20" fxFlex.lg="20" fxFlex.xl="20" class="pr-analysis-report-container">
 				<span class="pr-analysis-report-header pr-font-chn">Total Recovered:</span>
-				<span class="pr-analysis-report-data pr-font-chn">{{workhorse.getCovidTotalRecovered(covidRecoveryData) | number}}</span>
+				<span class="pr-analysis-report-data pr-analysis-positive pr-font-chn">{{workhorse.getCovidTotalRecovered(covidRecoveryData) | number}}</span>
+				<span class="pr-analysis-report-data-secondary pr-analysis-positive pr-font-chn">+ {{getCovidIndiaAffectedIncrease(covidRecoveryData) | number}}</span>
 			</div>
 			<div fxLayout="column" fxFlex.md="20" fxFlex.lg="20" fxFlex.xl="20" class="pr-analysis-report-container">
 				<span class="pr-analysis-report-header pr-font-chn">Total Deceased:</span>
-				<span class="pr-analysis-report-data pr-font-chn">{{workhorse.getCovidTotalDeaths(covidDeathData) | number}}</span>
+				<span class="pr-analysis-report-data pr-analysis-danger pr-font-chn">{{workhorse.getCovidTotalDeaths(covidDeathData) | number}}</span>
+				<span class="pr-analysis-report-data-secondary pr-analysis-danger pr-font-chn">+ {{getCovidIndiaAffectedIncrease(covidDeathData) | number}}</span>
 			</div>
 		</div>
 		<div fxLayout.xs="column" fxLayout.sm="column" fxLayout.md="row" fxLayout.lg="row" fxLayout.xl="row" fxLayoutAlign.xs="start start" fxLayoutAlign.sm="start start" fxLayoutAlign.md="space-around start" fxLayoutAlign.lg="space-around start" fxLayoutAlign.xl="space-around start">
 			<div fxLayout="column" fxFlex.md="20" fxFlex.lg="20" fxFlex.xl="20" class="pr-analysis-report-container">
 				<span class="pr-analysis-report-header pr-font-chn">Region with Highest Infection:</span>
 				<span class="pr-analysis-report-data pr-font-chn">{{getCovidIndiaConfirmedHighestRegionInfected()}}</span>
+				<span class="pr-analysis-report-data-secondary pr-analysis-warning pr-font-chn">{{getCovidIndiaConfirmedHighestRegionInfectionCount() | number}}</span>
 			</div>
 			<div fxLayout="column" fxFlex.md="20" fxFlex.lg="20" fxFlex.xl="20" class="pr-analysis-report-container">
 				<span class="pr-analysis-report-header pr-font-chn">Region with Highest Recovery:</span>
 				<span class="pr-analysis-report-data pr-font-chn">{{getCovidIndiaConfirmedHighestRegionRecovery()}}</span>
+				<span class="pr-analysis-report-data-secondary pr-analysis-positive pr-font-chn">{{getCovidIndiaConfirmedHighestRegionRecoveryCount() | number}}</span>
 			</div>
 			<div fxLayout="column" fxFlex.md="20" fxFlex.lg="20" fxFlex.xl="20" class="pr-analysis-report-container">
 				<span class="pr-analysis-report-header pr-font-chn">Region with Highest Deceased:</span>
 				<span class="pr-analysis-report-data pr-font-chn">{{getCovidIndiaConfirmedHighestRegionDeaths()}}</span>
-			</div>
-		</div>
-		<div fxLayout.xs="column" fxLayout.sm="column" fxLayout.md="row" fxLayout.lg="row" fxLayout.xl="row" fxLayoutAlign.xs="start start" fxLayoutAlign.sm="start start" fxLayoutAlign.md="space-around start" fxLayoutAlign.lg="space-around start" fxLayoutAlign.xl="space-around start">
-			<div fxLayout="column" fxFlex.md="20" fxFlex.lg="20" fxFlex.xl="20" class="pr-analysis-report-container">
-				<span class="pr-analysis-report-header pr-font-chn">{{getCovidIndiaConfirmedHighestRegionInfected(true)}}'s total Infection:</span>
-				<span class="pr-analysis-report-data pr-font-chn">{{getCovidIndiaConfirmedHighestRegionInfectionCount() | number}}</span>
-			</div>
-			<div fxLayout="column" fxFlex.md="20" fxFlex.lg="20" fxFlex.xl="20" class="pr-analysis-report-container">
-				<span class="pr-analysis-report-header pr-font-chn">{{getCovidIndiaConfirmedHighestRegionRecovery(true)}}'s total Recovery:</span>
-				<span class="pr-analysis-report-data pr-font-chn">{{getCovidIndiaConfirmedHighestRegionRecoveryCount() | number}}</span>
-			</div>
-			<div fxLayout="column" fxFlex.md="20" fxFlex.lg="20" fxFlex.xl="20" class="pr-analysis-report-container">
-				<span class="pr-analysis-report-header pr-font-chn">{{getCovidIndiaConfirmedHighestRegionDeaths(true)}}'s total Deceased:</span>
-				<span class="pr-analysis-report-data pr-font-chn">{{getCovidIndiaConfirmedHighestRegionDeathCount() | number}}</span>
+				<span class="pr-analysis-report-data-secondary pr-analysis-danger pr-font-chn">{{getCovidIndiaConfirmedHighestRegionDeathCount() | number}}</span>
 			</div>
 		</div>
 		<div fxLayout.xs="column" fxLayout.sm="column" fxLayout.md="row" fxLayout.lg="row" fxLayout.xl="row" fxLayoutAlign.xs="start start" fxLayoutAlign.sm="start start" fxLayoutAlign.md="space-around start" fxLayoutAlign.lg="space-around start" fxLayoutAlign.xl="space-around start">
@@ -54,7 +46,7 @@
 			</div>
 			<div fxLayout="column" fxFlex.md="20" fxFlex.lg="20" fxFlex.xl="20" class="pr-analysis-report-container">
 				<span class="pr-analysis-report-header pr-font-chn">India's Highest Infection Spike in 1 Day:</span>
-				<span class="pr-analysis-report-data pr-font-chn">{{getConvidConfirmedIndiaMaxSpike() | number}}</span>
+				<span class="pr-analysis-report-data pr-analysis-warning pr-font-chn">{{getConvidConfirmedIndiaMaxSpike() | number}}</span>
 			</div>
 			<div fxLayout="column" fxFlex.md="20" fxFlex.lg="20" fxFlex.xl="20" class="pr-analysis-report-container">
 				<span class="pr-analysis-report-header pr-font-chn">India's Highest Infection Spike Day (mm/dd/yyyy):</span>

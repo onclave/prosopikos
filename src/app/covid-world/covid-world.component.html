@@ -8,43 +8,35 @@
 		<div fxLayout.xs="column" fxLayout.sm="column" fxLayout.md="row" fxLayout.lg="row" fxLayout.xl="row" fxLayoutAlign.xs="start start" fxLayoutAlign.sm="start start" fxLayoutAlign.md="space-around start" fxLayoutAlign.lg="space-around start" fxLayoutAlign.xl="space-around start">
 			<div fxLayout="column" fxFlex.md="20" fxFlex.lg="20" fxFlex.xl="20" class="pr-analysis-report-container">
 				<span class="pr-analysis-report-header pr-font-chn">Total Infected:</span>
-				<span class="pr-analysis-report-data pr-font-chn">{{workhorse.getCovidTotalAffected(covidConfirmedData) | number}}</span>
+				<span class="pr-analysis-report-data pr-analysis-warning pr-font-chn">{{workhorse.getCovidTotalAffected(covidConfirmedData) | number}}</span>
+				<span class="pr-analysis-report-data-secondary pr-analysis-warning pr-font-chn">+ {{getCovidWorldAffectedIncrease(covidConfirmedData) | number}}</span>
 			</div>
 			<div fxLayout="column" fxFlex.md="20" fxFlex.lg="20" fxFlex.xl="20" class="pr-analysis-report-container">
 				<span class="pr-analysis-report-header pr-font-chn">Total Recoveries:</span>
-				<span class="pr-analysis-report-data pr-font-chn">{{workhorse.getCovidTotalAffected(covidRecoveryData) | number}}</span>
+				<span class="pr-analysis-report-data pr-analysis-positive pr-font-chn">{{workhorse.getCovidTotalAffected(covidRecoveryData) | number}}</span>
+				<span class="pr-analysis-report-data-secondary pr-analysis-positive pr-font-chn">+ {{getCovidWorldAffectedIncrease(covidRecoveryData) | number}}</span>
 			</div>
 			<div fxLayout="column" fxFlex.md="20" fxFlex.lg="20" fxFlex.xl="20" class="pr-analysis-report-container">
 				<span class="pr-analysis-report-header pr-font-chn">Total Deceased:</span>
-				<span class="pr-analysis-report-data pr-font-chn">{{workhorse.getCovidTotalAffected(covidDeathData) | number}}</span>
+				<span class="pr-analysis-report-data pr-analysis-danger pr-font-chn">{{workhorse.getCovidTotalAffected(covidDeathData) | number}}</span>
+				<span class="pr-analysis-report-data-secondary pr-analysis-danger pr-font-chn">+ {{getCovidWorldAffectedIncrease(covidDeathData) | number}}</span>
 			</div>
 		</div>
 		<div fxLayout.xs="column" fxLayout.sm="column" fxLayout.md="row" fxLayout.lg="row" fxLayout.xl="row" fxLayoutAlign.xs="start start" fxLayoutAlign.sm="start start" fxLayoutAlign.md="space-around start" fxLayoutAlign.lg="space-around start" fxLayoutAlign.xl="space-around start">
 			<div fxLayout="column" fxFlex.md="20" fxFlex.lg="20" fxFlex.xl="20" class="pr-analysis-report-container">
 				<span class="pr-analysis-report-header pr-font-chn">Country with Highest Infection:</span>
 				<span class="pr-analysis-report-data pr-font-chn">{{getCovidHighestCountryAffected(covidConfirmedData)}}</span>
+				<span class="pr-analysis-report-data-secondary pr-analysis-warning pr-font-chn">{{getCovidHighestCountryAffectedCount(covidConfirmedData) | number}}</span>
 			</div>
 			<div fxLayout="column" fxFlex.md="20" fxFlex.lg="20" fxFlex.xl="20" class="pr-analysis-report-container">
 				<span class="pr-analysis-report-header pr-font-chn">Country with Highest Recovery:</span>
 				<span class="pr-analysis-report-data pr-font-chn">{{getCovidHighestCountryAffected(covidRecoveryData)}}</span>
+				<span class="pr-analysis-report-data-secondary pr-analysis-positive pr-font-chn">{{getCovidHighestCountryAffectedCount(covidRecoveryData) | number}}</span>
 			</div>
 			<div fxLayout="column" fxFlex.md="20" fxFlex.lg="20" fxFlex.xl="20" class="pr-analysis-report-container">
 				<span class="pr-analysis-report-header pr-font-chn">Country with Highest Deceased:</span>
 				<span class="pr-analysis-report-data pr-font-chn">{{getCovidHighestCountryAffected(covidDeathData)}}</span>
-			</div>
-		</div>
-		<div fxLayout.xs="column" fxLayout.sm="column" fxLayout.md="row" fxLayout.lg="row" fxLayout.xl="row" fxLayoutAlign.xs="start start" fxLayoutAlign.sm="start start" fxLayoutAlign.md="space-around start" fxLayoutAlign.lg="space-around start" fxLayoutAlign.xl="space-around start">
-			<div fxLayout="column" fxFlex.md="20" fxFlex.lg="20" fxFlex.xl="20" class="pr-analysis-report-container">
-				<span class="pr-analysis-report-header pr-font-chn">{{getCovidHighestCountryAffected(covidConfirmedData, true)}}'s total Infection:</span>
-				<span class="pr-analysis-report-data pr-font-chn">{{getCovidHighestCountryAffectedCount(covidConfirmedData) | number}}</span>
-			</div>
-			<div fxLayout="column" fxFlex.md="20" fxFlex.lg="20" fxFlex.xl="20" class="pr-analysis-report-container">
-				<span class="pr-analysis-report-header pr-font-chn">{{getCovidHighestCountryAffected(covidRecoveryData, true)}}'s total Recovery:</span>
-				<span class="pr-analysis-report-data pr-font-chn">{{getCovidHighestCountryAffectedCount(covidRecoveryData) | number}}</span>
-			</div>
-			<div fxLayout="column" fxFlex.md="20" fxFlex.lg="20" fxFlex.xl="20" class="pr-analysis-report-container">
-				<span class="pr-analysis-report-header pr-font-chn">{{getCovidHighestCountryAffected(covidDeathData, true)}}'s total Deceased:</span>
-				<span class="pr-analysis-report-data pr-font-chn">{{getCovidHighestCountryAffectedCount(covidDeathData) | number}}</span>
+				<span class="pr-analysis-report-data-secondary pr-analysis-danger pr-font-chn">{{getCovidHighestCountryAffectedCount(covidDeathData) | number}}</span>
 			</div>
 		</div>
 		<div fxLayout.xs="column" fxLayout.sm="column" fxLayout.md="row" fxLayout.lg="row" fxLayout.xl="row" fxLayoutAlign.xs="start start" fxLayoutAlign.sm="start start" fxLayoutAlign.md="space-around start" fxLayoutAlign.lg="space-around start" fxLayoutAlign.xl="space-around start">

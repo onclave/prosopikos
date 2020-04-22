@@ -17,6 +17,9 @@ export class CovidComponent implements OnInit {
 	ngOnInit(): void {}
 
 	public tabChanged(event: MatTabChangeEvent) {
-		// console.log(event.index);
+	}
+
+	public navigateToLink(source): void {
+		window.open(source, "_blank");
 	}
 }

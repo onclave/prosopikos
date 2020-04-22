@@ -1,5 +1,7 @@
 <div fxLayout="column" class="pr-covid-tab-news">
-	<mat-accordion *ngFor="let entry of newsObject; index as i" class="pr-news-accordion">
+	<mat-progress-bar mode="indeterminate" *ngIf="isNewsLoading"></mat-progress-bar>
+
+	<mat-accordion *ngFor="let entry of newsList; index as i" class="pr-news-accordion">
 		<mat-expansion-panel [expanded]="i == 0" class="pr-news-expansion-panel">
 			<mat-expansion-panel-header class="pr-padding-top-10px pr-padding-bottom-10px">
 				<mat-panel-title class="pr-font-chn">{{entry.date}}</mat-panel-title>
@@ -33,6 +35,42 @@
 			</div>
 		</mat-expansion-panel>
 	</mat-accordion>
+
+	<mat-accordion *ngFor="let entry of newsObject; index as i" class="pr-news-accordion">
+		<mat-expansion-panel [expanded]="false" class="pr-news-expansion-panel">
+			<mat-expansion-panel-header class="pr-padding-top-10px pr-padding-bottom-10px">
+				<mat-panel-title class="pr-font-chn">{{entry.date}}</mat-panel-title>
+				<mat-panel-description class="pr-font-chn">Expand to view COVID-19 related news for {{entry.date}}</mat-panel-description>
+			</mat-expansion-panel-header>
+			<div fxLayout.xs="column" fxLayout.sm="column" fxLayout.md="row" fxLayout.lg="row" fxLayout.xl="row" fxLayoutAlign.xs="center stretch" fxLayoutAlign.sm="center stretch" fxLayoutAlign.md="space-between start" fxLayoutAlign.lg="space-between start" fxLayoutAlign.xl="space-between start">
+				<div fxLayout="column" fxFlex.xs="95" fxFlex.sm="95" fxFlex.md="50" fxFlex.lg="50" fxFlex.xl="50" class="pr-news-location-section mat-elevation-z8">
+					<div fxLayout="row" fxLayoutAlign="start center" class="pr-news-location-container">
+						<img src="assets/image/news-icon.svg" class="pr-news-location-image pr-non-selectable pr-no-focus">
+						<span class="pr-news-location pr-font-nang">India</span>
+					</div>
+					<div fxLayout="row" *ngFor="let news of entry.india; index as j" (click)="navigateToNews(news.source)" class="pr-news-article-container">
+						<div fxLayout="column" class="pr-news-article-content-container">
+							<span class="pr-news-article-header pr-font-chn">{{news.heading}}</span>
+							<span class="pr-news-article-description pr-font-nang">{{news.description}}</span>
+						</div>
+					</div>
+				</div>
+				<div fxLayout="column" fxFlex.xs="95" fxFlex.sm="95" fxFlex.md="50" fxFlex.lg="50" fxFlex.xl="50" class="pr-news-location-section mat-elevation-z8">
+					<div fxLayout="row" fxLayoutAlign="start center" class="pr-news-location-container">
+						<img src="assets/image/news-icon.svg" class="pr-news-location-image pr-non-selectable pr-no-focus">
+						<span class="pr-news-location pr-font-nang">World</span>
+					</div>
+					<div fxLayout="row" *ngFor="let news of entry.world; index as k" class="pr-news-article-container">
+						<div fxLayout="column" class="pr-news-article-content-container">
+							<span class="pr-news-article-header pr-font-chn">{{news.heading}}</span>
+							<span class="pr-news-article-description pr-font-nang">{{news.description}}</span>
+						</div>
+					</div>
+				</div>
+			</div>
+		</mat-expansion-panel>
+	</mat-accordion>
+
 	<span class="pr-font-chn pr-margin-left-15px pr-margin-top-30px">Daily news compiled by:</span>
 	<div fxLayout="row wrap" class="pr-margin-top-10px">
 		<div fxLayout.xs="column" fxLayout.sm="column" fxLayout.md="row" fxLayout.lg="row" fxLayout.xl="row" fxLayoutAlign="center center" (click)="navigateToNews('https://www.instagram.com/thegirlacrossthetable/')" class="pr-author-tag mat-elevation-z2">

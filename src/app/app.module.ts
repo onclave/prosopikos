@@ -44,6 +44,7 @@ import { CovidIndiaComponent } from './covid-india/covid-india.component';
 import { CovidWorldComponent } from './covid-world/covid-world.component';
 import { CovidContributionComponent } from './covid-contribution/covid-contribution.component';
 import { CovidDatasetsComponent } from './covid-datasets/covid-datasets.component';
+import { CovidDataPackageComponent } from './covid-data-package/covid-data-package.component';
 
 
 @NgModule({
@@ -59,7 +60,8 @@ import { CovidDatasetsComponent } from './covid-datasets/covid-datasets.componen
 		CovidIndiaComponent,
 		CovidWorldComponent,
 		CovidContributionComponent,
-		CovidDatasetsComponent
+		CovidDatasetsComponent,
+		CovidDataPackageComponent
 	],
 	imports: [
 		BrowserModule,

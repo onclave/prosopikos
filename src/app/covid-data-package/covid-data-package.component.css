@@ -1,0 +1,46 @@
+.pr-covid-coviddata {
+    margin-top: 50px;
+}
+
+.pr-covdata-header {
+    font-size: 2.1em;
+    letter-spacing: 1px;
+}
+
+.pr-covdata-codelink {
+    color: #07c407;
+    font-size: 0.9em;
+    border-bottom: 1px dotted #007600;
+    cursor: pointer;
+    margin-left: 15px;
+    margin-right: 15px;
+}
+
+.pr-covdata-codelink:hover {
+    color: #a5f3a5;
+    border-bottom: 1px dotted #07c407;
+    cursor: pointer;
+}
+
+.pr-covdata-paragraph {
+    margin-top: 15px;
+    margin-bottom: 15px;
+    font-size: 1.2em;
+    font-weight: lighter;
+    line-height: 1.4em;
+    text-align: justify;
+}
+
+.pr-covdata-image {
+	width: 100%;
+	max-width: 600px;
+	height: auto;
+	border-radius: 5px;
+}
+
+.pr-covdata-banner-image {
+	width: 100%;
+	max-width: 300px;
+	height: auto;
+	border-radius: 5px;
+}

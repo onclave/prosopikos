@@ -1,6 +1,4 @@
 import { Component, OnInit, ViewChild } from '@angular/core';
-import { MatTableDataSource, MatTable } from '@angular/material/table';
-import { MatPaginator } from '@angular/material/paginator';
 import { BreakpointObserver, BreakpointState } from '@angular/cdk/layout';
 import { CoviddataService } from '../coviddata.service';
 import { CovidMapService } from '../covid-map.service';
@@ -14,6 +12,7 @@ import { MatSliderChange } from '@angular/material/slider';
 import { MatCheckboxChange } from '@angular/material/checkbox';
 import { CovidDatasetViewerService } from '../covid-dataset-viewer.service';
 import { CovidAnalysisService } from '../covid-analysis.service';
+import { Timeseries } from '../model/timeseries';
 
 @Component({
 	selector: 'app-covid-world',
@@ -121,9 +120,9 @@ export class CovidWorldComponent implements OnInit {
 
 	ngOnInit(): void {
 
-		this.coviddataService.init(this.covidWorldConfirmedCallback, 7);
-		this.coviddataService.init(this.covidWorldRecoveryCallback, 8);
-		this.coviddataService.init(this.covidWorldDeathCallback, 9);
+		this.coviddataService.init(this.covidWorldConfirmedCallback, 4);
+		this.coviddataService.init(this.covidWorldRecoveryCallback, 5);
+		this.coviddataService.init(this.covidWorldDeathCallback, 6);
 
 		this.covidConfirmedData = this.coviddataService.getWorldConfirmedCovidData();
 		this.covidRecoveryData = this.coviddataService.getWorldRecoveryCovidData();
@@ -309,6 +308,31 @@ export class CovidWorldComponent implements OnInit {
 
 		return totalCount;
 	}
+
+
+
+	public getCovidWorldAffectedIncrease(covidData: CovidData): number {
+
+		let previous: number = 0;
+		let current: number = 0;
+
+		if (covidData && covidData.getCountries() && (covidData.getCountries().length > 0))
+			for(let country of covidData.getCountries())
+				for(let province of country.getProvinces()) {
+					let timeseries: Timeseries[] = province.getLatestNTimeseries(2);
+					previous += timeseries[0].getValue();
+					current += timeseries[1].getValue();
+				}
+
+		return current - previous;
+	}
+
+
+
+
+
+
+
 
 	private covidWorldConfirmedCallback = function() {
 

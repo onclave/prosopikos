@@ -10,6 +10,8 @@ export class CovidNewsComponent implements OnInit {
 
 	private newsService: CovidNewsService;
 	public newsObject: any[];
+	public newsList: any[];
+	public isNewsLoading: boolean = true;
 
 	constructor(newsService: CovidNewsService) {
 
@@ -18,10 +20,12 @@ export class CovidNewsComponent implements OnInit {
 	}
 
 	ngOnInit(): void {
-		console.log("NEWS ON INIT");
+	}
+
+	ngAfterViewInit(): void {
 		this.newsService.getNews().subscribe((data: any[]) => {
-			console.log("-----------NEWS----------");
-			console.log(data);
+			this.newsList = data;
+			this.isNewsLoading = false;
 		});
 	}
 
