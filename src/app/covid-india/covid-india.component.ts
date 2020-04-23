@@ -14,6 +14,7 @@ import { CovidMapService } from '../covid-map.service';
 import { MatCheckboxChange } from '@angular/material/checkbox';
 import { CovidDatasetViewerService } from '../covid-dataset-viewer.service';
 import { Timeseries } from '../model/timeseries';
+import { Province } from '../model/province';
 
 @Component({
 	selector: 'app-covid-india',
@@ -337,9 +338,6 @@ export class CovidIndiaComponent implements OnInit {
 		return maxDeaths;
 	}
 
-
-
-
 	public getCovidIndiaAffectedIncrease(covidData: CovidData): number {
 
 		let previous: number = 0;
@@ -356,18 +354,22 @@ export class CovidIndiaComponent implements OnInit {
 		return current - previous;
 	}
 
+	public getCovidIndiaAffectedRegionIncrease(covidData: CovidData, provinceName: string): number {
 
+		let previous: number = 0;
+		let current: number = 0;
 
+		if (covidData && covidData.getCountries() && (covidData.getCountries().length == 1) && (provinceName != null))
+			if(covidData.getCountries()[0].hasProvinceByName(provinceName)) {
 
+				let province: Province = covidData.getCountries()[0].getProvinceByName(provinceName);
+				let timeseries: Timeseries[] = province.getLatestNTimeseries(2);
+				previous = timeseries[0].getValue();
+				current = timeseries[1].getValue();
+			}
 
-
-
-
-
-
-
-
-
+		return current - previous;
+	}
 
 	public getCovidIndiaConfirmedHighestRegionInfectedPopulation(): number {
 

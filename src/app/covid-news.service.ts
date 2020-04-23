@@ -56,63 +56,7 @@ export class CovidNewsService {
 		// }
 
 		this.newsObject = [
-		 {
-			"date": '15 / 04 / 2020',
-			"india": [{
-				"heading": 'Doctors, cops injured after stone-pelting on an ambulance in Moradabad',
-				"description": 'Uttar Pradesh Chief Minister Yogi Adityanath has ordered the police to book 10 people accused of pelting stones and injuring health workers in Moradabad earlier in the day. A team of doctors and medical staff was attacked by a mob in Moradabad\'s Nawabganj area when they went to take away two suspected cases of the novel coronavirus in the area.',
-				"source": 'https://www.indiatoday.in/india/story/doctors-attacked-in-moradabad-up-cm-orders-to-book-10-accused-under-nsa-1667251-2020-04-15'
-			}, {
-				"heading": 'Thousands of students stranded in Rajasthan\'s Kota as native states refuse to let them in during lockdown',
-				"description": 'The district administration in Kota had earlier allowed the students to leave for their native states. However, in the wake of refusal by the states to let these students in, the permission was withdrawn on Tuesday, leaving several students stranded.',
-				"source": 'https://www.indiatoday.in/india/story/thousands-of-students-stranded-in-rajasthan-s-kota-as-native-states-refuse-to-let-them-in-during-lockdown-1667331-2020-04-15'
-			}, {
-				"heading": 'Lone Covid-19 Patient in Meghalaya Dies, CM Sangma Expresses Grief',
-				"description": 'The lone COVID-19 patient in Meghalaya died on Wednesday morning, Chief Minister Conrad Sangma said. Sixty nine-year-old Dr John L Sailo Ryntathiang, the founder of Bethany Hospital, died at 2.45 am in the morning, a family member said.',
-				"source": 'https://www.news18.com/news/india/lone-covid-19-patient-in-meghalaya-dies-cm-sangma-expresses-grief-2578131.html'
-			}],
-			"world": [{
-				"heading": 'Debt Relief For A Year For Poorest Nations Amid COVID-19, Announces G20',
-				"description": 'With the global economy plunged into the worst recession in a century, the Group of 20 nations on Wednesday announced a one-year debt standstill for the world\'s poorest nations as they struggle to deal with the coronavirus pandemic.',
-				"source": 'https://www.ndtv.com/world-news/coronavirus-outbreak-g20-agrees-to-temporary-debt-halt-for-poorest-nations-amid-covid-19-2212484'
-			}, {
-				"heading": 'China Shuts Down Largest Makeshift COVID-19 Hospital in Wuhan, Last Batch of Medics Leave',
-				"description": 'As the number of coronavirus cases abates, China on Wednesday shut down one of its largest makeshift hospitals built in February to treat the surging COVID-19 infections in Wuhan, the epicentre of the pandemic, as the last group of thousands of medical workers deployed to fight the outbreak also left the city.',
-				"source": 'https://www.news18.com/news/world/china-shuts-down-largest-makeshift-covid-19-hospital-in-wuhan-last-batch-of-medics-leave-2578207.html'
-			}, {
-				"heading": 'Major airlines of US line up to split $25 billion in payroll aid',
-				"description": 'The nation\'s biggest airlines have tentatively agreed to terms for $25 billion in government aid to pay workers and avoid massive layoffs in an industry that has been slammed by the coronavirus pandemic. The assistance will include a mix of cash and loans, with the government getting warrants that can be converted into small ownership stakes in the leading airlines.',
-				"source": 'https://www.indiatoday.in/world/story/coronavirus-pandemc-major-airlines-us-line-split-billion-payroll-1667193-2020-04-15'
-			}]
-		}, {
-			"date": '14 / 04 / 2020',
-			"india": [{
-				"heading": 'Lockdown extension, more stringent measures; PM Modi\'s speech in 10 points',
-				"description": 'Prime Minister Narendra Modi on Tuesday announced a 19-day extension of the lockdown imposed to fight the coronavirus, advised against layoffs and urged the public to be kind to professionals on the front lines of the battle against COVID-19.',
-				"source": 'https://www.indiatoday.in/india/story/pm-modi-speech-on-lockdown-summary-1666698-2020-04-14'
-			}, {
-				"heading": 'Cops lathicharge migrants as thousands gather at Bandra station to leave Mumbai, defy lockdown orders',
-				"description": 'Mumbai\'s Bandra West railway station was flooded with migrant labourers who were hoping to get back home as they expected the lockdown to end on Tuesday. The people gathered at the station are mostly daily wage labourers who are not able to earn since the government imposed a nationwide lockdown on March 25.',
-				"source": 'https://www.indiatoday.in/india/story/lockdown-woes-mumbai-stations-flooded-with-migrant-labourers-hoping-to-get-back-home-1666908-2020-04-14'
-			}, {
-				"heading": 'Puducherry Congress MLA "Violates" Lockdown Norms',
-				"description": 'A ruling Congress MLA, a close confidante of Puducherry Chief Minister V Narayanasamy, has been charged for the second time for allegedly violating the COVID-19 lockdown orders and distributing relief materials in his village drawing a crowd of over 150 people, police said on Tuesday.',
-				"source": 'https://www.ndtv.com/india-news/coronavirus-puducherry-congress-mla-violates-lockdown-norms-charged-second-time-police-2211909?pfrom=home-topstories'
-			}],
-			"world": [{
-				"heading": 'South Korea holds national elections during coronavirus pandemic',
-				"description": 'South Koreans voted in the parliamentary elections on Wednesday. To hold the elections as scheduled, South Korean election officials and health authorities drew up a deliberate set of preventive measures to reduce risks of the virus being transmitted.',
-				"source": 'https://www.indiatoday.in/world/story/south-korea-holds-national-elections-during-coronavirus-pandemic-masks-clinics-1667090-2020-04-15'
-			}, {
-				"heading": 'UN Warns Of Another Dangerous Epidemic - Misinformation On Coronavirus',
-				"description": 'United Nations chief Antonio Guterres warned that "misinfo-demic" about COVID-19 on various social media platforms such as WhatsApp is proliferating falsehoods and announced a new UN initiative to flood the internet with facts and science to counter the "poison" of misinformation that is putting more lives at risk.',
-				"source": 'https://www.ndtv.com/world-news/coronavirus-pandemic-united-nations-warns-of-another-dangerous-epidemic-misinformation-on-covid19-2211962'
-			}, {
-				"heading": 'Wuhan is fighting the virus one cheap test at a time',
-				"description": 'The coronavirus pandemic has swept up the world and the most difficult aspect of fighting it is the financial cost of testing. A report by Reuters explains how easy, fast, and cheap it is to get tested in Wuhan.',
-				"source": 'https://economictimes.indiatimes.com/news/international/world-news/wuhan-is-fighting-the-virus-one-cheap-test-at-a-time/easy-fast-and-accessible/slideshow/75139189.cms'
-			}]
-		}, {
+		{
 			"date": '13 / 04 / 2020',
 			"india": [{
 				"heading": 'Meghalaya reports first COVID-19 case after Shillong-based doctor tests positive',

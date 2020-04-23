@@ -309,8 +309,6 @@ export class CovidWorldComponent implements OnInit {
 		return totalCount;
 	}
 
-
-
 	public getCovidWorldAffectedIncrease(covidData: CovidData): number {
 
 		let previous: number = 0;
@@ -319,6 +317,23 @@ export class CovidWorldComponent implements OnInit {
 		if (covidData && covidData.getCountries() && (covidData.getCountries().length > 0))
 			for(let country of covidData.getCountries())
 				for(let province of country.getProvinces()) {
+					let timeseries: Timeseries[] = province.getLatestNTimeseries(2);
+					previous += timeseries[0].getValue();
+					current += timeseries[1].getValue();
+				}
+
+		return current - previous;
+	}
+
+	public getCovidWorldAffectedCountryIncrease(covidData: CovidData, countryName: string): number {
+
+		let previous: number = 0;
+		let current: number = 0;
+
+		if (covidData && covidData.getCountries() && (covidData.getCountries().length > 0) && (countryName != null))
+			if(covidData.hasCountryByName(countryName))
+				for(let province of covidData.getCountryByName(countryName).getProvinces()) {
+
 					let timeseries: Timeseries[] = province.getLatestNTimeseries(2);
 					previous += timeseries[0].getValue();
 					current += timeseries[1].getValue();

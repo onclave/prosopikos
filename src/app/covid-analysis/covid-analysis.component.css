@@ -16,6 +16,18 @@
 	margin-bottom: 20px;
 }
 
+.pr-covid-analysis-image-white-container {
+	margin-top: 30px;
+	margin-bottom: 20px;
+	background-color: whitesmoke;
+	padding: 5px;
+	border-radius: 5px;
+}
+
+.pr-covid-analysis-image-white-container .pr-covid-analysis-image-title {
+	color: grey;
+}
+
 .pr-covid-analysis-image {
 	width: 100%;
 	max-width: 500px;

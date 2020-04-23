@@ -22,12 +22,16 @@
             <span class="pr-covid-initiative pr-font-nang pr-non-selectable pr-no-focus">Department of Computer Science along with Department of Statistics, University of Kalyani, has taken this initiative to develop an interactive site to view and interact with the daily available nCoV-2019 pandemic from various sources. The timeseries data available from various sources are used, especially for students, researchers, data analysts, data engineers and other experts to create <span class="pr-analysis-important-marker">interactive graphs, charts and plots to visualize the progress of different regions of India, and / or different countries around the globe</span> and also to understand how various countries and / or regions within India are comparing against one another while fighting against this deadly disease.</span>
             <div fxLayout="column" fxLayoutAlign="start start" class="pr-padding-10px pr-margin-top-10px pr-non-selectable pr-no-focus">
                 <span class="pr-justify pr-color-pink-1 pr-bold pr-font-nang pr-non-selectable pr-no-focus">We've written a python package for you to run analyses on our COVID-19 dataset.</span>
-                <span class="pr-classic-button-1 pr-font-chn" (click)="navigateToLink('/covid/covdata')">Check it out!</span>
+                <span class="pr-classic-button-1 pr-font-chn" (click)="navigateToLink('/covid/covdata')">Get started!</span>
             </div>
         </div>
         <div fxLayout="column" fxLayoutAlign="start center" fxFlex.xs="100" fxFlex.sm="100" fxFlex.md="60" fxFlex.lg="60" fxFlex.xl="60" class="animated zoomIn">
             <app-covid-map></app-covid-map>
         </div>
+    </div>
+    <div fxLayout="column" fxLayoutAlign="start center" fxShow.xs="true" fxShow.sm="true" fxShow.md="false" fxShow.lg="false" fxShow.xl="false" class="pr-padding-10px pr-margin-top-10px pr-non-selectable pr-no-focus">
+        <span class="pr-justify pr-color-pink-1 pr-bold pr-font-nang pr-non-selectable pr-no-focus">We've written a python package for you to run analyses on our COVID-19 dataset.</span>
+        <span class="pr-classic-button-1 pr-font-chn" (click)="navigateToLink('/covid/covdata')">Get started!</span>
     </div>
     <mat-tab-group (selectedTabChange)="tabChanged($event)" dynamicHeight>
         <mat-tab label="INDIA">

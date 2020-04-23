@@ -442,4 +442,5 @@ a:visited {
 	font-weight: lighter;
 	font-family: monospace;
 	font-size: 0.9em;
+	overflow-wrap: break-word;
 }
