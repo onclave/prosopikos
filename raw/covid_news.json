@@ -1,5 +1,42 @@
 [
 	{
+		"date": "23/04/20",
+		"india": [
+			{
+				"heading": "The ordinance to Punish Those Attacking Health Workers Amid Coronavirus Pandemic Comes into Force",
+				"description": "The Epidemic Diseases (Amendment) Ordinance 2020 amends the Epidemic Diseases Act, 1897 and provides for compensation for injury to healthcare service personnel or for causing damage or loss to property. In case of causing grievous hurt, imprisonment shall be for a term six months to seven years and with a fine of Rs 1,00,000 to Rs 5,00,000. In addition, the offender will also be liable to pay compensation to the victim and twice the fair market value for damage of property as determined by the court.",
+				"source": "https://www.news18.com/news/india/ordinance-to-punish-those-attacking-health-workers-amid-coronavirus-pandemic-comes-into-force-2589253.html"
+			},
+			{
+				"heading": "Rajasthan govt steps up capacity for RT-PCR tests to detect asymptomatic patients",
+				"description": "A huge number of estimated Covid19 asymptomatic patients have become a major concern for the Rajasthan government. As per state government's estimate, more than 80 per cent of COVID-19 patients currently in the state are asymptomatic.",
+				"source": "https://www.indiatoday.in/india/story/coronavirus-rajasthan-govt-steps-up-capacity-for-rt-pcr-tests-to-detect-asymptomatic-patients-1670301-2020-04-23"
+			},
+			{
+				"heading": "West Bengal govt considering special measures for Kolkata after a spike in COVID-19 cases",
+				"description": "West Bengal on Thursday recorded its biggest single-day spike with 58 new confirmed COVID-19 cases coming to light from across the state, a majority of them from Kolkata. ‘In North 24 Parganas and Howrah, we have managed to contain the situation majorly but Kolkata remains a challenge. We are taking all possible measures so that there is no further spread. We are contemplating special measures for Kolkata,’ West Bengal Chief Secretary Rajiva Sinha told media outlets on Thursday.",
+				"source": "https://www.indiatoday.in/india/story/west-bengal-govt-considering-special-measures-for-kolkata-after-spike-in-covid-19-cases-1670295-2020-04-23"
+			}
+		],
+		"world": [
+			{
+				"heading": "COVID-19 kills WWII veteran 100 years after twin died of Spanish flu",
+				"description": "A 100-year-old World War II veteran died of the new coronavirus a century after his twin brother was killed in the 1918-19 Spanish flu pandemic, US media reports said.",
+				"source": "https://www.indiatoday.in/world/story/covid-19-kills-wwii-veteran-100-years-after-twin-died-of-spanish-flu-1670274-2020-04-23"
+			},
+			{
+				"heading": "Oxford University to begin human trials of COVID-19 vaccine next week",
+				"description": "Researchers said the jab could be ready to be rolled out for emergency use by the autumn following significant progress in the early stages of development. The Oxford team has tested the vaccine successfully on several animal species.",
+				"source": "https://www.independent.co.uk/news/science/coronavirus-covid-19-vaccine-oxford-university-human-trials-a9467061.html"
+			},
+			{
+				"heading": "China Imposes New Limits as Coronavirus Fears Return",
+				"description": "Some northern cities have reported fresh cases and put restrictions on movement, a sign of how hard it will be for China to fully recover from the outbreak. Chinese officials have imposed new limits on movement in some northern parts of the country following a spate of new coronavirus infections, in a sign of how difficult it will be to fully recover from an outbreak that virtually paralyzed the country.",
+				"source": "https://www.nytimes.com/2020/04/23/world/asia/china-coronavirus-new-infections.html"
+			}
+		]
+	},
+	{
 		"date": "22/04/20",
 		"india": [
 			{
