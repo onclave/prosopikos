@@ -1,5 +1,79 @@
 [
 	{
+		"date": "25/04/20",
+		"india": [
+			{
+				"heading": "Social Distancing Goes for a Toss in Tamil Nadu Due to Panic-buying Ahead of Intensified Lockdown in 5 Cities",
+				"description": "All mandates regarding social distancing norms were brought down in Tamil Nadu on Saturday as people across five high-risk municipalities in the state stepped out to buy essentials ahead of a total lockdown beginning Sunday.",
+				"source": "https://www.news18.com/news/india/social-distancing-goes-for-toss-in-tamil-nadu-due-to-panic-buying-ahead-of-intensified-lockdown-from-tomorrow-2592239.html"
+			},
+			{
+				"heading": "All geared up to resume operations, welcome passengers, says Mumbai Airport authorities",
+				"description": "On Saturday Mumbai International Airport Limited (MIAL) said that it had put together several measures to curb the spread of coronavirus and added that its Chhatrapati Shivaji International Airport (CSIA) is ready for operations. India Today TV has learnt that the airport officials have formulated Standard Operating Procedures (SOP) for the safety of passengers. Other than continuous sanitisation of the spaces and maintaining social distancing norms, the post lockdown measures will also include compulsory thermal screening.",
+				"source": "https://www.indiatoday.in/india/story/mumbai-airport-ready-to-resume-operations-1671097-2020-04-25"
+			},
+			{
+				"heading": "App To Track People Buying Medicines For Cold, Fever In Andhra Pradesh",
+				"description": "The Medical and Health Department of Andhra Pradesh on Saturday launched ‘Covid Pharma’, a mobile application to keep a track of people purchasing medicines over-the-counter (OTC) for cough, cold and fever from medical stores across the state.",
+				"source": "https://www.ndtv.com/india-news/andhra-pradesh-coronavirus-app-to-track-people-buying-medicines-for-cold-fever-in-andhra-pradesh-2218313"
+			}
+		],
+		"world": [
+			{
+				"heading": "Sudden Spike in New Yorkers Ingesting Bleach After Trump Touts it as Potential 'Cure' for Coronavirus",
+				"description": "Hours after US President Donald Trump touted disinfectant as a possible 'cure' for coronavirus, an unusually high number of New Yorkers contacted the city health authorities over fears that they had ingested bleach or other household cleaners.",
+				"source": "https://www.news18.com/news/world/spike-in-new-yorkers-ingesting-bleach-after-trump-touts-it-as-potential-cure-for-coronavirus-2592305.html"
+			},
+			{
+				"heading": "Woman Pronounced Dead Due To COVID-19 In Hospital Mix-Up Wakes Up",
+				"description": "An Ecuadoran woman who was pronounced dead of COVID-19 suddenly woke up in the hospital, to the delight and relief of relatives who had identified someone else's body as hers and had it cremated.",
+				"source": "https://www.ndtv.com/world-news/coronavirus-ecuador-woman-named-alba-maruri-pronounced-dead-due-to-covid-19-in-hospital-mix-up-wakes-2218291"
+			},
+			{
+				"heading": "World Health Organisation warns 'immunity passports' increase risk of spreading coronavirus",
+				"description": "The World Health Organization (WHO) said on Saturday that there was currently 'no evidence' that people who have recovered from COVID-19 and have antibodies are protected from a second coronavirus infection. In a statement, the United Nations agency warned against issuing 'immunity passports' or 'risk-free certificates' to people who have been infected, saying the practice may actually increase the risk of spread as they may ignore standard advice.",
+				"source": "https://www.dailymail.co.uk/news/article-8256249/No-evidence-recovered-covid-patients-infected-World-Health-Organisation-says.html"
+			}
+		]
+	},
+	{
+		"date": "24/04/20",
+		"india": [
+			{
+				"heading": "Railways considering putting trains back on track, but with riders",
+				"description": "Indian Railways is mulling the idea of resuming partial passenger train services to help people in emergency situations travel. Sources have told India Today TV that the proposal is to start a few special trains with a higher ticket price. The idea is that only those who need to travel in emergency situations would be allowed to do so.",
+				"source": "https://www.indiatoday.in/india/story/railways-considering-putting-trains-back-on-track-but-with-riders-1670755-2020-04-24"
+			},
+			{
+				"heading": "Five People Who Were Held for Attack on Health Workers Test Positive for Covid-19 in Karnataka",
+				"description": "Five people among those arrested for the violence let loose on health workers in Padarayanapura here last week have tested positive in jail and consequently shifted to a hospital, Karnataka Deputy Chief Minister Dr C N Ashwath Narayan said on Friday.",
+				"source": "https://www.news18.com/news/india/five-people-who-were-held-for-attack-on-health-workers-test-positive-for-covid-19-in-karnataka-2590775.html"
+			},
+			{
+				"heading": "Plasma Therapy likely to begin from Apr 25 in Karnataka",
+				"description": "‘We have already got approval for Convalescent Plasma Therapy. There is no need for any special permission for it....when I was in BMC (Bangalore Medical College) I spoke to We may probably start it for the first patient from tomorrow itself. The donor has also agreed,’ Sudhakar said.",
+				"source": "https://www.indiatoday.in/india/story/covid19-plasma-therapy-likely-begin-apr-25-karnataka-1670778-2020-04-24"
+			}
+		],
+		"world": [
+			{
+				"heading": "Trump signs $484 billion measure to aid employers, hospitals",
+				"description": "US President Donald Trump signed a $484 billion bill Friday to aid employers and hospitals under stress from the coronavirus pandemic that has killed more than 50,000 Americans and devastated broad swaths of the economy.",
+				"source": "https://www.indiatoday.in/world/story/us-donald-trump-4th-coronavirus-relief-bill-into-law-1670785-2020-04-24"
+			},
+			{
+				"heading": "Hopes dashed as coronavirus drug remdesivir 'fails first trial'",
+				"description": "There had been widespread hope that remdesivir could treat Covid-19. But a Chinese trial showed that the drug had not been successful, according to draft documents accidentally published by the World Health Organization. The drug did not improve patients' condition or reduce the pathogen's presence in the bloodstream, it said.",
+				"source": "https://www.bbc.com/news/world-52406261"
+			},
+			{
+				"heading": "Blood thickening, clots in coronavirus patients alarm doctors in the US",
+				"description": "Signs of blood thickening and clotting were being detected in different organs by doctors from different specialities. This would turn out to be one of the alarming ways the virus ravages the body, as doctors there and elsewhere were starting to realize. At Mount Sinai, nephrologists noticed kidney dialysis catheters getting plugged with clots.",
+				"source": "https://www.indiatoday.in/world/story/blood-thickening-clots-in-coronavirus-patients-alarm-doctors-in-us-1670435-2020-04-24"
+			}
+		]
+	},
+	{
 		"date": "23/04/20",
 		"india": [
 			{
