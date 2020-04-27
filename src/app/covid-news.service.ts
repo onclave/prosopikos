@@ -57,62 +57,6 @@ export class CovidNewsService {
 
 		this.newsObject = [
 		{
-			"date": '13 / 04 / 2020',
-			"india": [{
-				"heading": 'Meghalaya reports first COVID-19 case after Shillong-based doctor tests positive',
-				"description": 'Meghalaya reported its first coronavirus case on Monday after a Shillong-based doctor tested positive for the COVID-19 infection. Confirming the report, Meghalaya chief secretary said, in a press release, that a doctor from Bethany hospital has tested positive for coronavirus.',
-				"source": 'https://www.indiatoday.in/india/story/meghalaya-reports-first-covid-19-case-after-shillong-based-doctor-tests-positive-1666637-2020-04-14'
-			}, {
-				"heading": 'Lockdown 2.0 with exceptions to restart economy',
-				"description": 'Prime Minister Narendra Modi\'s address on the last day of the 21-day lockdown has sparked indications of a two-week extension but with some exceptions to start some economic activities in a graded manner in India. An extension of the lockdown till the end of the month is expected to try and contain the spread of coronavirus which has affected over 9,000 people in India.',
-				"source": 'https://www.indiatoday.in/india/story/lockdown-extension-with-exceptions-to-restart-economy-whats-proposed-ahead-of-pm-modis-address-1666661-2020-04-14'
-			}, {
-				"heading": 'Islamic Sect Chief\'s Quarantine Ends, To Join Probe Linked To COVID-19',
-				"description": 'Maulana Saad, 56, had been under quarantine since March 28. His lawyer on April 8 said he will join investigation after the quarantine period ends in a case related to Tablighi Jamaat\'s Nizamuddin event.',
-				"source": 'https://www.ndtv.com/india-news/coronavirus-tablighi-jamaats-maulana-saad-kandhalvis-14-day-quarantine-ends-to-join-probe-2211233'
-			}],
-			"world": [{
-				"heading": 'US Approves Sale Of Missile, Torpedoes Worth $ 155 Million To India',
-				"description": 'The sale of 10 AGM-84L Harpoon Block II air-launched missiles is estimated to cost USD 92 million, while 16 MK 54 All Up Round Lightweight Torpedoes and three MK 54 Exercise Torpedoes are estimated to cost USD 63 million, the Defense Security Cooperation Agency said.',
-				"source": 'https://www.ndtv.com/india-news/us-approves-sale-of-missile-torpedoes-worth-155-million-to-india-2211264'
-			}, {
-				"heading": 'COVID-19 is 10 times more deadly than swine flu says WHO',
-				"description": 'The novel coronavirus is 10 times more deadly than swine flu, also called H1N1, which caused a global pandemic in 2009, the World Health Organization said Monday, calling for control measures to be lifted "slowly".',
-				"source": 'https://www.indiatoday.in/world/story/covid19-10-times-more-deadly-than-swine-flu-who-1666610-2020-04-13'
-			}, {
-				"heading": 'Trump blames Obama for lack of coronavirus tests:; ‘I don’t take responsibility at all’',
-				"description": 'President Donald Trump refused to accept any responsibility for the slow rate of coronavirus testing in the United States, saying on Friday that he was “given a set of circumstances” that wasn’t meant for the high numbers of potential COVID-19 infections.',
-				"source": 'https://www.cnbc.com/2020/03/13/coronavirus-trump-says-i-dont-take-responsibility-at-all-for-lack-of-tests.html?__source=sharebar'
-			}]
-		}, {
-			"date": '12 / 04 / 2020',
-			"india": [{
-				"heading": 'Delhi govt to sanitise city\'s red, orange zones from Monday, says Arvind Kejriwal',
-				"description": 'The Delhi government will start a massive sanitisation drive in the city’s Covid-19 containment zones, declared as ‘Red Zones’ and the high-risk zones, identified as ‘Orange Zones’ from Monday, chief minister Arvind Kejriwal said.',
-				"source": 'https://www.indiatoday.in/india/story/covid-19-delhi-govt-to-sanitise-city-s-red-orange-zones-from-monday-says-arvind-kejriwal-1666196-2020-04-12'
-			}, {
-				"heading": 'Centre To Set Up 20 Lakh "Suraksha Stores" To Provide Essential Supplies',
-				"description": 'Ahead of extending restrictions on the mobility of goods and persons, the government plans to set up a chain of 20 lakh retail shops called "Suraksha Stores" across India which will provide daily essentials to citizens while maintaining stringent safety norms.',
-				"source": 'https://www.ndtv.com/india-news/coronavirus-updates-centre-to-set-up-20-lakh-suraksha-stores-to-provide-essential-supplies-2210422'
-			}, {
-				"heading": 'Policeman\'s hand chopped off, two others injured in attack by \'Nihangis\' in Punjab',
-				"description": 'A policeman\'s hand was chopped off and two other police officials were injured when a group of people allegedly attacked them in Punjab\'s Patiala district on Sunday, police said.',
-				"source": 'https://economictimes.indiatimes.com/news/politics-and-nation/policemans-hand-chopped-off-two-others-injured-in-attack-by-nihangis-in-punjab/articleshow/75104729.cms'
-			}],
-			"world": [{
-				"heading": 'UAE ready to fly stranded Indians if they test negative for coronavirus',
-				"description": 'The UAE has offered to fly stranded Indians and citizens of other countries, who wish to be repatriated if they test negative for COVID-19, the country’s envoy to India told a Gulf daily.',
-				"source": 'https://www.indiatoday.in/world/story/uae-ready-to-fly-stranded-indians-if-they-test-negative-for-coronavirus-envoy-1666163-2020-04-12'
-			}, {
-				"heading": '"We\'re Social Animals": Hong Kong Residents Flout Lockdown On Festival',
-				"description": 'People in Hong Kong thronged beaches, ferries and outlying islands on Sunday, many of them violating ban on gatherings of more than four people aimed at containing the spread of the new coronavirus.',
-				"source": 'https://www.ndtv.com/world-news/coronavirus-outbreak-hong-kong-residents-flout-lockdown-on-festival-were-social-animals-2210513'
-			}, {
-				"heading": 'Sri Lanka Makes Cremations Compulsory for Coronavirus Deaths, Angering Muslims',
-				"description": 'Sri Lanka made cremations compulsory for coronavirus victims on Sunday, ignoring protests from the country\'s minority Muslims who say it goes against Islamic tradition. "The corpse of a person who has died or is suspected to have died, of... COVID-19 shall be cremated," Health Minister Pavithra Wanniarachchi said Sunday.',
-				"source": 'https://www.news18.com/news/world/sri-lanka-makes-cremations-compulsory-for-coronavirus-deaths-angering-muslims-2574865.html'
-			}]
-		}, {
 			"date": '11 / 04 / 2020',
 			"india": [{
 				"heading": 'West Bengal schools and colleges closed till June 10, lockdown extended till April 30',
