@@ -57,62 +57,6 @@ export class CovidNewsService {
 
 		this.newsObject = [
 		{
-			"date": '11 / 04 / 2020',
-			"india": [{
-				"heading": 'West Bengal schools and colleges closed till June 10, lockdown extended till April 30',
-				"description": 'WB Chief Minister Mamata Banerjee declared on Saturday that schools and colleges would be closed till June 10 on account of an extended lockdown for COVID-19 in the state till April 30.',
-				"source": 'https://www.indiatoday.in/education-today/news/story/west-bengal-schools-and-colleges-closed-till-june-10-lockdown-extended-1665919-2020-04-11'
-			}, {
-				"heading": 'No shortage of hydroxychloroquine, private sector to make 2-3 crore more tablets',
-				"description": 'The health ministry said it is coordinating with pharma companies to produce two-three crore more hydroxychloroquine (HCQ) tablets.',
-				"source": 'https://www.indiatoday.in/india/story/no-shortage-of-hcq-private-sector-to-make-2cr-more-tablets-govt-1665925-2020-04-11'
-			}, {
-				"heading": 'Centre Considering Request to Extend National Lockdown till April 30 after Consensus among States',
-				"description": 'The nationwide lockdown imposed by Prime Minister Narendra Modi in the wake of the Covid-19 outbreak in India is likely to continue beyond April 14. The PM told the chief ministers that all their suggestions will be taken into consideration and that the Centre and states are united in this fight.',
-				"source": 'https://www.news18.com/news/india/covid-19-outbreak-india-lockdown-likely-to-continue-till-april-30-pm-modi-to-discuss-new-strategy-with-cms-today-2573393.html'
-			}],
-			"world": [{
-				"heading": 'Teenager From Isolated Amazon Tribe in Brazil Dies After Being Infected with Coronavirus',
-				"description": 'The 15-year-old boy, the first Yanomami to be diagnosed with the virus, was hospitalized a week ago at an intensive care unit in Boa Vista, the capital of the northern state of Roraima, officials said.',
-				"source": 'https://www.news18.com/news/world/teenager-from-isolated-amazon-tribe-in-brazil-dies-after-being-infected-with-coronavirus-2573351.html'
-			}, {
-				"heading": 'Iran Begins Lifting Restrictions After Brief Coronavirus Lockdown',
-				"description": 'Iran began reopening government offices Saturday after a brief nationwide lockdown to help contain the worst coronavirus outbreak in the Middle East, which has killed more than 4,300 people in the country.',
-				"source": 'https://www.news18.com/news/world/iran-begins-lifting-restrictions-after-brief-coronavirus-lockdown-2573993.html'
-			}, {
-				"heading": 'New York Public Schools To Remain Shut For Rest Of School Year',
-				"description": 'New York City Mayor Bill de Blasio said on Saturday public schools will remain closed for the rest of the school year as the city battles the outbreak of the novel coronavirus. "Having to tell you that we cannot bring our schools back for the remainder of this school year is painful, but I can also tell you it is the right thing to do," he told in a news conference.',
-				"source": 'https://www.ndtv.com/world-news/covid-19-us-new-york-public-schools-to-remain-shut-for-rest-of-school-year-2210168'
-			}]
-		}, {
-			"date": '10 / 04 / 2020',
-			"india": [{
-				"heading": 'Death toll nears 200-mark, 30 deaths, 547 new Covid-19 cases in 12 hours',
-				"description": 'Over 650 positive cases of novel coronavirus in the last 24 hours, ending Friday morning, have taken India’s tally over 6,400 while the death toll is about to reach the 200-mark. According to the Union health ministry, the total number of positive COVID-19 cases in India has climbed to 6,412. These include 5,709 active cases while 504 have been either cured or discharged.',
-				"source": 'https://www.indiatoday.in/india/story/coronavirus-india-news-update-number-covid19-tally-total-death-toll-1665349-2020-04-10'
-			}, {
-				"heading": 'Punjab govt extends lockdown till May 1',
-				"description": 'The Captain Amarinder Singh-led Punjab government has decided to extend the lockdown in the state till May 1. This decision was taken at a state cabinet meeting today and comes at a time when Punjab is seeing a rapid rise in the number of COVID-19 cases that have already crossed the 100-mark in the state.',
-				"source": 'https://www.indiatoday.in/india/story/coronavirus-punjab-govt-extends-lockdown-1665578-2020-04-10'
-			}, {
-				"heading": 'Here\'s What You Can Expect In Air Travel After The Lockdown Ends',
-				"description": 'With the number of coronavirus cases in the country rising dramatically - the biggest single-day spike came on Friday - it seems quite clear that air travel in the country will not be resumed any time soon. When that does eventually happen, airports in India and flights within India and on international routes may not be anything that we are used to.',
-				"source": 'https://www.ndtv.com/india-news/coronavirus-covid-19-flight-tickets-heres-what-you-can-expect-in-air-travel-after-the-lockdown-ends-2209798'
-			}],
-			"world": [{
-				"heading": 'With 605 COVID-19 Deaths, Spain Records Lowest Fatalities In 17 Days',
-				"description": 'Spain has recorded its lowest daily death count from the new coronavirus in 17 days, with 605 people dying, the government said on Friday.',
-				"source": 'https://www.ndtv.com/world-news/coronavirus-spain-with-605-covid-19-deaths-spain-records-lowest-fatalities-in-17-days-2209537'
-			}, {
-				"heading": 'For Students at a Lone School in California, Class Is Still On',
-				"description": 'Of the 10,521 public schools in California, Outside Creek is the lone holdout, a tiny school in a remote rural community in the San Joaquin Valley that is insisting on holding classes for the 21 students from kindergarten through eighth grade who showed up last week.',
-				"source": 'https://www.nytimes.com/2020/04/10/us/coronavirus-california-school.html?action=click&module=Top%20Stories&pgtype=Homepage'
-			}, {
-				"heading": 'China to continue screening Wuhan residents for coronavirus amid lifting of restrictions',
-				"description": 'China\'s Wuhan city, where the global coronavirus pandemic began, is still testing residents regularly despite relaxing its tough two-month lockdown, with the country wary of a rebound in cases even as it sets its sights on normalising the economy.',
-				"source": 'https://www.indiatoday.in/world/story/china-to-continue-screening-wuhan-residents-for-coronavirus-amid-lifting-of-restrictions-1665497-2020-04-10'
-			}]
-		}, {
 			"date": '09 / 04 / 2020',
 			"india": [{
 				"heading": 'Odisha first Indian state to extend Covid-19 lockdown till April 30',
