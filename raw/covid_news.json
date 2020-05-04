@@ -1,5 +1,153 @@
 [
 	{
+		"date": "03/05/2020",
+		"india": [
+			{
+				"heading": "'Time to Reopen Delhi' says Kejriwal",
+				"description": "Delhi chief minister Arvind Kejriwal on Sunday said his government is ready to ‘lift the lockdown’ as he announced an easing of relaxations for several sectors in line with the Centre’s guidelines. ‘The time has come to re-open Delhi. We will have to be ready to live with coronavirus,’ the Chief Minister said at a press conference, adding that his administration is in talks with the Centre on reopening all of Delhi except the containment zones.",
+				"source": "https://www.news18.com/news/india/time-to-reopen-delhi-kejriwal-lists-lockdown-3-0-relaxations-says-ready-to-live-with-coronavirus-2603967.html"
+			},
+			{
+				"heading": "Andhra Pradesh govt prepares to bring back Telugu students, others stranded in various countries",
+				"description": "After rescuing over 4,000 stranded fishermen from Gujarat, the YS Jagan Mohan Reddy government is now gearing up to bring back Telugu students and others from the state stranded abroad due to the ongoing Covid-19 lockdown.",
+				"source": "https://www.indiatoday.in/india/story/covid-19-lockdown-andhra-pradesh-govt-prepares-to-bring-back-telugu-students-others-stranded-in-various-countries-1673999-2020-05-03"
+			},
+			{
+				"heading": "Rajasthan Got Nod To Use Plasma Therapy On COVID-19 Patients",
+				"description": "The Indian Council of Medical Research (ICMR) has given its nod to Rajasthan's appeal for using convalescent plasma therapy in treating COVID-19 patients, Chief Minister Ashok Gehlot said on Sunday.",
+				"source": "https://www.ndtv.com/india-news/ashok-gehlot-says-rajasthan-got-nod-to-use-plasma-therapy-on-covid-19-patients-2222660"
+			}
+		],
+		"world": [
+			{
+				"heading": "Russia Reports Over 10,000 New Coronavirus Cases, Highest In A Day",
+				"description": "Russia on Sunday recorded its highest daily rise in confirmed coronavirus cases with 10,633 new cases, bringing the total to 134,687, with more than half of cases and deaths in Moscow.",
+				"source": "https://www.ndtv.com/world-news/covid-19-russia-reports-over-10-000-new-coronavirus-cases-highest-in-a-day-2222478"
+			},
+			{
+				"heading": "Spain reports lowest daily coronavirus death toll in nearly 7 weeks",
+				"description": "Spain's death toll from the new coronavirus rose by 164 to 25,264 on Sunday, health ministry data showed, marking the lowest one-day increase since March 18.",
+				"source": "https://www.indiatoday.in/world/story/spain-reports-lowest-daily-coronavirus-death-toll-in-nearly-7-weeks-1673929-2020-05-03"
+			},
+			{
+				"heading": "‘Enormous Evidence’ Virus Came From Wuhan Lab",
+				"description": "US Secretary of State Mike Pompeo said Sunday that there was ‘enormous evidence’ that the coronavirus pandemic originated in a laboratory in Wuhan, China. ‘There is enormous evidence that this is where it began,’ he said on ABC's ‘This Week.’",
+				"source": "https://www.ndtv.com/world-news/mike-pompeo-says-enormous-evidence-virus-came-from-wuhan-lab-2222654"
+			}
+		]
+	},
+	{
+		"date": "02/05/20",
+		"india": [
+			{
+				"heading": "Assam to open its borders with other NE states from Sunday",
+				"description": "Amid Covid-19 lockdown, the Assam government will open its borders with the other northeastern states, excluding Sikkim, from Sunday to facilitate the return of the people from the state stranded in different parts of the region.",
+				"source": "https://www.indiatoday.in/india/story/assam-open-borders-other-north-east-states-sunday-1673753-2020-05-02"
+			},
+			{
+				"heading": "Centre Preparing Safety Guidelines For Schools, Colleges Once They Reopen",
+				"description": "New seating matrix, staggered classes, different mess and library rules, revamped hostels and canteens, could be part of students' socially distant lives in schools and colleges when they return, with the HRD Ministry forming safety guidelines to be followed whenever classroom learning is resumed.",
+				"source": "https://www.ndtv.com/india-news/coronavirus-centre-preparing-safety-guidelines-for-schools-colleges-once-they-reopen-2222351"
+			},
+			{
+				"heading": "Kedarnath to open for Uttarakhand pilgrims from May 4",
+				"description": "People from Uttarakhand will be able to visit the Kedarnath shrine from May 4, said state Chief Minister Trivendra Singh Rawat on Saturday. He said the state government has decided that all districts under the green zone will be 'completely opened up' from May 4.",
+				"source": "https://www.indiatoday.in/india/story/kedarnath-shrine-may4-uttarakhand-cm-trivendra-singh-rawat-eagenda-aaj-tak-1673581-2020-05-02"
+			}
+		],
+		"world": [
+			{
+				"heading": "UK Hospital Trials Blood Plasma Treatment For Coronavirus",
+				"description": "A top British hospital will use blood plasma treatment for Covid-19 patients as part of a trial that transfuses plasma from recovered people into sick people to give their immune systems a boost to fight the virus. London's Guy’s and St Thomas’ Hospital, which Prime Minister Boris Johnson said helped save his life after he fell gravely ill with COVID-19, is to test the so-called ‘convalescent plasma’ treatment as part of an international trial.",
+				"source": "https://www.news18.com/news/world/uk-hospital-trials-blood-plasma-treatment-for-coronavirus-2603049.html"
+			},
+			{
+				"heading": "The US Commits Over $775 Million to Help Other Countries Fight Covid-19",
+				"description": "Since the COVID-19 outbreak, the US has committed over $775 million in emergency health, humanitarian and economic assistance that will help over 120 countries, including India, in fighting the pandemic, the State Department has said, as the deadly disease claimed over 230,000 lives and infected over 3.3 million people.",
+				"source": "https://www.news18.com/news/world/us-commits-over-775-million-to-help-other-countries-fight-covid-19-us-state-dept-2602729.html"
+			},
+			{
+				"heading": "Roche Gets US FDA Emergency Use Nod for Covid-19 Antibody Test",
+				"description": "Roche Holding AG received emergency use approval from the US Food and Drug Administration (FDA) for an antibody test to help determine if people have ever been infected with the coronavirus, the Swiss drugmaker said on Sunday.",
+				"source": "https://www.news18.com/news/world/roche-gets-us-fda-emergency-use-nod-for-covid-19-antibody-test-2603367.html"
+			}
+		]
+	},
+	{
+		"date": "01/05/2020",
+		"india": [
+			{
+				"heading": "Special Train From Telangana Carrying 1,200 Migrant Workers Reaches Ranchi",
+				"description": "The special train from Telangana carrying 1,200 migrant workers of Jharkhand reached Hatia station in Ranchi on Friday night, officials said.",
+				"source": "https://www.news18.com/news/india/special-train-from-telangana-carrying-1200-migrant-workers-reaches-ranchi-2601889.html"
+			},
+			{
+				"heading": "Bihar Prepares For Return Of Million Migrants, Declares 3-Week Quarantine",
+				"description": "About 10 lakh migrants expected to return to their hometowns in Bihar amid a nationwide lockdown over coronavirus will be quarantined for 21 days, instead of 14, Chief Minister Nitish Kumar said on Friday at a video meeting with his cabinet ministers as he reviewed the preparations for their return. At the meeting, which lasted for about six hours, the Chief Minister also said that these migrants will be offered skill-training at the quarantine centres.",
+				"source": "https://www.ndtv.com/india-news/coronavirus-lockdown-bihar-prepares-for-return-of-million-migrants-declares-3-week-quarantine-2222006"
+			},
+			{
+				"heading": "173 Sikh Pilgrims COVID-19 +ve In Punjab After Return From Maharashtra",
+				"description": "A large group of Sikh pilgrims returning from Maharashtra, who have tested positive for coronavirus, have emerged as a huge challenge for Punjab. Over 173 pilgrims have tested positive for COVID-19.",
+				"source": "https://www.ndtv.com/india-news/coronavirus-173-sikh-pilgrims-found-covid-19-positive-in-punjab-after-return-from-maharashtra-2221494"
+			}
+		],
+		"world": [
+			{
+				"heading": "US issues emergency approval for remdesivir for COVID-19 patients",
+				"description": "The experimental drug remdesivir has been authorized by US regulators for emergency use against COVID-19, President Donald Trump announced Friday. It comes after the antiviral made by Gilead Sciences was shown in a major clinical trial to shorten the time to recovery in some coronavirus patients, the first time any medicine has had a proven benefit against the disease.",
+				"source": "https://www.deccanherald.com/international/us-issues-emergency-approval-for-remdesivir-for-covid-19-patients-832549.html"
+			},
+			{
+				"heading": "COVID-19 Emergency Declaration Gave ‘Enough Time’ To World says WHO chief",
+				"description": "Tedros Adhanom Ghebreyesus gave a robust defence on Friday of his and the World Health Organization's (WHO) 'timely' actions in declaring the new coronavirus an international health emergency at the end of January.",
+				"source": "https://www.ndtv.com/world-news/coronavirus-covid-19-emergency-declaration-gave-enough-time-to-world-who-chief-tedros-adhanom-ghebreyesus-2221890"
+			},
+			{
+				"heading": "With Fever Checks And Masks, World's Largest Mall In Dubai Reopens",
+				"description": "Clutching bags from designer boutiques in their gloved hands, customers are back at Dubai Mall, one of the world's largest shopping havens that has reopened under strict safeguards against coronavirus.",
+				"source": "https://www.ndtv.com/world-news/coronavirus-dubai-with-fever-checks-and-masks-worlds-largest-mall-in-dubai-reopens-2221035"
+			}
+		]
+	},
+	{
+		"date": "30/04/20",
+		"india": [
+			{
+				"heading": "Maharashtra issues directives to hospitals as Covid-19 cases mount",
+				"description": "In order to decongest hospitals, all asymptomatic patients without comorbidity should be shifted to appropriate Covid Care Centres immediately and hospitals should ensure that no admission is granted to asymptomatic positive patients without comorbidity.",
+				"source": "https://economictimes.indiatimes.com/industry/healthcare/biotech/healthcare/maharashtra-issues-directives-to-hospitals-as-covid-19-cases-mount/articleshow/75466836.cms"
+			},
+			{
+				"heading": "India's recovery rate climbs to 26 per cent, doubling rate slows down to 11 days",
+				"description": "The Centre on Thursday said that the number of patients cured of Covid-19 in India has reached 8,324 - about 25 per cent of the all infected by the deadly virus.",
+				"source": "https://www.indiatoday.in/india/story/coronavirus-india-s-recovery-rate-climbs-to-26-per-cent-doubling-rate-slows-down-to-11-days-1672905-2020-04-30"
+			},
+			{
+				"heading": "India's Glenmark to conduct trials for potential COVID-19 drug",
+				"description": "Shares of Glenmark Pharmaceuticals Ltd rose almost 9% on Thursday after the Indian drugmaker got an approval to conduct clinical trials with antiviral drug favipiravir, seen as a potential treatment for COVID-19.",
+				"source": "https://www.indiatoday.in/business/story/india-s-glenmark-to-conduct-trials-for-potential-covid-19-drug-shares-jump-1672729-2020-04-30"
+			}
+		],
+		"world": [
+			{
+				"heading": "Russian Prime Minister tests positive for COVID-19",
+				"description": "Russian Prime Minister Mikhail Mishustin says he has tested positive for the new coronavirus and has told President Vladimir Putin he will self-isolate.",
+				"source": "https://www.thehindu.com/news/international/coronavirus-russian-prime-minister-tests-positive-for-covid-19/article31476587.ece"
+			},
+			{
+				"heading": "16-day old baby becomes PH youngest COVID-19 survivor",
+				"description": "The Department of Health announced that a 16-old baby became the youngest COVID-19 survivor in the Philippines.",
+				"source": "https://www.msn.com/en-ph/entertainment/celebrity/baby-survivor-16-day-old-baby-becomes-ph-youngest-covid-19-survivor/ar-BB13ptjk"
+			},
+			{
+				"heading": "Indian-American-led clinical trial of remdesivir in Covid-19 treatment shows positive results",
+				"description": "The phase three clinical trial of the antiviral drug remdesivir, led by a team of investigators, including an Indian-American physician, for the treatment of the coronavirus patients has shown positive results, a US pharma company has said.",
+				"source": "https://www.indiatoday.in/world/story/coronavirus-clinical-trial-remdesivir-covid-19-treatment-positive-results-1672773-2020-04-30"
+			}
+		]
+	},
+	{
 		"date": "29/04/20",
 		"india": [
 			{
