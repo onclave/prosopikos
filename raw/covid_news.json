@@ -1,5 +1,116 @@
 [
 	{
+		"date": "06/05/20",
+		"india": [
+			{
+				"heading": "Covid test kit for Rs 500; Kolkata start-up unveils indigenous instant kit, gets ICMR nod",
+				"description": "The new ‘real-time PCR kit’ has been developed by GCC Biotech, a startup in West Bengal. Called DiAGSure nCoV-19 Detection Assay (TaqMan based), the kit includes one-step qRT PCR Master Mix, primer, probe and RNA template (control) each of which, the company says has been locally developed at its laboratory on the outskirts of Kolkata, in South 24 Pargana district.",
+				"source": "https://www.indiatoday.in/india/story/exclusive-covid-test-kit-for-rs-500-kolkata-start-up-unveils-indigenous-instant-kit-gets-icmr-nod-1675133-2020-05-06"
+			},
+			{
+				"heading": "Coronavirus Cases In India Cross 50,000-Mark; 10,000 Reported In 3 Days",
+				"description": "The number of coronavirus cases in India crossed the 50,000 mark today -- more than four months after the first patient was found positive in Kerala. The last 10,000 patients were detected over a period three days. The biggest spike in numbers -- 3,900 over a period of 24 hours -- was reported on Tuesday morning by the health ministry.",
+				"source": "https://www.ndtv.com/india-news/coronavirus-cases-in-india-cross-50-000-mark-10-000-reported-in-3-days-2224460"
+			},
+			{
+				"heading": "Delhi Police registers first Covid-19 death",
+				"description": "A 31-year-old Delhi Police constable who died after falling sick on Tuesday evening had tested positive for coronavirus, registering the first death in the city police due to the infection, officials said on Wednesday.",
+				"source": "https://www.indiatoday.in/india/story/delhi-police-registers-first-covid-19-death-1675124-2020-05-06"
+			}
+		],
+		"world": [
+			{
+				"heading": "UK coronavirus death toll surpasses Italy, now highest in Europe",
+				"description": "The United Kingdom has now surpassed Italy in number of coronavirus-related deaths. As per the latest official data, the death toll in the UK has gone past the 32,000-mark -- which is past the 29,079 in Italy -- the region's highest death toll so far.",
+				"source": "https://www.indiatoday.in/world/story/uk-coronavirus-death-toll-surpass-italy-highest-europe-1674857-2020-05-06"
+			},
+			{
+				"heading": "U.S. airlines burn through $10 billion a month as traffic plummets",
+				"description": "U.S. airlines are collectively burning more than $10 billion in cash a month and averaging fewer than two dozen passengers per domestic flight because of the coronavirus pandemic, industry trade group Airlines for America said in prepared testimony seen by Reuters ahead of a U.S. Senate hearing on Wednesday.",
+				"source": "https://in.reuters.com/article/health-coronavirus-airlines-congress-exc/exclusive-u-s-airlines-burn-through-10-billion-a-month-as-traffic-plummets-idINKBN22I06I"
+			},
+			{
+				"heading": "Israel made significant breakthrough in developing antibody against Covid-19",
+				"description": "Israeli Defence Minister Naftali Bennett has said that scientists at the country's main biological research institute have made a 'significant breakthrough' in developing an antibody to the novel coronavirus, as the researchers wrapped up the development phase and moved to patent and mass-produce the potential treatment.",
+				"source": "https://www.indiatoday.in/world/story/israel-made-significant-breakthrough-developing-antibody-against-covid-19-defence-minister-1674676-2020-05-05"
+			}
+		]
+	},
+	{
+		"date": "05/05/20",
+		"india": [
+			{
+				"heading": "Coronavirus Lockdown In Telangana Till May 29, Says Chief Minister KCR",
+				"description": "Telangana has said it will continue the lockdown in the state to contain the coronavirus outbreak till May 29 -- ten days after it is scheduled to end in the rest of the country. ‘People want lockdown extended. I have informed the Prime Minister about our decision,’ said Chief Minister K Chandrasekhar Rao after a 7- hour cabinet meeting on Tuesday evening.",
+				"source": "https://www.ndtv.com/india-news/coronavirus-lockdown-in-telangana-till-may-29-says-chief-minister-kcr-2223912"
+			},
+			{
+				"heading": "Mumbai revokes permission for liquor shops, only essential items available from Wednesday",
+				"description": "Civic authorities in Mumbai announced that liquor shops and stores selling non-essential items will not be allowed to open from Wednesday as physical distancing norms were not being followed amid the coronavirus lockdown. The number of coronavirus cases in the city rose to 9,758 on Tuesday, while Maharashtra’s tally went up to 15,525.",
+				"source": "https://scroll.in/latest/961143/covid-19-mumbai-revokes-permission-for-liquor-shops-only-essential-items-available-from-wednesday"
+			},
+			{
+				"heading": "Evacuation Of Indians Stranded Abroad",
+				"description": "Only Indian nationals stranded in foreign nations due to the coronavirus outbreak will be brought back from abroad by air, land and sea, the centre today said, announcing what is expected to turn out the world's largest evacuation exercise. A list of stranded people is being prepared by the foreign ministry in consultation with the embassies, the government said.",
+				"source": "https://www.ndtv.com/india-news/coronavirus-evacuation-of-indians-stranded-abroad-5-things-you-need-to-know-2223891"
+			}
+		],
+		"world": [
+			{
+				"heading": "World leaders pledge billions for coronavirus vaccine research",
+				"description": "World leaders, organisations and banks on Monday pledged 7.4 billion euros ($8 billion) for research to find a vaccine against the new coronavirus but warned that it is just the start of an effort that must be sustained overtime to beat the disease.",
+				"source": "https://www.indiatoday.in/world/story/corona-research-world-leaders-pledge-billions-1674617-2020-05-05"
+			},
+			{
+				"heading": "Top Chinese health official warns of coronavirus rebound as local cases emerge",
+				"description": "As United States continues to attack China for not handling the COVID-19 pandemic in its initial stages, the former says it still faces the risk of coronavirus rebound after 10 provincial-level regions reported new locally-transmitted cases over the last two weeks, a top health official warned on Monday.",
+				"source": "https://www.thestatesman.com/world/top-chinese-health-official-warns-of-coronavirus-rebound-as-local-cases-emerge-1502884027.html"
+			},
+			{
+				"heading": "Apps Can't Replace Basic ‘Health Workforce’ In Coronavirus Fight says WHO",
+				"description": "The World Health Organization on Monday stressed that contact-tracing apps and other technology cannot replace old-fashioned ‘boots-on-the-ground’ surveillance measures as many countries begin easing lockdowns imposed to curb the new coronavirus.",
+				"source": "https://www.ndtv.com/world-news/coronavirus-pandemic-mobile-apps-cant-replace-basic-health-workforce-in-covid19-fight-who-2223321"
+			}
+		]
+	},
+	{
+		"date": "04/05/2020",
+		"india": [
+			{
+				"heading": "Karnataka, Maharashtra, Kerala not paying for migrant labourers' travel",
+				"description": "Amidst criticism over the railways charging stranded migrant workers for ferrying them home, payments for 45 special trains that have run so far have been made by originating states, barring Maharashtra, Kerala and Karnataka, sources said on Monday.",
+				"source": "https://www.indiatoday.in/india/story/rail-fare-row-karnataka-maharashtra-kerala-not-paying-migrant-labourers-travel-1674434-2020-05-04"
+			},
+			{
+				"heading": "Delhi To Charge Extra 70% Tax On Liquor From Tomorrow Amid Pandemic",
+				"description": "The Delhi government will charge 70 per cent extra tax on liquor from Tuesday amid the coronavirus pandemic. Calling the new tax ‘special corona fee’, the Arvind Kejriwal government in a late night order on Monday said the police should allow the shops to remain open from 9 am to 6:30 pm.",
+				"source": "https://www.ndtv.com/india-news/delhi-to-charge-extra-70-tax-on-liquor-from-tomorrow-amid-coronavirus-crisis-2223273"
+			},
+			{
+				"heading": "Bengal Govt Cracks Down on Nearly 300 Ration Dealers for Corruption, Retrieves Stolen Food Items",
+				"description": "The West Bengal government has cracked down upon close to 300 ration dealers for their involvement in corrupt practices while distribution amid COVID-19 lockdown across the state. The action was taken amid allegations that there are some ration dealers who are not following the set guidelines of the state government while streamlining the Public Distribution System (PDS) in Bengal.",
+				"source": "https://www.news18.com/news/india/bengal-govt-cracks-down-on-nearly-300-ration-dealers-for-corruption-retrieves-stolen-food-items-2604731.html"
+			}
+		],
+		"world": [
+			{
+				"heading": "Iran Reopens Mosques, Records Almost 80,000 COVID-19 Recoveries",
+				"description": "Iran on Monday reopened mosques in parts of the country deemed at low risk from coronavirus, as it said almost 80,000 people hospitalised with the illness had recovered and been released.",
+				"source": "https://www.ndtv.com/world-news/iran-reopens-mosques-records-almost-80-000-covid-19-recoveries-2223210"
+			},
+			{
+				"heading": "Cases across globe surpass 3.5 million, under-reporting fears loom",
+				"description": "Global novel coronavirus cases surpassed 3.5 million on Monday and deaths neared a quarter of a million, according to a Reuters tally, concerning experts who fear substantial underreporting even as the rate of fatalities and new cases slows.",
+				"source": "https://www.indiatoday.in/world/story/coronavirus-cases-across-globe-surpass-3-5-million-amid-under-reporting-fears-1674148-2020-05-04"
+			},
+			{
+				"heading": "After Retesting Sample, French Hospital Finds COVID-19 Case From December",
+				"description": "A French hospital which has retested old samples from pneumonia patients discovered that it treated a man who had COVID-19 as early as Dec. 27, nearly a month before the French government confirmed its first cases.",
+				"source": "https://www.ndtv.com/world-news/coronavirus-after-retesting-sample-french-hospital-finds-covid-19-case-from-december-2223250"
+			}
+		]
+	},
+	{
 		"date": "03/05/2020",
 		"india": [
 			{
@@ -997,6 +1108,228 @@
 				"heading": "Donald Trump talks of ‘retaliation’ if India turns down Covid drug request",
 				"description": "President Donald Trump has warned India that the US may retaliate if it did not export anti-malarial drug hydroxychloroquine despite his personal request, saying he would be surprised if New Delhi did not relent as it has good relations with Washington.",
 				"source": "https: //economictimes.indiatimes.com/industry/healthcare/biotech/pharmaceuticals/donald-trump-talks-of-retaliation-if-india-turns-down-covid-drug-request/articleshow/75020010.cms?from=mdr"
+			}
+		]
+	},
+	{
+		"date": "06 / 04 / 2020",
+		"india": [
+			{
+				"heading": "ICMR planning to scale up testing capacity to 1 lakh tests/day",
+				"description": "With a view to prepare for any worst-case scenario as Indian Council of Medical Research (ICMR) on Monday said it is planning several interventions which include scaling-up testing capacity to one lakh tests/day in the coming months.",
+				"source": "https: //timesofindia.indiatimes.com/india/coronavirus-icmr-planning-to-scale-up-testing-capacity-to-1-lakh-tests/day/articleshow/75016567.cms"
+			},
+			{
+				"heading": "President, PM, MPs to Take 30% Pay Cut for 1 Year as Covid-19 Infects Economy; MPLAD Funds Suspended",
+				"description": "Prime Minister Narendra Modi, his cabinet ministers and all Members of Parliament will take a 30% salary cut for the next one year, signalling a long road to recovery from the unprecedented economic blow caused by the COVID-19 pandemic.",
+				"source": "https: //www.news18.com/news/india/president-kovind-pm-modi-mps-to-take-30-pay-cut-for-1-year-as-economic-crisis-looms-amid-covid-19-pandemic-2566649.html"
+			},
+			{
+				"heading": "49% COVID-19 cases were reported in last 5 days",
+				"description": "In the 10 days between March 10 and 20, the number of people in India who tested positive for COVID-19, the disease caused by novel coronavirus, jumped from 50 to 196. By March 25, it reached 606 and by the end of the month (March 31) India had 1,397 confirmed COVID-19 cases. Following this, the next five days saw a 120 per cent rise in COVID-19 cases in India, as by April 4 India had a total of 3,072 cases.",
+				"source": "https: //www.indiatoday.in/india/story/coronavirus-cases-in-india-covid19-states-cities-affected-1653852-2020-03-09"
+			}
+		],
+		"world": [
+			{
+				"heading": "A German Exception? Why the Country’s Coronavirus Death Rate Is Low",
+				"description": "They might suggest hospitalization, even to a patient who has only mild symptoms; the chances of surviving that decline are vastly improved by being in a hospital when it begins.",
+				"source": "https: //www.nytimes.com/2020/04/04/world/europe/germany-coronavirus-death-rate.html"
+			},
+			{
+				"heading": "New York's Bronx Zoo Tiger Tests Positive For Coronavirus",
+				"description": "A tiger at New York's Bronx Zoo has tested positive for COVID-19, the institution said Sunday, and is believed to have contracted the virus from a caretaker who was asymptomatic at the time.",
+				"source": "https: //www.ndtv.com/world-news/new-yorks-bronx-zoo-tiger-tests-positive-for-coronavirus-2206650"
+			},
+			{
+				"heading": "Europe sees more signs of hope as Italy's virus curve falls",
+				"description": "Italy recorded 4,316 new cases Sunday. Earlier in the outbreak, daily increases in caseloads topped the 6,000 mark. A day shy of one month under a national lockdown that the Italian government ordered, the lower count of day-to-day deaths brought some encouragement.",
+				"source": "https: //economictimes.indiatimes.com/news/international/world-news/europe-sees-more-signs-of-hope-as-italys-virus-curve-falls/articleshow/74999533.cms"
+			}
+		]
+	},
+	{
+		"date": "05 / 04 / 2020",
+		"india": [
+			{
+				"heading": "Lifeline Udan: No commercial traffic but Indian skies buzzing with cargo planes carrying COVID-19 essentials",
+				"description": "Though commercial flights stand suspended in India due to the COVID-19 lockdown, the skies are still buzzing with regular cargo flights to transport critical medical equipment and supplies.",
+				"source": "https: //www.indiatoday.in/india/story/lifeline-udan-no-commercial-traffic-but-indian-skies-buzzing-with-cargo-planes-carrying-covid-19-essentials-1663665-2020-04-05"
+			},
+			{
+				"heading": "India Curbs Diagnostic Testing Kit Exports As Coronavirus Spreads",
+				"description": "The government is restricting the export of most diagnostic testing kits, as coronavirus cases topped 3,350 on Sunday despite a three-week nationwide lockdown to slow the spread of the respiratory disease.",
+				"source": "https: //www.ndtv.com/india-news/india-curbs-diagnostic-testing-kit-exports-as-coronavirus-spreads-2206527?amp=1&akamai-rum=off"
+			},
+			{
+				"heading": "Railways Develop Low-Cost Ventilator \"Jeevan\", Seeks Top Medical Body's Approval",
+				"description": "The Indian Railways has developed a low-cost ventilator, Jeevan at its Kapurthala Rail Coal Factory that could save thousands of lives at a time the country is grappling with a shortage of the medical equipment in its fight against coronavirus. The prototype is now awaiting ICMR clearance to go into production, the Railways said.",
+				"source": "https: //www.ndtv.com/india-news/railways-develops-low-cost-ventilator-jeevan-seeks-top-medical-bodys-approval-2206613"
+			}
+		],
+		"world": [
+			{
+				"heading": "Bangladesh PM unveils 72,750-crore taka economic package to counter adverse effects of coronavirus",
+				"description": "Bangladesh Prime Minister Sheikh Hasina on Sunday announced stimulus packages to the tune of Taka 72,750 crore (USD 8,573 million) to counter the adverse effects of coronavirus on the country's economy.",
+				"source": "https: //www.indiatoday.in/coronavirus-outbreak/story/bangladesh-pm-unveils-72-750-crore-taka-economic-package-to-counter-adverse-effects-of-coronavirus-1663519-2020-04-05"
+			},
+			{
+				"heading": "5-Year-Old Is UK's Youngest Coronavirus Victim As Deaths Rise",
+				"description": "Britain on Saturday reported a record 708 daily deaths from COVID-19, including a five-year-old child, who is thought to be the country's youngest victim.",
+				"source": "https: //www.ndtv.com/world-news/coronavirus-in-uk-child-5-announced-as-yougest-victim-as-virus-deaths-rise-record-high-in-uk-2206312"
+			},
+			{
+				"heading": "China is encouraging herbal remedies to treat COVID-19. But scientists warn against it",
+				"description": "As China appears to emerge from the worst of its coronavirus outbreak, government officials are encouraging the use of traditional medicine for treatment and prevention — practice experts warned could give the public a false sense of security amid the pandemic.",
+				"source": "https: //www.nbcnews.com/news/world/china-encouraging-herbal-remedies-treat-covid-19-scientists-warn-against-n1173041"
+			}
+		]
+	},
+	{
+		"date": "04 / 04 / 2020",
+		"india": [
+			{
+				"heading": "PM Modi, Donald Trump discuss India-US partnership to fight COVID-19 crisis",
+				"description": "Prime Minister Narendra Modi on Saturday said he had an extensive discussion on the COVID-19 crisis with US President Donald Trump over the phone. Mentioning that it was \"a good discussion\", PM Modi said India and the US have agreed to deploy the full strength of their partnership to fight the coronavirus pandemic.",
+				"source": "https: //www.indiatoday.in/india/story/pm-modi-donald-trump-discuss-india-us-partnership-to-fight-covid-19-crisis-1663342-2020-04-04"
+			},
+			{
+				"heading": "More than 1500 participated in feast thrown by a family whose 11 members were tested positive in MP's Morena district",
+				"description": "Cheif medical and health officer Morena, Dr RC Badil said: \"On Friday evening we came to know that the patient who had come from Dubai after her mother's death had thrown a funeral feast where between 1500 and 2000 people from villages across five blocks had participated\".",
+				"source": "https: //timesofindia.indiatimes.com/city/bhopal/coronavirus-more-than-1500-participated-in-feast-thrown-by-family-whose-11-members-were-tested-positive-in-mps-morena-district/articleshow/74981994.cms"
+			},
+			{
+				"heading": "IAF official, who was present in Nizamuddin during Jamaat meet, under quarantine, say sources",
+				"description": "Sources in the government said on Saturday that an Indian Air Force (IAF) official, who was present in Delhi's Nizamuddin area during the Tablighi Markaz congregation last month, has put himself under quarantine as a precautionary measure.",
+				"source": "https: //www.indiatoday.in/india/story/coronavirus-iaf-official-present-nizamuddin-tabhliqi-jamaat-meet-quarantine-govt-sources-1663400-2020-04-04"
+			}
+		],
+		"world": [
+			{
+				"heading": "COVID-19: US Records Highest Single-Day Death Toll With 1,480 Deaths",
+				"description": "With 1,480 deaths counted between Thursday and Friday, according to the university's, the total number of people who succumbed to the pandemic in the United States has now touched 7,406.",
+				"source": "https: //news.abplive.com/health/covid19-us-single-day-death-toll-touches-1480-in-a-day-1189279"
+			},
+			{
+				"heading": "Britain unlikely to lift lockdown until end of May: Government expert",
+				"description": "The government has put Britain into a widespread shutdown, closing pubs, restaurants and nearly all shops, while ordering people to stay home unless absolutely essential to venture out.",
+				"source": "https: //www.indiatoday.in/world/story/coronavirus-uk-lockdown-1663294-2020-04-04"
+			},
+			{
+				"heading": "Italy Daily Virus Fatalities Fall to 681, Lowest Since March 26",
+				"description": "The daily toll was the lowest since March 26 and fell from 766 Friday, according to civil protection data. There were 4,805 new confirmed cases, an increase from 4585 a day earlier.",
+				"source": "https: //www.bloomberg.com/news/articles/2020-04-04/italy-daily-virus-fatalities-fall-to-681-lowest-since-march-26"
+			}
+		]
+	},
+	{
+		"date": "03 / 04 / 2020",
+		"india": [
+			{
+				"heading": "World Bank commits US$1 billion to help India fight COVID-19",
+				"description": "The World Bank has committed US$1 billion to help India expand its laboratory capacity in the fight against COVID-19, a highly contagious viral infection caused by SARS-CoV-2. The fund will also be used to ensure that medical staff across the country are well-equipped and well-trained to give emergency care.",
+				"source": "https: //www.firstpost.com/health/world-bank-commits-us1-billion-to-help-india-fight-covid-19-8223951.html"
+			},
+			{
+				"heading": "11 CISF jawans test positive for COVID-19 in Mumbai",
+				"description": "The Central Industrial Security Force (CISF) Friday said as many as 11 of its jawans posted at Mumbai airport have tested positive for coronavirus, news agency ANI reported.",
+				"source": "https: //www.livemint.com/news/india/coronavirus-update-11-cisf-jawans-test-positive-for-covid-19-in-mumbai-11585924292310.html"
+			},
+			{
+				"heading": "Light candles, diyas at 9 pm this Sunday to mark coronavirus fight: PM Narendra Modi",
+				"description": "Prime Minister Narendra Modi has asked Indians under lockdown to switch off all lights at home at 9 pm Sunday (April 5) and light candles or diyas -- or use the flashlights on their mobile phones -- to mark the national fight against the coronavirus outbreak.",
+				"source": "https: //www.indiatoday.in/india/story/pm-narendra-modi-on-coronavirus-lockdown-1662747-2020-04-03"
+			}
+		],
+		"world": [
+			{
+				"heading": "Stores, shopping malls reopen in Wuhan as city gradually revives from coronavirus outbreak",
+				"description": "Shopkeepers in Wuhan, the city at the center of the coronavirus outbreak, were reopening Monday, but customers were scarce after authorities lifted more of the anti-virus controls that kept tens of millions of people at home for two months.",
+				"source": "https: //www.usatoday.com/story/money/2020/03/30/wuhan-stores-shopping-malls-reopen-after-weeks-battling-coronavirus/5087115002/"
+			},
+			{
+				"heading": "Is A Potential Coronavirus Vaccine Around The Corner? Pittsburgh Scientists Claim So",
+				"description": "The wait for a vaccine for coronavirus may end soon as researchers from the University of Pittsburgh School of Medicine announce successful testing of a vaccine on lab mice.",
+				"source": "https: //news.abplive.com/news/world/covid-19-vaccine-coronavirus-cure-treatment-corona-test-potential-vaccine-on-the-horizon-1188166"
+			},
+			{
+				"heading": "Italy starts antibody testing to find people who have developed coronavirus immunity",
+				"description": "The Veneto region, which includes Venice, plans to test 100,000 doctors and nurses and then roll out the tests to the general population. Experts there are using a test that costs around €10 (£8.80) and delivers a result in an hour, making mass testing feasible.",
+				"source": "https: //www.telegraph.co.uk/news/2020/04/03/italy-starts-antibody-testing-immune-covid-19/"
+			}
+		]
+	},
+	{
+		"date": "02 / 04 / 2020",
+		"india": [
+			{
+				"heading": "India may go for 'staggered' exit post 21-day COVID lockdown, PM asks states to come up with a plan",
+				"description": "Pitching for efforts on a war footing to identify and isolate COVID-19 hotspots, Prime Minister Narendra Modi on Thursday hinted at a \"staggered\" exit from the ongoing lockdown after the 21-day period ends on April 14.",
+				"source": "https: //economictimes.indiatimes.com/news/politics-and-nation/india-may-go-for-staggered-exit-post-21-day-covid-lockdown-pm-asks-states-to-come-up-with-a-plan/articleshow/74954054.cms"
+			},
+			{
+				"heading": "Islamic cleric issues 'fatwa' asking Muslims to get tested for coronavirus",
+				"description": "A leading Islamic cleric on Thursday issued a fatwa (religious edict) asking Muslims to get tested for coronavirus if they show symptoms of the disease and undergo treatment.",
+				"source": "https: //www.indiatoday.in/india/story/islamic-cleric-lucknow-issues-fatwa-asking-muslims-to-get-tested-coronavirus-1662674-2020-04-02"
+			},
+			{
+				"heading": "India's toaster-sized ventilator to help in a fight against the virus",
+				"description": "Originally created by a robot scientist and a neurosurgeon to help India's poor, a toaster-sized ventilator is offering hope in the country's fight against the coronavirus pandemic, and demand for it is booming.",
+				"source": "https: //www.aljazeera.com/news/2020/04/india-toaster-sized-ventilator-fight-virus-200402090302355.html"
+			}
+		],
+		"world": [
+			{
+				"heading": "100-Year Old Tuberculosis Vaccine A Potential New Tool To Fight Against COVID-19",
+				"description": "A century-old tuberculosis vaccine could be a protective measure against COVID-19, according to some reports. The researchers at the Murdoch Children's Research Institute are going to conduct a trial of the Bacillus Calmette–Guerin (BCG) vaccine with 4,000 health care professionals in hospitals around Australia to determine if it can reduce COVID-19 symptoms.",
+				"source": "https: //news.abplive.com/health/tuberculosis-vaccine-for-coronavirus-study-covid-19-india-bcg-injection-1186651"
+			},
+			{
+				"heading": "China reports 35 new imported coronavirus cases, six deaths",
+				"description": "China reported 35 new imported cases of the novel coronavirus while the death toll from the COVID1-9 infections increased to 3,318 after six more fatalities were confirmed on Wednesday from the virus hit Hubei province, health officials said on Thursday.",
+				"source": "https: //timesofindia.indiatimes.com/world/china/china-reports-35-new-imported-coronavirus-cases-six-deaths/articleshow/74949234.cms"
+			},
+			{
+				"heading": "Saudi Arabia imposes 24-hour curfew in Mecca and Medina",
+				"description": "Saudi Arabia imposed a 24-hour curfew in the Muslim holy cities of Mecca and Medina on Thursday, extending measures to combat the spread of the coronavirus, which has infected more than 1,700 people in the kingdom and killed 16.",
+				"source": "https: //timesofindia.indiatimes.com/world/middle-east/saudi-arabia-imposes-24-hour-curfew-in-mecca-and-medina/articleshow/74950560.cms"
+			}
+		]
+	},
+	{
+		"date": "01 / 04 / 2020",
+		"india": [
+			{
+				"heading": "India's confirmed coronavirus cases breach 1,800-mark, death toll at 41",
+				"description": "The country has reported 1,834 confirmed Covid-19 cases so far, since the first case was reported on 30 January in Kerala's Thrissur. ",
+				"source": "https: //www.livemint.com/news/india/india-s-confirmed-coronavirus-cases-breach-1-800-mark-death-toll-at-41-here-s-state-wise-tally-11585742867547.html"
+			},
+			{
+				"heading": "IAF aircraft to deliver medical equipment to Maldives",
+				"description": "As per official sources, \"An Indian Air Force C-130J Super Hercules transport aircraft will take off with medical equipment and other supplies to the Maldives. The material is being sent as the Government of India wants to assist its neighbours in fight against [novel] coronavirus.\"",
+				"source": "https: //www.indiatoday.in/india/story/iaf-aircraft-to-deliver-medical-equipment-to-maldives-1662309-2020-04-01"
+			},
+			{
+				"heading": "71 people from West Bengal who attended Nizamuddin congregation identified says CM",
+				"description": "West Bengal chief minister Mamata Banerjee on Wednesday said her government has identified 71 people who had attended the Tablighi Jamaat congregation in Delhi's Nizamuddin. Banerjee said 54 people from that group have been sent into quarantine.",
+				"source": "https: //timesofindia.indiatimes.com/city/kolkata/71-people-from-west-bengal-who-attended-nizamuddin-congregation-identified-cm/articleshow/74934727.cms"
+			}
+		],
+		"world": [
+			{
+				"heading": "China starts to report asymptomatic coronavirus cases",
+				"description": "Asymptomatic infections would not cause a major outbreak if the transmission chain was cut, the Chinese government’s senior medical adviser, Zhong Nanshan, told state-run Shenzhen TV. He said that once asymptomatic infected people were found they would be isolated and their contacts isolated and kept under observation.",
+				"source": "https: //economictimes.indiatimes.com/news/international/world-news/china-starts-to-report-asymptomatic-coronavirus-cases/articleshow/74925379.cms"
+			},
+			{
+				"heading": "Pakistan’s coronavirus cases jump to 2,119",
+				"description": "The number of coronavirus cases in Pakistan climbed to 2,119 on Wednesday. So far, 27 people have died from the disease since the first Covid-19 death in the country was reported on March 18.",
+				"source": "https: //timesofindia.indiatimes.com/world/pakistan/pakistans-coronavirus-cases-jump-to-2119/articleshow/74938353.cms"
+			},
+			{
+				"heading": "Italy records lowest coronavirus death toll for a week",
+				"description": "Italy has extended its lockdown until 13 April but recorded its lowest death toll in more than a week, reinforcing indications that the coronavirus epidemic both there and in Spain may be reaching a plateau.",
+				"source": "https: //www.theguardian.com/world/2020/apr/01/italy-extends-lockdown-amid-signs-coronavirus-infection-rate-is-easing"
 			}
 		]
 	},
