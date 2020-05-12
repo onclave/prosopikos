@@ -1,5 +1,190 @@
 [
 	{
+		"date": "11/05/2020",
+		"india": [
+			{
+				"heading": "Allow Opening Of Road, Air Transport To Start Economic Activity",
+				"description": "Senior Congress leader P Chidambaram on Monday asked the government to allow operation of road and air transport, saying it was the only way economic and commercial activities can effectively resume. He also welcomed the government's decision to start select inter-state train services.",
+				"source": "https://www.ndtv.com/india-news/allow-opening-of-road-air-transport-to-start-economic-activity-p-chidambaram-2226724"
+			},
+			{
+				"heading": "Train ticket reservation opens today on IRCTC",
+				"description": "As the lockdown moves towards the end of the third phase, Indian Railways has announced that it will gradually resume the services across routes from May 12. Bookings will be open on the IRCTC website at 4 pm today.",
+				"source": "https://www.indiatoday.in/india/story/train-bookings-open-today-on-irctc-all-you-need-to-know-1676608-2020-05-11"
+			},
+			{
+				"heading": "Doctors' Body Urges Centre To Relook Revised COVID-19 Discharge Policy",
+				"description": "An association of doctors in West Bengal has shot off letters to the Union health ministry and Chief Minister Mamata Banerjee, making a case for a relook at the revised policy for discharge of coronavirus patients and setting up dedicated critical care units in COVID-19 hospitals of the state.",
+				"source": "https://www.ndtv.com/india-news/coronavirus-india-west-bengal-doctors-body-urges-centre-to-relook-revised-covid-19-discharge-policy-2227098"
+			}
+		],
+		"world": [
+			{
+				"heading": "UK Economy Unlikely To Go Back To Work Until 4th Of July",
+				"description": "The British government said non-essential retailers would not go back to work until June at the earliest while other sectors will not go back to work until July at the earliest, Foreign Secretary Dominic Raab said on Monday.",
+				"source": "https://www.ndtv.com/world-news/uk-economy-unlike-to-go-back-to-work-until-4th-of-july-foreign-minister-dominic-raab-2226807"
+			},
+			{
+				"heading": "Beijing uses temperature-monitoring bracelets to track students' body temperatures",
+				"description": "Schools in Beijing today have unveiled a trial of temperature-monitoring bracelets that alert an app if a student has a fever.  It comes as Beijing has welcomed back more than 80,000 pupils in their final year of middle school on Monday. ",
+				"source": "https://www.dailymail.co.uk/news/article-8306917/Beijing-school-students-trial-temperature-tracking-bracelets.html"
+			},
+			{
+				"heading": "Abu Dhabi announces partial refund for restaurant and tourism property leases",
+				"description": "Abu Dhabi has announced a 20% refund on annual commercial property leases for restaurants and for tourism and entertainment facilities, state news agency WAM reported on Monday.",
+				"source": "https://in.reuters.com/article/health-coronavirus-emirates-abu-dhabi/abu-dhabi-announces-partial-refund-for-restaurant-and-tourism-property-leases-idINKBN22N163"
+			}
+		]
+	},
+	{
+		"date": "10/05/2020",
+		"india": [
+			{
+				"heading": "Maharashtra to pay for migrants' train tickets to home states",
+				"description": "In a significant move, the Maharashtra government will foot the train travel tickets of all migrant labourers who will return to their home states, Chief Minister Uddhav Thackeray said on Sunday. The bills will be cleared from the CM's Relief Fund and the necessary administrative orders were issued today, and further details will be available later, said an official.",
+				"source": "https://www.indiatvnews.com/news/india/maharashtra-to-pay-for-migrants-train-tickets-to-home-states-616031"
+			},
+			{
+				"heading": "Railways to restart passenger trains from May 12",
+				"description": "Indian Railways plans to gradually restart passenger train operations from May 12, says Union Minister Piyush Goyal on Sunday. This will initially begin with 15 pairs of trains (30 return journeys).",
+				"source": "https://www.businesstoday.in/current/economy-politics/breaking-railways-to-gradually-restart-passenger-train-operations-from-may-12/story/403393.html"
+			},
+			{
+				"heading": "All shops to be shut from Monday in 69 Pune containment zones",
+				"description": "All shops, including ones dealing in essential items, have been told to down shutters from Monday in 69 containment zones in Pune municipal corporation limits as people were not observing social distancing and other lockdown norms in place for the novel coronavirus outbreak, said civic chief Shekhar Gaikwad.",
+				"source": "https://www.indiatoday.in/india/story/all-shops-to-be-shut-from-monday-in-69-pune-containment-zones-1676540-2020-05-11"
+			}
+		],
+		"world": [
+			{
+				"heading": "Britain to Impose Quarantine on Air Travelers to Fight Coronavirus",
+				"description": "Prime Minister Boris Johnson announced on Sunday that Britain would soon impose a mandatory quarantine on travelers arriving in the country by air to try to avert a new wave of coronavirus infections, signaling how cautious the country will be in relaxing its seven-week lockdown.",
+				"source": "https://www.nytimes.com/2020/05/10/world/europe/coronavirus-britain-boris-johnson.html"
+			},
+			{
+				"heading": "Lab-made antibodies could be available by end of summer, biotech company says",
+				"description": "The CEO of biotechnology company Regeneron tells CNN that’s he’s optimistic about an artificial antibody treatment for coronavirus that could enter clinical trials next month – but says it’s too soon to know whether it will help prevent or treat infection.",
+				"source": "https://edition.cnn.com/world/live-news/coronavirus-pandemic-05-10-20-intl/h_d0b09844dfc9cf1fc3468851c5fa1341"
+			},
+			{
+				"heading": "90% of Ohio is set to open despite a rise in Covid-19 cases, governor says",
+				"description": "About 90% of the state of Ohio is set to open even after a recent uptick in new Covid-19 cases, Gov. Mike DeWine announced on Fox News Sunday. ‘I look at kind of a 21-day rule. We are really at a plateau with hospitalizations. We are at a plateau with deaths. We are at a plateau in regard to new cases, so they do go up and down,’ he said.",
+				"source": "https://covid19data.com/2020/05/10/90-of-ohio-is-set-to-open-despite-a-rise-in-covid-19-cases-governor-says/"
+			}
+		]
+	},
+	{
+		"date": "09/05/2020",
+		"india": [
+			{
+				"heading": "Western Railway loads 6.14 million tonnes of essential goods amid COVID-19 lockdown",
+				"description": "As the nation observes the COVID-19 lockdown to stop the spread of COVID19, it is the frontline warriors who ensure the supply of essential goods and services. Western Railway (WR) has made a significant contribution to serve the nation amid lockdown.",
+				"source": "https://zeenews.india.com/india/western-railway-loads-6-14-million-tonnes-of-essential-goods-amid-covid-19-lockdown-2282367.html"
+			},
+			{
+				"heading": "Only severe cases need to test negative for discharge, says Health Ministry",
+				"description": "The Union Health Ministry has revised its discharge guidelines for COVID-19 patients, stating that only those with severe illness need to be tested (through a swab test) and a negative report needs to be obtained before discharge.",
+				"source": "https://www.thehindu.com/news/national/coronavirus-only-severe-cases-need-to-test-negative-for-discharge-says-health-ministry/article31540695.ece"
+			},
+			{
+				"heading": "362 stranded Indians reach Kerala 2 flights from Oman Kuwait with 362 stranded Indians reach",
+				"description": "Two flights carrying 362 people from Oman and Kuwait arrived at the international airport here on Saturday night as part of India's 'Vande Bharat Mission' to bring home its nationals stranded in various countries due to the COVID-19 lockdown.",
+				"source": "https://www.theweek.in/wire-updates/national/2020/05/09/mds31-kl-lockdown-flight.html"
+			}
+		],
+		"world": [
+			{
+				"heading": "Parts of the White House will undergo ‘heightened levels of cleaning,’ memo says",
+				"description": "The White House sent a memo to all staff on Friday after Vice President Mike Pence’s press secretary, Katie Miller, tested positive for the novel coronavirus.",
+				"source": "https://veltnews.com/parts-of-the-white-house-will-undergo-heightened-levels-of-cleaning-memo-says/"
+			},
+			{
+				"heading": "Study shows Covid-19 patients who took heartburn drug were less likely to die",
+				"description": "Patients who took a common heartburn medicine while hospitalized for Covid-19 were more than twice as likely to survive the infection, according to a paper posted Friday on a pre-publication website. But it's unclear whether the patients fared better because of the famotidine or if it was a coincidence.",
+				"source": "https://edition.cnn.com/2020/05/09/health/famotidine-covid-19-correlation-study/index.html"
+			},
+			{
+				"heading": "Worldwide Coronavirus Cases Surpass 4 Million",
+				"description": "The number of novel coronavirus cases recorded worldwide surpassed four million on Saturday, according to an AFP tally based on official sources, as of 2145 GMT. There are now at least 4,001,437 cases of coronavirus around the world, with 277,127 deaths.",
+				"source": "https://www.ndtv.com/world-news/coronavirus-pandemic-worldwide-covid-19-cases-surpass-4-million-report-2226205"
+			}
+		]
+	},
+	{
+		"date": "08/05/2020",
+		"india": [
+			{
+				"heading": "First Air India Repatriation Flight To Take Off From UK With 250 Indians",
+				"description": "Around 250 Indian students and tourists stranded in the UK due to the coronavirus-induced lockdown for nearly two months are preparing to board the first repatriation flight from London to Mumbai on Saturday.",
+				"source": "Around 250 Indian students and tourists stranded in the UK due to the coronavirus-induced lockdown for nearly two months are preparing to board the first repatriation flight from London to Mumbai on Saturday."
+			},
+			{
+				"heading": "ICMR allows Jodhpur hospital to conduct plasma therapy trials",
+				"description": "The Indian Council of Medical Research has allowed Government Medical College, Jodhpur, to try treating COVID-19 infected patients with plasma therapy, Rajasthan Health Minister Raghu Sharma said on Friday.",
+				"source": "https://www.business-standard.com/article/pti-stories/icmr-allows-jodhpur-hospital-to-conduct-plasma-therapy-trials-120050801171_1.html"
+			},
+			{
+				"heading": "Around 500 Security Forces Personnel Infected With Coronavirus In Delhi",
+				"description": "Security forces units that have been stationed in Delhi and working to contain the coronavirus pandemic, are often bearing the brunt of the disease in the line of duty. Together, they account for nearly 500 cases being reported from various units of paramilitary forces.",
+				"source": "https://www.ndtv.com/india-news/around-500-security-forces-personnel-infected-with-coronavirus-in-delhi-2225131"
+			}
+		],
+		"world": [
+			{
+				"heading": "Senators Urge Trump to Temporarily Suspend H-1B, Other Work Visas as Unemployment Reaches All Time High",
+				"description": "Top Republican senators urged US President Donald Trump on Thursday to suspend all new guest worker visas for 60 days and certain categories of new guest worker visas, including H-1B, for at least a year or until unemployment figures return to normal levels.",
+				"source": "https://www.news18.com/news/world/senators-urge-trump-to-temporarily-suspend-h-1b-other-work-visas-as-unemployment-reaches-all-time-high-2610689.html"
+			},
+			{
+				"heading": "US Prevents UN Security Council Vote On Pandemic Resolution",
+				"description": "The United States on Friday prevented a vote in the UN Security Council on a resolution on the coronavirus pandemic, apparently because it made implicit mention of the World Health Organization, diplomats said.",
+				"source": "https://www.ndtv.com/world-news/coronavirus-us-prevents-un-security-council-vote-on-pandemic-resolution-2225721"
+			},
+			{
+				"heading": "Rare inflammatory condition affects some kids with Covid-19",
+				"description": "Dozens of US children have been hospitalised with a severe inflammatory condition possibly linked with the coronavirus and first seen in Europe. New York authorities announced Wednesday that 64 potential cases had been reported to the state. The advisory followed an alert earlier this week about 15 cases in New York City.",
+				"source": "https://www.indiatoday.in/world/story/rare-inflammatory-condition-affects-some-kids-with-covid19-1675883-2020-05-08"
+			}
+		]
+	},
+	{
+		"date": "07/05/2020",
+		"india": [
+			{
+				"heading": "Rajasthan To Use Plasma Therapy On Critical COVID-19 Patients",
+				"description": "Two Covid-19 patients have been given convalescent plasma therapy at the SMS hospital in Jaipur and doctors say their condition is stable. The plasma donors were recovered, Covid-19 patients. Dr Sudhir Bhandari, the principal, SMS Medical College, said both patients: aged 63 and 54-years showed moderate symptoms of the disease and were given the convalescent plasma therapy on Monday.",
+				"source": "https://www.hindustantimes.com/india-news/two-covid-19-patients-given-plasma-therapy-in-jaipur-condition-stable/story-cmUCK6Mjfn1CnNJKYHYCTM.html"
+			},
+			{
+				"heading": "Centre Holds Series Of Meetings On Mega Evacuation Of Indians From Abroad",
+				"description": "The Ministry of External Affairs on Wednesday held a flurry of meetings to fine tune arrangements for evacuation of thousands of stranded Indians from abroad under a mega exercise beginning Thursday.",
+				"source": "https://www.ndtv.com/india-news/vande-bharat-mission-centre-holds-series-of-meetings-on-mega-evacuation-of-indians-from-abroad-2224547"
+			},
+			{
+				"heading": "Rajasthan Seals Interstate Boundaries Amid Lockdown To Fight Coronavirus",
+				"description": "Rajasthan Chief Minister Ashok Gehlot decided on Wednesday to seal all interstate boundaries of Rajasthan to prevent any unauthorised entry of persons.",
+				"source": "https://newsfeed.co.in/india/rajasthan-seals-interstate-boundaries-amid-lockdown-to-fight-coronavirus/"
+			}
+		],
+		"world": [
+			{
+				"heading": "China Flaunts French Connection To Wuhan Lab Against US Claims",
+				"description": "China on Thursday said the bio-lab in Wuhan, which is in the eye of a storm in the wake of the coronavirus pandemic, is a Sino-French cooperation project with its staff trained in France, even as it sounded ambivalent about agreeing for a WHO probe into the origin of COVID-19.",
+				"source": "https://www.ndtv.com/world-news/coronavirus-news-china-flaunts-french-connection-to-wuhan-lab-against-us-claims-2225008"
+			},
+			{
+				"heading": "Study Reveals One Out Of Five Children In US Left Hungry Amid COVID-19 Crisis",
+				"description": "Due to coronavirus pandemic, one out of five kids in the United States will not have sufficient food to eat as an impact of the disaster, as per the Brookings Establishment report.",
+				"source": "https://www.republicworld.com/world-news/us-news/study-one-in-five-kids-in-the-us-left-hungry-due-to-covid-19-pandemic.html"
+			},
+			{
+				"heading": "Australia to provide Pacific nations rapid Covid-19 test kits",
+				"description": "Australia will provide Pacific island nations new rapid diagnostic Covid-19 kits in a joint initiative with the World Health Organization (WHO), the United States and New Zealand, the Australian foreign minister said on Friday.",
+				"source": "https://www.indiatoday.in/world/story/coronavirus-australia-provide-pacific-nations-rapid-covid-19-test-kits-1675684-2020-05-08"
+			}
+		]
+	},
+	{
 		"date": "06/05/20",
 		"india": [
 			{
@@ -1330,6 +1515,117 @@
 				"heading": "Italy records lowest coronavirus death toll for a week",
 				"description": "Italy has extended its lockdown until 13 April but recorded its lowest death toll in more than a week, reinforcing indications that the coronavirus epidemic both there and in Spain may be reaching a plateau.",
 				"source": "https: //www.theguardian.com/world/2020/apr/01/italy-extends-lockdown-amid-signs-coronavirus-infection-rate-is-easing"
+			}
+		]
+	},
+	{
+		"date": "31 / 03 / 2020",
+		"india": [
+			{
+				"heading": "Tamil Nadu reports 57 new Covid-19 cases in one day, 79% attended Tablighi Jamaat. State tally at 124",
+				"description": "57 tested positive for coronavirus in Tamil Nadu on Tuesday with the total number rising to 124. 45 of the cases have links to the Tablighi Jamaat religious congregation held in Delhi's Nizamuddin West earlier this month.",
+				"source": "https: //www.indiatoday.in/india/story/tamil-nadu-reports-57-new-covid-19-cases-in-one-day-79-attended-tablighi-jamaat-state-tally-at-124-1661904-2020-03-31"
+			},
+			{
+				"heading": "Strictly enforce lockdown along West Bengal border, says Mamata Banerjee",
+				"description": "Chief minister Mamata Banerjee on Monday called for the strictest enforcement of the lockdown along Bengal’s borders to keep migrant workers out of the state.",
+				"source": "https: //timesofindia.indiatimes.com/city/kolkata/strictly-enforce-lockdown-along-border-mamata/articleshow/74903031.cms"
+			},
+			{
+				"heading": "Covid-19 outbreak; Etah jail releases 109 prisoners to reduce crowding",
+				"description": "After the directive of the Apex Court to decongest prisons in the wake of the Covid-19 virus outbreak, Etah jail in Uttar Pradesh has released 109 prisoners.",
+				"source": "https: //timesofindia.indiatimes.com/videos/city/lucknow/covid-19-outbreak-etah-jail-releases-109-prisoners-to-reduce-crowding/videoshow/74919627.cms"
+			}
+		],
+		"world": [
+			{
+				"heading": "Indonesia declares state of emergency as virus toll jumps",
+				"description": "Widodo's administration has been heavily criticised for not imposing lockdowns in major cities, including the capital Jakarta, a vast megalopolis home to about 30 million people where most of the country's virus deaths have been reported.",
+				"source": "https: //timesofindia.indiatimes.com/world/rest-of-world/indonesia-declares-state-of-emergency-as-virus-toll-jumps/articleshow/74914100.cms"
+			},
+			{
+				"heading": "101-year-old Italian man, born amid Spanish flu pandemic, survives coronavirus illness, official says",
+				"description": "A 101-year-old Italian man has reportedly survived his battle with COVID-19, the disease caused by the new coronavirus spreading around the globe. An official from the city of Rimini on the northeast coast of Italy says the man, identified publicly as only Mr. P., was released from the hospital earlier this week.",
+				"source": "https: //www.usatoday.com/story/news/world/2020/03/27/italy-101-year-old-born-during-spanish-flu-survives-coronavirus/2926073001/"
+			},
+			{
+				"heading": "The world economy, except India, China, will go into recession due to Covid-19; UN",
+				"description": "\"Even so, the world economy will go into recession this year with a predicted loss of global income in trillions of dollars. This will spell serious trouble for developing countries, with the likely exception of China and the possible exception of India,\" the UNCTAD said.",
+				"source": "https: //www.livemint.com/news/india/world-economy-will-go-into-recession-due-to-coronavirus-except-india-china-un-11585628604446.html"
+			}
+		]
+	},
+	{
+		"date": "30 / 03 / 2020",
+		"india": [
+			{
+				"heading": "India to procure ventilators, PPE kits from China, not testing kits",
+				"description": "A statement by the Ministry of Health and Family Welfare in a press release said, \"Indian Red Cross Society has arranged 10,000 PPEs from China which have also been received and are being distributed.\"",
+				"source": "https: //www.indiatoday.in/india/story/india-to-procure-ventilators-ppe-kits-from-china-not-testing-kits-1661495-2020-03-30"
+			},
+			{
+				"heading": "Delhi govt schools to promote all students till class 8, start online classes",
+				"description": "With schools shut to curb the spread of Covid-19, the Aam Aadmi Party (AAP) led Delhi government on Monday announced that all students from nursery to class eight will be promoted without exams.",
+				"source": "https: //www.livemint.com/news/india/delhi-government-schools-to-start-classes-through-sms-ivr-and-online-11585574177962.html"
+			},
+			{
+				"heading": "Johnson & Johnson plans to start a human trial of COVID-19 vaccine by Sept",
+				"description": "US-based global healthcare company Johnson & Johnson on Monday announced the selection of a lead COVID-19 vaccine candidate, adding that it expects to initiate testing of the vaccine in humans at the latest by September this year.",
+				"source": "https: //timesofindia.indiatimes.com/india/johnson-johnson-plans-to-start-human-trial-of-covid-19-vaccine-by-sept/articleshow/74898716.cms"
+			}
+		],
+		"world": [
+			{
+				"heading": "Spain passes China in coronavirus infections as world struggles with containment",
+				"description": "With a population of only 47 million to China’s 1.4 billion, Spain’s tally of infections reached 85,195 on Monday, a rise of 8 per cent from the previous day. Spain also reported 812 new deaths in the last day, raising its overall fatalities from the virus to 7,300.",
+				"source": "https: //globalnews.ca/news/6749456/coronavirus-spain-china-cases/"
+			},
+			{
+				"heading": "UN calls for $2.5tn emergency package for developing nations",
+				"description": "The United Nations has called for a $2.5tn emergency package to help developing countries cope with the crippling impact of the Covid-19 pandemic on their vulnerable economies.",
+				"source": "https: //www.theguardian.com/world/2020/mar/30/un-calls-trillion-emergency-package-help-developing-nations-coronavirus"
+			},
+			{
+				"heading": "Donald Trump extends Covid-19 guidelines, braces the US for big death toll",
+				"description": "Bracing the nation for a coronavirus death toll that could exceed 100,000 people, President Donald Trump extended restrictive social distancing guidelines through April, bowing to public health experts who presented him with even more dire projections for the expanding coronavirus pandemic.",
+				"source": "https: //timesofindia.indiatimes.com/world/us/donald-trump-trump-extends-covid-19-guidelines-braces-us-for-big-death-toll/articleshow/74895896.cms"
+			}
+		]
+	},
+	{
+		"date": "29 / 03 / 2020",
+		"india": [
+			{
+				"heading": "Coronavirus crisis; 69-year-old dies in Kerala",
+				"description": "Kerala recorded the first death of a coronavirus patient when a 69-year-old man died at the government medical college hospital in Ernakulam on Saturday.",
+				"source": "https: //www.telegraphindia.com/india/coronavirus-crisis-69-year-old-dies-in-kerala/cid/1760124?ref=more-from-india_india-page"
+			},
+			{
+				"heading": "49-day lockdown necessary to stop coronavirus resurgence in India: Study",
+				"description": "Two Indian-origin researchers from the University of Cambridge in the UK have come up with a new mathematical model that predicts a flat 49-day nationwide lockdown -- or sustained lockdown with periodic relaxation extending over two months -- may be necessary to prevent Covid-19 resurgence in India.",
+				"source": "https: //www.business-standard.com/article/current-affairs/49-day-lockdown-necessary-to-stop-coronavirus-resurgence-in-india-study-120032900487_1.html"
+			},
+			{
+				"heading": "Mann ki baat: PM Modi asks nation to forgive him for hardships faced during coronavirus lockdown",
+				"description": "Addressing the nation through the Mann ki Baat program, Prime Minister Narendra Modi sought forgiveness from the country for the difficult decision of imposing a coronavirus lockdown that caused hardships to people, especially poor.",
+				"source": "https: //www.indiatoday.in/india/story/mann-ki-baat-pm-modi-asks-nation-to-forgive-him-for-hardships-faced-during-coronavirus-lockdown-1660911-2020-03-29"
+			}
+		],
+		"world": [
+			{
+				"heading": "Princess Maria Teresa of Spain becomes first royal to die from coronavirus",
+				"description": "Spanish Princess Maria Teresa of Bourbon-Parma has become the first royal to pass away due to novel coronavirus complications.",
+				"source": "https: //www.indiatoday.in/india/video/princess-maria-teresa-of-spain-becomes-first-royal-to-die-from-coronavirus-1660947-2020-03-29"
+			},
+			{
+				"heading": "German State Finance Minister Kills Himself As Coronavirus Hits Economy",
+				"description": "Thomas Schaefer, 54, was found dead near a railway track on Saturday. The Wiesbaden prosecution's office said they believe he died by suicide.",
+				"source": "https: //www.ndtv.com/world-news/coronavirus-outbreak-german-minister-thomas-schaefer-kills-self-being-worried-about-coronavirus-econ-2202639"
+			},
+			{
+				"heading": "57-year-old Wuhan market shrimp seller may be Covid-19 patient zero; Report",
+				"description": "A shrimp seller at the wet market in the Chinese city of Wuhan believed to be the centre of the coronavirus pandemic, maybe the first person to have tested positive for the disease, a media report said on Saturday.",
+				"source": "https: //www.livemint.com/news/world/57-year-old-wuhan-market-shrimp-seller-may-be-covid-19-patient-zero-report-11585396304490.html"
 			}
 		]
 	},
