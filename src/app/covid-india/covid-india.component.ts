@@ -386,63 +386,75 @@ export class CovidIndiaComponent implements OnInit {
 		return population;
 	}
 
-	public getConvidConfirmedIndiaMaxSpike(): number {
+	public getCovidAffectedIndiaMaxSpike(covidData): number {
 
 		let india: Country;
 		let spike: number = 0;
 		let timeseriesLength: number = 0;
 
-		if(this.covidConfirmedData && this.covidConfirmedData.getCountries() && (this.covidConfirmedData.getCountries().length == 1)) {
+		if (covidData && covidData.getCountries() && (covidData.getCountries().length == 1)) {
 
-			india = this.covidConfirmedData.getCountries()[0];
+			india = covidData.getCountries()[0];
 			timeseriesLength = india.getProvinces()[0].getTimeseries().length;
 
-			for(let i: number = 1; i < timeseriesLength; i++) {
+			for (let i: number = 1; i < timeseriesLength; i++) {
 
-				let previousInfectionCount: number = 0;
-				let newInfectionCount: number = 0;
+				let previousAffectedCount: number = 0;
+				let newAffectedCount: number = 0;
 
-				for(let province of india.getProvinces()) {
+				for (let province of india.getProvinces()) {
 
-					previousInfectionCount += province.getTimeseries()[i - 1].getValue();
-					newInfectionCount += province.getTimeseries()[i].getValue();
+					previousAffectedCount += province.getTimeseries()[i - 1].getValue();
+					newAffectedCount += province.getTimeseries()[i].getValue();
 				}
 
-				let singleSpike = newInfectionCount - previousInfectionCount;
+				let singleSpike = newAffectedCount - previousAffectedCount;
 
-				if(spike < singleSpike) spike = singleSpike;
+				if (spike < singleSpike) spike = singleSpike;
 			}
 		}
 
 		return spike;
 	}
 
-	public getConvidConfirmedIndiaMaxSpikeDay(): string {
+	public getCovidConfirmedIndiaMaxSpike(): number {
+		return this.getCovidAffectedIndiaMaxSpike(this.covidConfirmedData);
+	}
+
+	public getCovidRecoveryIndiaMaxSpike(): number {
+		return this.getCovidAffectedIndiaMaxSpike(this.covidRecoveryData);
+	}
+
+	public getCovidDeceasedIndiaMaxSpike(): number {
+		return this.getCovidAffectedIndiaMaxSpike(this.covidDeathData);
+	}
+
+	public getCovidAffectedIndiaMaxSpikeDay(covidData): string {
 
 		let india: Country;
 		let spike: number = 0;
 		let spikeDay: string = "-";
 		let timeseriesLength: number = 0;
 
-		if(this.covidConfirmedData && this.covidConfirmedData.getCountries() && (this.covidConfirmedData.getCountries().length == 1)) {
+		if (covidData && covidData.getCountries() && (covidData.getCountries().length == 1)) {
 
-			india = this.covidConfirmedData.getCountries()[0];
+			india = covidData.getCountries()[0];
 			timeseriesLength = india.getProvinces()[0].getTimeseries().length;
 
-			for(let i: number = 1; i < timeseriesLength; i++) {
+			for (let i: number = 1; i < timeseriesLength; i++) {
 
-				let previousInfectionCount: number = 0;
-				let newInfectionCount: number = 0;
+				let previousAffectedCount: number = 0;
+				let newAffectedCount: number = 0;
 
-				for(let province of india.getProvinces()) {
+				for (let province of india.getProvinces()) {
 
-					previousInfectionCount += province.getTimeseries()[i - 1].getValue();
-					newInfectionCount += province.getTimeseries()[i].getValue();
+					previousAffectedCount += province.getTimeseries()[i - 1].getValue();
+					newAffectedCount += province.getTimeseries()[i].getValue();
 				}
 
-				let singleSpike = newInfectionCount - previousInfectionCount;
+				let singleSpike = newAffectedCount - previousAffectedCount;
 
-				if(spike < singleSpike) {
+				if (spike < singleSpike) {
 
 					spike = singleSpike;
 					spikeDay = india.getProvinces()[0].getTimeseries()[i - 1].getDate() + " to " + india.getProvinces()[0].getTimeseries()[i].getDate();
@@ -451,6 +463,18 @@ export class CovidIndiaComponent implements OnInit {
 		}
 
 		return spikeDay;
+	}
+
+	public getCovidConfirmedIndiaMaxSpikeDay(): string {
+		return this.getCovidAffectedIndiaMaxSpikeDay(this.covidConfirmedData);
+	}
+
+	public getCovidRecoveryIndiaMaxSpikeDay(): string {
+		return this.getCovidAffectedIndiaMaxSpikeDay(this.covidRecoveryData);
+	}
+
+	public getCovidDeceasedIndiaMaxSpikeDay(): string {
+		return this.getCovidAffectedIndiaMaxSpikeDay(this.covidDeathData);
 	}
 
 	private covidConfirmedCallback = function() {
