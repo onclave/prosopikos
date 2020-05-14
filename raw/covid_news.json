@@ -1,5 +1,42 @@
 [
 	{
+		"date": "12/05/2020",
+		"india": [
+			{
+				"heading": "Air India to operate 149 repatriation flights to 31 countries in phase II",
+				"description": "Air India is planning to operate 149 repatriation flights to 31 countries between May 16 and May 22 during the second phase of the Vande Bharat mission to bring back home Indians stranded abroad amid the coronavirus-triggered lockdown, officials said.",
+				"source": "https://www.livemint.com/news/india/vande-bharat-mission-air-india-to-operate-149-repatriation-flights-to-31-countries-in-phase-ii-11589285547598.html"
+			},
+			{
+				"heading": "‘Lockdown 4 To Be Different, With New Rules’ says PM Modi",
+				"description": "Prime Minister Narendra Modi is addressing the nation, a day after his six-hour meeting with Chief Ministers on the road ahead after May 17, when the nationwide coronavirus lockdown is due to end.  The Prime Minister announced ‘Lockdown 4’ after May 17, which would be completely different, with new rules. He also announced a Rs 20 lakh crore economic package for what he called 'Mission Self-Reliant India' to tide over the coronavirus crisis.",
+				"source": "https://www.ndtv.com/india-news/pm-narendra-modi-addresses-nation-on-coronavirus-highlights-2227690"
+			},
+			{
+				"heading": "ICMR to Check for Community Transmission in 75 Hotspot Districts",
+				"description": "After being reluctant for weeks to admit that India had reached stage three of the novel coronavirus epidemic within its borders – known better as the stage of community transmission – the Indian Council of Medical Research (ICMR) admitted on May 9 said that it would undertake a study to check for community transmission in the country’s 75 worst-affected hotspots, according to The Hindu.",
+				"source": "https://science.thewire.in/health/icmr-community-transmission-hotspots-study/"
+			}
+		],
+		"world": [
+			{
+				"heading": "Dubai turns world’s tallest building Burj Khalifa into coronavirus charity box",
+				"description": "The world's tallest building, Dubai's 828-metre Burj Khalifa, has become a glowing charity donation box, raising money for food for United Arab Emirates residents suffering the economic impact of the novel coronavirus pandemic.",
+				"source": "https://www.indiatoday.in/trending-news/story/dubai-turns-world-s-tallest-building-burj-khalifa-into-coronavirus-charity-box-1677219-2020-05-12"
+			},
+			{
+				"heading": "Wuhan To Test Entire Population Of 11 Million After New Cases Reported",
+				"description": "Wuhan plans to conduct coronavirus tests on the Chinese city's entire population after new cases emerged for the first time in weeks in the cradle of the global pandemic, state media reported Tuesday.",
+				"source": "https://www.ndtv.com/world-news/coronavirus-cases-china-wuhan-to-test-entire-population-of-11-million-after-new-cases-reported-2227486"
+			},
+			{
+				"heading": "Doctors and nurses suffered as Iran ignored Covid-19 concerns",
+				"description": "While crippling sanctions imposed by the U.S. government left the country ill-equipped to deal with the fast-moving virus, some medical professionals say government and religious leaders bear the brunt of the blame for allowing the virus to spread -- and for hiding how much it had spread.",
+				"source": "https://www.indiatoday.in/world/story/doctors-nurses-suffered-iran-ignored-covid-19-concerns-1677180-2020-05-12"
+			}
+		]
+	},
+	{
 		"date": "11/05/2020",
 		"india": [
 			{
