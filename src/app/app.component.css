@@ -37,7 +37,8 @@ mat-sidenav-content {
 }
 
 .pr-sidenav {
-	min-width: 20%;
+	width: 120px !important;
+	max-width: 20%;
 }
 
 .pr-sidenav-options {
@@ -45,14 +46,19 @@ mat-sidenav-content {
 	min-width: 30%;
 }
 
+.pr-sidinav-icon {
+	font-size: 2em !important;
+}
+
 .pr-sidenav-option-container {
 	padding-top: 20px;
 	padding-bottom: 20px;
 	padding-left: 15px;
 	padding-right: 15px;
-	font-size: 1.8em;
+	font-size: 1.3em;
 	color: whitesmoke;
-	font-weight: bold;
+	font-family: monospace;
+	text-transform: uppercase;
 }
 
 .pr-sidenav-option-container:hover {

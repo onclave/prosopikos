@@ -1,16 +1,16 @@
 <section class="pr-body">
 	<mat-sidenav-container fullscreen class="example-container">
-		<mat-sidenav #drawer mode="push" fxLayout="column" fxLayoutAlign="center center" class="pr-sidenav">
+		<mat-sidenav #drawer mode="push" fxLayout="column" fxLayoutAlign="center stretch" class="pr-sidenav">
 			<div fxLayout="column" fxLayoutAlign="center stretch" class="pr-sidenav-options">
-				<div routerLink="/" (click)="drawer.toggle()" fxLayout="row" fxLayoutAlign="center center" class="pr-sidenav-option-container pr-font-poi pr-non-selectable pr-no-focus">
+				<div routerLink="/" (click)="drawer.toggle()" fxLayout="column" fxLayoutAlign="center center" class="pr-sidenav-option-container pr-non-selectable pr-no-focus">
 					<button mat-icon-button>
-						<mat-icon>home</mat-icon>
+						<mat-icon class="pr-sidinav-icon">home</mat-icon>
 					</button>
 					<span>Home</span>
 				</div>
-				<div routerLink="/covid" (click)="drawer.toggle()" fxLayout="row" fxLayoutAlign="center center" class="pr-sidenav-option-container pr-font-poi pr-non-selectable pr-no-focus">
+				<div routerLink="/covid" (click)="drawer.toggle()" fxLayout="column" fxLayoutAlign="center center" class="pr-sidenav-option-container pr-non-selectable pr-no-focus">
 					<button mat-icon-button>
-						<mat-icon>trending_up</mat-icon>
+						<mat-icon class="pr-sidinav-icon">trending_up</mat-icon>
 					</button>
 					<span>COVID-19</span>
 				</div>
