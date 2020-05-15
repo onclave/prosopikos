@@ -1,5 +1,42 @@
 [
 	{
+		"date": "13/05/2020",
+		"india": [
+			{
+				"heading": "Gilead sign licensing deal for Remdesivir with three Indian companies",
+				"description": "India’s Jubilant Life Sciences, Hetero and Cipla have signed licensing deal with US-based Gilead Sciences for manufacturing remdesivir, a drug which has been identified as a potential therapy for Covid-19. The licensing agreement is for India and 127 other low, middle income and upper middle income countries where the Noida-based company will market the drug.",
+				"source": "https://economictimes.indiatimes.com/industry/healthcare/biotech/pharmaceuticals/jubilant-life-sciences-and-gilead-sciences-sign-licensing-deal-for-remdesivir/articleshow/75703129.cms"
+			},
+			{
+				"heading": "Alarm Over Discarded Coronavirus Safety Wear At Ahmedabad Graveyard",
+				"description": "At the entrance of Musa Suhag in Ahmedabad, the largest graveyard in the city, discarded safety wear is strewn around: masks, gloves, gowns and face shields. Musa Suhag is among the graveyards in the city, where those who have died of COVID-19 are buried.",
+				"source": "https://www.ndtv.com/ahmedabad-news/coronavirus-ahmedabad-alarm-over-discarded-coronavirus-safety-wear-at-ahmedabad-graveyard-2227826"
+			},
+			{
+				"heading": "FM Nirmala Unveils India's Rs 20 Lakh Crore Package",
+				"description": "On Wednesday, Union Finance Minister Nirmala Sitharaman unveiled the first set of measures of the financial package worth Rs.20 lakh crore. She stated that PM Narendra Modi laid down the vision of Atmanirbhar India (self-reliant India) after deep consultation with several sections of the society.",
+				"source": "https://www.republicworld.com/india-news/economy/finance-min-unveils-first-list-of-15-measures-of-economic-package.html"
+			}
+		],
+		"world": [
+			{
+				"heading": "Russia suspends use of ventilator type that reportedly killed 6 in hospital fires",
+				"description": "Russia has suspended the use of a ventilator type manufactured after April 1, a state healthcare regulator announced on Wednesday. The decision comes after the breathing machines reportedly caused two hospital fires that killed six people amid the coronavirus pandemic, according to multiple reports.",
+				"source": "https://www.foxnews.com/world/russia-examining-safety-ventilators-sent-u-s-after-6-die-fires"
+			},
+			{
+				"heading": "US Senate Introduces China Sanctions Bill Over COVID-19 Accounting",
+				"description": "US Republican senators proposed legislation Tuesday that would empower President Donald Trump to slap sanctions on China if Beijing does not give a 'full accounting' for the coronavirus outbreak.",
+				"source": "https://www.ndtv.com/world-news/coronavirus-us-senate-introduces-china-sanctions-bill-over-covid-19-accounting-2228057"
+			},
+			{
+				"heading": "House Democrats Unveil $3 Trillion Pandemic Relief Proposal",
+				"description": "House Democrats on Tuesday unveiled a $3 trillion pandemic relief measure, an ambitious package with aid for struggling states and another round of direct payments to Americans that Republicans instantly dismissed as an exorbitantly priced and overreaching response to the coronavirus crisis.",
+				"source": "https://www.nytimes.com/2020/05/12/us/politics/democrats-coronavirus-relief-proposal.html"
+			}
+		]
+	},
+	{
 		"date": "12/05/2020",
 		"india": [
 			{
