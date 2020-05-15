@@ -45,7 +45,6 @@ import { CovidWorldComponent } from './covid-world/covid-world.component';
 import { CovidContributionComponent } from './covid-contribution/covid-contribution.component';
 import { CovidDatasetsComponent } from './covid-datasets/covid-datasets.component';
 import { CovidDataPackageComponent } from './covid-data-package/covid-data-package.component';
-import { CovidAnalysisOneComponent } from './covid-analysis-one/covid-analysis-one.component';
 import { CovidAnalysisTwoComponent } from './covid-analysis-two/covid-analysis-two.component';
 import { CovidAnalysisThreeComponent } from './covid-analysis-three/covid-analysis-three.component';
 import { CovidAnalysisFourComponent } from './covid-analysis-four/covid-analysis-four.component';
@@ -66,7 +65,6 @@ import { CovidAnalysisFourComponent } from './covid-analysis-four/covid-analysis
 		CovidContributionComponent,
 		CovidDatasetsComponent,
 		CovidDataPackageComponent,
-		CovidAnalysisOneComponent,
 		CovidAnalysisTwoComponent,
 		CovidAnalysisThreeComponent,
 		CovidAnalysisFourComponent

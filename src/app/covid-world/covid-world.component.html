@@ -5,6 +5,12 @@
 	</div>
 	<span class="pr-analysis-heading pr-font-chn pr-margin-top-30px">covid-19 reported confirmed cases as of <span class="pr-color-watermelon">{{latestCovidConfirmedDate}}</span>, recovered cases as of <span class="pr-color-watermelon">{{latestCovidRecoveryDate}}</span> and deceased cases as of <span class="pr-color-watermelon">{{latestCovidDeathDate}}</span> (mm/dd/yyyy)</span>
 	<div fxLayout="column" class="pr-margin-top-10px">
+		<div class="pr-analysis-report-container">
+			<span class="pr-analysis-report-header pr-font-chn">Number of countries required: </span>
+			<span class="pr-analysis-report-data pr-font-chn pr-analysis-warning">{{getTotalNumberOfCountriesInfected()}}</span>
+		</div>
+	</div>
+	<div fxLayout="column" class="pr-margin-top-10px">
 		<div fxLayout.xs="column" fxLayout.sm="column" fxLayout.md="row" fxLayout.lg="row" fxLayout.xl="row" fxLayoutAlign.xs="start start" fxLayoutAlign.sm="start start" fxLayoutAlign.md="space-around start" fxLayoutAlign.lg="space-around start" fxLayoutAlign.xl="space-around start">
 			<div fxLayout="column" fxFlex.md="20" fxFlex.lg="20" fxFlex.xl="20" class="pr-analysis-report-container">
 				<span class="pr-analysis-report-header pr-font-chn">Total Infected:</span>
@@ -42,12 +48,39 @@
 				<span class="pr-analysis-report-data-secondary pr-analysis-danger pr-font-chn">+{{getCovidWorldAffectedCountryIncrease(covidDeathData, getCovidHighestCountryAffected(covidDeathData)) | number}}</span>
 			</div>
 		</div>
+
+
+
+
+
 		<div fxLayout.xs="column" fxLayout.sm="column" fxLayout.md="row" fxLayout.lg="row" fxLayout.xl="row" fxLayoutAlign.xs="start start" fxLayoutAlign.sm="start start" fxLayoutAlign.md="space-around start" fxLayoutAlign.lg="space-around start" fxLayoutAlign.xl="space-around start">
 			<div fxLayout="column" fxFlex.md="20" fxFlex.lg="20" fxFlex.xl="20" class="pr-analysis-report-container">
-				<span class="pr-analysis-report-header pr-font-chn">Total Number of Countries Infected:</span>
-				<span class="pr-analysis-report-data pr-font-chn">{{getTotalNumberOfCountriesInfected()}}</span>
+				<span class="pr-analysis-report-header pr-font-chn">World's Highest Infection Spike in 1 Day:</span>
+				<span class="pr-analysis-report-data pr-analysis-warning pr-font-chn">{{getCovidConfirmedWorldMaxSpike() | number}}</span>
+				<span class="pr-analysis-report-data-secondary pr-analysis-warning pr-font-chn">{{getCovidConfirmedWorldMaxSpikeDay()}}</span>
+			</div>
+			<div fxLayout="column" fxFlex.md="20" fxFlex.lg="20" fxFlex.xl="20" class="pr-analysis-report-container">
+				<span class="pr-analysis-report-header pr-font-chn">World's Highest Recovery Spike in 1 Day:</span>
+				<span class="pr-analysis-report-data pr-analysis-positive pr-font-chn">{{getCovidRecoveryWorldMaxSpike() | number}}</span>
+				<span class="pr-analysis-report-data-secondary pr-analysis-positive pr-font-chn">{{getCovidRecoveryWorldMaxSpikeDay()}}</span>
+			</div>
+			<div fxLayout="column" fxFlex.md="20" fxFlex.lg="20" fxFlex.xl="20" class="pr-analysis-report-container">
+				<span class="pr-analysis-report-header pr-font-chn">World's Highest Death Spike in 1 Day:</span>
+				<span class="pr-analysis-report-data pr-analysis-danger pr-font-chn">{{getCovidDeceasedWorldMaxSpike() | number}}</span>
+				<span class="pr-analysis-report-data-secondary pr-analysis-danger pr-font-chn">{{getCovidDeceasedWorldMaxSpikeDay()}}</span>
 			</div>
 		</div>
+
+
+
+
+
+
+
+
+
+
+		
 	</div>
 	<div class="pr-covid-analysis-writeup pr-font-chn pr-padding-sides-10p">
 		With COVID-19 becoming a pandemic, it has globally infected around {{getCovidHighestCountryAffectedCount(covidConfirmedData) | number}} people. It started in Wuhan, China, but today it has spread across {{getTotalNumberOfCountriesInfected()}} countries. {{getCovidHighestCountryAffected(covidConfirmedData)}} has the highest number of positive cases ranging to around {{getCovidHighestCountryAffectedCount(covidConfirmedData) | number}}, as of {{latestCovidConfirmedDate}}.

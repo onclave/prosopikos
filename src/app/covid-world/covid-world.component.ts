@@ -342,12 +342,96 @@ export class CovidWorldComponent implements OnInit {
 		return current - previous;
 	}
 
+	public getCovidAffectedWorldMaxSpike(covidData): number {
 
+		let spike: number = 0;
+		let timeseriesLength: number = 0;
 
+		if (covidData && covidData.getCountries() && (covidData.getCountries().length > 0)) {
 
+			timeseriesLength = covidData.getCountries()[0].getProvinces()[0].getTimeseries().length;
 
+			for(let i: number = 1; i < timeseriesLength; i++) {
 
+				let previousAffectedCount: number = 0;
+				let newAffectedCount: number = 0;
 
+				for (let country of covidData.getCountries())
+					for(let province of country.getProvinces()) {
+
+						previousAffectedCount += province.getTimeseries()[i - 1].getValue();
+						newAffectedCount += province.getTimeseries()[i].getValue();
+					}
+
+				let singleSpike = newAffectedCount - previousAffectedCount;
+
+				if (spike < singleSpike) spike = singleSpike;
+			}
+		}
+
+		return spike;
+	}
+
+	public getCovidConfirmedWorldMaxSpike(): number {
+		return this.getCovidAffectedWorldMaxSpike(this.covidConfirmedData);
+	}
+
+	public getCovidRecoveryWorldMaxSpike(): number {
+		return this.getCovidAffectedWorldMaxSpike(this.covidRecoveryData);
+	}
+
+	public getCovidDeceasedWorldMaxSpike(): number {
+		return this.getCovidAffectedWorldMaxSpike(this.covidDeathData);
+	}
+
+	public getCovidAffectedWorldMaxSpikeDay(covidData): string {
+
+		let spike: number = 0;
+		let spikeDay: string = "-";
+		let timeseriesLength: number = 0;
+
+		if (covidData && covidData.getCountries() && (covidData.getCountries().length > 0)) {
+
+			timeseriesLength = covidData.getCountries()[0].getProvinces()[0].getTimeseries().length;
+
+			for (let i: number = 1; i < timeseriesLength; i++) {
+
+				let previousAffectedCount: number = 0;
+				let newAffectedCount: number = 0;
+
+				for (let country of covidData.getCountries())
+					for (let province of country.getProvinces()) {
+
+						previousAffectedCount += province.getTimeseries()[i - 1].getValue();
+						newAffectedCount += province.getTimeseries()[i].getValue();
+					}
+
+				let singleSpike = newAffectedCount - previousAffectedCount;
+
+				if (spike < singleSpike) {
+					
+					spike = singleSpike;
+					spikeDay = covidData.getCountries()[0].getProvinces()[0].getTimeseries()[i - 1].getDate()	+
+								" to "																			+
+								covidData.getCountries()[0].getProvinces()[0].getTimeseries()[i].getDate();
+				}
+			}
+		}
+
+		return spikeDay;
+	}
+
+	public getCovidConfirmedWorldMaxSpikeDay(): string {
+		return this.getCovidAffectedWorldMaxSpikeDay(this.covidConfirmedData);
+	}
+
+	public getCovidRecoveryWorldMaxSpikeDay(): string {
+		return this.getCovidAffectedWorldMaxSpikeDay(this.covidRecoveryData);
+	}
+
+	public getCovidDeceasedWorldMaxSpikeDay(): string {
+		return this.getCovidAffectedWorldMaxSpikeDay(this.covidDeathData);
+	}
 
 	private covidWorldConfirmedCallback = function() {
 
