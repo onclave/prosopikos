@@ -1,0 +1,123 @@
+<div fxLayout="column" class="pr-covid-tab-analysis">
+	<div class="pr-analysis-banner-container pr-non-selectable pr-no-focus">
+		<img src="assets/image/analysis_banner.svg" class="pr-analysis-banner pr-non-selectable pr-no-focus">
+		<button mat-mini-fab color="primary" routerLink="/covid" matTooltip="go back to COVID dashboard" class="pr-analysis-back-button">
+			<mat-icon>keyboard_arrow_left</mat-icon>
+		</button>
+	</div>
+	<span class="pr-analysis-heading pr-font-chn pr-margin-top-10px">Heatmap analysis of nCoV-2019 spread in India</span>
+	<div fxLayout="column">
+		<span class="pr-analysis-report-subheader pr-font-chn">Datasets</span>
+		<span class="pr-covid-analysis-report pr-font-rmono">The analysis starts with 3 different datasets (mentioned below), containing time series information of day by day confirmed cases, deaths and recoveries of all states in India.</span>
+		<span class="pr-margin-top-30px pr-margin-sides-7p"><a href="https://github.com/kalyaniuniversity/COVID-19-Datasets/tree/master/India%20Statewise%20Confirmed%20Cases" target="_blank" class="pr-ext-link">[ source: India COVID-19 Timeseries Confirmed Cases ]</a></span>
+		<span class="pr-margin-top-10px pr-margin-sides-7p"><a href="https://github.com/kalyaniuniversity/COVID-19-Datasets/tree/master/India%20Statewise%20Recovery%20Cases" target="_blank" class="pr-ext-link">[ source: India COVID-19 Timeseries Recovery Cases ]</a></span>
+		<span class="pr-margin-top-10px pr-margin-sides-7p"><a href="https://github.com/kalyaniuniversity/COVID-19-Datasets/tree/master/India%20Statewise%20Death%20Cases" target="_blank" class="pr-ext-link">[ source: India COVID-19 Timeseries Deceased Cases ]</a></span>
+		<div fxLayout="row" fxLayoutAlign="start center" class="pr-margin-top-10px pr-margin-sides-7p">
+			<div fxLayout="row" fxLayoutAlign="center center" (click)="navigateToAuthor('https://colab.research.google.com/drive/1-B5BTcm7OUXn6pvdcy9xJxpcsmyqcTWe')" class="pr-colab-container mat-elevation-z2">
+				<img src="assets/image/colab_favicon.ico" class="pr-colab-image pr-non-selectable pr-no-focus">
+				<span class="pr-font-chn pr-margin-left-10px">Associated Google Colab Notebook</span>
+			</div>
+		</div>
+		<span class="pr-analysis-report-subheader pr-font-chn">Motivation</span>
+		<span class="pr-covid-analysis-report pr-font-rmono">In the representations given below we have tried to put forth the cumulative and the daily stats of the states that top in the confirmed, recovered and deceased counts respectively. We have tried to analyse the performance of the states for each given date and under all the three parameters of confirmed, recovered and deceased cases due to COVID-19 <span class="pr-analysis-important-marker">as per latest date (21 / 04 / 2020)</span>.</span>
+		<span class="pr-analysis-report-subheader pr-font-chn">Infected Cases</span>
+		<div fxLayout="row wrap" fxLayoutAlign="space-around center">
+			<div fxLayout="column" fxLayoutAlign="center center" (click)="navigateToAuthor('assets/image/heatmap-india-infected-cumulative.png')" class="pr-covid-analysis-image-white-container mat-elevation-z8">
+				<img src="assets/image/heatmap-india-infected-cumulative.png" class="pr-covid-analysis-image pr-non-selectable pr-no-focus">
+				<span class="pr-covid-analysis-image-title pr-font-chn">Figure 1</span>
+			</div>
+			<div fxLayout="column" fxLayoutAlign="center center" (click)="navigateToAuthor('assets/image/heatmap-india-infected-daily.png')" class="pr-covid-analysis-image-white-container mat-elevation-z8">
+				<img src="assets/image/heatmap-india-infected-daily.png" class="pr-covid-analysis-image pr-non-selectable pr-no-focus">
+				<span class="pr-covid-analysis-image-title pr-font-chn">Figure 2</span>
+			</div>
+		</div>
+		<span class="pr-covid-analysis-report pr-font-rmono">The Figure 1 heat map gives us a brief idea about the rate of increase in the cumulative infected rates for the top 15 states which have recorded the highest number of COVID-19 infected patients.</span>
+		<span class="pr-covid-analysis-report pr-font-rmono"><span class="pr-analysis-important-marker">The infection rate has started forming a peak from 9/04/2020 for Delhi and Maharashtra</span>. Maharashtra had seen a sudden surge in infections reaching to almost 355 on 12/04/2020 and 13/04/2020. It becomes the worst hit state on 21/04/2020 according to the overall daily stats. It's situation does not seem to improve, if we talk about about infected count. Delhi also had a increase in the count on 13/04/2020.</span>
+		<span class="pr-covid-analysis-report pr-font-rmono">Gujarat recorded it's highest on 18/04/2020. Kerala's maintains it's consistency. Tamil Nadu has shown a massive improvement. The infection count seems increase gradually in Madhya Pradesh, Rajasthan and Uttar Pradesh.</span>
+		<span class="pr-covid-analysis-report pr-font-rmono">The heat map in Figure 2 showing the daily trend in the total infected count for the top 15 COVID-19 infected states, we can see that Maharashtra is on the top of the list.</span>
+		<span class="pr-covid-analysis-report pr-font-rmono"><span class="pr-analysis-important-marker">Maharashtra has the highest number of recorded cases which is approximately 3600 as of 17/04/2020</span>. The rate of increase is also a matter of concern. Whereas Delhi, Tamil Nadu show a gradual increase in their total infected counts, Madhya Pradesh shows a sudden increase. Kerala has been consistent with its infected rate count.</span>
+		<span class="pr-analysis-report-subheader pr-font-chn">Recovery Cases</span>
+		<div fxLayout="row wrap" fxLayoutAlign="space-around center">
+			<div fxLayout="column" fxLayoutAlign="center center" (click)="navigateToAuthor('assets/image/heatmap-india-recovered-cumulative.png')" class="pr-covid-analysis-image-white-container mat-elevation-z8">
+				<img src="assets/image/heatmap-india-recovered-cumulative.png" class="pr-covid-analysis-image pr-non-selectable pr-no-focus">
+				<span class="pr-covid-analysis-image-title pr-font-chn">Figure 3</span>
+			</div>
+			<div fxLayout="column" fxLayoutAlign="center center" (click)="navigateToAuthor('assets/image/heatmap-india-recovered-daily.png')" class="pr-covid-analysis-image-white-container mat-elevation-z8">
+				<img src="assets/image/heatmap-india-recovered-daily.png" class="pr-covid-analysis-image pr-non-selectable pr-no-focus">
+				<span class="pr-covid-analysis-image-title pr-font-chn">Figure 4</span>
+			</div>
+		</div>
+		<span class="pr-covid-analysis-report pr-font-rmono">The Figure 3 heat map for the top 15 states which have recorded the highest number of cumulative recoveries in the interval (19/03/2020-21/04/202). Though Maharashtra has the highest of infected count, it also has the highest number of people who have recovered.</span>
+		<span class="pr-covid-analysis-report pr-font-rmono">Telangana has a sharp increase in total cumulative count from 15/04/2020 - 21/04/2020. Kerala has a gradual and good recovery rate. Tamil Nadu and Rajasthan is pacing up with it's recovery count.</span>
+		<span class="pr-covid-analysis-report pr-font-rmono">The Figure 4 heat map gives us a brief about the daily toll of recovered cases of COVID-19 in India. Tamil Nadu, Maharashtra and Kerala have a good and swift rate of improvement.</span>
+		<span class="pr-covid-analysis-report pr-font-rmono">The daily recoveries in Tamil Nadu have been huge compared to other states. Delhi had a spike in recoveries on 18/04/2020 and is able to maintain it thereafter. Rajasthan and Telangana had around 53 new recoveries on 11/04/2020.</span>
+		<span class="pr-analysis-report-subheader pr-font-chn">Deceased Cases</span>
+		<div fxLayout="row wrap" fxLayoutAlign="space-around center">
+			<div fxLayout="column" fxLayoutAlign="center center" (click)="navigateToAuthor('assets/image/heatmap-india-deceased-cumulative.png')" class="pr-covid-analysis-image-white-container mat-elevation-z8">
+				<img src="assets/image/heatmap-india-deceased-cumulative.png" class="pr-covid-analysis-image pr-non-selectable pr-no-focus">
+				<span class="pr-covid-analysis-image-title pr-font-chn">Figure 5</span>
+			</div>
+			<div fxLayout="column" fxLayoutAlign="center center" (click)="navigateToAuthor('assets/image/heatmap-india-deceased-daily.png')" class="pr-covid-analysis-image-white-container mat-elevation-z8">
+				<img src="assets/image/heatmap-india-deceased-daily.png" class="pr-covid-analysis-image pr-non-selectable pr-no-focus">
+				<span class="pr-covid-analysis-image-title pr-font-chn">Figure 6</span>
+			</div>
+		</div>
+		<span class="pr-covid-analysis-report pr-font-rmono">The Figure 5 heat map gives us an idea about the top 15 states which have the highest number of cumulative deceased patients due to COVID-19.</span>
+		<span class="pr-covid-analysis-report pr-font-rmono">Maharashtra tops this list too. It has approximately 200 cases of death due to the novel Corona virus. While Madhya Pradesh is climbing up the chart gradually. Delhi and Gujarat are showing an increase in the cumulative death count more vividly from 11/04/2020 - 21/04/2020.</span>
+		<span class="pr-covid-analysis-report pr-font-rmono">The Figure 6 heat map gives us an insight into the daily number of deaths registered due to COVID-19 in the top 15 states having the highest number of deceased cases.</span>
+		<span class="pr-covid-analysis-report pr-font-rmono">Maharashtra being on the top depicts that the number of daily deaths are on a surge. It had the highest toll of 26 on 9/04/2020. The situation of Madhya Pradesh and Gujarat with respect to daily death count seems to worsen. Gujarat along with Maharashtra had the maximum deaths on 21/04/2020 compared to the other states on the same day.</span>
+		<span class="pr-covid-analysis-report pr-font-rmono">Karnataka and Uttar Pradesh are showing an increase in the death count gradually. Other states too are pacing up with their death rates.</span>
+		<span class="pr-analysis-report-subheader pr-font-chn">Conclusion</span>
+		<span class="pr-covid-analysis-report pr-font-rmono">Thereafter, we can conclude that Maharashtra tops all the three charts. But the rate of increase in the cumulative count in Maharashtra is a matter of serious concern. Kerala though is present in top 15 infected states but at the same time, it holds a very good position in the top 15 recovered states. Besides this it is nowhere in the top 15 states having the highest number of deceased cases. So this is a remarkable news.</span>
+		<div fxLayout="row wrap" class="pr-margin-top-30px">
+			<div fxLayout.xs="column" fxLayout.sm="column" fxLayout.md="row" fxLayout.lg="row" fxLayout.xl="row" fxLayoutAlign="center center" (click)="navigateToAuthor('https://www.linkedin.com/in/inder-kaur-a11691158')" class="pr-author-tag mat-elevation-z2">
+				<div fxLayout="row" fxLayoutAlign="center center" class="pr-author-tag-image-container">
+					<img src="assets/image/inder.jpg" class="pr-author-image mat-elevation-z8 pr-non-selectable pr-no-focus">
+				</div>
+				<div fxLayout="column" fxLayoutAlign="center start" class="pr-author-tag-content pr-font-chn">
+					<span class="pr-author-tag-name">Inder Kaur</span>
+					<span class="pr-author-tag-info-1">Department of Statistics</span>
+					<span class="pr-author-tag-info-2">University Of Kalyani</span>
+				</div>
+			</div>
+		</div>
+		<span class="pr-analysis-report-subheader pr-font-chn">Appendix</span>
+		<div fxLayout="column" class="pr-margin-top-30px">
+			<div fxLayout="row" routerLink="/covid" class="pr-analysis-appendix-element pr-non-selectable pr-no-focus">
+				<div fxLayout="row" fxLayoutAlign="center center" fxFlex="10">
+					<span class="pr-analysis-appendix-count pr-font-chn">&lt;&lt;</span>
+				</div>
+				<div fxLayout="column" fxLayoutAlign="center start" fxFlex="90">
+					<span class="pr-analysis-appendix-header pr-font-chn">Go back to COVID-19 dashboard</span>
+				</div>
+			</div>
+			<div fxLayout="row" routerLink="/covid/analysis/4" class="pr-analysis-appendix-element pr-non-selectable pr-no-focus">
+				<div fxLayout="row" fxLayoutAlign="center center" fxFlex="10">
+					<span class="pr-analysis-appendix-count pr-font-chn">04</span>
+				</div>
+				<div fxLayout="column" fxLayoutAlign="center start" fxFlex="90">
+					<span class="pr-analysis-appendix-header pr-font-chn">Cumulative ranking analysis of nCoV-2019 spread in India over time</span>
+					<span class="pr-analysis-appendix-desc pr-font-rmono">In this short analysis, we have taken the datasets for India's nCoV-19 infected, recovered and deceased cases in steps of 5 days of gap between each reading and ranked each region based on each day's cumulative infection, recovery and deceased count. These results have then been plotted.</span>
+				</div>
+			</div>
+			<div fxLayout="row" routerLink="/covid/analysis/2" class="pr-analysis-appendix-element pr-non-selectable pr-no-focus">
+				<div fxLayout="row" fxLayoutAlign="center center" fxFlex="10">
+					<span class="pr-analysis-appendix-count pr-font-chn">02</span>
+				</div>
+				<div fxLayout="column" fxLayoutAlign="center start" fxFlex="90">
+					<span class="pr-analysis-appendix-header pr-font-chn">Analysis of COVID-19 spread vs GDP Per Capita of affected countries</span>
+					<span class="pr-analysis-appendix-desc pr-font-rmono">In this analysis of COVID 19, we try to find out whether there is any relation between the virus infection, number of deaths, recovery in terms of per capita income of a country.</span>
+				</div>
+			</div>
+			<div fxLayout="row" routerLink="/covid" class="pr-analysis-appendix-element pr-non-selectable pr-no-focus">
+				<div fxLayout="row" fxLayoutAlign="center center" fxFlex="10">
+					<span class="pr-analysis-appendix-count pr-font-chn">01</span>
+				</div>
+				<div fxLayout="column" fxLayoutAlign="center start" fxFlex="90">
+					<span class="pr-analysis-appendix-header pr-font-chn">Relation between average infection rate and surface air temperature of affected areas</span>
+					<span class="pr-analysis-appendix-desc pr-font-rmono">Since this analysis depends on live data, it can found under the <span class="pr-analysis-important-marker">"Analyses" tab on the COVID dashboard</span>.</span>
+				</div>
+			</div>
+		</div>
+	</div>
+</div>

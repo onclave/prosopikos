@@ -185,6 +185,11 @@ a:visited {
 	margin-left: 10%;
 }
 
+.pr-margin-sides-7p {
+	margin-right: 7%;
+	margin-left: 7%;
+}
+
 .pr-padding-top-30px {
 	padding-top: 30px !important;
 }

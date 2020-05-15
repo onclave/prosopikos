@@ -1,0 +1,162 @@
+<div fxLayout="column" class="pr-covid-tab-analysis">
+	<div class="pr-analysis-banner-container pr-non-selectable pr-no-focus">
+		<img src="assets/image/analysis_banner.svg" class="pr-analysis-banner pr-non-selectable pr-no-focus">
+		<button mat-mini-fab color="primary" routerLink="/covid" matTooltip="go back to COVID dashboard" class="pr-analysis-back-button">
+			<mat-icon>keyboard_arrow_left</mat-icon>
+		</button>
+	</div>
+	<span class="pr-analysis-heading pr-font-chn pr-margin-top-10px">Cumulative ranking analysis of nCoV-2019 spread in India over time</span>
+	<div fxLayout="column">
+		<span class="pr-analysis-report-subheader pr-font-chn">Datasets</span>
+		<span class="pr-covid-analysis-report pr-font-rmono">The analysis starts with 3 different datasets (mentioned below), containing time series information of day by day confirmed cases, deaths and recoveries of all states in India.</span>
+		<span class="pr-margin-top-30px pr-margin-sides-7p"><a href="https://github.com/kalyaniuniversity/COVID-19-Datasets/tree/master/India%20Statewise%20Confirmed%20Cases" target="_blank" class="pr-ext-link">[ source: India COVID-19 Timeseries Confirmed Cases ]</a></span>
+		<span class="pr-margin-top-10px pr-margin-sides-7p"><a href="https://github.com/kalyaniuniversity/COVID-19-Datasets/tree/master/India%20Statewise%20Recovery%20Cases" target="_blank" class="pr-ext-link">[ source: India COVID-19 Timeseries Recovery Cases ]</a></span>
+		<span class="pr-margin-top-10px pr-margin-sides-7p"><a href="https://github.com/kalyaniuniversity/COVID-19-Datasets/tree/master/India%20Statewise%20Death%20Cases" target="_blank" class="pr-ext-link">[ source: India COVID-19 Timeseries Deceased Cases ]</a></span>
+		<div fxLayout="row" fxLayoutAlign="start center" class="pr-margin-top-10px pr-margin-sides-7p">
+			<div fxLayout="row" fxLayoutAlign="center center" (click)="navigateToAuthor('https://colab.research.google.com/drive/1D3gyCctp3Tnmw98-4x1gYFF2AINB6MOY')" class="pr-colab-container mat-elevation-z2">
+				<img src="assets/image/colab_favicon.ico" class="pr-colab-image pr-non-selectable pr-no-focus">
+				<span class="pr-font-chn pr-margin-left-10px">Associated Google Colab Notebook</span>
+			</div>
+		</div>
+		<span class="pr-analysis-report-subheader pr-font-chn">Motivation</span>
+		<span class="pr-covid-analysis-report pr-font-rmono">In this short analysis, we have taken the datasets for India's nCoV-19 infected, recovered and deceased cases in steps of 5 days of gap between each reading and ranked each region based on each day's cumulative infection, recovery and deceased count. These results have then been plotted. These results have been calculated as per the <span class="pr-analysis-important-marker">latest availbale data (12 / 05 / 2020)</span>.</span>
+		<span class="pr-covid-analysis-report pr-font-rmono">For each of the three datasets (confirmed, reocovered and deceased), we have first created a separate dataset where we have taken the cumulative count of each state / region for <span class="pr-analysis-important-marker">every 5 days</span>. Once this was done, we have then ranked each state for each day depending on their cumulative value for that day. Hence, for each day in our dataset, we have a rank for each state which varies from day to day. For each state / region, the rank may go up or go down depending on how the state has been able to control the pandemic in its own terms. A rank of 1 means it has the highest infection, deceased or recovery for that day. <span class="pr-analysis-important-marker">While a rank of 1 for infection and deceased means worst performing, a rank of 1 for recovering means best performing</span>. Once we plot these ranks over time, we can get a visual cue on how the states have performed over time against each other.</span>
+		<span class="pr-analysis-report-subheader pr-font-chn">Infected Cases</span>
+		<div fxLayout="row wrap" fxLayoutAlign="space-around center">
+			<div fxLayout="column" fxLayoutAlign="center center" (click)="navigateToAuthor('assets/image/analysis-04-confirmed-individualranking.png')" class="pr-covid-analysis-image-white-container mat-elevation-z8">
+				<img src="assets/image/analysis-04-confirmed-individualranking.png" class="pr-covid-analysis-image pr-non-selectable pr-no-focus">
+				<span class="pr-covid-analysis-image-title pr-font-chn">Figure 1</span>
+			</div>
+			<div fxLayout="column" fxLayoutAlign="center center" (click)="navigateToAuthor('assets/image/analysis-04-confirmed-overallranking.png')" class="pr-covid-analysis-image-white-container mat-elevation-z8">
+				<img src="assets/image/analysis-04-confirmed-overallranking.png" class="pr-covid-analysis-image pr-non-selectable pr-no-focus">
+				<span class="pr-covid-analysis-image-title pr-font-chn">Figure 2</span>
+			</div>
+		</div>
+		<div fxLayout="row wrap" fxLayoutAlign="space-around center">
+			<div fxLayout="column" fxLayoutAlign="center center" (click)="navigateToAuthor('assets/image/analysis-04-confirmed-owncomparisonranking.png')" class="pr-covid-analysis-image-white-container mat-elevation-z8">
+				<img src="assets/image/analysis-04-confirmed-owncomparisonranking.png" class="pr-covid-analysis-image pr-non-selectable pr-no-focus">
+				<span class="pr-covid-analysis-image-title pr-font-chn">Figure 3</span>
+			</div>
+			<div fxLayout="column" fxLayoutAlign="center center" (click)="navigateToAuthor('assets/image/analysis-04-confirmed-topranking.png')" class="pr-covid-analysis-image-white-container mat-elevation-z8">
+				<img src="assets/image/analysis-04-confirmed-topranking.png" class="pr-covid-analysis-image pr-non-selectable pr-no-focus">
+				<span class="pr-covid-analysis-image-title pr-font-chn">Figure 4</span>
+			</div>
+		</div>
+		<span class="pr-covid-analysis-report pr-font-rmono">Figure 1 shows us the plotting of Kerala's rank over time. The first COVID-19 case in India was detected in Kerala, after which there were a huge number of patients from Kerala. Kerala was ahead in terms of total number of infection than the rest of the states / regions in India for some time after which it steeply dropped meaning that while the virus spread like wildfire in other states, Kerala was able to control it rather quickly.</span>
+		<span class="pr-covid-analysis-report pr-font-rmono">In Figure 2 we plot all the regions of the country based on their ranks received each day. What is interesting to see is that there are quite a few sharp changes in the graph for a few states which shows that this pandemic has been very difficult to be controlled in most of the states in this country.</span>
+		<span class="pr-covid-analysis-report pr-font-rmono">Figure 3 shows us a comparative plot between two randomly selected states, West Bengal and Gujarat. This is mainly to show that the script we have written, which can be found attached to this analysis as a Google Colab Notebook, can be used to compare these rankings of as many states as required by the user. It shall always run on the latest available data. We welcome you to go give it a try and find out new patterns between different states. In this case we see that while at the beginning both West Bengal and Gujarat had similar ranking in terms of number of confirmed cases, but one point Gujarat has spiked up further and then fallen since after which West Bengal has been performing worse at a constant pace.</span>
+		<span class="pr-covid-analysis-report pr-font-rmono">Figure 4 shows us the comparative ranking of top five worst affected states in terms of infection spread. It takes into account Maharashtra, the most affected state in India, Kerala, Tamil Nadu, Gujarat, Delhi and Madhya Pradesh. We can see that while Maharashtra did take a small dip in the ranking initially, but later it consistantly kept itself to rank 1 for the rest of the analysis. Kerala shows a great performance with a steep drop in ranking in the early days.</span>
+		<span class="pr-analysis-report-subheader pr-font-chn">Recovery Cases</span>
+		<div fxLayout="row wrap" fxLayoutAlign="space-around center">
+			<div fxLayout="column" fxLayoutAlign="center center" (click)="navigateToAuthor('assets/image/analysis-04-recovery-individualranking.png')" class="pr-covid-analysis-image-white-container mat-elevation-z8">
+				<img src="assets/image/analysis-04-recovery-individualranking.png" class="pr-covid-analysis-image pr-non-selectable pr-no-focus">
+				<span class="pr-covid-analysis-image-title pr-font-chn">Figure 5</span>
+			</div>
+			<div fxLayout="column" fxLayoutAlign="center center" (click)="navigateToAuthor('assets/image/analysis-04-recovery-overallranking.png')" class="pr-covid-analysis-image-white-container mat-elevation-z8">
+				<img src="assets/image/analysis-04-recovery-overallranking.png" class="pr-covid-analysis-image pr-non-selectable pr-no-focus">
+				<span class="pr-covid-analysis-image-title pr-font-chn">Figure 6</span>
+			</div>
+		</div>
+		<div fxLayout="row wrap" fxLayoutAlign="space-around center">
+			<div fxLayout="column" fxLayoutAlign="center center" (click)="navigateToAuthor('assets/image/analysis-04-recovery-owncomparisonranking.png')" class="pr-covid-analysis-image-white-container mat-elevation-z8">
+				<img src="assets/image/analysis-04-recovery-owncomparisonranking.png" class="pr-covid-analysis-image pr-non-selectable pr-no-focus">
+				<span class="pr-covid-analysis-image-title pr-font-chn">Figure 7</span>
+			</div>
+			<div fxLayout="column" fxLayoutAlign="center center" (click)="navigateToAuthor('assets/image/analysis-04-recovery-topranking.png')" class="pr-covid-analysis-image-white-container mat-elevation-z8">
+				<img src="assets/image/analysis-04-recovery-topranking.png" class="pr-covid-analysis-image pr-non-selectable pr-no-focus">
+				<span class="pr-covid-analysis-image-title pr-font-chn">Figure 8</span>
+			</div>
+		</div>
+		<span class="pr-covid-analysis-report pr-font-rmono">Figure 5 shows us the plotting of Telangana's rank over time. While late in the game, Telangana quickly became one of the top states with most number of recoveries. It does, however, show a steep fall later.</span>
+		<span class="pr-covid-analysis-report pr-font-rmono">In Figure 6 we plot all the regions of the country based on their ranks received each day.</span>
+		<span class="pr-covid-analysis-report pr-font-rmono">Figure 7 shows us a comparative plot between two randomly selected states, West Bengal and Gujarat. This is mainly to show that the script we have written, which can be found attached to this analysis as a Google Colab Notebook, can be used to compare these rankings of as many states as required by the user. In this case, again, we see that in the beginning both West Bengal and Gujarat had similar ranking in terms of number of recovered cases.</span>
+		<span class="pr-covid-analysis-report pr-font-rmono">Figure 8 shows us the comparative ranking of top five states in terms of recoveries. It takes into account Maharashtra, the most affected state in India, Kerala, Tamil Nadu, Gujarat, Delhi and Madhya Pradesh. We can see that Maharashtra has been consistently performing quite poorly in terms of recoveries.</span>
+		<span class="pr-analysis-report-subheader pr-font-chn">Deceased Cases</span>
+		<div fxLayout="row wrap" fxLayoutAlign="space-around center">
+			<div fxLayout="column" fxLayoutAlign="center center" (click)="navigateToAuthor('assets/image/analysis-04-deceased-individualranking.png')" class="pr-covid-analysis-image-white-container mat-elevation-z8">
+				<img src="assets/image/analysis-04-deceased-individualranking.png" class="pr-covid-analysis-image pr-non-selectable pr-no-focus">
+				<span class="pr-covid-analysis-image-title pr-font-chn">Figure 9</span>
+			</div>
+			<div fxLayout="column" fxLayoutAlign="center center" (click)="navigateToAuthor('assets/image/analysis-04-deceased-overallranking.png')" class="pr-covid-analysis-image-white-container mat-elevation-z8">
+				<img src="assets/image/analysis-04-deceased-overallranking.png" class="pr-covid-analysis-image pr-non-selectable pr-no-focus">
+				<span class="pr-covid-analysis-image-title pr-font-chn">Figure 10</span>
+			</div>
+		</div>
+		<div fxLayout="row wrap" fxLayoutAlign="space-around center">
+			<div fxLayout="column" fxLayoutAlign="center center" (click)="navigateToAuthor('assets/image/analysis-04-deceased-owncomparisonranking.png')" class="pr-covid-analysis-image-white-container mat-elevation-z8">
+				<img src="assets/image/analysis-04-deceased-owncomparisonranking.png" class="pr-covid-analysis-image pr-non-selectable pr-no-focus">
+				<span class="pr-covid-analysis-image-title pr-font-chn">Figure 11</span>
+			</div>
+			<div fxLayout="column" fxLayoutAlign="center center" (click)="navigateToAuthor('assets/image/analysis-04-deceased-topranking.png')"class="pr-covid-analysis-image-white-container mat-elevation-z8">
+				<img src="assets/image/analysis-04-deceased-topranking.png" class="pr-covid-analysis-image pr-non-selectable pr-no-focus">
+				<span class="pr-covid-analysis-image-title pr-font-chn">Figure 12</span>
+			</div>
+		</div>
+		<span class="pr-covid-analysis-report pr-font-rmono">Figure 9 shows us the plotting of Delhi's rank over time. Delhi shows a steep rise in having the most number of deaths cumulatively over time.</span>
+		<span class="pr-covid-analysis-report pr-font-rmono">In Figure 10 we plot all the regions of the country based on their ranks received each day.</span>
+		<span class="pr-covid-analysis-report pr-font-rmono">Figure 11 shows us a comparative plot between two randomly selected states, West Bengal and Gujarat. This is mainly to show that the script we have written, which can be found attached to this analysis as a Google Colab Notebook, can be used to compare these rankings of as many states as required by the user. In this case, yet again, we see that while at the beginning both West Bengal and Gujarat had similar ranking in terms of number of deceased cases, this goes down for West Bengal but steeply rises for Gujarat.</span>
+		<span class="pr-covid-analysis-report pr-font-rmono">Figure 12 shows us the comparative ranking of top five states in terms of recoveries. It takes into account Maharashtra, the most affected state in India, Kerala, Tamil Nadu, Gujarat, Delhi and Madhya Pradesh. Here we see that even though Maharashtra may have the most number of infected cases cumulatively, it has very few deceased cases.</span>
+		<span class="pr-analysis-report-subheader pr-font-chn">Conclusion</span>
+		<span class="pr-covid-analysis-report pr-font-rmono">Using our scripts, we can find these sort of ranking for all the states in India and even run comparative analysis. Further research may include ranking based on the percentage of population for each state that the virus has affected.</span>
+		<div fxLayout="row wrap" class="pr-margin-top-30px">
+			<div fxLayout.xs="column" fxLayout.sm="column" fxLayout.md="row" fxLayout.lg="row" fxLayout.xl="row" fxLayoutAlign="center center" (click)="navigateToAuthor('https://www.linkedin.com/in/sayan-ghosh-32a818105/')" class="pr-author-tag mat-elevation-z2">
+				<div fxLayout="row" fxLayoutAlign="center center" class="pr-author-tag-image-container">
+					<img src="assets/image/sayan.jpg" class="pr-author-image mat-elevation-z8 pr-non-selectable pr-no-focus">
+				</div>
+				<div fxLayout="column" fxLayoutAlign="center start" class="pr-author-tag-content pr-font-chn">
+					<span class="pr-author-tag-name">Sayan Ghosh</span>
+					<span class="pr-author-tag-info-1">Dept. of Computer Science &amp; Engineering</span>
+					<span class="pr-author-tag-info-2">University Of Kalyani</span>
+				</div>
+			</div>
+			<div fxLayout.xs="column" fxLayout.sm="column" fxLayout.md="row" fxLayout.lg="row" fxLayout.xl="row" fxLayoutAlign="center center" (click)="navigateToAuthor('https://www.linkedin.com/in/debacharyaa/')" class="pr-author-tag mat-elevation-z2">
+				<div fxLayout="row" fxLayoutAlign="center center" class="pr-author-tag-image-container">
+					<img src="assets/image/debabrata.jpg" class="pr-author-image mat-elevation-z8 pr-non-selectable pr-no-focus">
+				</div>
+				<div fxLayout="column" fxLayoutAlign="center start" class="pr-author-tag-content pr-font-chn">
+					<span class="pr-author-tag-name">Debabrata Acharya</span>
+					<span class="pr-author-tag-info-1">Dept. of Computer Science &amp; Engineering</span>
+					<span class="pr-author-tag-info-2">University Of Kalyani</span>
+				</div>
+			</div>
+		</div>
+		<span class="pr-analysis-report-subheader pr-font-chn">Appendix</span>
+		<div fxLayout="column" class="pr-margin-top-30px">
+			<div fxLayout="row" routerLink="/covid" class="pr-analysis-appendix-element pr-non-selectable pr-no-focus">
+				<div fxLayout="row" fxLayoutAlign="center center" fxFlex="10">
+					<span class="pr-analysis-appendix-count pr-font-chn">&lt;&lt;</span>
+				</div>
+				<div fxLayout="column" fxLayoutAlign="center start" fxFlex="90">
+					<span class="pr-analysis-appendix-header pr-font-chn">Go back to COVID-19 dashboard</span>
+				</div>
+			</div>
+			<div fxLayout="row" routerLink="/covid/analysis/3" class="pr-analysis-appendix-element pr-non-selectable pr-no-focus">
+				<div fxLayout="row" fxLayoutAlign="center center" fxFlex="10">
+					<span class="pr-analysis-appendix-count pr-font-chn">03</span>
+				</div>
+				<div fxLayout="column" fxLayoutAlign="center start" fxFlex="90">
+					<span class="pr-analysis-appendix-header pr-font-chn">Heatmap analysis of nCoV-2019 spread in India</span>
+					<span class="pr-analysis-appendix-desc pr-font-rmono">In the representations given below we have tried to put forth the cumulative and the daily stats of the states that top in the confirmed, recovered and deceased counts respectively.</span>
+				</div>
+			</div>
+			<div fxLayout="row" routerLink="/covid/analysis/2" class="pr-analysis-appendix-element pr-non-selectable pr-no-focus">
+				<div fxLayout="row" fxLayoutAlign="center center" fxFlex="10">
+					<span class="pr-analysis-appendix-count pr-font-chn">02</span>
+				</div>
+				<div fxLayout="column" fxLayoutAlign="center start" fxFlex="90">
+					<span class="pr-analysis-appendix-header pr-font-chn">Analysis of COVID-19 spread vs GDP Per Capita of affected countries</span>
+					<span class="pr-analysis-appendix-desc pr-font-rmono">In this analysis of COVID 19, we try to find out whether there is any relation between the virus infection, number of deaths, recovery in terms of per capita income of a country.</span>
+				</div>
+			</div>
+			<div fxLayout="row" routerLink="/covid" class="pr-analysis-appendix-element pr-non-selectable pr-no-focus">
+				<div fxLayout="row" fxLayoutAlign="center center" fxFlex="10">
+					<span class="pr-analysis-appendix-count pr-font-chn">01</span>
+				</div>
+				<div fxLayout="column" fxLayoutAlign="center start" fxFlex="90">
+					<span class="pr-analysis-appendix-header pr-font-chn">Relation between average infection rate and surface air temperature of affected areas</span>
+					<span class="pr-analysis-appendix-desc pr-font-rmono">Since this analysis depends on live data, it can found under the <span class="pr-analysis-important-marker">"Analyses" tab on the COVID dashboard</span>.</span>
+				</div>
+			</div>
+		</div>
+	</div>
+</div>
