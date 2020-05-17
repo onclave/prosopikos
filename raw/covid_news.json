@@ -1,5 +1,116 @@
 [
 	{
+		"date": "16/05/2020",
+		"india": [
+			{
+				"heading": "Assam Wants Lockdown Extended By 2 More Weeks",
+				"description": "The Assam government has recommended an extension of the lockdown by at least two weeks and a host of other measures just days before Lockdown 3.0 ends.",
+				"source": "https://www.ndtv.com/india-news/lockdown-4-assam-wants-lockdown-extended-by-2-more-weeks-writes-to-centre-2229644"
+			},
+			{
+				"heading": "Jaipur jail becomes new super cluster",
+				"description": "Rajasthan on Saturday reported 177 Covid-19 cases, 116 of them from the Jaipur district jail, as the infection tally jumped to 4,924 in the state.",
+				"source": "https://www.indiatoday.in/india/story/jaipur-jail-becomes-super-cluster-reports-116-of-177-fresh-covid-19-cases-rajasthan-1678806-2020-05-16"
+			},
+			{
+				"heading": "Punjab lifts curfew but lockdown to stay till May 31",
+				"description": "Punjab Chief Minister Amarinder Singh has announced the replacement of curfew with a lockdown till May 31 in the state in view of the ongoing coronavirus crisis. Singh also hinted at the resumption of limited public transport and maximum possible relaxations in non-containment zones from May 18, a notification released by Punjab Chief Minister's Office read.",
+				"source": "https://www.indiatvnews.com/news/india/punjab-lockdown-extended-may-31-limited-public-transport-amarinder-singh-617814"
+			}
+		],
+		"world": [
+			{
+				"heading": "Coronavirus-hit Italy seeks to boost tourism by opening borders June 3",
+				"description": "Italy will open both regional and international borders will on June 3, with the government eliminating a 14-day quarantine for anyone arriving from abroad.",
+				"source": "https://www.indiatoday.in/world/story/coronavirus-hit-italy-seeks-to-boost-tourism-by-opening-borders-june-3-1678787-2020-05-16"
+			},
+			{
+				"heading": "Antimicrobial Surface Coating Kills Coronavirus For 90 Days",
+				"description": "A specially formulated antimicrobial coating can keep surfaces clear of a human coronavirus for up to 90 days with just one application, a preliminary study said Friday, suggesting a new line of defense against COVID-19.",
+				"source": "https://www.ndtv.com/world-news/coronavirus-antimicrobial-surface-coating-kills-coronavirus-for-90-days-says-study-2229663"
+			},
+			{
+				"heading": "Pakistan resumes domestic flights partially as nation-wide lockdown eased",
+				"description": "Pakistan on Saturday resumed domestic flight operations in a phased manner as the government eased the nationwide-lockdown imposed to contain the spread of the coronavirus that has claimed the lives of over 830 people in the country.",
+				"source": "https://economictimes.indiatimes.com/news/international/world-news/pakistan-resumes-domestic-flights-partially-as-nation-wide-lockdown-eased/articleshow/75776560.cms"
+			}
+		]
+	},
+	{
+		"date": "15/05/2020",
+		"india": [
+			{
+				"heading": "Social distancing in classrooms when schools reopen?",
+				"description": "HRD Minister Ramesh Pokhriyal hinted in a Twitter interaction that since social distancing would need to be maintained even when schools reopen, classes might need to be held with just 30% of students.",
+				"source": "https://www.indiatoday.in/education-today/news/story/social-distancing-in-classrooms-schools-reopen-30-students-hrd-minister-1678330-2020-05-15"
+			},
+			{
+				"heading": "Mizoram extends lockdown till May 31",
+				"description": "The Mizoram government on Friday extended lockdown till May 31 to check the spread of coronavirus infection, an official said. The decision was taken after various political parties and several organisations, including those of NGOs, churches and doctors, favoured extension of the lockdown at a meeting on Thursday, he said.",
+				"source": "https://timesofindia.indiatimes.com/india/mizoram-extends-lockdown-till-may-31/articleshow/75763871.cms"
+			},
+			{
+				"heading": "With more than 85,000 cases, India’s coronavirus count pips China",
+				"description": "India now has more coronavirus cases than China. On Friday, India's tally of COVID-19 cases crossed 85,000 -- which is now higher than China's 84,031 confirmed cases, according to data provided by Johns Hopkins University. However, India's fatality rate of 3.2 per cent is much lower than China's 5.5 per cent.",
+				"source": "https://www.timesnownews.com/india/article/india-s-coronavirus-count-pips-china-s-how-we-got-here/592448?utm_source=googlenewstand&utm_medium=referral&utm_campaign=india"
+			}
+		],
+		"world": [
+			{
+				"heading": "Slovenia Becomes 1st European Country To Call An End To COVID-19 Epidemic",
+				"description": "Slovenia opened its borders on Friday after declaring an end to its coronavirus epidemic, despite new infections still being reported. ‘Today Slovenia has the best epidemic situation in Europe, which enables us to call off the general epidemic,’ Prime Minister Janez Jansa said, two months after the epidemic was declared.",
+				"source": "https://www.ndtv.com/world-news/coronavirus-slovenia-becomes-1st-european-country-to-call-an-end-to-covid-19-epidemic-2229396"
+			},
+			{
+				"heading": "Chinese city quarantines thousands over new cluster",
+				"description": "A major city in northeast China has quarantined over 7,500 people after it discovered three new coronavirus cases in the past five days as the region sees a surge in infections.",
+				"source": "https://www.dailypioneer.com/2020/world/chinese-city-quarantines-thousands-over-new-cluster.html"
+			},
+			{
+				"heading": "Covid-19 pandemic will lead to over 28 million cancelled surgeries worldwide",
+				"description": "More than 28 million planned surgeries across the world could be cancelled as a result of the COVID-19 pandemic, leading to patients facing a lengthy wait for their health issues to be resolved, according to a study.",
+				"source": "https://www.indiatoday.in/world/story/covid-19-pandemic-will-lead-to-over-28-million-cancelled-surgeries-worldwide-study-1678501-2020-05-15"
+			}
+		]
+	},
+	{
+		"date": "14/05/2020",
+		"india": [
+			{
+				"heading": "Centre to provide Rs 30,000 crore additional emergency fund to small, marginal farmers",
+				"description": "Finance minister Nirmala Sitharaman on Thursday announced a Rs 30,000 crore additional emergency working capital fund to ease the stress faced by small and marginal farmers due to the coronavirus-led lockdown across the country.",
+				"source": "https://timesofindia.indiatimes.com/business/india-business/centre-to-provide-rs-30000-crore-additional-emergency-fund-to-small-marginal-farmers/articleshow/75739604.cms"
+			},
+			{
+				"heading": "Supreme Court Judge, Family In COVID-19 Quarantine After Cook Tests Positive",
+				"description": "A Supreme Court judge and his family have gone into self-quarantine in Delhi after their cook tested positive for coronavirus. The cook was tested for COVID-19 after returning from leave and may have contracted the highly contagious disease while he was away, sources said.",
+				"source": "https://www.ndtv.com/india-news/coronavirus-supreme-court-judge-family-in-covid-19-quarantine-after-cook-tests-positive-2229016"
+			},
+			{
+				"heading": "Migrants Returning To UP On Special Trains Will Not Be Charged",
+				"description": "Uttar Pradesh Chief Minister Yogi Adityanath on Thursday said that no money will be charged from migrant labourers returning to the state on the special trains arranged on the request of the state.",
+				"source": "https://www.ndtv.com/india-news/migrants-returning-to-up-on-special-trains-will-not-be-charged-yogi-adityanath-2228967"
+			}
+		],
+		"world": [
+			{
+				"heading": "Abbott coronavirus test missed a large number of positive results caught by a rival firm, preliminary study says",
+				"description": "The speedy Abbott test, which is supposed to determine in five to 13 minutes whether a person has the virus, missed a third of the positive samples found by the diagnostic company Cepheid when both tests used nasopharyngeal swabs, according to the study done by a group from New York University. It missed more than 48 percent of cases when dry nasal swabs were run on Abbott machines, compared to nasopharyngeal swabs run on the Cepheid testing platform.",
+				"source": "https://www.washingtonpost.com/health/2020/05/13/abbott-test-hailed-by-president-trump-has-been-dogged-by-accuracy-questions/"
+			},
+			{
+				"heading": "Ferrari reveals details of low-cost coronavirus ventilator",
+				"description": "Ferrari has released images of the ventilator it has produced with the Italian Institute of Technology (IIT) that can be built from scratch in five weeks to help coronavirus patients. The design of the ventilator, named FI5, has been released to the public for anyone to produce across the world.",
+				"source": "https://www.espn.in/f1/story/_/id/29169438/ferrari-reveals-details-low-cost-covid-19-ventilator"
+			},
+			{
+				"heading": "COVID-19 Becoming Child Rights Crisis, 6,000 Children Could Die Daily",
+				"description": "The UN's children agency has warned that an additional 6,000 children could die daily from preventable causes over the next six months as the COVID-19 pandemic weakens the health systems and disrupts routine services.",
+				"source": "https://www.ndtv.com/world-news/covid-19-becoming-child-rights-crisis-6-000-children-could-die-daily-unicef-2228725"
+			}
+		]
+	},
+	{
 		"date": "13/05/2020",
 		"india": [
 			{
