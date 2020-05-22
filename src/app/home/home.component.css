@@ -2,13 +2,6 @@
 	height: 100%;
 }
 
-/* .pr-home-image-container {
-	height: 70vh;
-	background-image: url('../../assets/image/home-background.svg');
-	background-size: contain;
-	background-repeat: no-repeat;
-} */
-
 .pr-home-image {
 	width: 100%;
 	height: auto;

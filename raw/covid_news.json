@@ -1,5 +1,190 @@
 [
 	{
+		"date": "21/05/2020",
+		"india": [
+			{
+				"heading": "Air Fares To Be Capped For Next 3 Months, Delhi-Mumbai Max Fare Rs 10,000",
+				"description": "Airlines will have to follow ticket price guidelines issued by the Civil Aviation Ministry when they restart some domestic flights, two months after air travel was halted to fight the novel coronavirus, the government said on Thursday. A Delhi-Mumbai flight ticket will have to be priced between Rs 3,500 and 10,000 for the next three months, Aviation Minister Hardeep Singh Puri said.",
+				"source": "https://www.ndtv.com/india-news/just-as-it-was-important-to-impose-the-lockdown-time-has-come-to-open-up-again-civil-aviation-minister-2232750"
+			},
+			{
+				"heading": "Assam makes 14-day quarantine mandatory for domestic flight passengers",
+				"description": "With domestic flight services resuming from May 25, the Assam government has adopted its own standard operating procedure (SOP) and made it mandatory for all passengers coming to Assam to stay in quarantine for 14 days.",
+				"source": "https://www.indiatoday.in/india/story/assam-makes-14-day-quarantine-mandatory-for-domestic-flight-passengers-1680592-2020-05-22"
+			},
+			{
+				"heading": "Maharashtra Crosses 40,000 COVID-19 Cases",
+				"description": "Maharashtra registered as many as 2,345 new coronavirus cases in the last 24 hours, taking the COVID-19 tally in the state to 41,642, health officials said on Thursday. Mumbai crossed the 25,000 mark with 1,382 new cases.",
+				"source": "https://www.ndtv.com/india-news/coronavirus-maharashtra-crosses-40-000-covid-19-cases-mumbai-at-over-25-000-2233041"
+			}
+		],
+		"world": [
+			{
+				"heading": "World sees highest daily increase in virus cases - WHO",
+				"description": "The WHO said 106,000 new cases had been reported to them in the last 24 hours. Director-General Tedros Adhanom Ghebreyesus has expressed particular concern about rising infections in low and middle-income nations.",
+				"source": "https://www.bbc.com/news/world-52748894"
+			},
+			{
+				"heading": "Wuhan finally bans eating and hunting of wild animals in the wake of Coronavirus",
+				"description": "The epicentre of the deadly Coronavirus, Wuhanhas now completely banned the consumption of wild animals and also made wildlife trade illegal. The news came after the government released a new regulation on its official website.",
+				"source": "https://timesofindia.indiatimes.com/travel/destinations/wuhan-finally-bans-eating-and-hunting-of-wild-animals-in-the-wake-of-coronavirus/as75861715.cms"
+			},
+			{
+				"heading": "How Afghanistan Failed to Contain COVID-19",
+				"description": "Long-suffering Afghanistan is increasingly facing an ever more severe threat: coronavirus amid political chaos. If serious action is not taken to prepare, the Afghan Public Health Ministry estimates that 25.6 million Afghans will be infected and 110,000 Afghans will die from COVID-19.",
+				"source": "https://thediplomat.com/2020/03/how-afghanistan-failed-to-contain-covid-19/"
+			}
+		]
+	},
+	{
+		"date": "20/05/2020",
+		"india": [
+			{
+				"heading": "Haryana takes back decision to ply inter-state buses, public transport within state only",
+				"description": "The decision came after Home minister Anil Vij met Chief Minister ML Khattar and told him that it will be difficult to keep a check as there is high possibility of Covid-19 infection spreading once people freely travel from one state to the other.",
+				"source": "https://www.indiatoday.in/india/story/covid-19-lockdown-haryana-takes-back-decision-ply-inter-state-buses-public-transport-within-state-only-1680130-2020-05-20"
+			},
+			{
+				"heading": "MHA gives exemptions from lockdown to conduct board exams of classes 10, 12",
+				"description": "Taking into consideration the academic interest of a large number of students, the home ministry has allowed Board examinations for Class X and Class XII to be conducted during the lockdown period, albeit subject to safety measures like wearing face masks and maintaining social distancing.",
+				"source": "https://timesofindia.indiatimes.com/india/mha-gives-exemptions-from-lockdown-to-conduct-board-exams-of-classes-10-12/articleshow/75851997.cms"
+			},
+			{
+				"heading": "26 Scientists Among 150 Indians Returning Home From South Africa This Week",
+				"description": "Twenty-six Indian scientists stranded in South Africa's Cape Town due to the coronavirus lockdown will be heading back home this week. They had been on a mission to Antarctica and stuck in South Africa three months ago after the imposition of the lockdown.",
+				"source": "https://www.ndtv.com/india-news/coronavirus-26-scientists-among-150-indians-returning-home-from-south-africa-this-week-2232184"
+			}
+		],
+		"world": [
+			{
+				"heading": "Trump says US topping world virus cases is 'badge of honour'",
+				"description": "‘I look at that as, in a certain respect, as being a good thing because it means our testing is much better,’ he said at the White House.",
+				"source": "https://www.bbc.com/news/world-us-canada-52733220"
+			},
+			{
+				"heading": "Pandemic could force 60 million more people to live on less than $2 a day",
+				"description": "The coronavirus pandemic could push as many as 60 million people into extreme poverty, the World Bank said on Tuesday. The warning suggests deepening pessimism among economists about the scale and duration of the fallout from what the bank described as an ‘unprecedented crisis.’",
+				"source": "https://edition.cnn.com/2020/05/20/economy/world-bank-poverty-coronavirus-intl-hnk-scli/index.html"
+			},
+			{
+				"heading": "South Korea's COVID precautions as students head back to school offers a glimpse of what's needed to re-open",
+				"description": "High school students lined up in front of school gates across South Korea on Wednesday as they waited to get their temperature checked and sanitize their hands one by one. But, after months of delay, high school seniors were the first to come back to school in the country.",
+				"source": "https://abcnews.go.com/International/high-school-seniors-head-back-school-south-korea/story?id=70784590"
+			}
+		]
+	},
+	{
+		"date": "19/05/2020",
+		"india": [
+			{
+				"heading": "UN Calls Indian Aid Of $2 Million For Palestinian Refugees ‘Commendable’",
+				"description": "India has given USD 2 million in aid to the United Nations Relief and Works Agency working for the welfare of Palestinian refugees in support of its core programmes and services, including education and health, amidst the coronavirus crisis.",
+				"source": "https://newsfeed.co.in/world/un-calls-indian-aid-of-2-million-for-palestinian-refugees-commendable/"
+			},
+			{
+				"heading": "Mumbai Turns Iconic Spots Into Quarantine Facilities As Virus Cases Surge",
+				"description": "Mumbai, India's financial hub and the epicenter of the nation's coronavirus outbreak, is converting several of its iconic structures into quarantine facilities as it races to prepare for a predicted peaking of infections this month.",
+				"source": "https://www.ndtv.com/india-news/lockdown-4-0-mumbai-turns-iconic-spots-into-quarantine-facilities-as-virus-cases-surge-2231219"
+			},
+			{
+				"heading": "Jharkhand Allows More Relaxations, Economic Activities Amid Lockdown4",
+				"description": "The Jharkhand government on Monday permitted industrial units to resume operations, retail liquor stores, book and hardware shops in non-containment zones to reopen in the fourth phase of the coronavirus lockdown.",
+				"source": "https://www.ndtv.com/india-news/jharkhand-allows-more-relaxations-economic-activities-amid-lockdown4-2231151"
+			}
+		],
+		"world": [
+			{
+				"heading": "Jerusalem's Al-Aqsa Mosque to reopen after Eid al-Fitr holiday",
+				"description": "Jerusalem's Al-Aqsa Mosque will reopen to Muslim worshippers after the Eid holiday, a statement from its governing body said, two months after it was closed due to the coronavirus pandemic. ",
+				"source": "https://www.aljazeera.com/news/2020/05/jerusalem-al-aqsa-mosque-reopen-eid-al-fitr-holiday-200519132424666.html"
+			},
+			{
+				"heading": "Canada-U.S. border to remain closed for another month as provinces slowly reopen",
+				"description": "Provinces are cautiously beginning to allow businesses and services to reopen from their pandemic lockdowns, but the Canada-U.S. border will remain closed for at least another 30 days.",
+				"source": "https://www.cbc.ca/news/politics/border-canada-us-closed-1.5575214"
+			},
+			{
+				"heading": "Full Global Economic Recovery Unlikely In 2021, Warns IMF Chief",
+				"description": "The global economy will take much longer to recover fully from the shock caused by the new coronavirus than initially expected, the head of the International Monetary Fund said, and she stressed the danger of protectionism.",
+				"source": "https://www.ndtv.com/world-news/coronavirus-full-global-economic-recovery-unlikely-in-2021-warns-imf-chief-kristalina-georgieva-2231118"
+			}
+		]
+	},
+	{
+		"date": "18/05/2020",
+		"india": [
+			{
+				"heading": "Coronavirus Cases In India Cross 1 Lakh, Over 3,000 Dead",
+				"description": "Twenty-four Indian nationals who returned from Kuwait have tested positive for the novel coronavirus in Madhya Pradesh. The passengers were among the 134 Indian nationals who arrived at the Indore Airport on May 13. Upon their arrival, the returnees were quarantined at the Army's 3 EME Centre in Bhopal. ",
+				"source": "https://www.ndtv.com/india-news/coronavirus-news-24-kuwait-returnees-test-covid-19-positive-in-madhya-pradesh-2230773"
+			},
+			{
+				"heading": "Can only ease lockdown when coronavirus cases come down says Maharashtra CM Uddhav Thackeray",
+				"description": "While the Centre has eased restrictions in lockdown 4.0, Maharashtra CM Uddhav Thackeray maintained that his state will not be opening up anytime soon.",
+				"source": "https://www.indiatoday.in/india/story/can-only-ease-lockdown-when-coronavirus-cases-come-down-maharashtra-cm-uddhav-thackeray-1679416-2020-05-18"
+			},
+			{
+				"heading": "Coronavirus Cases In India Cross 1 Lakh, Over 3,000 Dead",
+				"description": "India's coronavirus cases crossed one lakh today with more people testing positive for COVID-19 in Maharashtra, Gujarat, Tamil Nadu and other states. The cases rose even as several states announced easing of lockdown guidelines after it was extended till May 31 by the centre. Over 3,000 have died in India due to coronavirus so far.",
+				"source": "https://www.ndtv.com/india-news/coronavirus-cases-in-india-cross-1-lakh-over-3-000-dead-2231102"
+			}
+		],
+		"world": [
+			{
+				"heading": "SARS Antibodies Can Block COVID-19 Infection",
+				"description": "An antibody from a patient who recovered from SARS has been shown to block COVID-19 infection in a laboratory setting, researchers said on Monday in another potential breakthrough in the search for coronavirus treatment.",
+				"source": "https://www.ndtv.com/world-news/coronavirus-outbreak-sars-antibodies-can-block-covid-19-infection-say-researchers-2231055"
+			},
+			{
+				"heading": "$606,000 For Research To Test If Dogs Can Sniff, Identify COVID-19 Patients",
+				"description": "Dogs' ability to sniff out whether people are infected with COVID-19 will be put to the test by British researchers, in a bid to develop a fast, non-invasive means of detecting the disease.",
+				"source": "https://www.ndtv.com/world-news/coronavirus-606-000-for-research-to-test-if-dogs-can-sniff-identify-covid-19-patients-2231040"
+			},
+			{
+				"heading": "China to hold Parliament session from May 21 as Covid-19 abates",
+				"description": "China on Monday announced that the annual Parliament session, which was delayed due to the coronavirus outbreak, would be held here from May 21 to showcase the country's return to normalcy following the pandemic.",
+				"source": "https://www.indiatoday.in/world/story/china-parliament-session-may-21-covid19-coronavirus-1679374-2020-05-18"
+			}
+		]
+	},
+	{
+		"date": "17/05/2020",
+		"india": [
+			{
+				"heading": "Lockdown Extended Till May 31 - Full Text Of Centre's Order",
+				"description": "The nationwide lockdown will continue till May 31, allow movement of people during the daytime, and inter-state transport -- buses and public vehicles, the government of India announced today. It will, however, retain the key bars on air travel and metro rail, malls and gyms and big gatherings.",
+				"source": "https://www.ndtv.com/india-news/lockdown-extended-till-may-31-full-text-of-centres-order-2230386"
+			},
+			{
+				"heading": "UP sees highest single-day Covid-19 spike with 213 fresh cases",
+				"description": "Uttar Pradesh recorded its highest single-day spike with 213 fresh Covid-19 cases on Sunday, taking the total in the state to 4,353. So far, 2,444 people have recovered from the disease, while 104 people have died due to it, Principal Secretary Medical and Health Amit Mohan Prasad said.",
+				"source": "https://www.hindustantimes.com/lucknow/up-sees-highest-single-day-covid-19-spike-with-213-fresh-cases-total-now-4-353/story-vUlKJv79qZWSwHJPxM9kUI.html"
+			},
+			{
+				"heading": "E-commerce to resume for non-essentials in red zones",
+				"description": "The central government on Sunday implicitly allowed the resumption of e-commerce activities for both essential and non-essential deliveries in all areas of the country except containment zones. The relaxation, however, is subject to approval from a respective state government.",
+				"source": "https://www.indiatoday.in/india/story/e-commerce-non-essentials-red-zones-lockdown-4-1679020-2020-05-17"
+			}
+		],
+		"world": [
+			{
+				"heading": "Peru Says Will Build Hospital In Amazon For COVID-19 Patients",
+				"description": "Peru said it will construct a fast-build hospital in the Amazon as it seeks to respond to a growing COVID-19 emergency sweeping through the indigenous population. State social security body EsSalud said it expects the 100-bed hospital in Pucallpa, capital of the remote Ucayali region on the border with Brazil, to be operational within three weeks.",
+				"source": "https://newsfeed.co.in/india/politics-india/peru-says-will-build-hospital-in-amazon-for-covid-19-patients/"
+			},
+			{
+				"heading": "Wear a mask or face jail in Kuwait and Qatar",
+				"description": "Kuwait’s health ministry said anyone caught could face up to three months in prison, while Qatar state TV reported the maximum penalty there would be three years. In Kuwait the maximum fine stood at 5,000 dinars ($16,200) and in Qatar 200,000 riyals ($55,000).",
+				"source": "https://in.reuters.com/article/health-coronavirus-gulf/wear-a-mask-or-face-jail-in-kuwait-and-qatar-idINKBN22T0MO"
+			},
+			{
+				"heading": "Spraying Disinfectants In Open Doesn't Eliminate Coronavirus",
+				"description": "Spraying disinfectant on the streets, as practised in some countries, does not eliminate the new coronavirus and even poses a health risk, the World Health Organization (WHO) warned on Saturday.",
+				"source": "https://www.ndtv.com/world-news/coronavirus-spraying-disinfectants-in-open-doesnt-kill-coronavirus-says-who-2230055"
+			}
+		]
+	},
+	{
 		"date": "16/05/2020",
 		"india": [
 			{
