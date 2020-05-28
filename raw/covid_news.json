@@ -1,5 +1,190 @@
 [
 	{
+		"date": "26/05/2020",
+		"india": [
+			{
+				"heading": "India, Israel to join hands for boosting rapid testing",
+				"description": "Premier Indian institutions like the Defence Research and Development Organisation and the Council for Scientific and Industrial Research are likely to partner Israel’s Directorate of R&D in the Ministry of Defence for the purpose.",
+				"source": "https://www.livemint.com/politics/news/coronavirus-india-israel-to-join-hands-for-boosting-rapid-testing-11590396488025.html"
+			},
+			{
+				"heading": "1.45 Lakh Cases In India So Far, 4,167 Deaths",
+				"description": "The nationwide tally of coronavirus cases has crossed 1.45 lakh after 6,535 people tested positive for the deadly virus infection in the last 24 hours.",
+				"source": "https://www.ndtv.com/india-news/coronavirus-1-45-lakh-cases-in-india-so-far-4-167-deaths-2235087"
+			},
+			{
+				"heading": "47% dip in N-95 mask prices post NPPA advisory",
+				"description": "While earlier the N-95 masks  sold in the market ranged between ₹150 to 300 per unit, there has been a 47% dip in their prices, after the advisory issued by the the National Pharmaceutical Pricing Authority (NPPA). The regulatory body had to intervene to ensure the availability of this respiratory protection device at affordable rates in the country.",
+				"source": "https://www.tpci.in/news_buzz/47-dip-in-n-95-mask-prices-post-nppa-advisory/"
+			}
+		],
+		"world": [
+			{
+				"heading": "Saudi Arabia to end curfew on June 21, except in Mecca",
+				"description": "Saudi Arabia will start relaxing coronavirus restrictions on movement this week and lift the restrictions across the country, with the exception of the holy city of Mecca, from June 21, the state news agency reported in a statement early on Tuesday.",
+				"source": "https://www.aljazeera.com/news/2020/05/saudi-arabia-curfew-june-21-mecca-200526021532944.html"
+			},
+			{
+				"heading": "WHO warns of 'second peak' in areas where coronavirus declining",
+				"description": "Countries, where coronavirus infections are declining, could still face an “immediate second peak” if they let up too soon on measures to halt the outbreak, the World Health Organization said on Monday.",
+				"source": "https://www.indiatoday.in/world/story/who-coronavirus-second-peak-1681903-2020-05-26"
+			},
+			{
+				"heading": "Australian PM calls for economic overhaul to fuel post-coronavirus recovery",
+				"description": "Australian Prime Minister Scott Morrison on Tuesday called for an ideological truce between employers and workers to revive the country's A$2 trillion ($1.3 trillion) economy, which has been badly damaged by the coronavirus pandemic.",
+				"source": "https://www.deccanherald.com/business/australian-pm-calls-for-economic-overhaul-to-fuel-post-coronavirus-recovery-842029.html"
+			}
+		]
+	},
+	{
+		"date": "25/05/2020",
+		"india": [
+			{
+				"heading": "China to evacuate its citizens from India amid rising cases and increasing border tension",
+				"description": "China on Monday said it will evacuate its citizens “who have difficulties” and want to return home from India amid the coronavirus crisis, reported NDTV. A notice by the Chinese embassy in India said students, tourists and businessmen who have been stranded in India will be allowed to fly back to China on special flights but at their own expense.",
+				"source": "https://scroll.in/latest/962926/covid-19-china-to-evacuate-its-citizens-from-india-amid-rising-cases-and-increasing-border-tension"
+			},
+			{
+				"heading": "Travel Woes for Air Passengers as 630 Flights Cancelled on Day 1 Due to State Restrictions",
+				"description": "Domestic air travel resumed on Monday after two months even as a number of states were unenthusiastic about opening up their airports in view of rising COVID-19 cases causing around 630 flights to be cancelled.",
+				"source": "https://www.news18.com/news/auto/travel-woes-for-air-passengers-as-630-flights-cancelled-on-day-1-due-to-state-restrictions-2636907.html"
+			},
+			{
+				"heading": "Nagaland No Longer A Green State After 3 Test COVID-19 Positive",
+				"description": "Nagaland reported its 'first' COVID-19 cases on Monday, when three persons who recently returned to the state from Chennai were found infected with novel coronavirus, a health department official said.",
+				"source": "https://www.ndtv.com/india-news/nagaland-no-longer-a-green-state-after-3-test-covid-19-positive-2234940"
+			}
+		],
+		"world": [
+			{
+				"heading": "Spain wants to welcome foreign tourists back from July",
+				"description": "Spain urged foreign holidaymakers on Monday to return from July as one of Europe’s strictest lockdowns eased, but tourism businesses were sceptical about salvaging the summer season.",
+				"source": "https://www.indiatoday.in/world/story/spain-wants-to-welcome-foreign-tourists-back-from-july-1681760-2020-05-25"
+			},
+			{
+				"heading": "Coronavirus tracing app stirs rare privacy backlash in Qatar",
+				"description": "Privacy concerns over Qatar’s coronavirus contact tracing app, a tool that is mandatory on pain of prison, have prompted a rare backlash and forced officials to offer reassurance and concessions.",
+				"source": "https://www.arabnews.com/node/1680026/middle-east"
+			},
+			{
+				"heading": "Americans spend holiday at beaches and parks",
+				"description": "Americans sunbathed on beaches, fished from boats and strolled on boardwalks this holiday weekend, even as the U.S. death toll from COVID-19 fast approaches 100,000.",
+				"source": "https://www.indiatoday.in/world/story/americans-spend-holiday-at-beaches-and-parks-as-virus-death-toll-nears-100-000-1681718-2020-05-25"
+			}
+		]
+	},
+	{
+		"date": "24/05/2020",
+		"india": [
+			{
+				"heading": "Maharashtra Crosses 50,000-Mark, Reports Highest Single-Day COVID-19 Spike",
+				"description": "Maharashtra, the worst coronavirus-hit state in the country, reported its highest single-day spike of 3,041 cases on Sunday, taking the total past the 50,000-mark, government data said.",
+				"source": "https://www.ndtv.com/india-news/maharashtra-crosses-50-000-mark-reports-highest-single-day-coronavirus-spike-mumbai-at-30-542-cases-2234408"
+			},
+			{
+				"heading": "Sri Lanka seeks $1.1 billion currency swap facility from India to boost forex reserves",
+				"description": "Sri Lankan President Gotabaya Rajapaksa has requested India to provide a special $ 1.1 billion currency swap facility to boost the country's draining foreign exchange reserves in view of the economic slowdown due to the coronavirus pandemic.",
+				"source": "https://www.businesstoday.in/current/economy-politics/coronavirus-update-sri-lanka-seeks-11-billion-currency-swap-facility-from-india-to-boost-forex-reserves/story/404809.html"
+			},
+			{
+				"heading": "Special Plane Brings 132 Stranded Indians To Bihar From Muscat",
+				"description": "A special flight carrying 132 stranded Indians from Muscat landed at Gaya airport in Bihar today, officials said. None of the passengers exhibited symptoms of coronavirus during screening and medical examination, they said.",
+				"source": "https://www.ndtv.com/india-news/special-plane-brings-132-stranded-indians-to-bihar-from-muscat-2234329"
+			}
+		],
+		"world": [
+			{
+				"heading": "Churches hold first Sunday mass across France as lockdown eases",
+				"description": "French churches have held their first Sunday masses in more than two months after the government bowed to a ruling that churches, mosques and synagogues should be reopened, nearly two weeks into the relaxation of its shutdown.",
+				"source": "https://www.aljazeera.com/news/2020/05/churches-hold-sunday-mass-france-lockdown-eases-200524072504069.html"
+			},
+			{
+				"heading": "White House Restricts Travel From Brazil, Where Coronavirus Cases Near 350,000",
+				"description": "President Trump is barring the entry of most non-U.S. citizens who have been in Brazil within the past 14 days, the White House announced on Sunday, citing concerns over Brazil's rapidly worsening coronavirus crisis.",
+				"source": "https://www.npr.org/sections/coronavirus-live-updates/2020/05/24/861749690/white-house-restricts-travel-from-brazil-where-coronavirus-cases-near-350-000"
+			},
+			{
+				"heading": "Argentina extends mandatory lockdown until June 7",
+				"description": "Argentina extended until June 7 a mandatory lockdown in Buenos Aires on Saturday and tightened some movement restrictions, after a steady increase in the city's confirmed coronavirus cases in recent days.",
+				"source": "https://www.indiatoday.in/world/story/coronavirus-indonesia-ramzan-1681033-2020-05-23"
+			}
+		]
+	},
+	{
+		"date": "23/05/2020",
+		"india": [
+			{
+				"heading": "80% success chance for Oxford vaccine trials, says Serum Institute chief",
+				"description": "If the world is to gain access to a vaccine for coronavirus (COVID-19), there is a good chance it will pass through the doors of the Serum Institute of India here. The institute, the world’s largest manufacturer of vaccines by volume, is working on several candidates, including potentially mass-producing the AstraZeneca/Oxford University one, as well as developing its own.",
+				"source": "https://www.thehindu.com/sci-tech/health/coronavirus-80-success-chance-for-oxford-vaccine-trials-says-serum-institute-chief/article31654002.ece"
+			},
+			{
+				"heading": "In Population Of 1.35 Billion, India Has Only 0.1 Million COVID-19 Cases",
+				"description": "In a country of 1.35 billion people, there are only 0.1 million cases of COVID-19, said Union Health and Family Minister Harsh Vardhan on Friday.",
+				"source": "https://www.ndtv.com/india-news/coronavirus-union-minister-harsh-vardhan-says-in-population-of-1-35-billion-india-has-only-0-1-million-covid-19-cases-2233685"
+			},
+			{
+				"heading": "Quarantine centres in UP are so bad they have become ‘torture camps’, says Akhilesh Yadav",
+				"description": "Samajwadi Party President Akhilesh Yadav on Friday alleged the quarantine centres in Uttar Pradesh are so bad that they have become “torture camps” due to the “apathetic attitude” of the Yogi Adityanath government.",
+				"source": "https://theprint.in/india/quarantine-centres-in-up-are-so-bad-they-have-become-torture-camps-says-akhilesh-yadav/427446/"
+			}
+		],
+		"world": [
+			{
+				"heading": "UK To Introduce 14-Day Quarantine For International Arrivals",
+				"description": "Travellers arriving in Britain will face 14 days in quarantine from next month to prevent a second coronavirus outbreak, the government announced on Friday, warning that anyone breaking the rules faced a fine or prosecution.",
+				"source": "https://www.ndtv.com/world-news/coronavirus-uk-to-introduce-14-day-quarantine-for-international-arrivals-2233759"
+			},
+			{
+				"heading": "A Bed That Converts Into Coffin As Coronavirus Body Count Rises",
+				"description": "Disturbing images of bodies of dozens of coronavirus victims awaiting burial on the streets of Ecuador's largest city Guayaquil has motivated a businessman in neighboring Colombia to design something he hopes would prevent a similar scenario in other countries: hospital beds that can be converted to coffins.",
+				"source": "https://www.ndtv.com/world-news/coronavirus-colombian-businessman-makes-hospital-bed-coffin-combo-to-serve-covid-19-dead-2233845"
+			},
+			{
+				"heading": "Indonesians try to beat Eid exodus ban",
+				"description": "Thousands in Indonesia, the world's biggest Muslim majority nation, are using any trick in the book to reach their hometowns in time for celebrations at the end of Islam's holy fasting month this weekend.",
+				"source": "https://www.indiatoday.in/world/story/coronavirus-indonesia-ramzan-1681033-2020-05-23"
+			}
+		]
+	},
+	{
+		"date": "22/05/2020",
+		"india": [
+			{
+				"heading": "Congress leader Sanjay Jha tests positive for COVID-19",
+				"description": "Congress leader and spokesperson Sanjay Jha on Friday said he has tested positive for COVID-19 and will be under home quarantine for over a week as he is asymptomatic. He also urged people not to underestimate transmission risks.",
+				"source": "https://www.deccanherald.com/national/congress-leader-sanjay-jha-tests-positive-for-covid-19-840868.html"
+			},
+			{
+				"heading": "Maharashtra Takes Control Of 80% Of Private Hospital Beds",
+				"description": "The Maharashtra government has taken control of 80 per cent of all private hospital beds in the state till August 31 as it tackles over 40,000 coronavirus cases, the most in the country.",
+				"source": "https://www.ndtv.com/india-news/coronavirus-maharashtra-says-will-regulate-80-of-beds-in-private-hospitals-amid-covid-19-crisis-2233165"
+			},
+			{
+				"heading": "Tamil Nadu tells Centre to not begin flights till May 31 amid spurt in Coronavirus cases",
+				"description": "Tamil Nadu government has asked the Centre to not restart flights in the state until May 31 due to the sudden rise in the Coronavirus cases. The civil aviation ministry on Thursday had announced that only one-third of domestic commercial flight operations would resume on May 25.",
+				"source": "https://www.thestatesman.com/india/tamil-nadu-tells-centre-to-not-begin-flights-till-may-31-amid-spurt-in-coronavirus-cases-1502891112.html"
+			}
+		],
+		"world": [
+			{
+				"heading": "France allows faith gatherings, but worshippers must wear masks",
+				"description": "France is to allow the resumption of religious gatherings after a two-month hiatus caused by the Covid-19 outbreak, but worshippers will have to wear face masks, the French interior ministry announced.",
+				"source": "https://www.indiatoday.in/world/story/france-allows-faith-gatherings-but-worshippers-must-wear-masks-1681026-2020-05-23"
+			},
+			{
+				"heading": "US jobless total nears 40 million as 2.4 million more are left out of work",
+				"description": "Nearly 40 million Americans have been left out of work due to the coronavirus outbreak as another 2.4 million people filed jobless claims last week.",
+				"source": "https://metro.co.uk/2020/05/21/us-jobless-total-xxx-xxx-are-left-work-12738076/"
+			},
+			{
+				"heading": "Brazil Jumps to World No. 2 in Coronavirus Cases, Behind the U.S.",
+				"description": "Brazil became the world No. 2 hotspot for coronavirus cases on Friday, second only to the United States, after it confirmed that 330,890 people had been infected by the virus, overtaking Russia, the Health Ministry said.",
+				"source": "https://www.usnews.com/news/world/articles/2020-05-22/brazil-rises-to-no-2-in-coronavirus-cases-suffers-1-001-new-deaths"
+			}
+		]
+	},
+	{
 		"date": "21/05/2020",
 		"india": [
 			{
