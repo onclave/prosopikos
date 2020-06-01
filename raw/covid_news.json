@@ -1,5 +1,153 @@
 [
 	{
+		"date": "30/05/2020",
+		"india": [
+			{
+				"heading": "Lockdown 5.0 is Unlock 1.0 - New MHA rules allow nearly all to reopen",
+				"description": "According to the new guidelines, all activities outside containment zones have been allowed to resume in a phased manner from June 1. The guidelines will come into effect from June 1 and will be effective till June 30.",
+				"source": "https://www.indiatoday.in/india/story/mha-issues-guidelines-lockdown-5-coronavirus-covid19-open-closed-containment-zones-hotspots-1683744-2020-05-30"
+			},
+			{
+				"heading": "3 Indian companies get licence to manufacture NASA's coronavirus ventilators",
+				"description": "Three Indian companies have got licences from NASA to manufacture its indigenously developed ventilators for critical COVID-19 patients. The three Indian companies are Alpha Design Technologies Pvt Ltd, Bharat Forge Ltd and Medha Servo Drives Pvt Ltd, the space organisation said in a statement on Friday.",
+				"source": "https://www.indiatoday.in/india/story/nasa-ventilators-india-firms-get-licence-coronavirus-1683719-2020-05-30"
+			},
+			{
+				"heading": "Massive Sanitisation Drive in Parliament after Latest Case of Coronavirus Reported from Complex",
+				"description": "Government agencies undertook a massive drive on Saturday to sanitise all buildings in the Parliament House Complex after a fourth case of COVID-19 was reported from the complex, officials said.",
+				"source": "https://www.news18.com/news/india/massive-sanitisation-drive-in-parliament-after-latest-case-of-coronavirus-reported-from-complex-2644927.html"
+			}
+		],
+		"world": [
+			{
+				"heading": "Virus-Battered Italy Faces Worst Recession Since World War II",
+				"description": "Facing its deepest recession since World War II and with business confidence collapsing, the coronavirus pandemic is hitting Italy's economy hard. Business confidence in the eurozone's third largest economy in May plummeted to its lowest level since official statistics institute ISTAT started the index in March 2005.",
+				"source": "https://www.ndtv.com/world-news/coronavirus-battered-italy-faces-worst-recession-since-world-war-ii-2237615"
+			},
+			{
+				"heading": "'At last we're free' - Parisians head for the park as lockdown eases",
+				"description": "Parisians flocked to parks and gardens as they reopened in the sunny French capital on Saturday for the first time after almost 11 weeks of coronavirus lockdown, one of the last areas of France to ease restrictions.",
+				"source": "https://in.reuters.com/article/health-coronavirus-france-parks/at-last-were-free-parisians-head-for-the-park-as-lockdown-eases-idINKBN2360JJ"
+			},
+			{
+				"heading": "WHO, 37 Countries Launch Alliance To Share Tools To Battle COVID-19",
+				"description": "Thirty-seven countries and the World Health Organization (WHO) appealed on Friday for common ownership of vaccines, medicines and diagnostic tools to tackle the global coronavirus pandemic, taking aim at patent laws they fear could become a barrier to sharing crucial supplies.",
+				"source": "https://www.ndtv.com/world-news/who-37-countries-launch-alliance-to-share-tools-to-battle-covid-19-2237728"
+			}
+		]
+	},
+	{
+		"date": "29/05/2020",
+		"india": [
+			{
+				"heading": "India At No. 9 On Global Coronavirus Chart, Overtakes China In Deaths",
+				"description": "The number of coronavirus cases in India crossed 1.65 lakh today, making it the ninth worst-hit country by the deadly virus infection, while the number of deaths crossed China's official count, data from states governments and America's Johns Hopkins University showed.",
+				"source": "https://www.ndtv.com/india-news/coronavirus-india-at-no-9-in-global-covid-19-chart-overtakes-china-in-deaths-2236922"
+			},
+			{
+				"heading": "2 floors of Parliament Annexe building sealed after official tests positive for coronavirus",
+				"description": "A Rajya Sabha Secretariat official tested positive for COVID-19 on Friday, the fourth such case reported in the Parliament complex so far, sources said here. Out of the four, three were found to have contracted the infection after Parliament resumed operations on May 3 when Lockdown 2.0 ended and were on duty.",
+				"source": "https://www.indiatoday.in/india/story/2-floors-of-parliament-annexe-building-sealed-after-official-tests-positive-for-coronavirus-1683317-2020-05-29"
+			},
+			{
+				"heading": "West Bengal To Start Plasma Therapy To Treat COVID-19 Patients",
+				"description": "West Bengal has taken a major step towards starting plasma therapy to treat COVID-19 patients after a state-run hospital collected and preserved the blood component from a woman who recovered from the disease in March, a senior official of the health department said on Thursday.",
+				"source": "https://www.ndtv.com/india-news/coronavirus-india-west-bengal-to-start-plasma-therapy-to-treat-covid-19-patients-2236952"
+			}
+		],
+		"world": [
+			{
+				"heading": "U.S. hospitals slash use of drug championed by Trump as coronavirus treatment",
+				"description": "U.S. hospitals said they have pulled way back on the use of hydroxychloroquine, the malaria drug touted by President Donald Trump as a COVID-19 treatment, after several studies suggested it is not effective and may pose significant risks.",
+				"source": "https://in.reuters.com/article/health-coronavirus-usa-hydroxychloroquin/u-s-hospitals-slash-use-of-drug-championed-by-trump-as-coronavirus-treatment-idINKBN2351AX"
+			},
+			{
+				"heading": "Philippines opens up despite record cases, as outbreaks hit Asia",
+				"description": "The Philippines president has announced plans to ease one of longest and toughest coronavirus lockdowns in the world despite the country seeing its biggest daily spike in cases since the pandemic began.",
+				"source": "https://traptown.com/united-kingdom/united-kingdom/global-report-philippines-opens-up-despite-record-cases-as-outbreaks-hit-asia/"
+			},
+			{
+				"heading": "Coronavirus Pandemic Could Cause $8.5 Trillion Loss In Global Output",
+				"description": "UN chief Antonio Guterres has warned that the COVID-19 pandemic will cause unimaginable devastation, usher in hunger and famine of historic proportions, and lead to a loss of USD 8.5 trillion in global output -- the sharpest contraction since the Great Depression -- if nations did not respond with unity and solidarity.",
+				"source": "https://www.ndtv.com/world-news/coronavirus-pandemic-could-cause-8-5-trillion-loss-in-global-output-un-chief-antonio-guterres-2237121"
+			}
+		]
+	},
+	{
+		"date": "28/05/2020",
+		"india": [
+			{
+				"heading": "'India's COVID-19 Recovery Rate Surges To 42.75 Per Cent', Says Health Ministry",
+				"description": "India's recovery rate of COVID-19 patients has improved to 42.75% after 3,266 patients were cured in the last 24 hours, the Union Health Ministry said on Thursday. So far, a total of 67,691 people have been cured out of a total case figure of 1,58,333. That leaves 86,110 active cases in the country.",
+				"source": "https://www.republicworld.com/india-news/general-news/indias-covid-19-recovery-rate-surges-to-42-dot-75-percent-says-health-ministry.html"
+			},
+			{
+				"heading": "India acted as pharmacy of the world in response to coronavirus",
+				"description": "India has acted as the 'pharmacy of the world' and healthcare supplier to all parts of the globe in response to the coronavirus pandemic, the external affairs ministry said on Thursday.",
+				"source": "https://m.dailyhunt.in/news/india/english/deccan+herald-epaper-deccan/india+acted+as+pharmacy+of+the+world+in+response+to+coronavirus+mea-newsid-n187569802"
+			},
+			{
+				"heading": "Over 50 Lakh Stranded Migrants Returned Home On 3,736 Shramik Trains Since May 1",
+				"description": "The Indian Railways has ferried over 50 lakh migrant workers on board 3,736 'Shramik Special' trains since May 1, according to official data.",
+				"source": "https://www.ndtv.com/india-news/over-50-lakh-stranded-migrants-returned-home-on-3736-shramik-trains-since-may-1-2236859"
+			}
+		],
+		"world": [
+			{
+				"heading": "China parliament advances Hong Kong security law as U.S. tensions rise",
+				"description": "China’s parliament on Thursday approved a decision to go forward with national security legislation for Hong Kong that democracy activists and Western countries fear could erode the city’s freedoms and jeopardise its role as a global financial hub.",
+				"source": "https://www.reuters.com/article/us-hongkong-protests/china-parliament-approves-hong-kong-security-bill-as-tensions-with-u-s-rise-idUSKBN2340FZ"
+			},
+			{
+				"heading": "Six passengers who flew from Chennai to Salem test positive for coronavirus",
+				"description": "As many as six passengers on a TruJet flight from Chennai to Salem in Tamil Nadu that landed on Wednesday have tested for the novel coronavirus. There were a total of 56 passengers onboard the aircraft, six of whom have tested positive as of yet.",
+				"source": "https://www.indiatoday.in/india/story/six-passengers-who-flew-from-chennai-to-salem-test-positive-for-coronavirus-1682940-2020-05-28"
+			},
+			{
+				"heading": "Chinese Researchers Say COVID-19 Not Originated From Wuhan Wet Market",
+				"description": "After staunchly denying the US allegations of coronavirus originating from a bio-lab in its first epicentre Wuhan, Chinese researchers have debunked widely reported view that the deadly virus emanated from a wet market in the city selling live animals.",
+				"source": "https://www.ndtv.com/world-news/coronavirus-chinese-researchers-say-covid-19-not-originated-from-wuhan-wet-market-2236297"
+			}
+		]
+	},
+	{
+		"date": "27/05/2020",
+		"india": [
+			{
+				"heading": "Two SpiceJet passengers test positive for Covid-19, crew quarantined",
+				"description": "Two passengers who had travelled on a SpiceJet flight from Ahmedabad to Guwahati on Monday have tested positive for Covid-19, a spokesperson of the airline said in a statement. Their tests were conducted in Guwahati after landing and the passengers were quarantined. The test reports came positive on Wednesday.",
+				"source": "https://www.indiatoday.in/india/story/two-spicejet-passengers-test-positive-for-covid-19-crew-quarantined-1682649-2020-05-27"
+			},
+			{
+				"heading": "Border Situation With India ‘Overall Stable And Controllable’, Says China",
+				"description": "China on Wednesday said that the situation at the border with India is ‘overall stable and controllable’, and both the countries have proper mechanisms and communication channels to resolve the issues through a dialogue and consultation.",
+				"source": "https://www.ndtv.com/india-news/india-china-border-lac-situation-overall-stable-and-controllable-says-beijing-2236077"
+			},
+			{
+				"heading": "Bengal's Siliguri Airport To Resume Operations Tomorrow With 10 Flights Per Day",
+				"description": "Flight services will resume tomorrow from Siliguri's Bagdogra airport in West Bengal's Siliguri with 10 flights everyday, airport director Subramani P said today.",
+				"source": "https://www.ndtv.com/india-news/bengals-siliguri-airport-to-resume-operations-tomorrow-with-10-flights-per-day-2236176"
+			}
+		],
+		"world": [
+			{
+				"heading": "Japan Approves Fresh $1.1 Trillion Stimulus to Combat Pandemic Pain",
+				"description": "Japanese Prime Minister Shinzo Abe's cabinet approved on Wednesday a new $1.1 trillion stimulus package that includes significant direct spending, to stop the coronavirus pandemic pushing the world's third-largest economy deeper into recession.",
+				"source": "https://www.nytimes.com/reuters/2020/05/27/world/asia/27reuters-health-coronavirus-japan-stimulus.html"
+			},
+			{
+				"heading": "WHO expects hydroxychloroquine safety findings by mid-June",
+				"description": "The World Health Organization (WHO) on Tuesday promised a swift review of data on hydroxychloroquine, probably by mid-June, after safety concerns prompted the group to suspend the malaria drug's use in a large trial on Covid-19 patients.",
+				"source": "https://www.indiatoday.in/world/story/who-hydroxychloroquine-safety-findings-1682341-2020-05-27"
+			},
+			{
+				"heading": "US Firm Aims To Make 1 Billion COVID-19 Vaccine Doses After Buying Plant",
+				"description": "Novavax Inc is buying a manufacturing plant from privately held Serum Institute of India, the world's largest maker of vaccines by volume, as the U.S. company aims to produce 1 billion doses of its COVID-19 vaccine candidate next year.",
+				"source": "https://www.ndtv.com/world-news/coronavirus-us-firm-novavax-inc-aims-to-make-1-billion-covid-19-vaccine-doses-after-buying-plant-2236242"
+			}
+		]
+	},
+	{
 		"date": "26/05/2020",
 		"india": [
 			{
