@@ -1,5 +1,153 @@
 [
 	{
+		"date": "03/06/2020",
+		"india": [
+			{
+				"heading": "1 lakh have recovered from Coronavirus in India",
+				"description": "More than 1 lakh people who had tested positive for Covid-19 in India have recovered and been discharged so far. As per the Covid-19 bulletin issued by the Union health ministry on Wednesday morning, a total of 1,00,303 Covid-19 cases have recovered in the country so far.",
+				"source": "https://www.indiatoday.in/india/story/1-lakh-have-recovered-from-coronavirus-in-india-1685088-2020-06-03"
+			},
+			{
+				"heading": "Scientists Identify Distinct Trait In Coronavirus In India",
+				"description": "They have named this unique cluster of virus population as 'Clade A3i' found in 41 per cent of the genome sequenced in India. ‘Here is a fresh preprint on genome analysis of SARS-CoV2 spread in India. The results show a distinct cluster of virus population, uncharacterised thus far, which is prevalent in India - called the Clade A3i,’ the CCMB tweeted.",
+				"source": "https://www.ndtv.com/india-news/scientists-identify-distinct-trait-in-coronavirus-in-india-report-2240255"
+			},
+			{
+				"heading": "Senior Law Ministry Official Tests Positive For Coronavirus In Delhi",
+				"description": "A joint secretary in the Legislative Department of the Law Ministry tested positive of COVID-19 today, prompting the authorities to order sanitisation of portions of the fourth floor of Shastri Bhawan in Delhi.",
+				"source": "https://www.ndtv.com/india-news/senior-law-ministry-official-tests-positive-for-coronavirus-in-delhi-2240292"
+			}
+		],
+		"world": [
+			{
+				"heading": "China rejects report that it delayed COVID-19 information sharing with WHO",
+				"description": "Foreign ministry spokesman Zhao Lijian made the remarks during a daily briefing in response to a question about the report by the Associated Press, which said the WHO was frustrated by significant delays in information sharing by Beijing as the coronavirus outbreak took hold in China in January.",
+				"source": "https://in.reuters.com/article/health-coronavirus-china-who/china-rejects-report-that-it-delayed-covid-19-information-sharing-with-who-idINKBN23A0Z2"
+			},
+			{
+				"heading": "US-based Moderna Begins Phase 2 Human Trials for Coronavirus Vaccine",
+				"description": "In a ray of hope against Covid-19, Massachusetts-based biotechnology giant Moderna has commenced stage 2 trials for its new coronavirus vaccine and aims to enrol 600 participants, up from 45 participants in the phase 1 trials.",
+				"source": "https://www.news18.com/news/world/us-based-moderna-begins-phase-2-human-trials-for-coronavirus-vaccine-2651669.html"
+			},
+			{
+				"heading": "Anti-Malaria Drug Hydroxychloroquine's Coronavirus Trials To Resume",
+				"description": "Hydroxychloroquine is normally used to treat arthritis but public figures including US President Donald Trump have backed the drug for COVID-19 prevention and treatment, prompting governments to bulk-buy.",
+				"source": "https://www.ndtv.com/world-news/anti-malaria-drug-hydroxychloroquines-covid-trials-to-resume-world-health-organisation-2240261"
+			}
+		]
+	},
+	{
+		"date": "02/06/2020",
+		"india": [
+			{
+				"heading": "Arvind Kejriwal launches mobile app for Covid beds information",
+				"description": "To fill the information gap regarding availability of beds in various state-run and private hospitals, chief minister Arvind Kejriwal launched 'Delhi Corona', a mobile application, on Monday.",
+				"source": "https://timesofindia.indiatimes.com/city/delhi/arvind-kejriwal-launches-mobile-app-for-covid-beds-information/articleshow/76152986.cms"
+			},
+			{
+				"heading": "Case count crosses 2 lakh in India",
+				"description": "A real-time global coronavirus tracker of Johns Hopkins University showed India's tally of positive cases at 2,01,997 as of 10.15 pm on Tuesday.",
+				"source": "https://www.livemint.com/news/india/covid-19-case-count-crosses-2-lakh-in-india-1-lakh-detected-in-last-15-days-11591123395774.html"
+			},
+			{
+				"heading": "4 AAI employees test Covid-positive, Rajiv Gandhi Bhawan sealed till Thursday for sanitisation",
+				"description": "Rajiv Gandhi Bhawan, which houses Civil Aviation Ministry and Airports Authority of India (AAI) offices, has been sealed for sanitisation after 4 AAI employees tested positive for Covid-19, senior government officials said on Tuesday.",
+				"source": "https://www.indiatoday.in/india/story/aai-employees-test-covid19-positive-rajiv-gandhi-bhawan-sealed-till-thursday-for-sanitisation-1684781-2020-06-02"
+			}
+		],
+		"world": [
+			{
+				"heading": "Wuhan Doctor At Whistleblower's Hospital Dies From Coronavirus",
+				"description": "A Wuhan doctor who worked with coronavirus whistleblower Li Wenliang died of the virus last week, state media reported Tuesday, becoming China's first COVID-19 fatality in weeks.",
+				"source": "https://www.ndtv.com/world-news/covid-19-wuhan-doctor-at-whistleblowers-hospital-dies-from-coronavirus-2239340"
+			},
+			{
+				"heading": "First Rohingya refugee dies from coronavirus in Bangladesh",
+				"description": "An elderly Rohingya refugee has become the first person to die from the novel coronavirus in the camps in southern Bangladesh, officials said.",
+				"source": "https://www.aljazeera.com/news/2020/06/rohingya-refugee-dies-coronavirus-bangladesh-camps-200602095409310.html"
+			},
+			{
+				"heading": "China's Wuhan tests 10 million people - finds 300 asymptomatic cases",
+				"description": "China's aggressive testing of about 10 million people for coronavirus in Wuhan, the first epicentre of the virus outbreak, has not revealed new confirmed Covid-19 cases but 300 asymptomatic carriers, officials said.",
+				"source": "https://timesofindia.indiatimes.com/world/china/chinas-wuhan-tests-10-million-people-finds-300-asymptomatic-cases/articleshow/76160210.cms"
+			}
+		]
+	},
+	{
+		"date": "01/06/2020",
+		"india": [
+			{
+				"heading": "Lockdown eases in UP, but Agra markets remain closed",
+				"description": "Agra, the biggest tourist magnet in Uttar Pradesh, has been badly hit by the coronavirus outbreak and the nationwide lockdown. Not just for iconic Taj Mahal, but thousands of tourists visit the city to see dozens of other Mughal monuments, that had to be shut due to the lockdown curbs.",
+				"source": "https://www.indiatoday.in/india/story/lockdown-eases-in-up-but-agra-markets-remain-closed-1684399-2020-06-01"
+			},
+			{
+				"heading": "Covid-19 patient missing from KEM Hospital since May 19",
+				"description": "A 70-year-old Covid-19 patient, who was admitted to the civic-run King Edward Memorial Hospital in Mumbai, has been missing since May 19, his family claimed on Monday.",
+				"source": "https://www.indiatoday.in/india/story/covid19-coronavirus-patient-missing-from-kem-hospital-since-may-19-kin-1684355-2020-06-01"
+			},
+			{
+				"heading": "Madhya Pradesh Readies 60,000 Hospital Beds To Deal With COVID-19 Cases",
+				"description": "The Madhya Pradesh government has readied 60,000 beds in various hospitals to deal with spike in COVID-19 cases, if any, after easing of the lockdown curbs, a senior Health official said today.",
+				"source": "https://www.ndtv.com/india-news/coronavirus-madhya-pradesh-readies-60-000-hospital-beds-to-deal-with-covid-19-cases-2238959"
+			}
+		],
+		"world": [
+			{
+				"heading": "US sends Brazil malaria drug unproven for Covid-19 treatment",
+				"description": "The US has sent to Brazil more than 2 million doses of a malaria drug touted by President Donald Trump as potentially protecting against and treating the coronavirus, even though scientific evidence has not backed up those uses.",
+				"source": "https://timesofindia.indiatimes.com/world/us/us-sends-brazil-malaria-drug-unproven-for-covid-19-treatment/articleshow/76128169.cms"
+			},
+			{
+				"heading": "Hong Kong reports first local COVID-19 cases in two weeks",
+				"description": "Hong Kong has confirmed its first locally transmitted coronavirus cases in more than two weeks, fuelling concerns over its spread as restrictions on movement are relaxed.",
+				"source": "https://in.reuters.com/article/health-coronavirus-hongkong-cases/hong-kong-reports-first-local-covid-19-cases-in-two-weeks-idINKBN23815N"
+			},
+			{
+				"heading": "Keep your distance - people queue for school and IKEA in England",
+				"description": "Thousands of people across England queued up for school and IKEA on Monday as the British government eased the coronavirus lockdown by allowing some children to return to class and many shops to reopen for the first time since March.",
+				"source": "https://in.reuters.com/article/health-coronavirus-britain/keep-your-distance-people-queue-for-school-and-ikea-in-england-idINKBN238351"
+			}
+		]
+	},
+	{
+		"date": "31/05/2020",
+		"india": [
+			{
+				"heading": "529 domestic flights carrying 45,646 passengers operated on Saturday",
+				"description": "Domestic services were suspended in India due to the coronavirus-induced lockdown and resumed after a gap of two months on Monday.",
+				"source": "https://www.deccanherald.com/national/529-domestic-flights-carrying-45646-passengers-operated-on-saturday-puri-843872.html"
+			},
+			{
+				"heading": "Uttarakhand minister Satpal Maharaj, 17 house staff test positive for Covid-19",
+				"description": "Uttarakhand Tourism Minister Satpal Maharaj tested positive for Covid-19 on Sunday after his wife and former minister Amrita Rawat was found positive earlier. The rest of the family was home quarantined at their residence in Dehradun.",
+				"source": "https://www.indiatoday.in/india/story/uttarakhand-minister-satpal-maharaj-wife-house-staff-test-positive-for-covid-19-1684022-2020-05-31"
+			},
+			{
+				"heading": "Biggest 1-Day Jump Of 8,380 Coronavirus Patients Takes Total To 1.8 Lakh",
+				"description": "A record single-day jump of 8,380 new patients in the last 24 hours has taken India's coronavirus tally to nearly 1.82 lakh cases, the Union Health Ministry said this morning. The number of total deaths linked to the highly infectious illness crossed the 5,000-mark after 193 patients died in 24 hours, according to the official data.",
+				"source": "https://www.ndtv.com/india-news/coronavirus-india-8-380-coronavirus-cases-in-india-in-24-hours-1-82-lakh-total-cases-5-164-deaths-2238077"
+			}
+		],
+		"world": [
+			{
+				"heading": "Brazil has record new coronavirus cases, surpasses France in deaths",
+				"description": "Brazil reported a record 33,274 new cases of the novel coronavirus on Saturday, its health ministry said, and the death toll surpassed that of France and now ranks only below the United States, Britain and Italy.",
+				"source": "https://in.reuters.com/article/health-coronavirus-brazil/brazil-has-record-new-coronavirus-cases-surpasses-france-in-deaths-idINKBN23702G"
+			},
+			{
+				"heading": "Worldwide Coronavirus Cases Cross 6 Million-Mark",
+				"description": "The number of coronavirus cases worldwide has topped six million as the disease spread rapidly across Latin America and political leaders feuded over how to deal with the pandemic.",
+				"source": "https://www.ndtv.com/world-news/covid-19-worldwide-coronavirus-cases-cross-6-million-mark-2238286"
+			},
+			{
+				"heading": "Colombia Will Not Ease Quarantine in Capital, Cities Hit Hard by Coronavirus",
+				"description": "Colombia issued new measures to control the spread of the novel coronavirus in three of its most affected cities on Saturday, including the capital Bogota, as the rest of the country prepares for quarantine rules to start lifting.",
+				"source": "https://www.usnews.com/news/world/articles/2020-05-30/colombia-will-not-ease-quarantine-in-capital-cities-hit-hard-by-coronavirus"
+			}
+		]
+	},
+	{
 		"date": "30/05/2020",
 		"india": [
 			{
