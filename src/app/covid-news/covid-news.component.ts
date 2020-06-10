@@ -9,14 +9,11 @@ import { CovidNewsService } from '../covid-news.service';
 export class CovidNewsComponent implements OnInit {
 
 	private newsService: CovidNewsService;
-	public newsObject: any[];
 	public newsList: any[];
 	public isNewsLoading: boolean = true;
 
 	constructor(newsService: CovidNewsService) {
-
 		this.newsService = newsService;
-		this.newsObject = this.newsService.getNewsObject();
 	}
 
 	ngOnInit(): void {
