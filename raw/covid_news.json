@@ -1,5 +1,153 @@
 [
 	{
+		"date": "07/06/2020",
+		"india": [
+			{
+				"heading": "Chhattisgarh gets first quarantine centre for pregnant women",
+				"description": "A quarantine centre exclusively for pregnant women, among the groups most vulnerable due to the coronavirus outbreak, has been set up in Bilaspur in Chhattisgarh, an official said on Sunday.",
+				"source": "https://www.oneindia.com/india/coronavirus-chhattisgarh-gets-first-quarantine-centre-for-pregnant-women-3100864.html"
+			},
+			{
+				"heading": "Bengal Research Institutes Develop Low Cost Ventilators For COVID-19 Patients",
+				"description": "Bengal Research Institutes Develop Low Cost Ventilators For COVID-19 Patients",
+				"source": "https://www.ndtv.com/india-news/research-body-csir-develops-low-cost-ventilators-for-covid-19-patients-2242249"
+			},
+			{
+				"heading": "Delhi govt, private hospitals to be reserved for residents only",
+				"description": "Amid the rising cases in Delhi and the controversy over the availability of beds in Delhi hospitals, Arvind Kejriwal has announced that the state government and some private hospitals will be reserved for the residents of the national capital only. Also, the Delhi borders would be opened from tomorrow.",
+				"source": "https://www.indiatoday.in/india/story/delhi-govt-private-hospitals-reserved-for-residents-borders-to-open-tomorrow-arvind-kejriwal-1686410-2020-06-07"
+			}
+		],
+		"world": [
+			{
+				"heading": "Global Coronavirus Death Count Crosses 4 Lakh",
+				"description": "The coronavirus pandemic has killed 4,00,000 people since it emerged in China late last year, according to an AFP tally of official sources at 1430 GMT on Sunday.",
+				"source": "https://www.ndtv.com/world-news/covid-19-global-coronavirus-death-count-crosses-4-lakh-report-2242286"
+			},
+			{
+				"heading": "China to strengthen global cooperation in Covid-19 vaccine trials",
+				"description": "China will strengthen international cooperation in future Covid-19 clinical vaccine trials, building on earlier collaboration in vaccine development, the science and technology minister said on Sunday.",
+				"source": "https://www.indiatoday.in/world/story/china-covid-vaccine-coronavirus-cases-1686594-2020-06-08"
+			},
+			{
+				"heading": "Saudi Arabia coronavirus cases exceed 100,000",
+				"description": "The number of coronavirus cases in Saudi Arabia exceeded 100,000 on Sunday following a rise in new infections over the past ten days. The Saudi Ministry of Health reported 3,045 new cases on Sunday, taking the total to 101,914, with 712 deaths. The number of new daily cases exceeded 3,000 for the first time on Saturday.",
+				"source": "https://in.reuters.com/article/health-coronavirus-saudi/saudi-arabia-coronavirus-cases-exceed-100000-idINKBN23E0HS"
+			}
+		]
+	},
+	{
+		"date": "06/06/2020",
+		"india": [
+			{
+				"heading": "2 West Bengal Judges Test Positive for Coronavirus",
+				"description": "In the first such instance in West Bengal two judges of a city court have tested positive for COVID-19 following which people who had come in contact with them have been advised to proceed on home quarantine, state health department sources said Saturday.",
+				"source": "https://www.news18.com/news/india/2-west-bengal-judges-test-positive-for-coronavirus-contacts-asked-to-home-quarantine-2656349.html"
+			},
+			{
+				"heading": "India Crosses 2.35 Lakh Coronavirus Cases",
+				"description": "The number of coronavirus cases in India rose to 2.35 lakh on Friday, taking the country to the sixth spot worldwide above Italy, while the number of deaths crossed 6,600, data from state governments and America's Johns Hopkins University showed. In terms of cases, India had crossed China - where the virus emerged late last year - for the ninth spot just a week ago.",
+				"source": "https://www.ndtv.com/india-news/coronavirus-india-crosses-2-35-lakh-covid-19-cases-overtakes-italy-for-6th-spot-2241583"
+			},
+			{
+				"heading": "Maharashtra govt to procure 10,000 vials of remdesivir drug",
+				"description": "The Maharashtra government will procure 10,000 vials of the drug Remdesivir for treating coronavirus patients, Public Health Minister Rajesh Tope said on Saturday. The expensive medicine is being made available for the poor and needy patients in the state, he said.",
+				"source": "https://www.indiatoday.in/india/story/covid-19-maharashtra-govt-procure-10-000-vials-remdesivir-drug-1686280-2020-06-06"
+			}
+		],
+		"world": [
+			{
+				"heading": "UN health agency stressed that facemasks alone ‘will not protect you from COVID-19’",
+				"description": "The World Health Organization Friday changed its advice on face masks amid the coronavirus pandemic, saying they should be worn in places where the virus is widespread and physical distancing is difficult.",
+				"source": "https://www.ndtv.com/world-news/wear-masks-in-public-says-who-in-new-coronavirus-advice-2241750"
+			},
+			{
+				"heading": "Clinical Trials Of Plant-Derived Drug For COVID-19 Begins",
+				"description": "Clinical trials of the plant-derived drug, ACQH, to treat COVID-19 patients that began on Friday in India has been hailed by the Council of Scientific and Industrial Research (CSIR) as ‘historic in modern medicine’.",
+				"source": "https://www.ndtv.com/india-news/coronavirus-research-body-csir-says-clinical-trials-of-plant-derived-drug-for-covid-19-begins-2241880"
+			},
+			{
+				"heading": "AstraZeneca blood cancer drug shows signs of helping COVID-19 patients",
+				"description": "AstraZeneca’s (AZN.L) cancer drug Calquence has shown initial signs of helping hospitalised COVID-19 patients get through the worst of the disease, as researchers scramble to repurpose existing treatments to help fight the deadly infection.",
+				"source": "https://in.reuters.com/article/health-coronavirus-astrazeneca/astrazeneca-blood-cancer-drug-shows-signs-of-helping-covid-19-patients-idINKBN23D089"
+			}
+		]
+	},
+	{
+		"date": "05/06/2020",
+		"india": [
+			{
+				"heading": "20 Delhi Metro Employee test Positive for COVID-19",
+				"description": "On Thursday twenty Delhi Metro staff have tested positive for COVID-19 as per sources. Some DMRC officials have been coming back to the office or to station premises to assure the smooth resumption of operations, whenever the orders come from the govt.",
+				"source": "https://www.metrorailnews.in/20-delhi-metro-employee-test-positive-for-covid-19/"
+			},
+			{
+				"heading": "Covid-19 Epidemics in India, South Asia Growing But Not Exploding says WHO",
+				"description": "The number of COVID-19 cases in India has been doubling every three weeks but the epidemic is not growing exponentially in the country and South Asia region, the World Health Organization (WHO) said on Friday.",
+				"source": "https://www.news18.com/news/india/covid-19-epidemics-in-india-south-asia-growing-but-not-exploding-who-2655741.html"
+			},
+			{
+				"heading": "3,804 COVID-19 Patients Cured In Last 24 Hours",
+				"description": "The Ministry of Health and Family Welfare (MoHFW) on Thursday informed that in the last 24 hours a total of 3,804 COVID-19 patients have been cured.",
+				"source": "https://www.ndtv.com/india-news/coronavirus-health-ministry-says-3-804-covid-19-patients-cured-in-last-24-hours-2240975"
+			}
+		],
+		"world": [
+			{
+				"heading": "UK Halts Trial of Hydroxychloroquine as 'Useless' for COVID-19 Patients",
+				"description": "British scientists halted a major drug trial on Friday after it found that the anti-malarial hydroxychloroquine, touted by U.S. President Donald Trump as a potential 'game changer' in the pandemic, was 'useless' at treating COVID-19 patients.",
+				"source": "https://www.usnews.com/news/top-news/articles/2020-06-05/uk-halts-trial-of-hydroxychloroquine-as-useless-for-covid-19-patients"
+			},
+			{
+				"heading": "Beijing Relaxes COVID-19 Curbs- Zero Instances In China's Wuhan",
+				"description": "Beijing on Friday determined to decrease its COVID-19 emergency response, marking the return of normalcy in China’s capital following the coronavirus outbreak, whereas the central metropolis of Wuhan, the origin level of the pandemic, cleared all its confirmed instances.",
+				"source": "https://hamsanews.in/beijing-relaxes-covid-19-curbs-zero-instances-in-chinas-wuhan/"
+			},
+			{
+				"heading": "US To Allow Two Flights Per Week By Chinese Airlines",
+				"description": "The US Transportation Department said on Friday it will allow Chinese passenger air carriers to operate two flights per week after Beijing said it would ease coronavirus restrictions to allow in more foreign carriers.",
+				"source": "https://www.ndtv.com/world-news/coronavirus-us-to-allow-two-flights-per-week-by-chinese-airlines-2241565"
+			}
+		]
+	},
+	{
+		"date": "04/06/2020",
+		"india": [
+			{
+				"heading": "Delhi HC rejects plea against govt order on Covid-19 beds",
+				"description": "While disposing a petition that sought quashing of the Delhi government order on reserving 20 percent beds in private hospitals for Covid-19 patients, the Delhi High Court, here on Wednesday, asked the Arvind Kejriwal government to consider the plea as a representation.",
+				"source": "https://www.cnbctv18.com/legal/delhi-hc-rejects-plea-against-govt-order-on-covid-19-beds-6061401.htm"
+			},
+			{
+				"heading": "With Malls, Hotels, Restaurants To Open Monday, Centre Lists New Rules",
+				"description": "The guidelines, which will come into effect from Monday, include measures like staggering visitors to malls and no touching of idols at religious places. Detailed rules were also issued for offices which have been allowed to reopen over the past few weeks. All establishments that come under containment zones, however, will remain closed as announced earlier.",
+				"source": "https://www.ndtv.com/india-news/staggering-of-visitors-in-malls-no-touching-idols-at-religious-places-new-guidelines-from-june-8-2240895"
+			},
+			{
+				"heading": "Maharashtra government allows inter-district travel in Mumbai Metropolitan Region",
+				"description": "The Maharashtra government today allowed inter-district movement of people within the Mumbai Metropolitan Region. Mumbai Metropolitan Region (MMR), includes Mumbai city, Mumbai suburban, Thane, Palghar and part of Raigad district.",
+				"source": "https://www.livemint.com/news/india/maharashtra-government-allows-inter-district-travel-in-mumbai-metropolitan-region-11591267234750.html"
+			}
+		],
+		"world": [
+			{
+				"heading": "Debt Relief Initiative For Poorest Nations Can Be Extended Beyond 2020",
+				"description": "The finance ministers of the wealthy G7 nations have said a debt relief initiative for the world's poorest countries could be extended beyond the end of the year to help deal with the fallout from the coronavirus pandemic.",
+				"source": "https://www.ndtv.com/world-news/g7-debt-relief-initiative-for-poorest-nations-can-be-extended-beyond-2020-2240880"
+			},
+			{
+				"heading": "Indian-origin minister feels unwell in Parliament, tested for COVID-19",
+				"description": "Britain's Indian-origin Business Secretary, Alok Sharma, has been tested for the novel coronavirus after feeling unwell at the despatch box in the House of Commons.",
+				"source": "https://www.theweek.in/news/world/2020/06/04/uk-indian-origin-minister-feels-unwell-in-parliament-tested-for-covid-19.amp.html"
+			},
+			{
+				"heading": "Brazil looks to reopen despite record coronavirus deaths",
+				"description": "Brazil registered a record number of daily deaths from the novel coronavirus for a second consecutive day, according to Health Ministry data released on Wednesday, even as city and state authorities move aggressively to open commerce back up.",
+				"source": "https://in.reuters.com/article/health-coronavirus-brazil/brazil-looks-to-reopen-despite-record-coronavirus-deaths-idINKBN23B07P"
+			}
+		]
+	},
+	{
 		"date": "03/06/2020",
 		"india": [
 			{
