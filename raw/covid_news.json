@@ -1,5 +1,264 @@
 [
 	{
+		"date": "14/06/2020",
+		"india": [
+			{
+				"heading": "Scientists break down three stages of infection, suggest individualised treatment for patients",
+				"description": "According to the scientists, including those from the University of Florence in Italy, three distinct phases of COVID-19 infection, with variable degrees of symptoms have been observed in people who test positive for the deadly disease.",
+				"source": "https://www.thehindu.com/sci-tech/health/coronavirus-scientists-break-down-three-stages-of-infection-suggest-individualised-treatment-for-patients/article31827020.ece"
+			},
+			{
+				"heading": "Stringent action against private hospitals overcharging COVID-19 patients",
+				"description": "The Minister said the Punjab government would soon be fixing the charges for COVID-19 treatment keeping in view the interest of both the patients and the private hospitals. ‘But, at no cost, the government will allow exploitation of patients during this critical situation by private hospitals’, he added.",
+				"source": "https://www.tribuneindia.com/news/punjab/stringent-action-against-private-hospitals-overcharging-covid-19-patients-punjab-health-minister-98679"
+			},
+			{
+				"heading": "More Than Half Of India's Coronavirus Patients Have Recovered",
+				"description": "India's COVID-19 recovery rate crossed 50 per cent today even as the country logged the biggest single-day jump of 11,929 new infections in the last 24 hours, the government data said.",
+				"source": "https://www.ndtv.com/india-news/coronavirus-more-than-half-of-india-s-covid-19-patients-have-recovered-centre-2246143"
+			}
+		],
+		"world": [
+			{
+				"heading": "UK Pharma Firm AstraZeneca To Supply 400 Million Doses Of COVID-19 Vaccine To Europe",
+				"description": "AstraZeneca Plc has signed a contract with European governments to produce the area with its potential vaccine towards the coronavirus, the British drugmaker’s newest deal to pledge its drug to assist fight the pandemic.",
+				"source": "https://pehalnews.in/uk-pharma-firm-astrazeneca-to-supply-400-million-doses-of-covid-19-vaccine-to-europe/30820/"
+			},
+			{
+				"heading": "US Covid-19 survivor receives $1.1 million hospital bill",
+				"description": "A 70-year-old American man who nearly died of Covid-19 has been billed a heart-stopping $1.1 million for his hospital expenses, the Seattle Times reported Saturday.",
+				"source": "https://timesofindia.indiatimes.com/world/us/us-covid-19-survivor-receives-1-1-million-hospital-bill/articleshow/76366476.cms"
+			},
+			{
+				"heading": "Mass Coronavirus Testing In Beijing After New Cluster Triggers Lockdowns",
+				"description": "Beijing carried out mass testing for the coronavirus on Sunday after a new outbreak in the city that prompted travel warnings across the country amid fears of a resurgence of the disease.",
+				"source": "https://www.ndtv.com/world-news/covid-19-china-mass-coronavirus-testing-in-beijing-after-new-cluster-triggers-lockdowns-2246211"
+			}
+		]
+	},
+	{
+		"date": "13/06/2020",
+		"india": [
+			{
+				"heading": "India slowest to reach 3 lakh cases, but lags behind on tests",
+				"description": "India has taken 134 days to reach 3 lakh cases ever since the first infection was reported on January 30 -- a medical student who had arrived in Kerala from the virus epicentre of China’s Wuhan. At present, India's tally stands at 3,00,519, including 8,872 deaths and 1.52 lakh recoveries.",
+				"source": "https://indianexpress.com/article/coronavirus/covid-19-india-slowest-to-reach-3-lakh-cases-but-lags-behind-on-tests-6456581/"
+			},
+			{
+				"heading": "99% ICU Beds, 94% Ventilators In Use As COVID-19 Cases Spike In Mumbai",
+				"description": "Intensive Care Units (ICUs) in Mumbai, the city worst-affected by the novel coronavirus outbreak, are operating at 99 per cent capacity and 94 per cent of ventilators in the city are currently in use, the Brihanmumbai Municipal Corporation (BMC) said on Saturday.",
+				"source": "https://www.ndtv.com/india-news/coronavirus-cases-mumbai-99-per-cent-icu-beds-94-per-cent-ventilators-in-use-as-covid-19-cases-spike-in-mumbai-2245820"
+			},
+			{
+				"heading": "Maharashtra Government Reduces Charges For COVID-19 Tests By Private Labs",
+				"description": "Maharashtra Health Minister Rajesh Tope on Saturday said that the government has reduced the rates of the COVID-19 tests conducted by private laboratories from Rs 4,500 to Rs 2,200.",
+				"source": "https://www.ndtv.com/india-news/coronavirus-india-maharashtra-government-reduces-charges-for-covid-19-tests-by-private-labs-2245686"
+			}
+		],
+		"world": [
+			{
+				"heading": "Parts of Beijing locked down due to fresh coronavirus cluster",
+				"description": "Eleven residential estates in south Beijing have been locked down due to a fresh cluster of coronavirus cases linked to a nearby meat market, officials said on Saturday.",
+				"source": "https://gulfnews.com/world/asia/parts-of-beijing-locked-down-due-to-fresh-coronavirus-cluster-1.1592024500774"
+			},
+			{
+				"heading": "‘Going In Wrong Direction’ - Top Health Expert Warns, As US Reopens Amid COVID",
+				"description": "The top U.S. infectious disease official on Friday cautioned that the ‘blips’ of rising coronavirus hospitalizations being reported by some states could get out of control if robust contact tracing regimes are not put in place.",
+				"source": "https://www.ndtv.com/world-news/coronavirus-us-top-health-expert-anthony-fauci-warns-as-us-reopens-amid-covid-19-going-in-wrong-direction-2245647"
+			},
+			{
+				"heading": "Researchers in Thailand Test Horseshoe Bats for Coronavirus amid Concerns over Threat to Locals",
+				"description": "Researchers in Thailand began collecting samples from horseshoe bats to test them for coronavirus amid concerns they may pose a threat to local residents, a government statement said on Saturday. They plan to collect 300 bats over three days from a cave in the Chanthaburi province in the southeast of the country. The bats will be released following the tests.",
+				"source": "https://www.news18.com/news/world/reseachers-in-thailand-test-horseshoe-bats-for-coronavirus-amid-concerns-over-threat-to-locals-2668171.html"
+			}
+		]
+	},
+	{
+		"date": "12/06/2020",
+		"india": [
+			{
+				"heading": "PM Modi to interact with CMs on June 16-17",
+				"description": "Prime Minister Narendra Modi will hold interactions with chief ministers through video conferencing on June 16-17.",
+				"source": "https://timesofindia.indiatimes.com/india/pm-modi-to-interact-with-cms-on-june-16-17/articleshow/76350676.cms"
+			},
+			{
+				"heading": "Shops in Srinagar to open from June 14",
+				"description": "The Srinagar administration has ordered easing of lockdown in the district from June 14 under strict SOPs notified by the State Executive Council (SEC). District Magistrate Shahid Iqbal Choudhary said the permission to open shops has been given after meetings with the representatives of trade and business organisations.",
+				"source": "https://www.theweek.in/news/india/2020/06/12/shops-in-srinagar-to-open-from-june-14.html"
+			},
+			{
+				"heading": "Maharashtra Containment Zones To Be De-Notified If No Cases For 14 Days",
+				"description": "An area tagged as a COVID-19 containment zone will be de-notified if no new infected patient is found there for 14 days in a row instead of the earlier protocol of 28 days, Maharashtra Minister Rajesh Tope said today.",
+				"source": "https://www.ndtv.com/india-news/coronavirus-india-maharashtra-minister-rajesh-tope-says-containment-zone-tag-to-go-if-no-covid-19-case-found-for-14-days-2245426"
+			}
+		],
+		"world": [
+			{
+				"heading": "Africa coronavirus tally doubles from 100,000 to 200,000 in just 18 days",
+				"description": "The speed the new coronavirus jumped from 100,000 to 200,000 confirmed cases in Africa shows just how quickly the pandemic is accelerating on the continent, the World Health Organization said Thursday.",
+				"source": "https://www.timesnownews.com/international/article/africa-coronavirus-tally-doubles-from-100000-to-200000-in-just-18-days/605211"
+			},
+			{
+				"heading": "Scientists Evaluate If Tuberculosis, Polio Vaccines Can Ward Off COVID-19",
+				"description": "Tests are already underway to see if the TB vaccine can slow the novel coronavirus, while other researchers writing in a scientific journal Thursday propose using the polio vaccine, which once was melted on children's tongues.",
+				"source": "https://www.ndtv.com/world-news/scientists-evaluate-if-tuberculosis-polio-vaccines-can-ward-off-covid-19-2244932"
+			},
+			{
+				"heading": "Ukraine president's wife tests positive for coronavirus",
+				"description": "Olena, the wife of Ukrainian President Volodymyr Zelenskiy, said on Friday she had tested positive for coronavirus but her husband and their two children had tested negative.",
+				"source": "https://in.reuters.com/article/health-coronavirus-ukraine-president/ukraine-presidents-wife-tests-positive-for-coronavirus-idINKBN23J1RE"
+			}
+		]
+	},
+	{
+		"date": "11/06/2020",
+		"india": [
+			{
+				"heading": "Punjab CM Amarinder Singh orders stricter lockdown on weekends, public holidays",
+				"description": "The decision to tighten the curbs on weekends and holidays has been taken amid apprehensions of covid-19 reaching the community spread stage in Punjab. Industries, however, will be allowed to function normally on all days, the CM said.",
+				"source": "https://www.livemint.com/politics/news/punjab-cm-amarinder-singh-orders-stricter-lockdown-on-weekends-public-holidays-11591901823167.html"
+			},
+			{
+				"heading": "Uddhav Thackeray Says State Developed Enough COVID-19 Centres In Short Time",
+				"description": "Maharashtra Chief Minister Uddhav Thackeray on Thursday said that the state government has succeeded in setting up adequate number of health care facilities for treatment of COVID-19 patients in a short span.",
+				"source": "https://www.ndtv.com/india-news/coronavirus-maharashtra-chief-minister-uddhav-thackeray-says-state-set-up-adequate-covid-19-treatment-facilities-2244734"
+			},
+			{
+				"heading": "Upto 30% People Got Infected In COVID-19 Hotspots",
+				"description": "A maximum of 30 per cent people in urban hotspots and containment zones have unknowingly contracted and recovered from coronavirus, a survey of the general population has showed.",
+				"source": "https://www.ndtv.com/india-news/upto-30-people-got-infected-in-covid-19-hospots-government-survey-2244675"
+			}
+		],
+		"world": [
+			{
+				"heading": "Regeneron Pharmaceuticals begins human testing of COVID-19 antibody cocktail",
+				"description": "Regeneron's cocktail - which contains an antibody made by the company and a second isolated from humans who recovered from COVID-19 - is designed so that its two antibodies bind to the coronavirus' spike protein, limiting the ability of viruses to escape.",
+				"source": "https://www.moneycontrol.com/news/world/regeneron-pharmaceuticals-inc-begins-human-testing-of-covid-19-antibody-cocktail-5393061.html"
+			},
+			{
+				"heading": "Coronavirus poses existential threat to some of the world's museums",
+				"description": "The coronavirus lockdowns have hit the world’s museums very hard and more than 10 percent may never reopen while others will have to put new projects on hold, the United Nations’ cultural body UNESCO said.",
+				"source": "https://nationalpost.com/pmn/entertainment-pmn/coronavirus-poses-existential-threat-to-some-of-worlds-museums-unesco"
+			},
+			{
+				"heading": "Kazakhstan locks down several towns after spike in COVID-19 cases",
+				"description": "Kazakhstan has locked down several towns and villages and tightened restrictions in one of its provinces following a spike in fresh COVID-19 cases, authorities said on Thursday, a month after ending a nationwide state of emergency.",
+				"source": "https://in.reuters.com/article/health-coronavirus-kazakhstan/kazakhstan-locks-down-several-towns-after-spike-in-covid-19-cases-idINKBN23I2AD"
+			}
+		]
+	},
+	{
+		"date": "10/06/2020",
+		"india": [
+			{
+				"heading": "28 CRPF personnel posted in Kashmir test COVID-19 positive",
+				"description": "As many as 28 Central Reserve Police Force (CRPF) personnel posted in Kulgam district of Jammu and Kashmir tested positive for COVID-19 on Wednesday, officials said. They said the personnel were found infected during a contact-tracing exercise after the death of a 44-year-old coronavirus-infected constable on June 6.",
+				"source": "https://www.theweek.in/news/india/2020/06/11/28-crpf-personnel-posted-kashmir-test-covid-19-positive.html"
+			},
+			{
+				"heading": "Coronavirus Positive Prisoner In PPE Escapes In Haryana",
+				"description": "A prisoner who tested positive for coronavirus escaped from a hospital in Haryana taking advantage of a protective suit. He has now been arrested.The man, at a hospital in Jind district, allegedly put on a PPE (Personal Protective Equipment) that doctors and healthcare workers treating infected people wear.",
+				"source": "https://www.ndtv.com/india-news/coronavirus-positive-prisoner-in-ppe-escapes-in-haryana-now-arrested-2244101"
+			},
+			{
+				"heading": "Andaman and Nicobar Islands no more Covid-free",
+				"description": "A month after staying infection-free, the Andaman and Nicobar Islands has reported two fresh coronavirus positive cases, both flying back here from outside, health officials said on Wednesday.",
+				"source": "https://www.financialexpress.com/india-news/andaman-and-nicobar-islands-no-more-covid-free-after-a-month-two-new-coronavirus-cases-reported/1987493/"
+			}
+		],
+		"world": [
+			{
+				"heading": "U.S. coronavirus cases hit 2 million as some states see surges",
+				"description": "The number of confirmed coronavirus cases in the United States passed the two-million mark Wednesday, as cases continue to rise across the country amid patchwork reopening measures and widespread protests against racism and police brutality.",
+				"source": "https://globalnews.ca/news/7047844/us-coronavirus-cases-2-million/"
+			},
+			{
+				"heading": "United will require passengers to complete health assessments before they fly",
+				"description": "United Airlines on Wednesday became at least the second U.S. carrier to ask travelers to answer questions about their health status before they fly. It’s all part of a strategy to ease the mind of travelers concerned about flying in the midst of the novel coronavirus pandemic.",
+				"source": "https://www.washingtonpost.com/transportation/2020/06/10/united-will-require-passengers-complete-health-assessments-before-they-fly/"
+			},
+			{
+				"heading": "Gyms, museums, hotels, day camps, arena sports can reopen in L.A. County on Friday",
+				"description": "Los Angeles County on Wednesday announced that gyms and fitness facilities, pro-league arenas without audiences, day camps, museums, galleries, zoos, aquariums, campgrounds, RV parks, outdoor recreational areas including swimming pools, music, film and television production and hotels for leisure travel will be allowed to reopen Friday.",
+				"source": "https://www.latimes.com/california/story/2020-06-10/la-county-reopening-gyms-museums-hotels-day-camps-arena-sports-friday"
+			}
+		]
+	},
+	{
+		"date": "09/06/2020",
+		"india": [
+			{
+				"heading": "CRPF, BSF open hospitals nationwide for COVID-19 treatment of veterans, families of slain soldiers",
+				"description": "All Central Reserve Police Force (CRPF) and BSF healthcare centres in the country will be open for COVID-19 treatment of their veterans and families of troops who laid down their lives in the line of duty, a senior officer said on Tuesday.",
+				"source": "https://economictimes.indiatimes.com/news/defence/crpf-bsf-open-hospitals-nationwide-for-covid-19-treatment-of-veterans-families-of-slain-soldiers/articleshow/76286644.cms"
+			},
+			{
+				"heading": "High Court Issues Notices To Gujarat, Top Medical Body Over COVID-19 Testing",
+				"description": "The Gujarat High Court on Tuesday issued notices to the state government and the Indian Council of Medical Research (ICMR) on a plea challenging a health department circular regarding revised COVID-19 testing policy.",
+				"source": "https://www.ndtv.com/india-news/coronavirus-india-high-court-issues-notices-to-gujarat-top-medical-body-icmr-over-covid-19-testing-2243587"
+			},
+			{
+				"heading": "Central Teams Deputed To ‘Handhold’ 15 States With Most COVID-19 Cases",
+				"description": "With over 50 districts and municipal bodies spread across 15 states and union territories reporting a spurt in coronavirus cases, the Union Health Ministry on Tuesday said high-level central teams will be dispatched to assist local administrations in containment and management of the COVID-19 outbreak.",
+				"source": "https://www.ndtv.com/india-news/central-teams-deputed-to-handhold-15-states-with-most-covid-19-cases-2244016"
+			}
+		],
+		"world": [
+			{
+				"heading": "More than half of people tested in Italy's coronavirus epicentre of Bergamo have antibodies",
+				"description": "Testing reveals that 57 per cent of people in Bergamo and the surrounding province have come into contact with the virus. The city of Bergamo and its surrounding province were hit hard by the virus, which was first detected in Italy in late February but is believed to have been present in January or even earlier.",
+				"source": "https://www.telegraph.co.uk/news/2020/06/09/half-people-tested-italys-coronavirus-epicentre-bergamo-have/"
+			},
+			{
+				"heading": "US Navy test shows 60% of carrier crew have coronavirus antibodies",
+				"description": "An US Navy investigation into the spread of the coronavirus aboard the Theodore Roosevelt aircraft carrier has found that about 60 percent of sailors tested had antibodies for the virus, two US officials told Reuters on Monday, suggesting a far higher infection rate than previously known.",
+				"source": "https://www.indiatoday.in/world/story/coronavirus-antibody-us-navy-theodore-roosevelt-aircraft-carrier-1687036-2020-06-09"
+			},
+			{
+				"heading": "Coronavirus pandemic far from over as daily cases hit record high says WHO",
+				"description": "New coronavirus cases had their biggest daily increase ever as the pandemic worsens globally and has yet to peak in central America, the World Health Organization (WHO) said on Monday, urging countries to press on with efforts to contains the virus.",
+				"source": "https://www.indiatoday.in/world/story/coronavirus-pandemic-far-from-over-as-daily-cases-hit-record-high-who-1687014-2020-06-09"
+			}
+		]
+	},
+	{
+		"date": "08/06/2020",
+		"india": [
+			{
+				"heading": "Lockdown extended in West Bengal till June 30",
+				"description": "West Bengal chief minister Mamata Banerjee on Monday announced that the lockdown, which was set to end on June 15, has been extended in the state for another 15 days.",
+				"source": "https://timesofindia.indiatimes.com/city/kolkata/lockdown-extended-in-west-bengal-till-june-30-mamata-banerjee/articleshow/76264065.cms"
+			},
+			{
+				"heading": "Mizoram Reverts To Total Lockdown For 2 Weeks As Others Start Unlock1",
+				"description": "Mizoram has reverted to a total lockdown following a sudden spurt in the number of coronavirus cases. The move comes as other states opened malls, restaurants and places of worship after two months as part of centre's 'Unlock1" guidelines.",
+			"source": "https://www.ndtv.com/india-news/coronavirus-mizoram-goes-back-into-total-lockdown-for-two-weeks-on-a-day-other-states-lift-many-restrictions-in-unlock1-2242721"
+			},
+			{
+				"heading": "Corona Warriors Left Out Of Post-Graduation Exams Conducted By AIIMS",
+				"description": "Doctors and nurses in the frontline of the battle against coronavirus will miss the exams to get into the prestigious All-India Institute of Medical Sciences for post-graduate courses this year. The rules for the entrance exams not only allow only asymptomatic candidates, they also bar anyone who was in contact with coronavirus patients.",
+				"source": "https://www.ndtv.com/india-news/corona-warriors-left-out-of-post-graduation-exams-conducted-by-aiims-2242900"
+			}
+		],
+		"world": [
+			{
+				"heading": "Saudi Arabia considers limiting haj pilgrims amid Covid-19 fears",
+				"description": "Saudi Arabia could drastically limit numbers at the annual haj pilgrimage to prevent a further outbreak of coronavirus after cases in the country topped 100,000, sources familiar with the matter said on Monday.",
+				"source": "https://timesofindia.indiatimes.com/world/middle-east/saudi-arabia-considers-limiting-haj-pilgrims-amid-covid-19-fears/articleshow/76274155.cms"
+			},
+			{
+				"heading": "Pakistan cracks down on safety breaches, coronavirus cases top 100,000",
+				"description": "Official statistics released on Monday showed 103,671 infections and 2,067 deaths from the virus. Record numbers of new infections over the last 10 days partly reflect increased testing.",
+				"source": "https://in.reuters.com/article/us-health-coronavirus-pakistan/pakistan-cracks-down-on-safety-breaches-coronavirus-cases-top-100000-idINKBN23F0RR"
+			},
+			{
+				"heading": "Moscow Lifts Coronavirus Lockdown as Russia Partially Reopens Borders",
+				"description": "Moscow is lifting its months-long coronavirus lockdown, mayor Sergei Sobyanin said on Monday, declaring that the pandemic was on the wane and it was possible to resume normal life during the course of June.",
+				"source": "https://www.usnews.com/news/world/articles/2020-06-08/russia-reopens-borders-for-its-nationals-to-work-study-and-get-treatment-abroad"
+			}
+		]
+	},
+	{
 		"date": "07/06/2020",
 		"india": [
 			{
