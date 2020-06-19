@@ -1,5 +1,116 @@
 [
 	{
+		"date": "17/06/2020",
+		"india": [
+			{
+				"heading": "Delhi Health Minister Satyendar Jain tests positive for coronavirus days after meeting Amit Shah",
+				"description": "Satyendar Jain, the Health Minister of the National Capital of Delhi and senior leader of the Aam Aadmi Party (AAP) has tested positive for the novel coronavirus. Jain's samples returned positive for the infection during his second test.",
+				"source": "https://www.indiatoday.in/india/story/delhi-health-minister-satyendra-jain-tests-positive-for-coronavirus-1690033-2020-06-17"
+			},
+			{
+				"heading": "Coronavirus Tests To Get Cheaper In Delhi, Capped At Rs 2,400",
+				"description": "The price of a COVID-19 test in Delhi has been capped at Rs 2,400, the Home Ministry said in a tweet on Wednesday night, explaining that the move was aimed at 'providing relief to the common man'.",
+				"source": "https://www.ndtv.com/india-news/coronavirus-tests-to-get-cheaper-in-delhi-capped-at-rs-2-400-2247941"
+			},
+			{
+				"heading": "Class 12 Student In Delhi Drops Out, Transports COVID-19 Patients' Bodies To Earn A Living",
+				"description": "Class 12 student Chand Mohammad, who gets paid Rs. 17,000 a month for taking bodies of coronavirus patients from hospitals to crematoriums, rues lack of insurance in high-risk jobs such as his.",
+				"source": "https://www.ndtv.com/india-news/class-12-student-in-delhi-drops-out-transports-covid-19-patients-bodies-to-earn-a-living-2247819"
+			}
+		],
+		"world": [
+			{
+				"heading": "UK now has 240,000 doses of dexamethasone in stock or on order - health minister",
+				"description": "Britain has increased the amount of dexamethasone it has in stock and on order to 240,000 doses, health minister Matt Hancock said on Wednesday, after a preliminary trial result showed it reduced mortality in the most severe COVID-19 cases.",
+				"source": "https://in.reuters.com/article/health-coronavirus-steroid-britain-order/uk-now-has-240000-doses-of-dexamethasone-in-stock-or-on-order-health-minister-idINKBN23O2TV"
+			},
+			{
+				"heading": "Self-Cleaning Masks Can Kill COVID-19 With Phone Charger's Heat",
+				"description": "Israeli researchers say they have invented a reusable face mask that can kill the coronavirus with heat by drawing power from a mobile phone charger.",
+				"source": "https://www.ndtv.com/world-news/coronavirus-self-cleaning-masks-can-kill-covid-19-with-phone-chargers-heat-researchers-2247963"
+			},
+			{
+				"heading": "'Disinfection tunnel' set up to protect Vladimir Putin from coronavirus",
+				"description": "Vladimir Putin has been protected from coronavirus by a disinfection tunnel that anyone visiting his residence outside Moscow must pass through, the Russian president’s spokesman said.",
+				"source": "https://www.theguardian.com/world/2020/jun/17/disinfection-tunnel-vladimir-putin-coronavirus-russia"
+			}
+		]
+	},
+	{
+		"date": "16/06/2020",
+		"india": [
+			{
+				"heading": "Odisha To Conduct Door-to-door Health Screening For Coronavirus Symptoms As Cases Rise",
+				"description": "Chief Minister Naveen Patnaik led Odisha government on Monday announced the launch of a door-to-door survey from June 16 to identify people with Coronavirus symptoms. The survey will continue till July 31, National Health Mission (NHM) Odisha Director Shalini Pandit said.",
+				"source": "https://www.republicworld.com/india-news/general-news/odisha-covid-19-coronavirus-bhubaneswar-asha-shalini-pandit-cm-patnaik.html"
+			},
+			{
+				"heading": "FDA warns against combination of malaria drug and Gilead's remdesivir",
+				"description": "The U.S. Food and Drug Administration on Monday issued a warning to healthcare providers against administering malaria drug hydroxychloroquine or chloroquine in combination with Gilead Sciences’ (GILD.O) experimental COVID-19 drug, remdesivir.",
+				"source": "https://in.reuters.com/article/health-coronavirus-hydroxychloroquine-fd/fda-warns-against-combination-of-malaria-drug-and-gileads-remdesivir-idINKBN23N0DN"
+			},
+			{
+				"heading": "Nagaland wary of health workers’ cease-work amid COVID-19 crisis",
+				"description": "Private sector health workers have for the time being bailed the Nagaland government out of a crisis following a ‘cease-work’ protest by some 1,800 National Health Mission (NHM) doctors and other staff over regularisation of their service.",
+				"source": "https://www.thehindu.com/news/national/other-states/nagaland-wary-of-health-workers-cease-work-amid-covid-19-crisis/article31841020.ece"
+			}
+		],
+		"world": [
+			{
+				"heading": "New Zealand no longer free of coronavirus as two women test positive",
+				"description": "It took just eight days for New Zealand to lose its COVID-free status when two women who had been given permission to leave quarantine early after arriving from abroad tested positive for the coronavirus, authorities said on Tuesday.",
+				"source": "https://in.reuters.com/article/health-coronavirus-newzealand-cases/new-zealand-no-longer-free-of-coronavirus-as-two-women-test-positive-idINKBN23N05H"
+			},
+			{
+				"heading": "Dexamethasone proves first life-saving drug",
+				"description": "The low-dose steroid treatment dexamethasone is a major breakthrough in the fight against the deadly virus, UK experts say. The drug is part of the world's biggest trial testing existing treatments to see if they also work for coronavirus.",
+				"source": "https://www.bbc.com/news/health-53061281"
+			},
+			{
+				"heading": "Singapore scientists to start human trials of COVID-19 vaccine in August",
+				"description": "Singapore scientists testing a COVID-19 vaccine from U.S. firm Arcturus Therapeutics (ARCT.O) plan to start human trials in August after promising initial responses in mice.",
+				"source": "https://in.reuters.com/article/us-health-coronavirus-singapore-vaccine/singapore-scientists-to-start-human-trials-of-covid-19-vaccine-in-august-idINKBN23N16V"
+			}
+		]
+	},
+	{
+		"date": "15/06/2020",
+		"india": [
+			{
+				"heading": "Centre to provide 500 railway coaches to Delhi for Covid-19 patients",
+				"description": "The Centre will provide 500 railway coaches to Delhi in view of the shortage of beds for Covid-19 patients in the national capital, Union home minister Amit Shah said on Sunday after a meeting with Delhi chief minister Arvind Kejriwal.",
+				"source": "https://www.hindustantimes.com/india-news/centre-to-provide-500-railway-coaches-to-delhi-for-covid-19-patients-amit-shah/story-3nxx8AAd1r1DHINIj8SJiP.html"
+			},
+			{
+				"heading": "Karnataka finally issues order banning online classes up to Class 5",
+				"description": "Six days after the Karnataka State Minister for Primary and Secondary Education announced a ban on online classes up to Class 5, the department finally issued an official government order on Monday evening. The order directs all schools across the boards to stop online classes for children from kindergarten to Class 5 and not to collect fee from parents in the name of online education.",
+				"source": "https://www.deccanherald.com/state/top-karnataka-stories/karnataka-finally-issues-order-banning-online-classes-up-to-class-5-849860.html"
+			},
+			{
+				"heading": "ICMR recommends use of faster COVID-19 testing kit",
+				"description": "The Indian Council of Medical Research (ICMR) has recommended the use of Standard Q COVID-19 Ag antigen detection test in containment zones and healthcare settings in combination with the RT-PCR test. Collected nasal swab is used for testing in this procedure.",
+				"source": "https://www.thehindu.com/news/national/icmr-recommends-use-of-faster-covid-19-testing-kit/article31834925.ece"
+			}
+		],
+		"world": [
+			{
+				"heading": "Pakistan's Covid-19 cases could reach up to 12 lakh by July end",
+				"description": "Pakistan's Covid-19 cases could reach up to 12 lakh by the end of July, a top minister said on Sunday, as the country registered a record 6,825 infections in the last 24 hours, taking the tally to 139,230.",
+				"source": "https://www.indiatoday.in/world/story/pakistan-covid19-cases-could-reach-12-lakh-july-end-1689070-2020-06-15"
+			},
+			{
+				"heading": "Thailand ends curfew, marks 21 days with no local COVID-19 cases",
+				"description": "Thailand on Monday (Jun 15) lifted a nationwide curfew after more than two months and allowed restaurants to resume selling alcohol as the coronavirus crisis eased, with 21 days since a recorded case of local transmission.",
+				"source": "https://www.channelnewsasia.com/news/asia/covid-19-thailand-ends-curfew-21-days-no-local-cases-12836060"
+			},
+			{
+				"heading": "Spain to open borders on June 21 to most European visitors, including British",
+				"description": "Spain will reopen its borders to most European visitors from June 21, 10 days earlier than previously planned, the government said on Sunday, in a further easing of coronavirus restrictions but a week later than some other EU member states.",
+				"source": "https://in.reuters.com/article/health-coronavirus-spain/spain-to-open-borders-on-june-21-to-most-european-visitors-including-british-idINKBN23L0G8"
+			}
+		]
+	},
+	{
 		"date": "14/06/2020",
 		"india": [
 			{
