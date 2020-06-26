@@ -1,5 +1,227 @@
 [
 	{
+		"date": "23/06/2020",
+		"india": [
+			{
+				"heading": "West Bengal educational institutes to remain closed till July 31",
+				"description": "West Bengal Education Minister Partha Chatterjee has announced today that all educational institutes in the state will remain closed till July 31 due to the ongoing coronavirus pandemic which has surrounded the nation. This applies to all state-run and state-aided schools, colleges and universities in West Bengal.",
+				"source": "https://www.indiatoday.in/education-today/news/story/west-bengal-educational-institutes-to-remain-closed-till-july-31-1691933-2020-06-23"
+			},
+			{
+				"heading": "Punjab Allows Dine-in Facility in Restaurants, Marriage Halls to Reopen at 50% Capacity",
+				"description": "The Punjab government on Tuesday moved towards further reopening of the economy, allowing hotels, restaurants and marriage halls to operate at 50% capacity, with strict adherence to social-distancing norms and other health protocols.",
+				"source": "https://www.news18.com/news/india/punjab-allows-dine-in-facility-in-restaurants-marriage-halls-to-reopen-at-50-capacity-2683537.html"
+			},
+			{
+				"heading": "As Saudi cancels Haj for foreigners, Indian govt. initiates reimbursement",
+				"description": "Following a phone call by Saudi Arabia’s Haj and Umrah Minister Mohammad Saleh Bin Taher Benten to Union Minority Affairs Minister Mukhtar Abbas Naqvi informing him that no international pilgrims will be allowed for Haj due to the COVID-19 pandemic, the Indian government said it would reimburse payments made by Indian pilgrims for the same.",
+				"source": "https://www.thehindu.com/news/national/coronavirus-indian-pilgrims-will-not-travel-to-saudi-arabia-for-haj-2020-says-naqvi/article31896662.ece"
+			}
+		],
+		"world": [
+			{
+				"heading": "Coronavirus 'Pandemic Still Accelerating' says WHO Chief",
+				"description": "The World Health Organization sent out a fresh warning on Monday over the dangers of the new coronavirus even as France returned to life by staging an annual music festival and sending millions of children back to school.",
+				"source": "https://www.ndtv.com/world-news/covid-19-world-health-organization-chief-tedros-adhanom-ghebreyesus-says-coronavirus-pandemic-still-accelerating-2250283"
+			},
+			{
+				"heading": "WHO urges rapid dexamethasone production for coronavirus patients",
+				"description": "The World Health Organization called Monday for a rapid increase in production of the steroid dexamethasone, after British clinical trials found it has life-saving potential for critically-ill coronavirus patients.",
+				"source": "https://timesofindia.indiatimes.com/india/who-urges-rapid-dexamethasone-production-for-coronavirus-patients/articleshow/76517382.cms"
+			},
+			{
+				"heading": "Chinese researchers begin phase 2 of human trials",
+				"description": "Amid an increasing number of coronavirus cases globally, Chinese researchers have begun the second phase human trial of a possible coronavirus vaccine. It follows an ongoing phase-1 study which has recruited about 200 participants since May, the Institute of Medical Biology at Chinese Academy of Medical Sciences (IMBCAMS) said on Sunday.",
+				"source": "https://www.businesstoday.in/latest/trends/coronavirus-vaccine-update-chinese-researchers-begin-phase-2-of-human-trials/story/407566.html"
+			}
+		]
+	},
+	{
+		"date": "22/06/2020",
+		"india": [
+			{
+				"heading": "DGCA eases quarantine norms for pilots and cabin crew",
+				"description": "The DGCA on Monday eased quarantine norms for pilots and cabin crew and dispensed with the need for the entire crew to be sent on a mandatory 14-day quarantine in case anyone aboard a flight tested positive for COVID-19. Instead, airlines can conduct a risk assessment and take a decision accordingly.",
+				"source": "https://www.thehindu.com/news/national/coronavirus-dgca-eases-quarantine-norms-for-pilots-and-cabin-crew/article31892482.ece"
+			},
+			{
+				"heading": "Indian scientists find COVID-19 gene in wastewater, hailed by global community",
+				"description": "Scientists in India have for the first time detected genetic material of the SARS-CoV-2 virus in wastewater, a breakthrough that paves the way for using wastewater-based epidemiology (WBE) for real-time surveillance of COVID-19 in the country.",
+				"source": "https://www.indiatoday.in/science/story/indian-scientists-find-covid-19-gene-in-wastewater-hailed-by-global-community-1691628-2020-06-22"
+			},
+			{
+				"heading": "ISKCON Rath Yatra in Kolkata cancelled, rituals to be held on temple premises",
+				"description": "‘At ISKCON Kolkata, we had to cancel the procession as it attracts over 15 lakh people during the nine days festivities and we don’t have dedicated area where people’s entry/exit can be controlled,’ it said in a statement.",
+				"source": "https://www.thehindu.com/news/national/other-states/iskcon-rath-yatra-in-kolkata-cancelled-rituals-to-be-held-on-temple-premises/article31891133.ece"
+			}
+		],
+		"world": [
+			{
+				"heading": "Global coronavirus cases top 9 million",
+				"description": "The number of novel coronavirus infections around the world reached 9,003,042 on Monday, Johns Hopkins University data shows. According to the research university, the United States accounts for the biggest number of cases with 2,289,168, followed by Brazil (1,083,341), Russia (591,465), India (425,282) and the United Kingdom (306,761).",
+				"source": "https://tass.com/world/1170563"
+			},
+			{
+				"heading": "South Korea says it is battling 2nd wave of coronavirus around Seoul",
+				"description": "Health authorities in South Korea said for the first time on Monday it is in the midst of a 'second wave' of novel coronavirus infections around Seoul, driven by small but persistent outbreaks stemming from a holiday in May.",
+				"source": "https://www.cbc.ca/news/world/south-korea-second-wave-coronavirus-1.5621854"
+			},
+			{
+				"heading": "Fraudulent Coronavirus Disease 2019 (COVID-19) Products",
+				"description": "The U.S. Food and Drug Administration is issuing warning letters to firms for selling fraudulent products with claims to prevent, treat, mitigate, diagnose or cure coronavirus disease 2019 (COVID-19). We are actively monitoring for any firms marketing products with fraudulent COVID-19 prevention and treatment claims.",
+				"source": "https://www.fda.gov/consumers/health-fraud-scams/fraudulent-coronavirus-disease-2019-covid-19-products"
+			}
+		]
+	},
+	{
+		"date": "21/06/2020",
+		"india": [
+			{
+				"heading": "Hetero gets DCGI nod to launch Remdesivir for Covid-19 treatment",
+				"description": "Hyderabad headquartered generic drug maker Hetero group on Sunday announced obtaining the approval of India’s regulator Drug Controller General of India to manufacture and market the investigational antiviral medicine Remdesivir for the treatment of Covid-19.",
+				"source": "https://economictimes.indiatimes.com/industry/healthcare/biotech/pharmaceuticals/hetero-gets-dcgi-nod-to-launch-remdesivir-for-covid-19-treatment/articleshow/76490670.cms?from=mdr"
+			},
+			{
+				"heading": "Inexpensive ‘N95-equivalent masks’ to be made by women SHGs in Ganjam",
+				"description": "To meet the rising demand for N95 masks in the fight against the COVID-19 pandemic, Odisha’s Ganjam District Rural Development Agency (DRDA) has started manufacturing 'N95-equivalent masks' with the help of women self help groups (SHGs) in Ganjam district at a cost of only ₹25.",
+				"source": "https://www.thehindu.com/news/national/other-states/inexpensive-n95-equivalent-masks-to-be-made-by-women-shgs-in-ganjam/article31883065.ece"
+			},
+			{
+				"heading": "Special insurance scheme for health workers extended till Sept",
+				"description": "The govt has extended the ₹50 lakh insurance scheme for about 22 lakh health workers for another 3-month till Sept amid rising number of covid-19 positive cases among medical professionals in the country.",
+				"source": "https://www.livemint.com/news/india/special-insurance-scheme-for-health-workers-extended-till-sept-govt-11592732806530.html"
+			}
+		],
+		"world": [
+			{
+				"heading": "Spain ends state of emergency. People and tourists free to move across the country",
+				"description": "People can now freely move around the whole country to see relatives and friends for the first time since March 14, when the state of emergency was first declared.",
+				"source": "https://www.euronews.com/2020/06/21/coronavirus-spain-ends-state-of-emergency-people-and-tourists-free-to-move-across-the-coun"
+			},
+			{
+				"heading": "China Korea report new infections Trump wants less testing",
+				"description": "China and South Korea reported new coronavirus cases Sunday in outbreaks that threatened to set back their recovery, while President Donald Trump said he told his government to reduce U.S. testing to avoid unflattering statistics showing rising infections.",
+				"source": "https://www.theweek.in/wire-updates/international/2020/06/21/fgn19-virus-world.html"
+			},
+			{
+				"heading": "N.L. reports no active cases of COVID-19 for 3rd straight day, despite a positive test result",
+				"description": "However, the Department of Health says there was a positive test result reported Friday evening. The positive test was from an asymptomatic employee at Eastern Health who, the department said, was not involved in direct patient care.",
+				"source": "https://www.cbc.ca/news/canada/newfoundland-labrador/nl-covid-june-20-1.5620709"
+			}
+		]
+	},
+	{
+		"date": "20/06/2020",
+		"india": [
+			{
+				"heading": "Maharashtra To Use Tele-ICU Facility On Pilot Basis",
+				"description": "The Maharashtra government will use 'tele-ICU' facility in Mumbai and six other places on a pilot basis to treat COVID-19 patients in serious condition, state health minister Rajesh Tope said on Saturday.",
+				"source": "https://www.republicworld.com/india-news/general-news/covid-19-maha-to-use-tele-icu-facility-on-pilot-basis.html"
+			},
+			{
+				"heading": "Fearing lack of care, hygiene at quarantine centres, Covid-19 patients prefer home isolation",
+				"description": "Personal care, better hygiene and lesser chances of aggravation of infection are some of the issues that weigh on the minds of asymptomatic coronavirus patients many of whom prefer home quarantine over institutional isolation.",
+				"source": "https://www.indiatoday.in/india/story/fearing-lack-care-hygiene-quarantine-centres-covid19-patients-prefer-home-isolation-1691090-2020-06-20"
+			},
+			{
+				"heading": "AP SSC, Inter supplementary exams cancelled, all students promoted ",
+				"description": "The government of Andhra Pradesh has decided to cancel the SSC and intermediate first, second year supplementary exams. Education Minister Adimulapu Suresh announced that the government has taken this decision due to rise in COVID-19 cases.",
+				"source": "https://indianexpress.com/article/education/ap-ssc-inter-supplementary-exams-cancelled-all-students-promoted-bieap-gov-in-manabadi-6468400/"
+			}
+		],
+		"world": [
+			{
+				"heading": "6 Trump campaign members in Tulsa test positive for the coronavirus ahead of rally",
+				"description": "Six members of President Donald Trump's campaign staff who are in Tulsa, Oklahoma, to set up for the president's first campaign rally in months have tested positive for the coronavirus, the campaign announced Saturday.",
+				"source": "https://www.nbcnews.com/politics/donald-trump/6-trump-campaign-members-tulsa-test-positive-coronavirus-ahead-rally-n1231647"
+			},
+			{
+				"heading": "Spain to allow UK tourists from Sunday - but quarantine awaits on return",
+				"description": "However, Spain will continue to apply a ‘triple-check,’ including verifying the origin of passengers, a temperature-check and registration so contact-tracing can be possible, the reporter added.",
+				"source": "https://www.telegraph.co.uk/news/2020/06/20/fresh-coronavirus-outbreak-portugal-raises-fears-travel-ban/"
+			},
+			{
+				"heading": "German slaughterhouse outbreak crosses 1,000",
+				"description": "The total number of people infected with the coronavirus at a slaughterhouse in northwestern Germany has risen to 1,029, up from over 600 earlier this week, according to officials.",
+				"source": "https://www.dw.com/en/coronavirus-german-slaughterhouse-outbreak-crosses-1000/a-53883372"
+			}
+		]
+	},
+	{
+		"date": "19/06/2020",
+		"india": [
+			{
+				"heading": "After Mumbai, Delhi set to become second city with 50K plus Covid-19 cases",
+				"description": "Delhi has been buffeted by a surge of Covid-19 cases in the past few weeks. The national capital is now on course to become the second city in the country after Mumbai with more than 50,000 Covid-19 cases.",
+				"source": "https://www.hindustantimes.com/delhi-news/after-mumbai-delhi-set-to-become-second-city-with-50k-plus-covid-19-cases/story-vlF5BilM9oKZ0O7fER1fhM.html"
+			},
+			{
+				"heading": "Over 7,000 tested using rapid antigen kits in Delhi",
+				"description": "The rapid antigen testing for Covid-19 started on a large scale in the capital on Thursday. As many as 7,040 people were tested using the rapid antigen test kits at 193 locations out of which 456 people were found positive. The new testing method is expected to expand the base of testing which is considered critical in containment and mitigation of the novel.",
+				"source": "https://timesofindia.indiatimes.com/city/delhi/over-7k-tested-using-rapid-antigen-kits/articleshow/76453445.cms"
+			},
+			{
+				"heading": "Number of Containment Zones in West Bengal Inches Towards 2,500 ",
+				"description": "The number of containment zones in West Bengal increased from 1,907 to 2,428 in a week. According to the state government website ‘Egiye Bangla’, Kolkata has the maximum number of containment zones — 1,512, followed by North 24 Parganas district, which has 219 containment zones.",
+				"source": "https://www.india.com/news/india/containment-zone-list-in-west-bengal-nearly-2500-hotspots-in-state-kolkata-tops-the-lis-4062919/"
+			}
+		],
+		"world": [
+			{
+				"heading": "New Orleans Health Department investigating clusters of COVID-19",
+				"description": "The New Orleans Health Department and Louisiana Department of Health is investigating a cluster of COVID-19 cases in Orleans Parish.",
+				"source": "https://www.fox8live.com/2020/06/19/new-orleans-health-department-investigating-clusters-covid-/"
+			},
+			{
+				"heading": "Houston Police Chief Blames Protests For Spike In Coronavirus Cases In Department",
+				"description": "Due to the weeks of protests over racism, the chief of the Houston Police Department said that his own department has been recording a spike in COVID-19 cases.",
+				"source": "https://www.republicworld.com/world-news/us-news/houston-police-chief-blames-protests-for-covid-19-spike-in-department.html"
+			},
+			{
+				"heading": "Americans ignoring science during pandemic is ‘frustrating’",
+				"description": "Dr. Anthony Fauci, the nation's leading infectious diseases expert, is frustrated about the nation's inability to stop the continued spread of coronavirus, which he says is largely because Americans aren't following recommended health guidelines.",
+				"source": "https://www.cbsnews.com/news/anthony-fauci-coronavirus-pandemic-americans-ignoring-science/"
+			}
+		]
+	},
+	{
+		"date": "18/06/2020",
+		"india": [
+			{
+				"heading": "Harsh Vardhan Launches India's First Mobile Lab For COVID-19 Testing",
+				"description": "Union Health Minister Harsh Vardhan on Thursday launched India's first mobile laboratory for COVID-19 testing in rural and inaccessible areas of India.",
+				"source": "https://www.livemint.com/news/india/harsh-vardhan-launches-india-s-first-mobile-laboratory-for-covid-19-testing-11592478269175.html"
+			},
+			{
+				"heading": "Private Hospitals In Bengal To Provide Information On Vacant COVID Beds",
+				"description": "Out of 10,313 beds for COVID-19 patients in government hospitals in West Bengal, 8,225 are vacant, according to new data the state is sharing from today to streamline information about availability of hospital beds and spare patients and their families the trauma of being turned away by hospitals.",
+				"source": "https://www.ndtv.com/india-news/coronavirus-private-hospitals-in-bengal-to-provide-information-on-vacant-covid-beds-2248575"
+			},
+			{
+				"heading": "Centre lifts export ban on anti-malarial drug hydroxychloroquine",
+				"description": "The central government on Thursday lifted the export ban on anti-malarial drug hydroxychloroquine with immediate effect. 'The export policy of Hydroxychloroquine API (active pharmaceutical ingredients) and its formulations from prohibited to free with immediate effect,' the Directorate General of Foreign Trade (DFFT) said in a notification.",
+				"source": "https://www.indiatoday.in/india/story/coronavirus-centre-lifts-export-ban-on-anti-malarial-drug-hydroxychloroquine-1690420-2020-06-18"
+			}
+		],
+		"world": [
+			{
+				"heading": "Kazakhstan Tightens COVID-19 Restrictions, Former President Tests Positive",
+				"description": "Kazakhstan said on Thursday it would tighten coronavirus-related restrictions during the coming weekend and an aide said former President Nursultan Nazarbayev had tested positive for COVID-19.",
+				"source": "https://www.nytimes.com/reuters/2020/06/18/world/asia/18reuters-health-coronavirus-kazakhstan.html"
+			},
+			{
+				"heading": "England's COVID-19 test and trace system reaches over 85,000 in two weeks",
+				"description": "The number of contacts of positive COVID-19 cases reached by England’s test and trace system in its first two weeks of operation was 87,639, Britain’s health ministry said on Thursday.",
+				"source": "https://in.reuters.com/article/health-coronavirus-britain-tracing/englands-covid-19-test-and-trace-system-reaches-over-85000-in-two-weeks-idINKBN23P2KI"
+			},
+			{
+				"heading": "China finds heavy coronavirus traces in seafood, meat sections of Beijing food market",
+				"description": "China has found the trading sections for meat and seafood in Beijing’s wholesale food market to be severely contaminated with the new coronavirus and suspects the area’s low temperature and high humidity may have been contributing factors, officials said on Thursday.",
+				"source": "https://in.reuters.com/article/health-coronavirus-china-seafood/china-finds-heavy-coronavirus-traces-in-seafood-meat-sections-of-beijing-food-market-idINKBN23P24J"
+			}
+		]
+	},
+	{
 		"date": "17/06/2020",
 		"india": [
 			{
