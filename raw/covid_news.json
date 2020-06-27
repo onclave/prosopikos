@@ -1,5 +1,116 @@
 [
 	{
+		"date": "26/06/2020",
+		"india": [
+			{
+				"heading": "Kolkata Metro may resume services from 1 July",
+				"description": "West Bengal Chief Minister Mamata Banerjee said on Friday Kolkata Metro may resume services from 1 July and that due to pandemic passengers will be allowed only up to the seating capacity.",
+				"source": "https://www.livemint.com/news/india/kolkata-metro-may-resume-services-from-1-july-mamata-11593171572138.html"
+			},
+			{
+				"heading": "India extends ban on international commercial flights till July 15",
+				"description": "With India continuing to witness a massive rise in coronavirus cases, the Director-General of Civil Aviation (DGCA) on Friday extended the ban on international commercial flights till July 15.",
+				"source": "https://www.indiatoday.in/india/story/india-extends-ban-international-commercial-flights-till-july-15-covid19-coronavirus-1693029-2020-06-26"
+			},
+			{
+				"heading": "Several key markets, shops closed in Hyderabad as Covid-19 cases rise rapidly",
+				"description": "The sharp spike in the number of Covid-19 positive cases in Hyderabad in the last few days has forced several shops, business establishments and general markets to announce voluntary lockdown for a period ranging from 7-10 days as a precautionary measure.",
+				"source": "https://www.hindustantimes.com/india-news/several-key-markets-shops-closed-in-hyderabad-as-covid-19-cases-rise-rapidly/story-fapCCsrft6xXpj2eSLTkJK.html"
+			}
+		],
+		"world": [
+			{
+				"heading": "Supermarkets In Australia Impose Limit On Toilet Paper Purchase To Stop Panic Buying",
+				"description": "Supermarkets in Australia have now imposed limits on the purchase of toilet paper and paper towels, in a move to stem panic buying. This comes as the state of Victoria saw a surge in COVID-19 cases in the recent week, spreading fear of a second wave across the country.",
+				"source": "https://www.republicworld.com/world-news/australia/australia-supermarkets-place-limit-on-purchase-of-toilet-papers.html"
+			},
+			{
+				"heading": "World Health Organization Says UK Pharma Firm Astrazeneca Most Advanced In COVID-19 Vaccine Race",
+				"description": "AstraZeneca’s experimental COVID-19 vaccine might be the world’s main candidate and most superior by way of growth, the World Health Organization’s (WHO) chief scientist stated on Friday.",
+				"source": "https://pehalnews.in/world-health-organization-says-uk-pharma-firm-astrazeneca-most-advanced-in-covid-19-vaccine-race/41646/"
+			},
+			{
+				"heading": "Over $30 Billion Needed For COVID-19 Tests, Treatments, Vaccines",
+				"description": "The World Health Organization said Friday that a global initiative to speed up the development and production of COVID-19 tests, vaccines and treatments will require more than $30 billion over the next year.",
+				"source": "https://www.ndtv.com/world-news/coronavirus-world-health-organization-says-over-30-billion-needed-to-make-covid-19-tests-treatments-vaccines-2252878"
+			}
+		]
+	},
+	{
+		"date": "25/06/2020",
+		"india": [
+			{
+				"heading": "Railways produces 1.91 lakh PPE gowns, over 66,000 lakh sanitisers",
+				"description": "India registered its biggest single-day increase in Covid-19 cases on Thursday, recording close to 17,000 coronavirus infections, to push the overall tally to 4.73 lakh as the number of fatalities inched closer to 15,000, according to the Union health ministry data.",
+				"source": "https://timesofindia.indiatimes.com/india/coronavirus-roundup-developments-in-india-and-rest-of-world/articleshow/76628274.cms"
+			},
+			{
+				"heading": "Validation of rapid antigen detection tests for COVID-19",
+				"description": "The ICMR on Thursday invited applications for validation of rapid antigen detection tests for COVID-19 from all manufacturers who have developed such kits as part of its efforts to scale up testing capacity with faster diagnosis.",
+				"source": "https://www.newindianexpress.com/nation/2020/jun/26/validation-of-rapid-antigen-detection-tests-for-covid-19-icmr-invites-applications-from-manufacture-2161446.html"
+			},
+			{
+				"heading": "Over 18 lakh people given ayurvedic concoction against coronavirus",
+				"description": "The Rajasthan government gave an ayurvedic concoction to over 18 lakh people, according to the state Health Minister. He said the state government is not leaving any stone unturned to promote the ayurvedic medical system.",
+				"source": "https://www.indiatoday.in/india/story/rajasthan-government-gives-ayurvedic-gilloy-concoction-18-lakh-people-against-coronavirus-health-minister-1692698-2020-06-25"
+			}
+		],
+		"world": [
+			{
+				"heading": "US group raises pricing recommendation for Gilead's remdesivir",
+				"description": "Gilead Sciences Inc's antiviral remdesivir could be priced up to $5,080 per course based on benefits shown in COVID-19 patients, a United States drug pricing research group suggested on Wednesday, above its prior recommendation of about $4,500.",
+				"source": "https://www.aljazeera.com/ajimpact/group-raises-pricing-recommendation-gilead-remdesivir-200624202955594.html"
+			},
+			{
+				"heading": "Israeli PM Announces Cooperation With UAE To Fight Coronavirus",
+				"description": "Israeli Prime Minister Benjamin Netanyahu on Thursday said his country would be cooperating with the United Arab Emirates to fight against the coronavirus pandemic, despite a lack of diplomatic ties.",
+				"source": "https://www.ndtv.com/world-news/coronavirus-israeli-prime-minister-benjamin-netanyahu-announces-cooperation-with-uae-to-fight-covid-19-2252358"
+			},
+			{
+				"heading": "How a spring break trip to Mexico triggered a coronavirus outbreak among 60 Texas college students",
+				"description": "On March 19, the day the Trump administration urged Americans to stop traveling internationally, a group of students from the University of Texas at Austin returned from a spring break trip to a Mexican beach resort.",
+				"source": "https://www.washingtonpost.com/health/how-a-spring-break-trip-to-mexico-spurred-a-coronavirus-outbreak-among-60-texas-college-kids/2020/06/24/10390014-b632-11ea-a8da-693df3d7674a_story.html"
+			}
+		]
+	},
+	{
+		"date": "24/06/2020",
+		"india": [
+			{
+				"heading": "COVID-19 drug price revealed, first 20,000 vials to be delivered shortly",
+				"description": "The cost of taking Covifor, the COVID-19 drug Remdesivir, has been revealed by Hyderabad-based Hetero. As per the company announcement, the COVID-19 drug in India will cost Rs 5,400 per vial. Hetero, which has got the DGCI's nod for the usage of the Drug in India, is all set to deliver 20,000 vials of the medicine for being used on the patients.",
+				"source": "https://www.indiatvnews.com/news/india/covid-19-drug-medicine-covifor-price-revealed-in-india-rs-5400-delhi-mumbai-628987"
+			},
+			{
+				"heading": "Railways’ isolation coach facility in Delhi’s Shakur Basti gets its first suspected COVID patient",
+				"description": "The railways modified isolation coaches parked at the Shakur Basti Station here received the first suspected COVID-19 patient on Wednesday, officials said, adding around 15 more are expected to arrive.",
+				"source": "https://indianexpress.com/article/cities/delhi/railways-isolation-coach-facility-in-delhis-shakur-basti-gets-its-first-suspected-covid-patient-6474292/"
+			},
+			{
+				"heading": "Over 73.5 lakh samples tested for COVID-19 in India till June 23 says ICMR",
+				"description": "Over 73.5 lakh samples have been tested for COVID-19 till June 23, of which 2.15 lakh were examined on Tuesday, the highest in a day since the beginning of the pandemic, ICMR officials said on Wednesday.",
+				"source": "https://www.thehindu.com/news/national/over-735-lakh-samples-tested-for-covid-19-in-india-till-june-23-icmr/article31904545.ece"
+			}
+		],
+		"world": [
+			{
+				"heading": "USDA, FDA reassert people cannot get COVID-19 from food",
+				"description": "In a joint statement from the USDA and FDA, both Agriculture Secretary Sonny Perdue and FDA Commissioner Stephen M. Hahn, M.D., reaffirmed that there is no evidence that people can contract COVID-19 from food or from food packaging.",
+				"source": "https://www.meatpoultry.com/articles/23359-usda-fda-reasserts-people-cannot-get-covid-19-from-food"
+			},
+			{
+				"heading": "Medical Experts Warn UK To Prepare For 'Real Risk' Of 2nd COVID-19 Wave",
+				"description": "Medical experts on Wednesday warned the British government to prepare for the 'real risk' of a coronavirus second wave just a day after the biggest lifting yet of lockdown restrictions in England.",
+				"source": "https://www.ndtv.com/world-news/coronavirus-medical-experts-warn-uk-to-prepare-for-real-risk-of-2nd-covid-19-wave-2251505"
+			},
+			{
+				"heading": "First volunteer receives Imperial COVID-19 vaccine",
+				"description": "Imperial College London’s vaccine candidate is being developed and trialled thanks to more than £41 million in funding from the UK government and a further £5 million in philanthropic donations.",
+				"source": "https://www.imperial.ac.uk/news/198533/first-volunteer-receives-imperial-covid19-vaccine/"
+			}
+		]
+	},
+	{
 		"date": "23/06/2020",
 		"india": [
 			{
