@@ -1,5 +1,116 @@
 [
 	{
+		"date": "29/06/2020",
+		"india": [
+			{
+				"heading": "Unlock 2.0 guidelines- Gyms, schools remain closed; night curfew relaxed, more domestic flights soon",
+				"description": "The Union Home Ministry has announced guidelines for Unlock 2.0 and said it has decided to open up more activities outside the containment zones, while maintaining that there shall remain strict enforcement of lockdown in the containment zones.",
+				"source": "https://www.indiatoday.in/india/story/govt-announces-unlock-2-guidelines-details-containment-zones-activities-allowed-all-you-need-to-know-1695281-2020-06-29"
+			},
+			{
+				"heading": "Mamata Asks Kolkata Metro Authorities to Resume Operations at The Earliest",
+				"description": "West Bengal Chief Minister Mamata Banerjee on Monday urged the Kolkata Metro authorities to resume operations in a limited manner at the earliest, as she said the state chief secretary will soon speak to chairman of the Railway Board on the issue.",
+				"source": "https://www.news18.com/news/india/mamata-asks-kolkata-metro-authorities-to-resume-operations-at-the-earliest-2693059.html"
+			},
+			{
+				"heading": "Maharashtra CM launches world's largest convalescent plasma project",
+				"description": "Maharashtra chief minister Uddhav Thackeray on Monday launched convalescent plasma therapy-cum- trial project for treatment of critical Covid-19 patients with a state medical education department official calling it the largest initiative of its kind in the world.",
+				"source": "https://timesofindia.indiatimes.com/india/maharashtra-cm-launches-worlds-largest-convalescent-plasma-project/articleshow/76690875.cms"
+			}
+		],
+		"world": [
+			{
+				"heading": "Global coronavirus cases exceed 10 million",
+				"description": "Global coronavirus cases exceeded 10 million on Sunday according to a Reuters tally, marking a major milestone in the spread of the respiratory disease that has so far killed almost half a million people in seven months.",
+				"source": "https://in.reuters.com/article/us-health-coronavirus-cases/global-coronavirus-cases-exceed-10-million-idINKBN23Z00F"
+			},
+			{
+				"heading": "Sri Lanka to reopen schools in phased manner",
+				"description": "Principals, teachers and other staff in Sri Lanka returned to schools on Monday after three months of lockdown imposed in the country to contain the spread of the coronavirus. Education Minister Dullas Alahapperuma said the students will return to schools next week under four phases.",
+				"source": "https://www.theweek.in/wire-updates/international/2020/06/29/fes25-virus-lanka-schools.html"
+			},
+			{
+				"heading": "In Haiti, coronavirus spreads in slums, showing challenge for Latin America",
+				"description": "Clermont’s plight is shared by many in Haiti and, more broadly, across the Caribbean and Latin America. Home to 654 million people, it is the most unequal region in the world, according to the United Nations.",
+				"source": "https://in.reuters.com/article/health-coronavirus-haiti/in-haiti-coronavirus-spreads-in-slums-showing-challenge-for-latin-america-idINKBN23Z0MT"
+			}
+		]
+	},
+	{
+		"date": "28/06/2020",
+		"india": [
+			{
+				"heading": "Over 14% people in Kolkata have Covid-19 antibodies",
+				"description": "A seroprevalence survey conducted via random and rapid tests -- the IgM and the IGg -- indicate the rate of transmission in a community and whether it has started developing herd immunity to a virus.",
+				"source": "https://www.indiatoday.in/india/story/kolkata-people-covid19-antibodies-icmr-sero-survey-1694917-2020-06-28"
+			},
+			{
+				"heading": "No private hospital in Karnataka can deny Covid-19 treatment",
+				"description": "No private hospital or medical establishment in Karnataka can turn away or deny treatment to Covid patients, said a top official on Sunday. ‘Private medical establishments in the state shall not deny, refuse or avoid treatment to patients with Covid and Covid like symptoms,’ ordered Chief Secretary T.M. Vijay Bhaskar.",
+				"source": "https://www.livemint.com/news/india/no-private-hospital-in-karnataka-can-deny-covid-19-treatment-official-11593355523537.html"
+			},
+			{
+				"heading": "Hyderabad likely go for lockdown again in wake of rising COVID-19 cases",
+				"description": "In a bid to contain the rapidly increasing coronavirus cases in Hyderabad, the Telangana government will soon finalise a strategy in Greater Hyderabad Municipal Corporation (GHMC) jurisdiction.",
+				"source": "https://www.dnaindia.com/india/report-hyderabad-likely-go-for-lockdown-again-in-wake-of-rising-covid-19-cases-2830006"
+			}
+		],
+		"world": [
+			{
+				"heading": "Zurich Quarantines Nearly 300 Nightclub Revellers after Six People Contract Covid-19",
+				"description": "Zurich's health authority said on Saturday it had ordered a 10-day quarantine for almost 300 guests and staff of a nightclub after a reveller tested positive for the coronavirus and had been proven to have infected others during his outing.",
+				"source": "https://www.news18.com/news/world/zurich-quarantines-nearly-300-nightclub-revellers-after-six-people-contract-covid-19-2690969.html"
+			},
+			{
+				"heading": "Chinese firm says coronavirus vaccine candidate shows promise in human test",
+				"description": "China National Biotec Group (CNBG) said on Sunday that early human test results for a coronavirus vaccine candidate suggested it could be safe and effective, the second vaccine candidate from the firm to show encouraging results in a clinical trial.",
+				"source": "https://www.indiatoday.in/world/story/beijing-china-national-biotec-group-coronavirus-vaccine-clinical-trial-medical-research-covid-19-1694874-2020-06-28"
+			},
+			{
+				"heading": "Martin named new Irish prime minister, vows to tackle deep recession",
+				"description": "Ireland’s parliament picked veteran opposition leader Micheál Martin as prime minister on Saturday to head the first coalition uniting the two parties that have battled each other for power since a civil war nearly a century ago. He pledged to rescue Ireland from the ‘the fastest-moving recession ever to hit’, brought on by the coronavirus crisis.",
+				"source": "https://in.reuters.com/article/ireland-politics/martin-named-new-irish-prime-minister-vows-to-tackle-deep-recession-idINKBN23Y0IO"
+			}
+		]
+	},
+	{
+		"date": "27/06/2020",
+		"india": [
+			{
+				"heading": "Covid-19 recoveries exceed active cases by 98,493 says Health ministry data",
+				"description": "The total number of recoveries has fast outgrown the number of active Covid-19 cases, with the difference between the two nearing one lakh fast, the Union health ministry said on Saturday.",
+				"source": "https://timesofindia.indiatimes.com/india/covid-19-recoveries-exceed-active-cases-by-98493-health-ministry-data/articleshow/76664752.cms"
+			},
+			{
+				"heading": "From 1 to 5 lakh cases in 39 days; medical experts point to increased testing",
+				"description": "It took 110 days for coronavirus infections in the country to reach one lakh, while just 39 days more to go past the five lakh-mark. Medical experts have pointed to the ramped up COVID-19 testing, now available more extensively and at a reasonable price, as a big reason for the spike in cases recently.",
+				"source": "https://economictimes.indiatimes.com/news/politics-and-nation/from-1-to-5-lakh-cases-in-39-days-medical-experts-point-to-increased-testing/articleshow/76662423.cms"
+			},
+			{
+				"heading": "Cheap Steroid Drug Dexamethasone Can Now be Used in India to Treat COVID Patients",
+				"description": "The Centre on Saturday gave a green signal to the use of steroid dexamethasone as alternative to methylprednisolone for moderate and severe COVID-19 patients in need of oxygen support who experience excessive inflammatory response. For the same, the Health Ministry also revised clinical management protocol for COVID-19.",
+				"source": "https://www.india.com/news/india/cheap-steroid-drug-dexamethasone-can-now-be-used-in-india-to-treat-covid-patients-4069202/"
+			}
+		],
+		"world": [
+			{
+				"heading": "White House does not commit to temperature checks in meeting with U.S. airlines",
+				"description": "Airlines want the U.S. government to administer temperature checks to all passengers in a bid to reassure the public. The Trump administration is open to the idea of having the Transportation Security Administration conduct the tests, but there are still many unanswered questions, including what would happen to passengers who had high fevers and were denied boarding and how to pay for the screening.",
+				"source": "https://www.devdiscourse.com/article/health/1107949-white-house-does-not-commit-to-temperature-checks-in-meeting-with-us-airlines"
+			},
+			{
+				"heading": "Coronavirus cases in India cross 500,000 as big cities reel from surge",
+				"description": "India reported over 17,000 new coronavirus cases over the last 24 hours, pushing the country’s total above 500,000, federal health ministry data showed on Saturday, with infections surging in major cities including the capital New Delhi.",
+				"source": "https://www.cnbc.com/2020/06/27/coronavirus-cases-in-india-cross-500000-as-big-cities-reel-from-surge.html"
+			},
+			{
+				"heading": "China sees uptick in new COVID-19 cases, including 17 in Beijing",
+				"description": "Mainland China reported on Saturday the highest number of new coronavirus cases in four days, driven by a COVID-19 resurgence in the Chinese capital of Beijing.",
+				"source": "https://in.reuters.com/article/health-coronavirus-china-cases/china-sees-uptick-in-new-covid-19-cases-including-17-in-beijing-idINKBN23Y07M"
+			}
+		]
+	},
+	{
 		"date": "26/06/2020",
 		"india": [
 			{
