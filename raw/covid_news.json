@@ -1,5 +1,227 @@
 [
 	{
+		"date": "05/07/2020",
+		"india": [
+			{
+				"heading": "Issue compulsory licences for manufacture of an affordable generic version of Remdesivir, CPI(M) tells govt.",
+				"description": "The Polit Bureau of the CPI (Marxist) on Sunday said the government should issue compulsory licences for the manufacture of a generic version of Remdesivir, an anti-viral drug being used to treat COVID-19 patients.",
+				"source": "https://www.thehindu.com/news/national/issue-compulsory-licences-for-manufacture-of-an-affordable-generic-version-of-remdesivir-cpim-tells-govt/article31994596.ece"
+			},
+			{
+				"heading": "With 'Covid-19 War Room', Delhi to keep eye on its fight against virus",
+				"description": "The Delhi government will set up a 'Covid-19 War Room', which will 24x7 monitor the city's fight against the novel coronavirus, and suggest measures to effectively deal with the prevailing situation, officials said on Sunday.",
+				"source": "https://timesofindia.indiatimes.com/city/delhi/covid-19-war-room-to-come-up-in-national-capital-to-keep-eye-on-citys-fight-against-virus/articleshow/76797211.cms"
+			},
+			{
+				"heading": "Thiruvananthapuram ‘Sitting On Active Volcano’- Kerala Minister On Rise In COVID Cases",
+				"description": "Thiruvananthapuram district is ‘sitting on an active volcano’ with rising number of COVID-19 cases and there was no guarantee that there would be no community spread, tourism Minister Kadakampally Surendran said in Thiruvananthapuram on Sunday.",
+				"source": "https://www.ndtv.com/thiruvananthapuram-news/coronavirus-thiruvananthapuram-sitting-on-active-volcano-kerala-minister-on-rise-in-covid-cases-2257546"
+			}
+		],
+		"world": [
+			{
+				"heading": "WHO halts hydroxychloroquine, HIV drugs in Covid trials after failure to reduce deaths",
+				"description": "The World Health Organization (WHO) said on Saturday that it was discontinuing its trials of the malaria drug hydroxychloroquine and combination HIV drug lopinavir/ritonavir in hospitalised patients with Covid-19 after they failed to reduce mortality.",
+				"source": "https://www.indiatoday.in/world/story/who-halts-hydroxychloroquine-hiv-drugs-in-covid-trials-after-failure-to-reduce-deaths-1697104-2020-07-04"
+			},
+			{
+				"heading": "Ireland Delays Easing of Travel Restrictions Until July 20",
+				"description": "Ireland will ease quarantine restrictions on people travelling from abroad on July 20, with people arriving from a 'green list' of countries with low COVID-19 rates to be exempt from isolating themselves for 14 days, transport minister Eamon Ryan said.",
+				"source": "https://www.usnews.com/news/world/articles/2020-07-05/ireland-to-ease-foreign-travel-restrictions-from-july-20"
+			},
+			{
+				"heading": "Britain puts $10 million into study on long term effects of COVID-19",
+				"description": "Britain is putting 8.4 million pounds ($10.49 million) into a new study to examine the long-term effects of COVID-19 on patients, the health ministry said on Sunday.",
+				"source": "https://in.reuters.com/article/us-health-coronavirus-britain-longterm/britain-puts-10-million-into-study-on-long-term-effects-of-covid-19-idINKBN2460AK"
+			}
+		]
+	},
+	{
+		"date": "04/07/2020",
+		"india": [
+			{
+				"heading": "CM Palaniswami eases curbs in Chennai from July 6, extends restrictions in Madurai",
+				"description": "After 17 days of intense lockdown in the state capital and suburban areas, Tamil Nadu Chief Minister K Palaniswami on Saturday announced relaxations for Chennai while extending curbs for Madurai and nearby regions till July 12.",
+				"source": "https://economictimes.indiatimes.com/news/politics-and-nation/cm-palaniswami-eases-curbs-in-chennai-from-july-6-extends-restrictions-in-madurai/articleshow/76787747.cms"
+			},
+			{
+				"heading": "17 TTD staff test positive for virus",
+				"description": "As many as 17 staff members of Tirumala Tirupati Devasthanams (TTD) that governs the shrine of Lord Venkateswara at Tirumala, near here, have tested positive for COVID-19, a top functionary of the TTD board said.",
+				"source": "https://www.livemint.com/news/india/covid-19-17-ttd-staff-test-positive-for-virus-11593863552709.html"
+			},
+			{
+				"heading": "Goa Will Set Up Plasma Bank To Treat COVID-19 Patients, Says Health Minister",
+				"description": "He said Goa Medical College and Hospital already has the facilities required to operate such a bank and people who have recovered from the infection would be asked to come forward to donate plasma.",
+				"source": "https://www.ndtv.com/goa-news/goa-will-set-up-plasma-bank-to-treat-covid-19-patients-says-health-minister-2257160"
+			}
+		],
+		"world": [
+			{
+				"heading": "Brazil surpasses 1.5 million coronavirus cases, with over 63,000 deaths",
+				"description": "Brazil registered 42,223 additional coronavirus cases in the past 24 hours, the Health Ministry said on Friday, bringing the total tally to 1,539,081, the second-worst outbreak in the world behind the United States.",
+				"source": "https://in.reuters.com/article/health-coronavirus-brazil/brazil-surpasses-1-5-million-coronavirus-cases-with-over-63000-deaths-idINKBN24501V"
+			},
+			{
+				"heading": "Gilead's COVID-19 antiviral remdesivir gets conditional EU clearance",
+				"description": "The European Commission said on Friday it had given conditional approval for the use of antiviral remdesivir in severe COVID-19 patients following an accelerated review process, making it the region's first therapy to be authorised to treat the virus.",
+				"source": "https://www.livemint.com/news/india/gilead-s-covid-19-antiviral-remdesivir-gets-conditional-eu-clearance-11593782357463.html"
+			},
+			{
+				"heading": "Brazil Health Regulator Anvisa Allows Chinese COVID-19 Vaccine Trial",
+				"description": "Brazilian health regulator Anvisa on Friday approved clinical trials of a potential coronavirus vaccine developed by China's Sinovac , according to an official gazette publication.",
+				"source": "https://www.usnews.com/news/world/articles/2020-07-03/brazil-health-regulator-anvisa-allows-chinese-covid-19-vaccine-trial"
+			}
+		]
+	},
+	{
+		"date": "03/07/2020",
+		"india": [
+			{
+				"heading": "98.06% appear for 10th grade SSLC exams in Karnataka amid covid-19 scare",
+				"description": "The education department said that in the last exam on Friday, a total of 7,61,056 students appeared for the paper as against 7,76,251 who were enrolled.",
+				"source": "https://www.livemint.com/education/news/98-06-appear-for-10th-grade-sslc-exams-in-karnataka-amid-covid-19-scare-11593786727552.html"
+			},
+			{
+				"heading": "Parliamentary panel calls principal scientific advisor to govt to brief it on COVID response",
+				"description": "A parliamentary panel has called principal scientific advisor to the government K Vijay Raghavan and some other top officials to brief it on the response to the COVID-19 outbreak and the country's preparedness to deal with a future pandemic. Raghavan is also co-chair of the Empowered Committee for COVID-19 Response, along with NITI Aayog member Vinod Paul.",
+				"source": "https://www.devdiscourse.com/article/headlines/1116680-parliamentary-panel-calls-principal-scientific-advisor-to-govt-to-brief-it-on-covid-response"
+			},
+			{
+				"heading": "NEET, JEE Main Exams 2020 Dates- Entrance Exams Postponed",
+				"description": "Union HRD Minister Ramesh Pokhriyal on Friday announced the Centre's decision to postpone the NEET and JEE entrance examinations till September. As per the fresh date sheet, the JEE Main examination will be held between September 1-6, while the advanced exam will be on September 27. The NEET exam will be conducted by the NTA on September 13.",
+				"source": "https://www.news18.com/news/education-career/neet-jee-main-exams-2020-dates-entrance-exams-postponed-hrd-minister-announces-new-dates-2699935.html"
+			}
+		],
+		"world": [
+			{
+				"heading": "Pakistan Foreign Minister Shah Mehmood Qureshi Tests Positive For COVID-19",
+				"description": "Pakistan Foreign Minister Shah Mehmood Qureshi on Friday announced that he has tested positive for the coronavirus disease and quarantined himself, becoming the latest senior politician in the country to be hit by the deadly virus.",
+				"source": "https://www.ndtv.com/world-news/coronavirus-pakistan-foreign-minister-shah-mehmood-qureshi-tests-positive-for-covid-19-2256827"
+			},
+			{
+				"heading": "South Korean city returns to tighter social distancing as coronavirus cases spike",
+				"description": "South Korea reported 63 new coronavirus cases as of Thursday, most from domestic infections outside Seoul, triggering the return of tighter social distancing curbs in one city as the spectre of a second wave of the disease worried authorities.",
+				"source": "https://in.reuters.com/article/us-health-coronavirus-southkorea/south-korean-city-returns-to-tighter-social-distancing-as-coronavirus-cases-spike-idINKBN24409X"
+			},
+			{
+				"heading": "Russia's mortality rate up 1.5-2% since start of 2020",
+				"description": "Russia’s mortality rate has risen by an estimated 1.5-2% since the beginning of 2020 due to the coronavirus outbreak, Health Minister Mikhail Murashko was quoted as saying by the Interfax news agency on Friday.",
+				"source": "https://in.reuters.com/article/us-health-coronavirus-russia-mortality/russias-mortality-rate-up-1-5-2-since-start-of-2020-ifax-cites-health-minister-idINKBN2440Q7"
+			}
+		]
+	},
+	{
+		"date": "02/07/2020",
+		"india": [
+			{
+				"heading": "Swab tests quarantine stay no longer free for Arunachal returnees",
+				"description": "Returnees to Arunachal Pradesh now have to pay for swab tests to check if someone currently has COVID-19, and services availed at quarantine facilities, Health & Family Welfare Minister Alo Libang said on Thursday.",
+				"source": "https://www.theweek.in/wire-updates/national/2020/07/02/ces12-ar-virus-expenses.html"
+			},
+			{
+				"heading": "Private labs should not refuse on-site samples for Covid-19 tests",
+				"description": "The Delhi High court on Thursday said that private laboratories should not stop conducting onsite collection of samples or tests at such a critical juncture where the number of cases of COVID-19 infection are shooting up phenomenally in the city.",
+				"source": "https://www.livemint.com/news/india/private-labs-should-not-refuse-on-site-samples-for-covid-19-tests-delhi-hc-11593705641248.html"
+			},
+			{
+				"heading": "All Monuments in India to Open to Public ‘With Complete Precautions’ From July 6",
+				"description": "In a huge development for the travel and tourism department, the central government on Thursday announced that all monuments across India will reopen on July 6, including those where religious events take place.",
+				"source": "https://www.india.com/news/india/unlock-2-all-monuments-in-india-to-open-to-public-with-complete-precautions-from-july-6-4073682/"
+			}
+		],
+		"world": [
+			{
+				"heading": "Reopenings stall as US records nearly 50,000 cases in a single day",
+				"description": "Governors of US states hit hardest by the resurgent coronavirus halted or reversed steps to reopen their economies on Wednesday (Thursday AEST), led by California, the nation's most populous state and a new epicentre of the pandemic.",
+				"source": "https://www.afr.com/world/north-america/reopenings-stall-as-us-records-nearly-50-000-cases-in-single-day-20200702-p558id"
+			},
+			{
+				"heading": "BioNTech and Pfizer's coronavirus vaccine shows potential in human trials",
+				"description": "A Covid-19 vaccine developed by German biotech firm BioNTech and US pharmaceutical giant Pfizer is the fourth early-stage Covid-19 drug to show promise in human testing, along with projects involving Moderna, CanSino Biologics and Inovio Pharmaceuticals.",
+				"source": "https://www.indiatoday.in/science/story/biontech-pfizer-coronavirus-vaccine-potential-human-trials-1696075-2020-07-02"
+			},
+			{
+				"heading": "India's coronavirus cases cross 600,000 amid easing of lockdowns",
+				"description": "India’s coronavirus infections surpassed 600,000 on Thursday, with 17,834 deaths, as authorities battled to contain the pandemic while easing lockdown rules, officials and the health ministry said.",
+				"source": "https://in.reuters.com/article/us-health-coronavirus-india/indias-coronavirus-cases-cross-600000-amid-easing-of-lockdowns-idINKBN2430HB"
+			}
+		]
+	},
+	{
+		"date": "01/07/2020",
+		"india": [
+			{
+				"heading": "Assam government to adopt new coronavirus testing model in Guwahati",
+				"description": "Union Home Minister Amit Shah has directed the Assam government to adopt a new model for conducting 10,000 Covid-19 tests daily with quick results in Guwahati to prevent it from going Mumbai and Delhi ways, state Health and Family Welfare Minister Himanta Biswa Sarma said on Wednesday.",
+				"source": "https://www.deccanherald.com/national/east-and-northeast/on-amit-shahs-direction-assam-government-to-adopt-new-coronavirus-testing-model-in-guwahati-855972.html"
+			},
+			{
+				"heading": "BMTC asks employees above 50 and with serious ailments to avail leave",
+				"description": "BMTC provides service to about 10 lakh commuters everyday. As of June 30 evening, cumulatively 15,242 COVID-19 positive cases have been confirmed in the state, which includes 246 deaths and 7,918 discharges. Out of this, the highest 4,555 cases are from Bengaluru urban. Out of 947 fresh cases reported on Tuesday, a whopping 503 cases were from Bengaluru urban alone.",
+				"source": "https://www.devdiscourse.com/article/headlines/1113530-covid-19-scare-bmtc-asks-employees-above-50-and-with-serious-ailments-to-avail-leave"
+			},
+			{
+				"heading": "MP CM launches 'Kill Corona' campaign to screen every home",
+				"description": "Madhya Pradesh Chief Minister Shivraj Singh Chouhan on Wednesday launched his government's fortnight-long ‘Kill Corona’ campaign, which aims to screen every household in the state for the infection.",
+				"source": "https://www.theweek.in/wire-updates/national/2020/07/01/bom22-mp-virus-campaign.html"
+			}
+		],
+		"world": [
+			{
+				"heading": "North Korea Reopens Schools, but Stays on Guard Against COVID-19 Threat",
+				"description": "North Korea has reopened schools, but has kept a ban on public gatherings and made it mandatory for people to wear masks in public places as part of its response to the coronavirus threat, a World Health Organization (WHO) official said on Wednesday.",
+				"source": "https://www.usnews.com/news/world/articles/2020-07-01/north-korea-reopens-schools-but-stays-on-guard-against-covid-19-threat-who"
+			},
+			{
+				"heading": "From Parkinson's to peanut allergy, pandemic puts brakes on new drugs",
+				"description": "Treatments for peanut allergy and Parkinson’s disease are among U.S. drug launches that have been postponed by the COVID-19 pandemic as drugmakers struggle with disruptions to business, a Reuters review of filings and interviews with executives show.",
+				"source": "https://in.reuters.com/article/us-health-coronavirus-usa-pharmaceuticia/from-parkinsons-to-peanut-allergy-pandemic-puts-brakes-on-new-drugs-idINKBN2425IM"
+			},
+			{
+				"heading": "U.S. coronavirus cases rise by 47,000, biggest one-day spike of pandemic",
+				"description": "New U.S. COVID-19 cases rose by more than 47,000 on Tuesday according to a Reuters tally, the biggest one-day spike since the start of the pandemic, as the government’s top infectious disease expert warned that number could soon double.",
+				"source": "https://in.reuters.com/article/us-health-coronavirus-usa/u-s-coronavirus-cases-rise-by-47000-biggest-one-day-spike-of-pandemic-idINKBN2412TA"
+			}
+		]
+	},
+	{
+		"date": "30/06/2020",
+		"india": [
+			{
+				"heading": "Fresh plea in SC seeks waiver of private school fees for lockdown period",
+				"description": "A petition has been filed in Supreme Court by a group of parents from various states seeking relief from paying school fees in private aided/unaided schools for months of April, May, and June this year due to COVID-19 pandemic and lockdown, legal news website BarandBench.com has reported.",
+				"source": "https://www.nationalheraldindia.com/india/fresh-plea-in-sc-seeks-waiver-of-private-school-fees-for-lockdown-period"
+			},
+			{
+				"heading": "Tamil Nadu Minister Tests Positive For Coronavirus, Admitted To Hospital",
+				"description": "The minister initially showed no symptoms and his CT scan was normal, but as a precautionary measure he was kept under observation, MIOT International said in a statement. ‘Subsequently, his second sample tested positive for COVID-19. He developed mild cough yesterday (June 29) and is being treated for the same,’ the hospital said, adding that the minister is ‘at present very stable and all vital parameters are normal.’",
+				"source": "https://www.ndtv.com/tamil-nadu-news/tamil-nadu-minister-tests-positive-for-coronavirus-admitted-to-hospital-2254715"
+			},
+			{
+				"heading": "10-day total lockdown in Thane city, Mira Bhayander",
+				"description": "Thane city will observe a total lockdown between July 2-12 to contain the coronavirus outbreak, municipal commissioner Vipin Sharma said on Tuesday. Non-essential services will not operate during this period, and nor would movement of vehicles for proposes other than medical and essential travel be allowed, the order said.",
+				"source": "https://timesofindia.indiatimes.com/india/maharashtra-cm-launches-worlds-largest-convalescent-plasma-project/articleshow/76690875.cms"
+			}
+		],
+		"world": [
+			{
+				"heading": "Gilead Prices COVID-19 Drug Remdesivir At $2,340 Per Patient In Developed Nations",
+				"description": "Gilead Sciences Inc on Monday priced its COVID-19 antiviral remdesivir at $2,340 per patient for wealthier nations and agreed to send nearly all of its supply of the drug to the United States over the next three months.",
+				"source": "https://www.ndtv.com/world-news/coronavirus-gilead-prices-covid-19-drug-remdesivir-at-2-340-per-patient-in-developed-nations-2254263"
+			},
+			{
+				"heading": "WHO Chief Says There Is 'no Excuse' For Countries Failing In COVID-19 Contact Tracing",
+				"description": "The World Health Organisation chief Tedros Adhanom Ghebreyesus on June 29 said that tracing people with COVID-19 is an important step and countries which are failing to do so have ‘no excuse’. While speaking at a briefing, Tedros pointed out that many public health professionals have risked their lives to do contact tracing in an active conflict zone. He further added that if any country finds the process of contact tracing difficult, then that is just a ‘lame excuse’. ",
+				"source": "https://www.republicworld.com/world-news/rest-of-the-world-news/who-there-is-no-excuse-for-countries-failing-in-contact-tracing.html"
+			},
+			{
+				"heading": "Rare syndrome linked to COVID-19 found in almost 300 U.S. kids, adolescents",
+				"description": "Multisystem Inflammatory Syndrome in Children (MIS-C), shares symptoms with toxic shock and Kawasaki disease, including fever, rashes, swollen glands and, in severe cases, heart inflammation.",
+				"source": "https://in.reuters.com/article/health-coronavirus-children/rare-syndrome-linked-to-covid-19-found-in-almost-300-u-s-kids-adolescents-idINKBN2410LU"
+			}
+		]
+	},
+	{
 		"date": "29/06/2020",
 		"india": [
 			{
