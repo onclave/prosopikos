@@ -1,5 +1,42 @@
 [
 	{
+		"date": "06/07/2020",
+		"india": [
+			{
+				"heading": "Maharashtra government allows hotels to reopen with 33% capacity from July 8",
+				"description": "Further easing coronavirus-induced lockdown, the Maharashtra government on Monday decided to allow hotels and other entities providing accommodation services, like lodges and guest houses outside containment zones to operate from July 8 at 33% of their capacity.",
+				"source": "https://www.thehindu.com/news/national/other-states/maharashtra-hotels-outside-containment-zones-can-operate-from-july-8/article32003365.ece"
+			},
+			{
+				"heading": "Covid-19 tests in India cross one-crore mark",
+				"description": "The total number of tests for detection of Covid-19 crossed the one-crore mark in India on Monday, an ICMR official said.",
+				"source": "https://timesofindia.indiatimes.com/india/covid-19-tests-in-india-cross-one-crore-mark/articleshow/76809764.cms"
+			},
+			{
+				"heading": "Over 3,000 Beds Reserved in Pvt Hosp, 10,100 Patient Capacity Covid-19 Care Center Set Up in Bengaluru",
+				"description": "Amid the rising COVID-19 cases here, over 3,000 beds in private hospitals have been reserved for treating patients while a 10,100-bed coronavirus care centre, the biggest in the country, has been set up, authorities said on Sunday.",
+				"source": "https://news18.com/news/india/over-3000-beds-reserved-in-pvt-hosp-10100-patient-capacity-covid-19-care-center-set-up-in-bengaluru-2702421.html"
+			}
+		],
+		"world": [
+			{
+				"heading": "Hundreds of scientists say coronavirus is airborne, ask WHO to revise recommendations",
+				"description": "Hundreds of scientists say there is evidence that the novel coronavirus in smaller particles in the air can infect people and are calling for the World Health Organization to revise recommendations, the New York Times reported on Saturday.",
+				"source": "https://in.reuters.com/article/us-health-coronavirus-airborne/hundreds-of-scientists-say-coronavirus-is-airborne-ask-who-to-revise-recommendations-nyt-idINKBN2460O7"
+			},
+			{
+				"heading": "Greece will resume direct flights with UK from July 15",
+				"description": "Greek government spokesman Stelios Petsas said in a briefing: ‘In cooperation with the British government, and following advice of experts, the government announces the resumption of direct flights from the United Kingdom to all airports of the country from July 15.’",
+				"source": "https://www.standard.co.uk/lifestyle/travel/travel-news/greece-resume-flights-july-15-from-uk-a4490151.html"
+			},
+			{
+				"heading": "Australia Closes State Border For First Time In 100 Years To Stop Coronavirus",
+				"description": "The border between Australia's two most populous states will close from Tuesday for an indefinite period, Victoria Premier Daniel Andrews said on Monday, following an outbreak of the coronavirus in his state.",
+				"source": "https://www.ndtv.com/world-news/australia-closes-state-border-for-first-time-in-100-years-to-stop-coronavirus-2257665"
+			}
+		]
+	},
+	{
 		"date": "05/07/2020",
 		"india": [
 			{
