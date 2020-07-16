@@ -1,5 +1,153 @@
 [
 	{
+		"date": "10/07/2020",
+		"india": [
+			{
+				"heading": "Earliest possible Covid vaccine by first quarter of 2021, officials tell parliamentary panel",
+				"description": "The earliest possible time by when a vaccine against Covid-19 would be ready in India could be the first quarter of 2021, government officials informed members of the Rajya Sabha standing committee on science and technology Friday.",
+				"source": "https://theprint.in/india/earliest-possible-covid-vaccine-by-first-quarter-of-2021-officials-tell-parliamentary-panel/458485/"
+			},
+			{
+				"heading": "Pune to go on 10-day lockdown starting July 13",
+				"description": "In a bid to stem the spread of COVID-19, a 10-day lockdown will be imposed in Pune, neighbouring Pimpri-Chinchwad and a few other parts of the district starting July 13, a senior official said on Friday.",
+				"source": "https://www.indiatoday.in/india/story/covid-19-pune-to-go-on-10-day-lockdown-starting-july-13-1699235-2020-07-10"
+			},
+			{
+				"heading": "Punjab Government Cancels Pending Class 12 Exams",
+				"description": "The Punjab Government on Friday cancelled the remaining Class 12 final exams. Punjab School Education Board (PSEB), the body which conducts the exams will declare PSEB Class 12 results 2020 on the basis of ‘best performing subjects formula’.",
+				"source": "https://www.ndtv.com/education/punjab-government-cancels-pending-class-12-exams-results-on-performance-in-other-subjects"
+			}
+		],
+		"world": [
+			{
+				"heading": "Fujifilm's Avigan inconclusive in COVID-19 patients in Japan trial",
+				"description": "A clinical trial of Fujifilm Holdings Corp’s Avigan drug yielded inconclusive results as a treatment of COVID-19, Japanese researchers said on Friday.",
+				"source": "https://in.reuters.com/article/health-coronavirus-avigan-trial/fujifilms-avigan-inconclusive-in-covid-19-patients-in-japan-trial-idINKBN24B0M1"
+			},
+			{
+				"heading": "New U.S. CDC School Reopening Guidelines Promised After Trump Complains",
+				"description": "The U.S. Centers for Disease Control and Prevention plans to issue new guidelines for reopening schools, Vice President Mike Pence said on Wednesday, after President Donald Trump criticized the agency's recommendations as too expensive and impractical.",
+				"source": "https://www.usnews.com/news/top-news/articles/2020-07-08/trump-says-may-cut-off-funding-if-us-schools-do-not-open"
+			},
+			{
+				"heading": "‘It's going to happen again,’ says former New Zealand PM Clark tasked with WHO COVID-19 review",
+				"description": "New Zealand’s former prime minister Helen Clark warned if the world remained ‘flat-footed’ in its response to pandemics it faces future economic, social and political crisis, after she was appointed by the World Health Organization (WHO) to lead a review of the global response to the COVID-19 pandemic.",
+				"source": "https://in.reuters.com/article/us-health-coronavirus-newzealand-clark/its-going-to-happen-again-says-former-new-zealand-pm-clark-tasked-with-who-covid-19-review-idINKBN24B067"
+			}
+		]
+	},
+	{
+		"date": "09/07/2020",
+		"india": [
+			{
+				"heading": "Committee to check on use of Tocilizumab in Surat",
+				"description": "Following allegations of black marketing and injudicious use of Tocilizumab injection for COVID-19 treatment, the Gujarat government has formed a committee to keep a check on its use in Surat, an official said on Thursday. The drug is in high demand, as private doctors were prescribing it to almost every COVID-19 patient, which is not advisable, principal secretary (health) Jayanti Ravi said.",
+				"source": "https://www.devdiscourse.com/article/health/1124053-covid-19-committee-to-check-on-use-of-tocilizumab-in-surat"
+			},
+			{
+				"heading": "How cancellation of Asia Cup may impact BCCI's plans for Indian Premier League",
+				"description": "After the Board of Control for Cricket in India (BCCI) president Sourav Ganguly revealed the news of the cancellation of this year's Asia Cup, it didn't take long for the Pakistan Cricket Board (PCB) to confirm the same.",
+				"source": "https://www.timesnownews.com/sports/cricket/article/ipl-2020-how-cancellation-of-asia-cup-may-impact-bccis-plans-for-indian-premier-league/618745"
+			},
+			{
+				"heading": "Punjab to set up plasma bank as COVID-19 cases spike",
+				"description": "Owing to rapid spread of coronavirus in the state, the Punjab government has decided to set up a plasma bank to facilitate plasma therapy. The state has registered 1,924 new COVID-19 cases and fifty deaths in the past ten days.",
+				"source": "https://www.theweek.in/news/india/2020/07/09/punjab-to-set-up-plasma-bank-as-covid-19-cases-spike.html"
+			}
+		],
+		"world": [
+			{
+				"heading": "Brazil's Bolsonaro vetoes plans to offer COVID-19 support to indigenous people",
+				"description": "ISA called on Congress to overturn the vetoes, which it can do with sufficient votes. The president also vetoed funding for the states and local governments with emergency plans for indigenous communities, as well as provisions to help give them more information on coronavirus, including greater internet access.",
+				"source": "https://www.devdiscourse.com/article/health/1123093-brazils-bolsonaro-vetoes-plans-to-offer-covid-19-support-to-indigenous-people"
+			},
+			{
+				"heading": "Scientists warn of potential wave of COVID-linked brain damage",
+				"description": "Scientists warned on Wednesday of a potential wave of coronavirus-related brain damage as new evidence suggested COVID-19 can lead to severe neurological complications, including inflammation, psychosis and delirium.",
+				"source": "https://in.reuters.com/article/us-health-coronavirus-brains/scientists-warn-of-potential-wave-of-covid-linked-brain-damage-idINKBN24837S"
+			},
+			{
+				"heading": "Global coronavirus cases rise to more than 12 million",
+				"description": "Global coronavirus cases exceeded 12 million on Wednesday, according to a Reuters tally, as evidence mounts of the airborne spread of the disease that has killed more than half a million people in seven months.",
+				"source": "https://in.reuters.com/article/health-coronavirus-cases/global-coronavirus-cases-rise-to-more-than-12-million-idINKBN24A07C"
+			}
+		]
+	},
+	{
+		"date": "08/07/2020",
+		"india": [
+			{
+				"heading": "Uber to provide donors free transport to plasma bank",
+				"description": "Ride hailing platform Uber on Wednesday said it is offering free rides to donors in the city, travelling to the Institute of Liver and Biliary Sciences (ILBS) that houses the country's first plasma bank. It is also encouraging recovered citizens to support the chief minister's appeal to come forward and help those in need.",
+				"source": "https://www.devdiscourse.com/article/business/1122541-uber-to-provide-donors-free-transport-to-plasma-bank"
+			},
+			{
+				"heading": "Lockdown in Bengal restructured containment zones for 7 days starting tomorrow",
+				"description": "Chief Minister however stressed that decision on relaxation will depend on the situation after 7 DAYS. So far Kolkata, South 24 Paraganas, North 24 Paraganas, Howrah, Hooghly will see larger enforcement of the restrictions as more than 50 percent of Bengal's total cases have been reported from these five districts, consistently in the past one week.",
+				"source": "https://www.timesnownews.com/india/article/lockdown-in-bengals-restructured-containment-zones-for-7-days-starting-tomorrow-check-list-here/618444"
+			},
+			{
+				"heading": "Gardens, parks in J&K reopen after 3 months",
+				"description": "The Jammu and Kashmir administration had on Tuesday announced the reopening of all gardens and parks as part of a gradual unlocking process. Hundreds of morning walkers and joggers flocked to various parks on Wednesday and Thursday morning, the officials told PTI.",
+				"source": "https://indianexpress.com/photos/india-news/unlock-2-0-gardens-parks-in-jk-reopen-after-3-months-6496409/3/"
+			}
+		],
+		"world": [
+			{
+				"heading": "Disney says Walt Disney World reopening is on track for Saturday",
+				"description": "Walt Disney will stick to its plans to reopen its Walt Disney World theme parks in Orlando, Florida, to a limited number of guests on Saturday, the company said in a statement on Tuesday.",
+				"source": "https://www.cnbc.com/2020/07/08/disney-says-walt-disney-world-reopening-is-on-track-for-saturday.html"
+			},
+			{
+				"heading": "Brazil's Bolsonaro catches coronavirus, shrugs off health risks",
+				"description": "Brazilian President Jair Bolsonaro said on Tuesday he tested positive for the novel coronavirus after months minimizing the severity of the pandemic and defying medical experts, even as the virus has killed more than 66,000 people in his country.",
+				"source": "https://in.reuters.com/article/health-coronavirus-brazil-bolsonaro/brazils-bolsonaro-catches-coronavirus-shrugs-off-health-risks-idINKBN248280"
+			},
+			{
+				"heading": "French PM says any new coronavirus lockdown would be targeted",
+				"description": "New French Prime Minister Jean Castex said on Wednesday that any new lockdown will be targeted, and not imposed nationwide, if there is a major new coronavirus outbreak.",
+				"source": "https://in.reuters.com/article/us-france-politics/french-pm-says-any-new-coronavirus-lockdown-would-be-targeted-idINKBN24911Y"
+			}
+		]
+	},
+	{
+		"date": "07/07/2020",
+		"india": [
+			{
+				"heading": "In Further Easing of Curbs, Maha Govt Extends Closure Time of Shops by Two Hours",
+				"description": "Further relaxing the lockdown restrictions, the Maharashtra government on Tuesday decided to allow markets and shops to remain open for additional two hours from July 9.",
+				"source": "https://www.news18.com/news/india/in-further-easing-of-curbs-maha-govt-extends-closure-time-of-shops-by-two-hours-2705869.html"
+			},
+			{
+				"heading": "Tripura To Conduct Rapid Antigen Test In Containment Zones & Entry Points",
+				"description": "The Tripura government on Tuesday decided to conduct rapid antigen test in the state's 28 containment zones and all the entry points including Agartala Airport following a spike in COVID-19 cases, Law Minister Ratan Lal Nath said.",
+				"source": "https://www.republicworld.com/india-news/general-news/tripura-to-conduct-rapid-antigen-test-in-containment-zones-and-entry-points-minister.html"
+			},
+			{
+				"heading": "No Need For Prescription For COVID-19 Test Now In Mumbai",
+				"description": "People can test themselves for coronavirus infection at designated private laboratories in Mumbai without a doctor's prescription, the Brihanmumbai Municipal Corporation (BMC) said on Tuesday.",
+				"source": "https://www.ndtv.com/mumbai-news/coronavirus-india-no-need-for-prescription-for-covid-19-test-now-in-mumbai-2258843"
+			}
+		],
+		"world": [
+			{
+				"heading": "'At war time speed', China leads COVID-19 vaccine race",
+				"description": "China is forging ahead in the race to develop a vaccine to help control the COVID-19 pandemic, with Sinovac Biotech’s (SVA.O) experimental vaccine set to become the country’s second and the world’s third to enter final stage testing later this month.",
+				"source": "https://in.reuters.com/article/us-health-coronavirus-china-vaccine-anal/at-war-time-speed-china-leads-covid-19-vaccine-race-idINKBN2481NO"
+			},
+			{
+				"heading": "Italy Suspends Flights From Bangladesh for a Week After Passengers Test Covid-19 Positive",
+				"description": "Italy has announced the suspension of all flights from Bangladesh for one week due to a “significant number” of passengers who tested positive to the coronavirus on a flight to Rome on Monday, the health ministry said.",
+				"source": "https://www.news18.com/news/auto/italy-suspends-flights-from-bangladesh-for-a-week-after-passengers-test-covid-19-positive-2705307.html"
+			},
+			{
+				"heading": "Kuwait to disburse $780 million to 70,000 citizens in private sector",
+				"description": "Kuwait will disburse some 240.5 million dinars ($780 million) to support Kuwaiti citizens employed in the private sector as part of efforts to soften the impact of the coronavirus pandemic, the finance ministry said.",
+				"source": "https://in.reuters.com/article/health-coronavirus-kuwait/kuwait-to-disburse-780-million-to-70000-citizens-in-private-sector-idINKBN2481UT"
+			}
+		]
+	},
+	{
 		"date": "06/07/2020",
 		"india": [
 			{
