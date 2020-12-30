@@ -37,7 +37,6 @@ import { NgxChartsModule } from '@swimlane/ngx-charts';
 import { CovidHelpComponent } from './covid-help/covid-help.component';
 import { CovidAboutComponent } from './covid-about/covid-about.component';
 import { CovidMapComponent } from './covid-map/covid-map.component';
-import { CovidNewsComponent } from './covid-news/covid-news.component';
 import { CovidAnalysisComponent } from './covid-analysis/covid-analysis.component';
 import { CovidIndiaComponent } from './covid-india/covid-india.component';
 import { CovidWorldComponent } from './covid-world/covid-world.component';
@@ -58,7 +57,6 @@ import {HomeModule} from './home/home.module';
 		CovidHelpComponent,
 		CovidAboutComponent,
 		CovidMapComponent,
-		CovidNewsComponent,
 		CovidAnalysisComponent,
 		CovidIndiaComponent,
 		CovidWorldComponent,
