@@ -8,7 +8,6 @@ import { LayoutModule } from '@angular/cdk/layout';
 
 import { AppRoutingModule } from './app-routing.module';
 import { AppComponent } from './app.component';
-import { HomeComponent } from './home/home.component';
 import { CovidComponent } from './covid/covid.component';
 
 import { BrowserAnimationsModule } from '@angular/platform-browser/animations';
@@ -48,12 +47,13 @@ import { CovidDataPackageComponent } from './covid-data-package/covid-data-packa
 import { CovidAnalysisTwoComponent } from './covid-analysis-two/covid-analysis-two.component';
 import { CovidAnalysisThreeComponent } from './covid-analysis-three/covid-analysis-three.component';
 import { CovidAnalysisFourComponent } from './covid-analysis-four/covid-analysis-four.component';
+import {HomeRoutingModule} from './home/home-routing.module';
+import {HomeModule} from './home/home.module';
 
 
 @NgModule({
 	declarations: [
 		AppComponent,
-		HomeComponent,
 		CovidComponent,
 		CovidHelpComponent,
 		CovidAboutComponent,
@@ -71,9 +71,12 @@ import { CovidAnalysisFourComponent } from './covid-analysis-four/covid-analysis
 	],
 	imports: [
 		BrowserModule,
+		BrowserAnimationsModule,
 		FlexLayoutModule,
 		AppRoutingModule,
-		BrowserAnimationsModule,
+		HomeRoutingModule,
+		HomeModule,
+
 		YouTubePlayerModule,
 		MatSidenavModule,
 		MatIconModule,

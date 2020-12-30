@@ -1,7 +1,6 @@
 import { NgModule } from '@angular/core';
 import { Routes, RouterModule } from '@angular/router';
 
-import { HomeComponent } from './home/home.component';
 import { CovidComponent } from './covid/covid.component';
 import { CovidDataPackageComponent } from './covid-data-package/covid-data-package.component';
 import { CovidAnalysisFourComponent } from './covid-analysis-four/covid-analysis-four.component';
@@ -9,10 +8,6 @@ import { CovidAnalysisThreeComponent } from './covid-analysis-three/covid-analys
 import { CovidAnalysisTwoComponent } from './covid-analysis-two/covid-analysis-two.component';
 
 const routes: Routes = [
-	{
-		path: '',
-		component: HomeComponent
-	},
 	{
 		path: 'covid',
 		component: CovidComponent
