@@ -10,13 +10,13 @@ export class CovidAboutComponent implements OnInit {
 	constructor() { }
 
 	ngOnInit(): void {
-		this.setupYoutubePlayer();
+		CovidAboutComponent.setupYoutubePlayer();
 	}
 
-	private setupYoutubePlayer(): void {
+	private static setupYoutubePlayer(): void {
 
 		const tag = document.createElement('script');
-		tag.src = "https://www.youtube.com/iframe_api";
+		tag.src = 'https://www.youtube.com/iframe_api';
 		document.body.appendChild(tag);
 	}
 }
